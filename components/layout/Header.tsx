@@ -32,20 +32,21 @@ export default function Header() {
       }}
     >
       {/* Main header row */}
-      <div className="container-app flex items-center min-h-[76px] md:min-h-[82px] py-2 gap-4 md:gap-6">
+      <div className="container-app flex items-center min-h-[80px] md:min-h-[86px] py-2 gap-4 md:gap-6">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0 flex flex-col justify-center group select-none">
           <div className="flex items-baseline leading-none">
             <span
-              className="text-[30px] md:text-[35px] font-black italic text-white tracking-tight leading-none transition-transform duration-150 group-hover:scale-[1.01]"
-              style={{ textShadow: '0 2px 8px rgba(0,0,0,0.25)' }}
+              className="text-[34px] sm:text-[38px] md:text-[42px] font-black italic text-white tracking-tight leading-none transition-transform duration-150 group-hover:scale-[1.01]"
+              style={{ textShadow: '0 1px 3px rgba(0,0,0,0.5)' }}
             >
-              TOPin<span style={{ color: '#F5436A', textShadow: '0 2px 10px rgba(245, 67, 106, 0.45)' }}>Stock</span>
+              TOPin<span style={{ color: '#FF1744' }}>Stock</span>
             </span>
           </div>
-          <div className="flex items-center -mt-0.5 pl-0.5">
+          <div className="flex items-center mt-0.5 pl-0.5">
             <span
-              className="text-[12px] md:text-[13.5px] font-extrabold italic tracking-[0.06em] text-amber-300 drop-shadow-[0_1px_2px_rgba(0,0,0,0.4)] transition-all duration-150 group-hover:text-amber-200"
+              className="text-[13px] sm:text-[14px] md:text-[15.5px] font-black italic tracking-[0.06em] text-[#FFE600] transition-all duration-150 group-hover:text-amber-200"
+              style={{ textShadow: '0 1px 2px rgba(0,0,0,0.6)' }}
             >
               Marketplace Outlet
             </span>
