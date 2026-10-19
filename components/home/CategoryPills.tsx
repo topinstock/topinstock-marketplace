@@ -12,7 +12,7 @@ interface CategoryItemData {
   badge?: string;
 }
 
-// Numerele exacte de produse din fiecare categorie (verificate direct în catalog)
+// Cele 6 categorii principale cu stocuri mari, verificate direct în catalog
 const CATEGORY_ITEMS: CategoryItemData[] = [
   {
     label: 'Instalații Crăciun',
@@ -54,44 +54,6 @@ const CATEGORY_ITEMS: CategoryItemData[] = [
     href: '/casa-decoratiuni/c',
     image: '/images/cat_casa_decor.jpg',
   },
-  {
-    label: 'Rucsacuri & Genți',
-    count: '30 produse',
-    href: '/genti-accesorii/c',
-    image: '/images/cat_genti_rucsacuri.jpg',
-    badge: 'DESIGUAL',
-  },
-  {
-    label: 'Sport & Fitness',
-    count: '18 produse',
-    href: '/sport-timp-liber/c',
-    image: '/images/promo_bike.jpg',
-  },
-  {
-    label: 'IT & Laptopuri',
-    count: '18 produse',
-    href: '/laptopuri-accesorii/c',
-    image: '/images/product_laptop.jpg',
-  },
-  {
-    label: 'Veselă & Porțelan',
-    count: '15 produse',
-    href: '/seturi-vesela/c',
-    image: '/images/cat_vesela_portelan.jpg',
-  },
-  {
-    label: 'Modă & Pantofi',
-    count: '9 produse',
-    href: '/moda-incaltaminte/c',
-    image: '/images/product_sneakers.jpg',
-  },
-  {
-    label: 'Încălzire & Confort',
-    count: '7 produse',
-    href: '/calorifere-tip-panou/c',
-    image: '/images/promo_heater.jpg',
-    badge: 'IARNĂ',
-  },
 ];
 
 export default function CategoryPills() {
@@ -123,8 +85,8 @@ export default function CategoryPills() {
         </Link>
       </div>
 
-      {/* Grid of Categories — Large, Spacious & High-Definition */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-5">
+      {/* Grid of 6 Top Categories — Large, Balanced & High-Definition */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-5">
         {CATEGORY_ITEMS.map((item) => (
           <Link
             key={item.label}
