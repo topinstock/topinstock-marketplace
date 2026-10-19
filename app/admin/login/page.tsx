@@ -119,7 +119,7 @@ function AdminLoginForm() {
                   required
                   value={loginEmail}
                   onChange={(e) => setLoginEmail(e.target.value)}
-                  placeholder="veiniraadmin"
+                  placeholder="Utilizator sau email"
                   autoCapitalize="none"
                   autoCorrect="off"
                   className="w-full bg-slate-900/80 border border-slate-700 rounded-2xl pl-11 pr-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500 transition-colors"

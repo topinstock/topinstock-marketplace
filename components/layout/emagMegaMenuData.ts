@@ -266,7 +266,7 @@ export const EMAG_CATALOG: EmagCategory[] = [
     href: '/ingrijire-personala-si-cosmetice/c',
     icon: Sparkles,
     productCount: '4.300+ produse',
-    topBrands: ['Veinira', 'TOPinStock Care', 'Nivea', 'Dove', 'Philips'],
+    topBrands: ['TOPinStock Care', "L'Oreal", 'Nivea', 'Dove', 'Philips'],
     groups: [
       {
         title: 'Îngrijire Păr & Coafură',
