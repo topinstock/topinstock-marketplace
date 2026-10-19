@@ -1,0 +1,212 @@
+// ============================================
+//   TopinStock Marketplace — Prisma Schema
+//   Provider: SQLite (local file database)
+//   ORM: Prisma v5
+// ============================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================
+//   NOTE: SQLite does not support enums or
+//   array fields natively. We use String fields
+//   with convention-based values instead.
+//
+//   Role values: "CUSTOMER" | "VENDOR" | "ADMIN"
+//   OrderStatus: "PENDING" | "PROCESSING" | "COMPLETED" | "CANCELLED"
+//   OrderItemStatus: "PENDING" | "SHIPPED" | "DELIVERED" | "RETURNED"
+//
+//   Array fields (images, sizes, colors) are
+//   stored as JSON strings and parsed in app code.
+// ============================================
+
+// ============================================
+//   MODELS
+// ============================================
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String?
+  name         String?
+  phone        String?
+  address      String?
+  role         String   @default("CUSTOMER")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  // Relations
+  vendor Vendor?
+  orders Order[]
+
+  @@map("users")
+}
+
+model Vendor {
+  id             String   @id @default(cuid())
+  userId         String   @unique
+  storeName      String
+  slug           String   @unique
+  logo           String?
+  description    String?
+  rating         Float    @default(0)
+  isVerified     Boolean  @default(false)
+  commissionRate Float    @default(0.0)
+  
+  // Date Fiscale & KYC Vânzător
+  legalName      String?
+  cui            String?
+  regCom         String?
+  iban           String?
+  bank           String?
+  legalAddress   String?
+  contactPerson  String?
+  phone          String?
+  status         String   @default("ACTIVE") // ACTIVE | PENDING | SUSPENDED
+
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  // Relations
+  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  products   Product[]
+  orderItems OrderItem[]
+
+  @@map("vendors")
+}
+
+model Category {
+  id          String  @id @default(cuid())
+  name        String
+  slug        String  @unique
+  description String?
+  image       String?
+  order       Int     @default(0)
+  parentId    String?
+
+  // Relations
+  parent   Category?  @relation("CategoryTree", fields: [parentId], references: [id], onDelete: SetNull)
+  children Category[] @relation("CategoryTree")
+  products Product[]
+
+  @@index([parentId])
+  @@index([order])
+  @@map("categories")
+}
+
+model Product {
+  id                 String   @id @default(cuid())
+  vendorId           String
+  categoryId         String
+  title              String
+  slug               String   @unique
+  description        String
+  price              Float
+  originalPrice      Float?
+  discountPercentage Int?
+  stock              Int      @default(0)
+  sku                String?
+  images             String   @default("[]")
+  sizes              String   @default("[]")
+  colors             String   @default("[]")
+  attributes         String?
+  rating             Float    @default(0)
+  reviewsCount       Int      @default(0)
+  isPublished        Boolean  @default(true)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  // Relations
+  vendor     Vendor      @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  category   Category    @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  orderItems OrderItem[]
+
+  @@index([categoryId])
+  @@index([vendorId])
+  @@index([sku])
+  @@index([price])
+  @@index([rating])
+  @@index([reviewsCount])
+  @@index([isPublished, stock])
+  @@index([isPublished, categoryId])
+  @@index([isPublished, price])
+  @@index([isPublished, rating])
+  @@index([isPublished, reviewsCount])
+  @@index([isPublished, discountPercentage])
+  @@index([categoryId, stock])
+  @@index([categoryId, price])
+  @@index([createdAt])
+  @@index([isPublished, createdAt])
+  @@index([vendorId, createdAt])
+  @@map("products")
+}
+
+model Order {
+  id              String   @id @default(cuid())
+  userId          String?
+  status          String   @default("PENDING")
+  totalAmount     Float
+  shippingAddress String
+  paymentMethod   String
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Relations
+  user       User?       @relation(fields: [userId], references: [id], onDelete: SetNull)
+  orderItems OrderItem[]
+
+  @@index([userId])
+  @@index([status])
+  @@index([createdAt])
+  @@index([userId, createdAt])
+  @@map("orders")
+}
+
+model OrderItem {
+  id             String  @id @default(cuid())
+  orderId        String
+  productId      String
+  vendorId       String
+  price          Float
+  quantity       Int
+  status         String  @default("PENDING")
+  trackingNumber String?
+
+  // Relations
+  order   Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  product Product @relation(fields: [productId], references: [id], onDelete: Restrict)
+  vendor  Vendor  @relation(fields: [vendorId], references: [id], onDelete: Restrict)
+
+  @@index([orderId])
+  @@index([vendorId])
+  @@index([productId])
+  @@index([status])
+  @@map("order_items")
+}
+
+model MarketplaceSettings {
+  id                 String   @id @default("default")
+  companyName        String   @default("S.C. TopinStock Marketplace S.R.L.")
+  cui                String   @default("RO48921450")
+  regCom             String   @default("J40/14280/2024")
+  legalAddress       String   @default("București, Sector 1, Calea Floreasca nr. 169")
+  capitalSocial      String   @default("50.000 LEI")
+  iban               String   @default("RO49BTRLRONCRT0123456701")
+  bankName           String   @default("Banca Transilvania")
+  contactEmail       String   @default("contact@topinstock.ro")
+  supportPhone       String   @default("0720 123 456")
+  defaultCommission  Float    @default(0.12)
+  payoutTermsDays    Int      @default(14)
+  returnPolicyDays   Int      @default(14)
+  orderMinimumAmount Float    @default(0)
+  platformNotice     String?
+  updatedAt          DateTime @updatedAt
+
+  @@map("marketplace_settings")
+}

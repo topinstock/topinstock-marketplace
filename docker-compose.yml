@@ -1,0 +1,18 @@
+services:
+  topinstock-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: topinstock:latest
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_APP_URL=https://topinstock.ro
+      - NEXTAUTH_URL=https://topinstock.ro
+      - DATABASE_URL=file:/app/prisma/topinstock.db
+      - NEXTAUTH_SECRET=schimba-acest-secret-pentru-productie
+    volumes:
+      # Păstrează comenzile și baza de date persistentă pe server
+      - ./prisma/topinstock.db:/app/prisma/topinstock.db
