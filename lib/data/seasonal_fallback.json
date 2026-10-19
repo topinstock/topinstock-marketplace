@@ -1,0 +1,1188 @@
+{
+  "sec1": [
+    {
+      "id": "cmuvustu200no131flt4li6j9",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunuoj005chq5to869ya1z",
+      "title": "Instalație lumini de Crăciun tip șir, de exterior, IP65, cu adaptor de alimentare de 1,5 m inclus, 20 m",
+      "slug": "instalatie-lumini-de-craciun-tip-sir-de-exterior-ip65-cu-adaptor-de-al-1205919857",
+      "price": 204.99,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 46,
+      "sku": "TIS-1696015566",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1962/prod/QC_PREP/20260926/23/4be64ae8-0414-39a9-a2b0-4e73386dfa4f/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1962/prod/QC_PREP/20260926/23/63042d69-c853-3ca7-aa10-636ab7002c1e/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1964/prod/QC_PREP/20260926/23/4b682193-0d80-3f5f-af09-0b9844c93d88/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.699999999999999,
+      "reviewsCount": 69,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:05.162Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunuoj005chq5to869ya1z",
+        "name": "Decorațiuni de Crăciun",
+        "slug": "decoratiuni-de-craciun"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusqh7008o131fgpzoxlv7",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzj000khq5t5aee8hci",
+      "title": "Brad artificial, 180 cm, 520 crengute, suport din metal, Grunberg A22",
+      "slug": "brad-artificial-180-cm-520-crengute-suport-din-metal-grunberg-a22-1033083712",
+      "price": 294.99,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 61,
+      "sku": "TIS-1430675037",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1778/prod/QC_PREP/20251021/13/8e4f133f-2f65-3f70-8d21-9fe15d125981/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1777/prod/QC_PREP/20251021/13/48588dad-15cd-3756-b61e-2813a366726f/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1776/prod/QC_PREP/20251021/13/2bdb95fe-58d2-3173-8a27-3c30e4caadac/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.699999999999999,
+      "reviewsCount": 64,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:00.811Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzj000khq5t5aee8hci",
+        "name": "Brazi de Crăciun",
+        "slug": "brazi-de-craciun"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusrqo00eu131fue8to9ly",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzt000mhq5tsmn2ss06",
+      "title": "Cadou de Craciun- Set de vase de gătit din aluminiu, 10 piese",
+      "slug": "cadou-de-craciun-set-de-vase-de-gatit-din-aluminiu-10-piese-1047044482",
+      "price": 434.99,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 46,
+      "sku": "TIS-1448902198",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1786/prod/QC_PREP/20251107/22/13448ccc-6057-382f-9368-036f52bede56/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.8,
+      "reviewsCount": 61,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:02.448Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzt000mhq5tsmn2ss06",
+        "name": "Oale",
+        "slug": "oale"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusqoc009o131fgl6ob8hx",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzt000mhq5tsmn2ss06",
+      "title": "Set de 7 piese: 4 oale din aluminiu, compatibile cu plita cu inducție, 2 capace , 1 mâner detașabil",
+      "slug": "set-de-7-piese-4-oale-din-aluminiu-compatibile-cu-plita-cu-inductie-2--1090337263",
+      "price": 204.99,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 64,
+      "sku": "TIS-1508116557",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1812/prod/QC_PREP/20260122/17/10718afa-0d49-312d-8fa8-7ad5ba597360/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 5,
+      "reviewsCount": 60,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:01.068Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzt000mhq5tsmn2ss06",
+        "name": "Oale",
+        "slug": "oale"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvust9z00l0131f42w5sx6l",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunuoj005chq5to869ya1z",
+      "title": "Instalație luminoasă de Crăciun, tip furtun luminos, 300 LED-uri, 32 metri lungime, 8 programe, cablu prelungitor de 2 metri, fir de cupru, încărcare solară, alb rece.",
+      "slug": "instalatie-luminoasa-de-craciun-tip-furtun-luminos-300-led-uri-32-metr-1206143083",
+      "price": 109,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 49,
+      "sku": "TIS-1696371420",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1963/prod/QC_PREP/20260927/01/a2b4cab8-42eb-3831-8f7c-9e6207bff321/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.899999999999999,
+      "reviewsCount": 58,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:04.439Z",
+      "updatedAt": "2026-10-19T12:12:12.031Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunuoj005chq5to869ya1z",
+        "name": "Decorațiuni de Crăciun",
+        "slug": "decoratiuni-de-craciun"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusqda0082131ff6qmzy9g",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzj000khq5t5aee8hci",
+      "title": "Brad artificial, 150 cm, 345 crenguțe, suport din metal, Grunberg A21",
+      "slug": "brad-artificial-150-cm-345-crengute-suport-din-metal-grunberg-a21-1033079994",
+      "price": 229,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 82,
+      "sku": "TIS-1430671273",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1778/prod/QC_PREP/20251021/13/5e80841d-3b95-3d0e-a29b-f87599c08725/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1778/prod/QC_PREP/20251021/13/efd2e0c7-4f13-31f1-a0a8-fa212873ac4b/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1776/prod/QC_PREP/20251021/13/cc9cbbf8-e682-30f0-afaa-7e1d7f494c0f/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.6,
+      "reviewsCount": 52,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:00.670Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzj000khq5t5aee8hci",
+        "name": "Brazi de Crăciun",
+        "slug": "brazi-de-craciun"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusska00iu131fvdbr5ev0",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzj000khq5t5aee8hci",
+      "title": "Brad artificial de Crăciun, înălțime 1,8 m,...",
+      "slug": "brad-artificial-de-craciun-inaltime-1-8-m-1206142477",
+      "price": 469,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 31,
+      "sku": "TIS-1696370553",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1964/prod/QC_PREP/20260926/22/6ff2564a-dd61-3c23-b81a-adb3b05c7a21/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1963/prod/QC_PREP/20260926/22/dc8ed2b2-b686-3dc2-8885-ae061a8bf570/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1962/prod/QC_PREP/20260926/22/b36b63ea-e211-33ea-beb7-988effb7e848/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1962/prod/QC_PREP/20260926/22/c8bca555-8070-3ad3-b71b-3bb7e80baeea/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 5,
+      "reviewsCount": 45,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:03.514Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzj000khq5t5aee8hci",
+        "name": "Brazi de Crăciun",
+        "slug": "brazi-de-craciun"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusq9d007g131fmyounray",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzj000khq5t5aee8hci",
+      "title": "Brad de Crăciun artificial 210 cm, pin dens cu vârfuri albe, suport metalic",
+      "slug": "brad-de-craciun-artificial-210-cm-pin-dens-cu-varfuri-albe-suport-meta-1048549581",
+      "price": 259,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 43,
+      "sku": "TIS-1450932906",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1789/prod/QC_PREP/20251112/14/4136961c-50d9-3d55-a39e-b92164132872/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1963/prod/QC_ENRICHMENT/20260926/23/1965789e-1814-3d4b-8300-61046e006437/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1962/prod/QC_ENRICHMENT/20260926/23/8235571c-303f-3016-8a74-b7d9bfc618e5/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1962/prod/QC_ENRICHMENT/20260926/23/90d8c1f6-5832-38e2-83b2-d6720432a7b5/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 5,
+      "reviewsCount": 40,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:00.529Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzj000khq5t5aee8hci",
+        "name": "Brazi de Crăciun",
+        "slug": "brazi-de-craciun"
+      },
+      "description": ""
+    }
+  ],
+  "sec2": [
+    {
+      "id": "cmuvustug00nq131fbjaayb2h",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzt000mhq5tsmn2ss06",
+      "title": "BM-345 Set de oale din oțel inoxidabil cu inducție, 10 piese",
+      "slug": "bm-345-set-de-oale-din-otel-inoxidabil-cu-inductie-10-piese-1123161953",
+      "price": 604.99,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 34,
+      "sku": "TIS-1566429382",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1842/prod/QC_PREP/20260324/17/52a68483-01a2-3b8c-944b-8d3edffece26/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1844/prod/QC_PREP/20260324/17/beedea29-f16d-32ca-a8af-48ef9e7245a0/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.8,
+      "reviewsCount": 76,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:05.176Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzt000mhq5tsmn2ss06",
+        "name": "Oale",
+        "slug": "oale"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvussi000ik131fnh9pn54d",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzt000mhq5tsmn2ss06",
+      "title": "Set de vase de gătit cu 9 piese BH 6918",
+      "slug": "set-de-vase-de-gatit-cu-9-piese-bh-6918-1112789838",
+      "price": 389,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 64,
+      "sku": "TIS-1547710876",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1832/prod/QC_PREP/20260302/17/72720c9d-bb78-3286-8ded-02af68f58bfd/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1805/prod/QC_PREP/20251229/14/a04390eb-b4a3-38dc-bed0-0d12a1c5ad73/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1832/prod/QC_PREP/20260302/17/8ea8fd26-88de-3ec1-af6a-a57ef5737840/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 5,
+      "reviewsCount": 75,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:03.432Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzt000mhq5tsmn2ss06",
+        "name": "Oale",
+        "slug": "oale"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvust6f00km131fpx27qzwa",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzt000mhq5tsmn2ss06",
+      "title": "Set de vase de gătit din oțel inoxidabil, 10 piese",
+      "slug": "set-de-vase-de-gatit-din-otel-inoxidabil-10-piese-1123161716",
+      "price": 394.99,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 73,
+      "sku": "TIS-1566428679",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1843/prod/QC_PREP/20260324/17/a4b4a8f3-60a7-34f6-a618-947341f79ed0/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1843/prod/QC_PREP/20260324/17/de27650a-d9a9-3b8a-a279-b1d09f12ee87/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.699999999999999,
+      "reviewsCount": 74,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:04.311Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzt000mhq5tsmn2ss06",
+        "name": "Oale",
+        "slug": "oale"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusv6u00ru131fs1kvc6uy",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzt000mhq5tsmn2ss06",
+      "title": "Set de 4 piese, 2 oale din oțel inoxidabil cu capace de sticlă 36cm și 38cm EdelHOFF",
+      "slug": "set-de-4-piese-2-oale-din-otel-inoxidabil-cu-capace-de-sticla-36cm-si--1161160085",
+      "price": 469,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 55,
+      "sku": "TIS-1624984515",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1916/prod/QC_PREP/20260626/11/e4e19686-bdc3-3490-907b-30d46f477abd/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1937/prod/QC_PREP/20260626/11/f41e7128-d30c-3f58-a8af-9e74e3c03c36/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.699999999999999,
+      "reviewsCount": 74,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:06.919Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzt000mhq5tsmn2ss06",
+        "name": "Oale",
+        "slug": "oale"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvussm500j2131f5miswkz0",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzt000mhq5tsmn2ss06",
+      "title": "Termos din oțel inoxidabil, 10 L, 30 x 26 cm, Grunberg GR6710",
+      "slug": "termos-din-otel-inoxidabil-10-l-30-x-26-cm-grunberg-gr6710-1141974012",
+      "price": 499,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 61,
+      "sku": "TIS-1595838091",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1936/prod/QC_PREP/20260502/23/ff1309d1-f233-3d00-999c-65f7bfaeedee/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.899999999999999,
+      "reviewsCount": 73,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:03.581Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzt000mhq5tsmn2ss06",
+        "name": "Oale",
+        "slug": "oale"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusvb100sc131fotkrm74m",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunu49001ihq5tz527gis5",
+      "title": "SET TIGĂNĂI DE TITAN BH-7076 ASPEN",
+      "slug": "set-tiganai-de-titan-bh-7076-aspen-956953185",
+      "price": 294.99,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 55,
+      "sku": "TIS-1354137711",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1893/prod/QC_ENRICHMENT/20260728/03/7cfffc48-56a9-3972-9fc8-5d9a2c390dab/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.6,
+      "reviewsCount": 72,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:07.070Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunu49001ihq5tz527gis5",
+        "name": "Tigăi",
+        "slug": "tigai"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvussak00hi131f7fxte32r",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzt000mhq5tsmn2ss06",
+      "title": "Set 4 caserole termoizolante din plastic și oțel inoxidabil 1.5/3/6/12L",
+      "slug": "set-4-caserole-termoizolante-din-plastic-si-otel-inoxidabil-1-5-3-6-12-1159646406",
+      "price": 389,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 43,
+      "sku": "TIS-1622663861",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1911/prod/QC_PREP/20260621/20/960d7afc-c348-3158-881d-112eb9676166/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1903/prod/QC_PREP/20260621/20/9a6f08e1-0b1c-334a-a4b1-ce404d47c8c5/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.6,
+      "reviewsCount": 72,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:03.164Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzt000mhq5tsmn2ss06",
+        "name": "Oale",
+        "slug": "oale"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvustaq00l4131fu2vh83z6",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntzt000mhq5tsmn2ss06",
+      "title": "Set de 10 oale în stoc",
+      "slug": "set-de-10-oale-in-stoc-1199538706",
+      "price": 389,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 43,
+      "sku": "TIS-1686369194",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1956/prod/QC_PREP/20260914/16/1f0e42bf-62a1-305c-9502-e03ebeb0cd7f/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.6,
+      "reviewsCount": 72,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:04.466Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntzt000mhq5tsmn2ss06",
+        "name": "Oale",
+        "slug": "oale"
+      },
+      "description": ""
+    }
+  ],
+  "sec3": [
+    {
+      "id": "cmuvusqlm009a131f1snct95g",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunu2t0018hq5tjve470sv",
+      "title": "Tricicletă pentru copii, (negru)",
+      "slug": "tricicleta-pentru-copii-negru-1199556807",
+      "price": 429,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 46,
+      "sku": "TIS-1686400310",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1957/prod/QC_PREP/20260914/16/4366ca12-e267-34e2-999a-54ccbc0ace9c/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.8,
+      "reviewsCount": 76,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:00.970Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunu2t0018hq5tjve470sv",
+        "name": "Biciclete cu trei roți pentru copii",
+        "slug": "biciclete-cu-trei-roti-pentru-copii"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusuga00ps131fz38dx6gu",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunuu8006chq5ts1cnxyhk",
+      "title": "Set de 4 pistoale cu apă pentru copii, 6 ani+, multicolor, 1x 900 ML, 3x 300 ML",
+      "slug": "set-de-4-pistoale-cu-apa-pentru-copii-6-ani-multicolor-1x-900-ml-3x-30-1154928668",
+      "price": 234.99,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 79,
+      "sku": "TIS-1615578322",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1773/prod/QC_PREP/20251014/22/c1c29564-ad32-335a-8fa9-9f88497c134f/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1943/prod/QC_PREP/20260610/01/57ef9f68-2e83-3f01-86cb-0aa2462f6358/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 5,
+      "reviewsCount": 75,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:05.963Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunuu8006chq5ts1cnxyhk",
+        "name": "Jucării de plajă",
+        "slug": "jucarii-de-plaja"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusu9d00oq131ful5ozijy",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunu4u001mhq5tyuw6crbs",
+      "title": "Bicicletă pentru copii, 18\", BIC18ROZ (roz)",
+      "slug": "bicicleta-pentru-copii-18-bic18roz-roz-1115572060",
+      "price": 1059,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 55,
+      "sku": "TIS-1552352259",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1833/prod/QC_PREP/20260307/15/63b8fcfc-4149-3e2e-a4e0-192c4a1227a3/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.6,
+      "reviewsCount": 72,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:05.713Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunu4u001mhq5tyuw6crbs",
+        "name": "Biciclete pentru copii",
+        "slug": "biciclete-pentru-copii"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusufx00pq131fls7c9ajz",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunu4u001mhq5tyuw6crbs",
+      "title": "Bicicletă pentru copii, 16\", BIC16ROZ (roz)",
+      "slug": "bicicleta-pentru-copii-16-bic16roz-roz-1115691958",
+      "price": 1594.99,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 49,
+      "sku": "TIS-1552519291",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1834/prod/QC_PREP/20260307/19/7a31bbdf-11dc-32e8-b12c-5c5d8c7a2825/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.899999999999999,
+      "reviewsCount": 68,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:05.949Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunu4u001mhq5tyuw6crbs",
+        "name": "Biciclete pentru copii",
+        "slug": "biciclete-pentru-copii"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusrr200ew131figtxlhg7",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunu85002ahq5tj8oj9w9y",
+      "title": "Birou și scaun pentru copii, reglabil KT5C (Albastru)",
+      "slug": "birou-si-scaun-pentru-copii-reglabil-kt5c-albastru-1141974426",
+      "price": 329,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 28,
+      "sku": "TIS-1595839354",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1935/prod/QC_PREP/20260503/01/b5b24178-2d55-3b70-8a3b-1b816662b9df/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.899999999999999,
+      "reviewsCount": 68,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:02.462Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunu85002ahq5tj8oj9w9y",
+        "name": "Birou",
+        "slug": "birou"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusvaq00sa131f1gziiyxs",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunun20054hq5tjan5vlva",
+      "title": "Mașinuță electrică pentru copii, BJZB618P (alb + negru) Cadou",
+      "slug": "masinuta-electrica-pentru-copii-bjzb618p-alb-negru-cadou-1053253130",
+      "price": 3994.99,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 40,
+      "sku": "TIS-1456866635",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1793/prod/QC_PREP/20251119/22/2f4c6ff0-6bae-31bf-94e5-a9711c6a1bb8/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 5,
+      "reviewsCount": 65,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:07.059Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunun20054hq5tjan5vlva",
+        "name": "Mașinuțe de jucărie",
+        "slug": "masinute-de-jucarie"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusthr00m2131f3znuavyx",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunu4u001mhq5tyuw6crbs",
+      "title": "Bicicletă pentru copii, 20\", BIC20GRI (gri)",
+      "slug": "bicicleta-pentru-copii-20-bic20gri-gri-1115555626",
+      "price": 939,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 28,
+      "sku": "TIS-1552334790",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1835/prod/QC_PREP/20260307/14/cb528b48-7ad1-313f-b236-deb3d97bef9e/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.8,
+      "reviewsCount": 61,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:04.719Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunu4u001mhq5tyuw6crbs",
+        "name": "Biciclete pentru copii",
+        "slug": "biciclete-pentru-copii"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusrua00fc131ftl0rbxog",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunu4u001mhq5tyuw6crbs",
+      "title": "Bicicletă pentru copii, 20\", BIC20B (albastră)",
+      "slug": "bicicleta-pentru-copii-20-bic20b-albastra-1115539590",
+      "price": 949,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 70,
+      "sku": "TIS-1552318190",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1833/prod/QC_PREP/20260307/14/a0c38941-f13a-3cd6-80ab-1ee875c8712c/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.699999999999999,
+      "reviewsCount": 59,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:02.578Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunu4u001mhq5tyuw6crbs",
+        "name": "Biciclete pentru copii",
+        "slug": "biciclete-pentru-copii"
+      },
+      "description": ""
+    }
+  ],
+  "sec4": [
+    {
+      "id": "cmuvusqhj008q131fsrjrw5vy",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntye000chq5tkhrekvjm",
+      "title": "Radiator electric cu ulei VC11, 11 aripioare, termostat, 3 niveluri de putere, max. 2500 W",
+      "slug": "radiator-electric-cu-ulei-vc11-11-aripioare-termostat-3-niveluri-de-pu-1027437138",
+      "price": 309,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 64,
+      "sku": "TIS-1424275055",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1775/prod/QC_PREP/20251017/09/bd77c5b1-2fc9-347c-8f01-10713ec11bac/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.8,
+      "reviewsCount": 71,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:00.823Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntye000chq5tkhrekvjm",
+        "name": "Calorifere tip panou",
+        "slug": "calorifere-tip-panou"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusqvu00aq131flz6r9ztn",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntye000chq5tkhrekvjm",
+      "title": "Mini încălzitor electric cu ulei, 6 aripioare, 800W, 41 x 13 x 31 cm, radiator subțire, MC6",
+      "slug": "mini-incalzitor-electric-cu-ulei-6-aripioare-800w-41-x-13-x-31-cm-radi-1027439249",
+      "price": 149,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 97,
+      "sku": "TIS-1424278234",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1773/prod/QC_PREP/20251017/09/47e837ef-6a83-3a8b-b694-29870b3e7d89/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1773/prod/QC_PREP/20251017/09/91e408ca-7d96-356c-bf40-89417ea7e4f3/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1775/prod/QC_PREP/20251017/09/59516269-5182-3b73-aa63-cfad9568e06a/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.899999999999999,
+      "reviewsCount": 63,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:01.339Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntye000chq5tkhrekvjm",
+        "name": "Calorifere tip panou",
+        "slug": "calorifere-tip-panou"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmuvusrj700ds131f4gr7pdvh",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvuntye000chq5tkhrekvjm",
+      "title": "Radiator electric cu ulei, 13 aripioare, 2500W, VC13",
+      "slug": "radiator-electric-cu-ulei-13-aripioare-2500w-vc13-1027437509",
+      "price": 389,
+      "originalPrice": null,
+      "discountPercentage": null,
+      "stock": 52,
+      "sku": "TIS-1424275727",
+      "images": [
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1775/prod/QC_PREP/20251017/09/d3033b5c-3caa-3157-8f54-89ce4aca31aa/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1775/prod/QC_PREP/20251017/09/da84fcbb-d8dc-3686-80e6-162422459d56/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/mnresize/400/-/ty1773/prod/QC_PREP/20251017/09/f2be3e67-c18f-39ba-9a0d-703cfddb2a6a/1_org_zoom.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": null,
+      "rating": 4.899999999999999,
+      "reviewsCount": 58,
+      "isPublished": true,
+      "createdAt": "2026-10-05T23:01:02.179Z",
+      "updatedAt": "2026-10-18T23:22:18.055Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvuntye000chq5tkhrekvjm",
+        "name": "Calorifere tip panou",
+        "slug": "calorifere-tip-panou"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmv6o2kz5012pmcy55xt3d31h",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmv7u9dvi000e14gbexrco1wr",
+      "title": "Pachet promo: 5 buc x Sita pentru filtru / cafetiera electrica , Victronic F602",
+      "slug": "pachet-promo-5-buc-x-sita-pentru-filtru-cafetiera-electrica-victronic-f602",
+      "price": 33.99,
+      "originalPrice": 38.48,
+      "discountPercentage": 10,
+      "stock": 51,
+      "sku": "TIS-VIC-200696",
+      "images": [
+        "https://www.victronic.ro/img/pachet-promo-5-buc-x-sita-pentru-filtru-cafetiera-electrica-victronic-f602_viq7-38366-large.jpg"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": {
+        "Brand": "Victronic",
+        "Stare produs": "Nou",
+        "Garanție": "24 luni",
+        "Origine": "Magazin Oficial Victronic"
+      },
+      "rating": 4.7,
+      "reviewsCount": 28,
+      "isPublished": true,
+      "createdAt": "2026-10-13T12:38:10.860Z",
+      "updatedAt": "2026-10-18T23:22:19.030Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmv7u9dvi000e14gbexrco1wr",
+        "name": "Espressoare & Cafetiere",
+        "slug": "espressoare-cafetiere"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmv7ucaki00d1een1kv0t9t9p",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunut90066hq5t5l89y9ba",
+      "title": "Aeroterma cu aer cald portabila cu ventilator, 2000W, 3 trepte de putere, Protectie la Supraincalzire, Rosberg, negru",
+      "slug": "aeroterma-cu-aer-cald-portabila-cu-ventilator-2500w-3-trepte-de-putere-protectie-la-supraincalzire-rosberg-negru",
+      "price": 64.99,
+      "originalPrice": 97,
+      "discountPercentage": 33,
+      "stock": 50,
+      "sku": "R51970G BLACK",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0916/2634/0618/files/9407.jpg?v=1765788510"
+      ],
+      "sizes": [],
+      "colors": [
+        "Negru"
+      ],
+      "attributes": {
+        "brand": "Rosberg",
+        "source": "kitchentools.ro",
+        "garantie": "24 luni",
+        "livrare": "Livrare 24-48h prin curier rapid"
+      },
+      "rating": 4.8,
+      "reviewsCount": 27,
+      "isPublished": true,
+      "createdAt": "2026-10-14T08:21:27.804Z",
+      "updatedAt": "2026-10-18T00:56:04.286Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunut90066hq5t5l89y9ba",
+        "name": "Îngrijire personală",
+        "slug": "ingrijire-personala"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmvaeeqh20mqsksv9duzd7j2a",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmvaeejxu00e4ksv95hdx55mo",
+      "title": "Mini Incalzitor pentru Birou, TOPinStock, Incalzire si Racire, 1000-1200W, cu Lumini, cu Maner, Lungime Cablu 1.5 m, 3 Trepte de Temperatura, 15.3x13.8x22.5 cm, Alb",
+      "slug": "mini-incalzitor-pentru-birou-topinstock-incalzire-si-racire-1000-1200w-cu-lumin",
+      "price": 144.99,
+      "originalPrice": 183.85,
+      "discountPercentage": 20,
+      "stock": 20,
+      "sku": "TIS-TEO-31377",
+      "images": [
+        "https://images-teomarket.s3.eu-central-1.amazonaws.com/6426485511468/mini-incalzitor-pentru-birou-flippy-incalzire-si-racire-1000-1200w-cu-lumini-cu-maner-lungime-cablu--66e96c025f797.jpg"
+      ],
+      "sizes": [],
+      "colors": [
+        "Alb"
+      ],
+      "attributes": {
+        "Brand": "TOPinStock",
+        "Stare produs": "Nou",
+        "Garanție": "24 luni",
+        "Distribuitor": "TOPinStock",
+        "Origine": "Magazin Oficial Partener",
+        "Cod EAN": "6426485511468",
+        "Cod Producător": "130893"
+      },
+      "rating": 4.8,
+      "reviewsCount": 27,
+      "isPublished": true,
+      "createdAt": "2026-10-16T03:18:46.404Z",
+      "updatedAt": "2026-10-18T23:22:30.141Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmvaeejxu00e4ksv95hdx55mo",
+        "name": "Incalzire si climatizare",
+        "slug": "incalzire-si-climatizare"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmv7ucam200ljeen1vxmncoux",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmuvunut90066hq5t5l89y9ba",
+      "title": "Aeroterma Rosberg portabila cu ventilator, 2 Trepte, 3 moduri rece-cald-fierbinte, 2000 W, Protectie la Supraincalzire,",
+      "slug": "aeroterma-rosberg-portabila-cu-ventilator-2-trepte-3-moduri-rece-cald-fierbinte-2000-w-protectie-la-supraincalzire",
+      "price": 69,
+      "originalPrice": 103,
+      "discountPercentage": 33,
+      "stock": 50,
+      "sku": "R51970A BLACK",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0916/2634/0618/files/6040.jpg?v=1759891262"
+      ],
+      "sizes": [],
+      "colors": [],
+      "attributes": {
+        "brand": "Rosberg",
+        "source": "kitchentools.ro",
+        "garantie": "24 luni",
+        "livrare": "Livrare 24-48h prin curier rapid"
+      },
+      "rating": 4.7,
+      "reviewsCount": 26,
+      "isPublished": true,
+      "createdAt": "2026-10-14T08:21:27.856Z",
+      "updatedAt": "2026-10-16T03:58:02.545Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmuvunut90066hq5t5l89y9ba",
+        "name": "Îngrijire personală",
+        "slug": "ingrijire-personala"
+      },
+      "description": ""
+    },
+    {
+      "id": "cmv7ucahd0003een1mjvv8dow",
+      "vendorId": "cmuul4drh0002qmgwo3xxew3l",
+      "categoryId": "cmv7u9dvi000e14gbexrco1wr",
+      "title": "Cafetiera cu filtru, 750W, 1.5 litri, 12 cesti, functie mentinere cald, anti-picurare, Oliver Voltz, gama Nice, crem",
+      "slug": "cafetiera-cu-filtru-750w-1-5-litri-12-cesti-functie-mentinere-cald-anti-picurare-oliver-voltz-gama-nice-crem",
+      "price": 129.99,
+      "originalPrice": 245.99,
+      "discountPercentage": 47,
+      "stock": 50,
+      "sku": "OV51170PR",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0916/2634/0618/files/kafemashina-oliver-voltz-ov51170w-700w-kapacitet-125-litra-byala-3.jpg?v=1791536089",
+        "https://cdn.shopify.com/s/files/1/0916/2634/0618/files/kafemashina-oliver-voltz-ov51170w-700w-kapacitet-125-litra-byala-4.jpg?v=1791536089"
+      ],
+      "sizes": [],
+      "colors": [
+        "Crem"
+      ],
+      "attributes": {
+        "brand": "Oliver Voltz",
+        "source": "kitchentools.ro",
+        "garantie": "24 luni",
+        "livrare": "Livrare 24-48h prin curier rapid"
+      },
+      "rating": 4.6,
+      "reviewsCount": 26,
+      "isPublished": true,
+      "createdAt": "2026-10-14T08:21:27.693Z",
+      "updatedAt": "2026-10-18T00:56:03.909Z",
+      "vendor": {
+        "id": "cmuul4drh0002qmgwo3xxew3l",
+        "storeName": "TOPinStock",
+        "slug": "topinstock-oficial",
+        "isVerified": true
+      },
+      "category": {
+        "id": "cmv7u9dvi000e14gbexrco1wr",
+        "name": "Espressoare & Cafetiere",
+        "slug": "espressoare-cafetiere"
+      },
+      "description": ""
+    }
+  ]
+}

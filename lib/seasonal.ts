@@ -1,5 +1,6 @@
 import { prisma } from '@/lib/prisma';
 import { CATALOG_CARD_SELECT, formatDbProduct, CatalogProduct } from '@/lib/products';
+import seasonalFallback from '@/lib/data/seasonal_fallback.json';
 
 export interface SeasonalSectionConfig {
   id: string;
@@ -352,7 +353,7 @@ export async function getSeasonalSections(): Promise<SeasonalSectionConfig[]> {
         ctaText: 'Vezi toate decorațiunile',
         ctaHref: '/turturi-franjuri/c',
         highlight1: 'Instalații LED de exterior & Brazi artificiali bogați',
-        products: sec1Products,
+        products: sec1Products.length > 0 ? sec1Products : (seasonalFallback.sec1 as any),
       },
       {
         id: 'bucatarie-sarbatori',
@@ -364,7 +365,7 @@ export async function getSeasonalSections(): Promise<SeasonalSectionConfig[]> {
         ctaText: 'Vezi ustensilele de bucătărie',
         ctaHref: '/oale/c',
         highlight1: 'Inox alimentar rezistent & Mașini puternice de tocat',
-        products: sec2Products,
+        products: sec2Products.length > 0 ? sec2Products : (seasonalFallback.sec2 as any),
       },
       {
         id: 'fabrica-cadouri',
@@ -375,7 +376,7 @@ export async function getSeasonalSections(): Promise<SeasonalSectionConfig[]> {
         ctaText: 'Vezi toate cadourile',
         ctaHref: '/jucarii-si-jocuri/c',
         highlight1: 'Jocuri educative, vehicule & cadouri gata de pus sub brad',
-        products: sec3Products,
+        products: sec3Products.length > 0 ? sec3Products : (seasonalFallback.sec3 as any),
       },
       {
         id: 'confort-iarna',
@@ -387,7 +388,7 @@ export async function getSeasonalSections(): Promise<SeasonalSectionConfig[]> {
         ctaText: 'Vezi electrocasnicele de iarnă',
         ctaHref: '/calorifere-tip-panou/c',
         highlight1: 'Consum energetic optimizat & Încălzire rapidă',
-        products: sec4Products,
+        products: sec4Products.length > 0 ? sec4Products : (seasonalFallback.sec4 as any),
       },
     ];
 
@@ -396,6 +397,54 @@ export async function getSeasonalSections(): Promise<SeasonalSectionConfig[]> {
     return sections;
   } catch (err) {
     console.error('Error fetching seasonal sections:', err);
-    return cachedSeasonalSections || [];
+    return [
+      {
+        id: 'craciun-decoruri',
+        badgeText: 'Magia Sărbătorilor • Ediție de Iarnă',
+        badgeTheme: 'festive',
+        title: 'Magia Sărbătorilor: Instalații & Decoruri de Crăciun',
+        subtitle:
+          'Transformă-ți casa pentru sărbători cu luminițe, brazi și decorațiuni de iarnă.',
+        ctaText: 'Vezi toate decorațiunile',
+        ctaHref: '/turturi-franjuri/c',
+        highlight1: 'Instalații LED de exterior & Brazi artificiali bogați',
+        products: seasonalFallback.sec1 as any,
+      },
+      {
+        id: 'bucatarie-sarbatori',
+        badgeText: 'Masa Tradițională de Sărbători',
+        badgeTheme: 'kitchen',
+        title: 'Pregătiri de Sărbători: Bucătărie, Cârnați & Cozonaci',
+        subtitle:
+          'Tot ce ai nevoie pentru masa tradițională: mașini de tocat, aparate de cârnați, roboți de frământat și oale încăpătoare.',
+        ctaText: 'Vezi ustensilele de bucătărie',
+        ctaHref: '/oale/c',
+        highlight1: 'Inox alimentar rezistent & Mașini puternice de tocat',
+        products: seasonalFallback.sec2 as any,
+      },
+      {
+        id: 'fabrica-cadouri',
+        badgeText: 'Fabrica de Cadouri • Moș Nicolae & Crăciun',
+        badgeTheme: 'toys',
+        title: 'Fabrica de Cadouri: Jucării pentru Moș Nicolae & Crăciun',
+        subtitle: 'Cele mai dorite jucării și jocuri interactive pentru cei mici.',
+        ctaText: 'Vezi toate cadourile',
+        ctaHref: '/jucarii-si-jocuri/c',
+        highlight1: 'Jocuri educative, vehicule & cadouri gata de pus sub brad',
+        products: seasonalFallback.sec3 as any,
+      },
+      {
+        id: 'confort-iarna',
+        badgeText: 'Confort Termic & Răsfăț în Casă',
+        badgeTheme: 'comfort',
+        title: 'Electrocasnice & Confort de Iarnă',
+        subtitle:
+          'Căldură și răsfăț în zilele reci: încălzire, cafea caldă și aparate utile în casă.',
+        ctaText: 'Vezi electrocasnicele de iarnă',
+        ctaHref: '/calorifere-tip-panou/c',
+        highlight1: 'Consum energetic optimizat & Încălzire rapidă',
+        products: seasonalFallback.sec4 as any,
+      },
+    ];
   }
 }
