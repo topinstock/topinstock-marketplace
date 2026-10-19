@@ -29,7 +29,7 @@ const CATEGORY_ITEMS: CategoryItemData[] = [
   {
     label: 'Oale & Inox',
     count: '57 produse',
-    href: '/produse?category=oale',
+    href: '/oale/c',
     icon: UtensilsCrossed,
     gradient: 'from-amber-500/15 to-orange-500/20 text-amber-700',
     badge: 'TOP',
@@ -37,7 +37,7 @@ const CATEGORY_ITEMS: CategoryItemData[] = [
   {
     label: 'Electrocasnice',
     count: '42 produse',
-    href: '/produse?category=electrocasnice',
+    href: '/electrocasnice/c',
     icon: Tv,
     gradient: 'from-cyan-500/15 to-teal-500/20 text-[#006b80]',
     badge: 'POPULAR',
@@ -53,14 +53,14 @@ const CATEGORY_ITEMS: CategoryItemData[] = [
   {
     label: 'Jucării & Copii',
     count: '34 produse',
-    href: '/produse?category=copii-jucarii',
+    href: '/copii-jucarii/c',
     icon: Baby,
     gradient: 'from-blue-500/15 to-indigo-500/20 text-blue-700',
   },
   {
     label: 'Rucsacuri & Genți',
     count: '38 produse',
-    href: '/produse?category=genti-accesorii',
+    href: '/genti-accesorii/c',
     icon: Backpack,
     gradient: 'from-purple-500/15 to-violet-500/20 text-purple-700',
     badge: 'DESIGUAL',
@@ -68,7 +68,7 @@ const CATEGORY_ITEMS: CategoryItemData[] = [
   {
     label: 'Casă & Decorațiuni',
     count: '65 produse',
-    href: '/produse?category=casa-decoratiuni',
+    href: '/casa-decoratiuni/c',
     icon: Home,
     gradient: 'from-emerald-500/15 to-teal-500/20 text-emerald-700',
   },
@@ -83,14 +83,14 @@ const CATEGORY_ITEMS: CategoryItemData[] = [
   {
     label: 'Veselă & Porțelan',
     count: '30 produse',
-    href: '/produse?category=seturi-vesela',
+    href: '/seturi-vesela/c',
     icon: Layers,
     gradient: 'from-sky-500/15 to-blue-500/20 text-sky-700',
   },
   {
     label: 'Modă & Încălțăminte',
     count: '45 produse',
-    href: '/produse?category=moda-incaltaminte',
+    href: '/moda-incaltaminte/c',
     icon: Shirt,
     gradient: 'from-pink-500/15 to-rose-500/20 text-pink-700',
   },

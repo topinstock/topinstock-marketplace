@@ -8,6 +8,8 @@ import { Prisma } from '@prisma/client';
 import { RECOMMENDED_PRODUCTS, FLASH_PRODUCTS } from '@/lib/data/products';
 import { safeJsonParse } from '@/lib/utils';
 import { cache } from 'react';
+import categoriesFallbackData from '@/lib/data/categories_catalog_fallback.json';
+import productsFallbackData from '@/lib/data/products_catalog_fallback.json';
 
 // ── Types ─────────────────────────────────────
 
@@ -168,85 +170,80 @@ export function formatDbProduct(raw: any): CatalogProduct {
 }
 
 // Fallback mock data formatted as CatalogProduct
-const ALL_MOCKS: CatalogProduct[] = [...RECOMMENDED_PRODUCTS, ...FLASH_PRODUCTS].map((p, idx) => ({
-  id: p.id,
-  vendorId: '1',
-  categoryId: '1',
-  title: p.name,
-  slug: p.slug,
-  description: '',
-  price: p.price,
-  originalPrice: p.originalPrice ?? null,
-  discountPercentage: p.originalPrice ? Math.round(((p.originalPrice - p.price) / p.originalPrice) * 100) : null,
-  stock: p.stock,
-  sku: `SKU-${idx + 100}`,
-  images: [p.image],
-  sizes: [],
-  colors: [],
-  attributes: null,
-  rating: p.rating,
-  reviewsCount: p.reviewCount,
-  isPublished: true,
-  createdAt: new Date(),
-  updatedAt: new Date(),
-  vendor: {
-    id: '1',
-    storeName: p.sellerName,
-    slug: p.sellerName.toLowerCase().replace(/\s+/g, '-'),
-    isVerified: true,
-  },
-  category: {
-    id: '1',
-    name: p.category,
-    slug: p.category.toLowerCase().replace(/\s+/g, '-'),
-  },
+const CATALOG_FALLBACK_PRODUCTS: CatalogProduct[] = (productsFallbackData as any[]).map((p) => ({
+  ...p,
+  createdAt: new Date(p.createdAt),
+  updatedAt: new Date(p.createdAt),
 }));
 
-const FALLBACK_CATEGORIES: CatalogCategory[] = [
-  {
-    id: '1',
-    name: 'Bucătărie & Menaj',
-    slug: 'bucatarie-menaj',
-    count: 2450,
-    children: [
-      { id: '11', name: 'Oale & Cratițe', slug: 'oale-si-cratite', count: 680 },
-      { id: '12', name: 'Tigăi & Wok-uri', slug: 'tigai', count: 520 },
-      { id: '13', name: 'Seturi Veselă & Tacâmuri', slug: 'seturi-vesela', count: 410 },
-      { id: '14', name: 'Electrocasnice Bucătărie', slug: 'electrocasnice', count: 840 },
-    ],
-  },
-  {
-    id: '2',
-    name: 'Electrocasnice',
-    slug: 'electrocasnice',
-    count: 1820,
-    children: [
-      { id: '21', name: 'Aspiratoare & Curățenie', slug: 'aspirator-vertical', count: 430 },
-      { id: '22', name: 'Preparare Cafea', slug: 'espressor', count: 310 },
-      { id: '23', name: 'Mixere & Roboți', slug: 'mixer-si-set-de-mixere', count: 280 },
-    ],
-  },
-  {
-    id: '3',
-    name: 'Casă & Grădină',
-    slug: 'casa-si-gradina',
-    count: 960,
-    children: [
-      { id: '31', name: 'Grătare & Accesorii', slug: 'gratar', count: 180 },
-      { id: '32', name: 'Organizare & Curățenie', slug: 'organizare', count: 320 },
-    ],
-  },
-  {
-    id: '4',
-    name: 'Modă & Încălțăminte',
-    slug: 'moda-incaltaminte',
-    count: 640,
-    children: [
-      { id: '41', name: 'Sneakers & Sport', slug: 'sneakers', count: 210 },
-      { id: '42', name: 'Jachete & Veste', slug: 'jachete-sport', count: 190 },
-    ],
-  },
+const ALL_MOCKS: CatalogProduct[] = [
+  ...CATALOG_FALLBACK_PRODUCTS,
+  ...[...RECOMMENDED_PRODUCTS, ...FLASH_PRODUCTS].map((p, idx) => ({
+    id: p.id,
+    vendorId: '1',
+    categoryId: '1',
+    title: p.name,
+    slug: p.slug,
+    description: '',
+    price: p.price,
+    originalPrice: p.originalPrice ?? null,
+    discountPercentage: p.originalPrice ? Math.round(((p.originalPrice - p.price) / p.originalPrice) * 100) : null,
+    stock: p.stock,
+    sku: `SKU-${idx + 100}`,
+    images: [p.image],
+    sizes: [],
+    colors: [],
+    attributes: null,
+    rating: p.rating,
+    reviewsCount: p.reviewCount,
+    isPublished: true,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    vendor: {
+      id: '1',
+      storeName: p.sellerName,
+      slug: p.sellerName.toLowerCase().replace(/\s+/g, '-'),
+      isVerified: true,
+    },
+    category: {
+      id: '1',
+      name: p.category,
+      slug: p.category.toLowerCase().replace(/\s+/g, '-'),
+    },
+  })),
 ];
+
+function buildFallbackCatalogCategories(): CatalogCategory[] {
+  const rootCats = (categoriesFallbackData as any[]).filter((c) => !c.parentId);
+  const childrenByParent = new Map<string, any[]>();
+  (categoriesFallbackData as any[]).forEach((c) => {
+    if (c.parentId) {
+      const list = childrenByParent.get(c.parentId) || [];
+      list.push(c);
+      childrenByParent.set(c.parentId, list);
+    }
+  });
+
+  return rootCats.map((root) => {
+    const rawChildren = childrenByParent.get(root.id) || [];
+    const children = rawChildren.map((ch) => ({
+      id: ch.id,
+      name: ch.name,
+      slug: ch.slug,
+      count: ch.count || 0,
+    }));
+    const totalCount = (root.count || 0) + children.reduce((acc, ch) => acc + (ch.count || 0), 0);
+    return {
+      id: root.id,
+      name: root.name,
+      slug: root.slug,
+      count: totalCount,
+      children,
+    };
+  });
+}
+
+const FALLBACK_CATEGORIES: CatalogCategory[] = buildFallbackCatalogCategories();
 
 // ── In-Memory Category Graph Cache ─────────────
 // Caches category adjacency list to completely eliminate recursive DB queries (N+1 bottleneck)
@@ -272,9 +269,28 @@ export async function getCategoryGraph() {
     return categoryCache;
   }
 
-  const all = await prisma.category.findMany({
-    select: { id: true, slug: true, name: true, parentId: true },
-  });
+  let all: CategoryNode[] = [];
+  try {
+    all = await prisma.category.findMany({
+      select: { id: true, slug: true, name: true, parentId: true },
+    });
+  } catch (err) {
+    all = (categoriesFallbackData as any[]).map((c) => ({
+      id: c.id,
+      slug: c.slug,
+      name: c.name,
+      parentId: c.parentId,
+    }));
+  }
+
+  if (!all || all.length === 0) {
+    all = (categoriesFallbackData as any[]).map((c) => ({
+      id: c.id,
+      slug: c.slug,
+      name: c.name,
+      parentId: c.parentId,
+    }));
+  }
 
   const idMap = new Map<string, CategoryNode>();
   const slugMap = new Map<string, CategoryNode>();
@@ -444,11 +460,32 @@ export async function getCategoryFacetCounts(categorySlug?: string): Promise<Fac
     facetCountsCache.set(key, { timestamp: now, data: result });
     return result;
   } catch (error) {
-    return {
-      inStockCount: 0,
-      onSaleCount: 0,
-      brands: [],
-    };
+    const subtreeIds = await getCategorySubtreeIds(categorySlug ? [categorySlug] : []);
+    const subtreeSet = new Set(subtreeIds);
+    const matching = categorySlug && categorySlug !== 'all' && categorySlug !== 'reduceri'
+      ? ALL_MOCKS.filter((p) => (p.categoryId && subtreeSet.has(p.categoryId)) || p.category?.slug === categorySlug)
+      : ALL_MOCKS;
+
+    const inStockCount = matching.filter((p) => p.stock > 0).length;
+    const onSaleCount = matching.filter(
+      (p) => (p.discountPercentage != null && p.discountPercentage > 0) || (p.originalPrice != null && p.originalPrice > p.price)
+    ).length;
+
+    const brandCountMap = new Map<string, number>();
+    for (const p of matching) {
+      const b = (p.attributes?.Brand || p.attributes?.brand || p.vendor?.storeName || '').trim();
+      if (b && !b.includes('Oficial') && b !== 'TOPinStock') {
+        brandCountMap.set(b, (brandCountMap.get(b) || 0) + 1);
+      }
+    }
+    const brands = Array.from(brandCountMap.entries())
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 20);
+
+    const result: FacetCounts = { inStockCount, onSaleCount, brands };
+    facetCountsCache.set(key, { timestamp: now, data: result });
+    return result;
   }
 }
 
@@ -685,98 +722,147 @@ export async function getCatalogProducts(
       prisma.product.count({ where }),
     ]);
 
-    const products = dbProducts.map(formatDbProduct);
+    if (total > 0 && dbProducts.length > 0) {
+      const products = dbProducts.map(formatDbProduct);
+      const result: CatalogResult = {
+        products,
+        total,
+        totalPages: Math.ceil(total / PAGE_SIZE) || 1,
+        currentPage,
+      };
 
-    const result: CatalogResult = {
-      products,
-      total,
-      totalPages: Math.ceil(total / PAGE_SIZE) || 1,
-      currentPage,
-    };
+      if (catalogResultCache.size > 500) {
+        catalogResultCache.clear();
+      }
+      catalogResultCache.set(cacheKey, { timestamp: now, data: result });
 
-    if (catalogResultCache.size > 500) {
-      catalogResultCache.clear();
+      return result;
     }
-    catalogResultCache.set(cacheKey, { timestamp: now, data: result });
 
-    return result;
+    return await getFallbackCatalogProducts(filters, skip, currentPage, now, cacheKey);
   } catch (error) {
-    // Database fallback
-    let filtered = [...ALL_MOCKS];
-
-    if (filters.search) {
-      const q = filters.search.toLowerCase();
-      filtered = filtered.filter(
-        (p) => p.title.toLowerCase().includes(q) || p.description.toLowerCase().includes(q)
-      );
-    }
-    if (filters.brand) {
-      const b = filters.brand.toLowerCase();
-      const bNorm = b.replace(/ü/g, 'u');
-      filtered = filtered.filter(
-        (p) =>
-          p.title.toLowerCase().includes(b) ||
-          p.title.toLowerCase().includes(bNorm) ||
-          p.description.toLowerCase().includes(b)
-      );
-    }
-    if (filters.attribute) {
-      const aLower = filters.attribute.toLowerCase();
-      filtered = filtered.filter(
-        (p) =>
-          p.title.toLowerCase().includes(aLower) ||
-          p.description.toLowerCase().includes(aLower) ||
-          p.sizes.some((s) => s.toLowerCase().includes(aLower)) ||
-          (typeof p.attributes === 'string' && p.attributes.toLowerCase().includes(aLower))
-      );
-    }
-    if (filters.inStock) {
-      filtered = filtered.filter((p) => p.stock > 0);
-    }
-    if (filters.onSale) {
-      filtered = filtered.filter(
-        (p) =>
-          (p.discountPercentage != null && p.discountPercentage > 0) ||
-          (p.originalPrice != null && p.originalPrice > p.price)
-      );
-    }
-    if (category) {
-      filtered = filtered.filter(
-        (p) => p.category?.slug === category || p.category?.name.toLowerCase().includes(category.toLowerCase())
-      );
-    }
-    if (filters.vendor) {
-      filtered = filtered.filter(
-        (p) => p.vendor?.slug === filters.vendor || p.vendor?.storeName.toLowerCase().includes(filters.vendor!.toLowerCase())
-      );
-    }
-    if (minPrice !== undefined) {
-      filtered = filtered.filter((p) => p.price >= minPrice);
-    }
-    if (maxPrice !== undefined) {
-      filtered = filtered.filter((p) => p.price <= maxPrice);
-    }
-    if (sizes.length > 0) {
-      filtered = filtered.filter((p) => p.sizes.some((s) => sizes.includes(s)));
-    }
-
-    if (sort === 'price_asc') {
-      filtered.sort((a, b) => a.price - b.price);
-    } else if (sort === 'price_desc') {
-      filtered.sort((a, b) => b.price - a.price);
-    } else if (sort === 'rating') {
-      filtered.sort((a, b) => b.rating - a.rating);
-    } else if (sort === 'popular') {
-      filtered.sort((a, b) => b.reviewsCount - a.reviewsCount);
-    }
-
-    return {
-      products: filtered.slice(skip, skip + PAGE_SIZE),
-      total: filtered.length,
-      totalPages: Math.ceil(filtered.length / PAGE_SIZE) || 1,
-      currentPage,
-    };
+    return await getFallbackCatalogProducts(filters, skip, currentPage, now, cacheKey);
   }
+}
+
+async function getFallbackCatalogProducts(
+  filters: CatalogFilters,
+  skip: number,
+  currentPage: number,
+  now: number,
+  cacheKey: string
+): Promise<CatalogResult> {
+  const { category, minPrice, maxPrice, sizes = [], sort = 'newest' } = filters;
+  let filtered = [...ALL_MOCKS];
+
+  if (category) {
+    if (category.toLowerCase() === 'reduceri') {
+      filtered = filtered.filter(
+        (p) => (p.discountPercentage != null && p.discountPercentage > 0) || (p.originalPrice != null && p.originalPrice > p.price)
+      );
+    } else {
+      const catList = category.split(',').map((c) => c.trim().toLowerCase()).filter(Boolean);
+      const subtreeIds = await getCategorySubtreeIds(catList);
+      const subtreeSet = new Set(subtreeIds);
+
+      filtered = filtered.filter((p) => {
+        if (p.categoryId && subtreeSet.has(p.categoryId)) return true;
+        if (p.category?.slug && catList.includes(p.category.slug.toLowerCase())) return true;
+        if (p.category?.name && catList.some((c) => p.category?.name.toLowerCase().includes(c))) return true;
+        return false;
+      });
+    }
+  }
+
+  if (filters.search) {
+    const searchTerms = filters.search.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    filtered = filtered.filter((p) => {
+      const text = `${p.title} ${p.description} ${p.sku || ''} ${JSON.stringify(p.attributes || '')}`.toLowerCase();
+      return searchTerms.every((term) => text.includes(term));
+    });
+  }
+
+  if (filters.brand) {
+    const brandList = filters.brand.split(',').map((b) => b.trim().toLowerCase()).filter(Boolean);
+    filtered = filtered.filter((p) => {
+      const bText = `${p.title} ${p.vendor?.storeName || ''} ${JSON.stringify(p.attributes || '')}`.toLowerCase();
+      return brandList.some((b) => bText.includes(b) || bText.includes(b.replace(/ü/g, 'u')));
+    });
+  }
+
+  if (filters.attribute) {
+    const aLower = filters.attribute.toLowerCase();
+    filtered = filtered.filter(
+      (p) =>
+        p.title.toLowerCase().includes(aLower) ||
+        p.sizes.some((s) => s.toLowerCase().includes(aLower)) ||
+        (typeof p.attributes === 'string' && p.attributes.toLowerCase().includes(aLower)) ||
+        JSON.stringify(p.attributes || '').toLowerCase().includes(aLower)
+    );
+  }
+
+  if (filters.color) {
+    const cLower = filters.color.toLowerCase();
+    filtered = filtered.filter(
+      (p) =>
+        p.colors.some((c) => c.toLowerCase().includes(cLower)) ||
+        p.title.toLowerCase().includes(cLower)
+    );
+  }
+
+  if (filters.inStock) {
+    filtered = filtered.filter((p) => p.stock > 0);
+  }
+
+  if (filters.onSale) {
+    filtered = filtered.filter(
+      (p) =>
+        (p.discountPercentage != null && p.discountPercentage > 0) ||
+        (p.originalPrice != null && p.originalPrice > p.price)
+    );
+  }
+
+  if (filters.vendor) {
+    filtered = filtered.filter(
+      (p) => p.vendor?.slug === filters.vendor || p.vendor?.storeName.toLowerCase().includes(filters.vendor!.toLowerCase())
+    );
+  }
+
+  if (minPrice !== undefined) {
+    filtered = filtered.filter((p) => p.price >= minPrice);
+  }
+
+  if (maxPrice !== undefined) {
+    filtered = filtered.filter((p) => p.price <= maxPrice);
+  }
+
+  if (sizes.length > 0) {
+    filtered = filtered.filter((p) => p.sizes.some((s) => sizes.includes(s)));
+  }
+
+  if (sort === 'price_asc') {
+    filtered.sort((a, b) => a.price - b.price);
+  } else if (sort === 'price_desc') {
+    filtered.sort((a, b) => b.price - a.price);
+  } else if (sort === 'rating') {
+    filtered.sort((a, b) => b.rating - a.rating);
+  } else if (sort === 'popular') {
+    filtered.sort((a, b) => b.reviewsCount - a.reviewsCount);
+  }
+
+  const result: CatalogResult = {
+    products: filtered.slice(skip, skip + PAGE_SIZE),
+    total: filtered.length,
+    totalPages: Math.ceil(filtered.length / PAGE_SIZE) || 1,
+    currentPage,
+  };
+
+  if (catalogResultCache.size > 500) {
+    catalogResultCache.clear();
+  }
+  catalogResultCache.set(cacheKey, { timestamp: now, data: result });
+
+  return result;
 }
 
 // ── Category tree for sidebar ─────────────────
@@ -900,7 +986,14 @@ export async function getAvailableSizes(category?: string): Promise<string[]> {
     availableSizesCache.set(cacheKey, { timestamp: now, sizes: result });
     return result;
   } catch (error) {
-    return [];
+    const subtreeIds = await getCategorySubtreeIds(category ? [category] : []);
+    const subtreeSet = new Set(subtreeIds);
+    const matching = category && category !== 'all' && category !== 'reduceri'
+      ? ALL_MOCKS.filter((p) => (p.categoryId && subtreeSet.has(p.categoryId)) || p.category?.slug === category)
+      : ALL_MOCKS;
+    const all = matching.flatMap((p) => (Array.isArray(p.sizes) ? p.sizes : []));
+    const uniqueSizes = [...new Set(all.filter((s) => s && !s.toLowerCase().includes('universal') && !s.toLowerCase().includes('diverse')))].sort();
+    return uniqueSizes;
   }
 }
 
@@ -1190,15 +1283,39 @@ export const getCategoryDetails = cache(async function getCategoryDetails(catego
     categoryDetailsCache.set(cacheKey, { timestamp: now, data: result });
     return result;
   } catch (error) {
-    const matchingMocks = ALL_MOCKS.filter(
-      (p) => p.category?.slug === categorySlug || p.category?.name.toLowerCase().includes(categorySlug.toLowerCase())
+    const catData = (categoriesFallbackData as any[]).find(
+      (c) => c.slug.toLowerCase() === categorySlug.toLowerCase() || c.id === categorySlug
     );
-    const minPrice = matchingMocks.length > 0 ? Math.min(...matchingMocks.map((p) => p.price)) : 42;
+    const subtreeIds = await getCategorySubtreeIds([categorySlug]);
+    const subtreeSet = new Set(subtreeIds);
+
+    const matchingMocks = ALL_MOCKS.filter((p) => {
+      if (p.categoryId && subtreeSet.has(p.categoryId)) return true;
+      if (p.category?.slug && p.category.slug.toLowerCase() === categorySlug.toLowerCase()) return true;
+      return false;
+    });
+
+    const prices = matchingMocks.map((p) => p.price).filter((pr) => pr > 0);
+    const minPrice = prices.length > 0 ? Math.min(...prices) : 39;
+
+    const brandsSet = new Set<string>();
+    matchingMocks.forEach((p) => {
+      if (p.vendor?.storeName && !p.vendor.storeName.includes('Oficial')) {
+        brandsSet.add(p.vendor.storeName);
+      }
+      const titleMatch = p.title.match(
+        /\b(Grünberg|Bohmann|Berlinger Haus|Apple|Samsung|Xiaomi|Nike|Adidas|Puma|Victronic|Hausberg|Jolie Silver|Schneider Electric)\b/i
+      );
+      if (titleMatch) brandsSet.add(titleMatch[1]);
+    });
+
+    const topBrands = Array.from(brandsSet).slice(0, 4);
+
     const fallbackResult = {
-      category: null,
-      totalProducts: matchingMocks.length > 0 ? matchingMocks.length : 18,
+      category: catData ? { id: catData.id, name: catData.name, slug: catData.slug, description: null } : null,
+      totalProducts: catData && catData.count > 0 ? catData.count : (matchingMocks.length > 0 ? matchingMocks.length : 18),
       minPrice,
-      topBrands: ['Grünberg', 'Bohmann', 'Berlinger Haus'],
+      topBrands: topBrands.length > 0 ? topBrands : ['TOPinStock', 'Victronic', 'Grünberg', 'Hausberg'],
     };
     categoryDetailsCache.set(cacheKey, { timestamp: now, data: fallbackResult });
     return fallbackResult;

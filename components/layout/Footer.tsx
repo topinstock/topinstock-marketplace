@@ -86,9 +86,9 @@ export default function Footer() {
               { label: 'Despre TOPinStock', href: '/despre' },
               { label: 'Toate Produsele', href: '/produse' },
               { label: 'Produse Populare', href: '/produse?sort=popular' },
-              { label: 'Bucătărie & Menaj', href: '/produse?category=bucatarie-menaj' },
-              { label: 'Electrocasnice', href: '/produse?category=electrocasnice' },
-              { label: 'Jucării & Copii', href: '/produse?category=copii-jucarii' },
+              { label: 'Bucătărie & Menaj', href: '/bucatarie-menaj/c' },
+              { label: 'Electrocasnice', href: '/electrocasnice/c' },
+              { label: 'Jucării & Copii', href: '/copii-jucarii/c' },
             ]}
           />
 
