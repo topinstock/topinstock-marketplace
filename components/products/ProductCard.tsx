@@ -250,7 +250,7 @@ function ProductCard({
           ) : (
             <div className="flex flex-col sm:flex-row sm:items-baseline gap-0.5 sm:gap-1.5 min-w-0">
               <span className="text-[14.5px] sm:text-[18px] font-extrabold text-slate-900 tracking-tight leading-tight whitespace-nowrap">
-                {price.toLocaleString('ro-RO', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                {price % 1 === 0 ? price.toLocaleString('ro-RO') : price.toLocaleString('ro-RO', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                 <span className="text-[10px] sm:text-[11px] font-bold text-slate-500 ml-0.5 sm:ml-1">LEI</span>
               </span>
             </div>

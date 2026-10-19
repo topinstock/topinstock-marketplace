@@ -315,7 +315,7 @@ export default function ProductInfo({
         ) : (
           <div className="flex items-baseline gap-3 flex-wrap">
             <span className="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">
-              {price.toFixed(2)}{' '}
+              {price % 1 === 0 ? price.toLocaleString('ro-RO') : price.toFixed(2)}{' '}
               <span className="text-base font-bold text-gray-700">LEI</span>
             </span>
           </div>
@@ -473,7 +473,7 @@ export default function ProductInfo({
             ) : (
               <>
                 <ShoppingCart size={18} className="flex-shrink-0" />
-                <span className="truncate">Adaugă în coș — {(price * quantity).toFixed(2)} LEI</span>
+                <span className="truncate">Adaugă în coș — {(price * quantity) % 1 === 0 ? (price * quantity).toLocaleString('ro-RO') : (price * quantity).toFixed(2)} LEI</span>
               </>
             )}
           </button>

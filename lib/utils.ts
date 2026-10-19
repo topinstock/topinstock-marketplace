@@ -19,9 +19,33 @@ export function formatPrice(amount: number): string {
   return new Intl.NumberFormat('ro-RO', {
     style: 'currency',
     currency: 'RON',
-    minimumFractionDigits: 0,
+    minimumFractionDigits: amount % 1 === 0 ? 0 : 2,
     maximumFractionDigits: 2,
   }).format(amount);
+}
+
+// ============================================
+//   Price rounding rule:
+//   For prices > 5 Lei, round to nearest 9:
+//   Unit >= 5 rounds up to 9 (e.g. 45 -> 49, 245 -> 249)
+//   Unit < 5 rounds down to 9 (e.g. 44 -> 39, 40 -> 39)
+// ============================================
+
+export function roundPriceEndingIn9(rawPrice: number): number {
+  if (rawPrice == null || isNaN(rawPrice)) return rawPrice;
+  const num = Number(rawPrice);
+  if (num <= 5) return num;
+
+  const intVal = Math.floor(num);
+  const units = intVal % 10;
+  const tens = Math.floor(intVal / 10);
+
+  if (units >= 5) {
+    return tens * 10 + 9;
+  } else {
+    const prevTens = Math.max(0, tens - 1);
+    return prevTens * 10 + 9;
+  }
 }
 
 // ============================================

@@ -277,7 +277,7 @@ export default function SearchBar() {
                         {/* Price */}
                         <div className="flex-shrink-0 text-right">
                           <p className="text-[14px] font-extrabold text-gray-900">
-                            {product.price.toLocaleString('ro-RO', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} LEI
+                            {product.price % 1 === 0 ? product.price.toLocaleString('ro-RO') : product.price.toLocaleString('ro-RO', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} LEI
                           </p>
                         </div>
                       </Link>
