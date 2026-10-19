@@ -37,17 +37,17 @@ export default function Header() {
         <Link href="/" className="flex-shrink-0 flex flex-col justify-center group select-none">
           <div className="flex items-baseline leading-none">
             <span
-              className="text-[26px] md:text-[28px] font-black text-white tracking-tight leading-none"
-              style={{ textShadow: '0 1px 6px rgba(0,0,0,0.25)' }}
+              className="text-[25px] md:text-[27px] font-black italic text-white tracking-tight leading-none transition-transform duration-150 group-hover:scale-[1.01]"
+              style={{ textShadow: '0 2px 8px rgba(0,0,0,0.25)' }}
             >
-              TOPin<span style={{ color: '#C03653', textShadow: '0 1px 8px rgba(192, 54, 83, 0.5)' }}>Stock</span>
+              TOPin<span style={{ color: '#F5436A', textShadow: '0 2px 10px rgba(245, 67, 106, 0.45)' }}>Stock</span>
             </span>
           </div>
-          <div className="flex justify-end -mt-0.5 pr-0.5">
+          <div className="flex items-center -mt-0.5 pl-0.5">
             <span
-              className="text-[9.5px] md:text-[10px] font-black uppercase tracking-[0.28em] text-amber-300 drop-shadow-[0_1px_2px_rgba(0,0,0,0.4)] transition-transform duration-150 group-hover:scale-105"
+              className="text-[9.5px] md:text-[10.5px] font-extrabold italic tracking-[0.08em] text-amber-300 drop-shadow-[0_1px_2px_rgba(0,0,0,0.4)] transition-all duration-150 group-hover:text-amber-200"
             >
-              OUTLET
+              Marketplace Outlet
             </span>
           </div>
         </Link>

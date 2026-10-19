@@ -282,8 +282,12 @@ export function MobileMenuDrawer({ isOpen, onClose, categories }: MobileMenuDraw
           <div className="flex items-center gap-2">
             <ShoppingBag size={20} />
             <div className="flex flex-col">
-              <span className="font-extrabold text-[17px] tracking-tight leading-none">TOPin<span className="text-[#F5436A]">Stock</span></span>
-              <span className="text-[8px] font-black uppercase tracking-[0.26em] text-amber-300 text-right -mt-0.5">OUTLET</span>
+              <span className="font-black italic text-[17px] tracking-tight leading-none text-white">
+                TOPin<span className="text-[#F5436A]">Stock</span>
+              </span>
+              <span className="text-[8.5px] font-extrabold italic tracking-[0.06em] text-amber-300 mt-0.5 leading-none">
+                Marketplace Outlet
+              </span>
             </div>
           </div>
           <button

@@ -46,12 +46,12 @@ export default function Footer() {
           <div>
             <div className="mb-4">
               <Link href="/" className="inline-flex flex-col group select-none">
-                <span className="text-2xl font-black text-white tracking-tight leading-none">
+                <span className="text-2xl font-black italic text-white tracking-tight leading-none">
                   TOPin<span style={{ color: '#F5436A' }}>Stock</span>
                 </span>
-                <div className="flex justify-end -mt-0.5 pr-0.5">
-                  <span className="text-[9px] font-black uppercase tracking-[0.28em] text-amber-300">
-                    OUTLET
+                <div className="flex items-center -mt-0.5 pl-0.5">
+                  <span className="text-[9.5px] font-extrabold italic tracking-[0.08em] text-amber-300">
+                    Marketplace Outlet
                   </span>
                 </div>
               </Link>
