@@ -42,3 +42,5 @@ scripts/*.json
 # Scratch & temporary development artifacts
 scratch/
 
+
+.vercel
