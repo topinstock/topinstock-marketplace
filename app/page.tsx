@@ -11,7 +11,18 @@ import VendorBanner from '@/components/home/VendorBanner';
 export const metadata: Metadata = {
   title: 'TOPinStock — Marketplace România | Cumpărături Online Rapide',
   description:
-    'Descoperă decorațiuni festive de Crăciun, ustensile tradiționale de bucătărie, cadouri pentru copii și electrocasnice de iarnă cu livrare rapidă din stoc.',
+    'TOPinStock (topinstock.ro) este marketplace-ul modern al României. Comandă online decorațiuni de Crăciun, oale și ustensile de bucătărie, cadouri pentru copii și electrocasnice cu livrare rapidă din stoc.',
+  keywords: [
+    'topinstock',
+    'topinstock.ro',
+    'top in stock',
+    'topinstock romania',
+    'marketplace romania',
+    'cumparaturi online romania',
+  ],
+  alternates: {
+    canonical: 'https://topinstock.ro',
+  },
 };
 
 export default async function HomePage() {

@@ -11,10 +11,18 @@ import {
 //   Conformitate fidelă convențiilor eMAG.ro & Trendyol
 // ============================================
 
+const resolveBaseUrl = (): string => {
+  const envUrl = process.env.NEXT_PUBLIC_APP_URL?.trim();
+  if (envUrl && !envUrl.includes('localhost') && !envUrl.includes('127.0.0.1')) {
+    return envUrl.replace(/\/+$/, '');
+  }
+  return 'https://topinstock.ro';
+};
+
 export const SEO_CONFIG = {
   marketplaceName: process.env.NEXT_PUBLIC_APP_NAME || 'TOPinStock',
-  marketplaceLegalName: 'TOPinStock Marketplace S.R.L.',
-  baseUrl: (process.env.NEXT_PUBLIC_APP_URL || 'https://topinstock.ro').replace(/\/+$/, ''),
+  marketplaceLegalName: 'TOPinStock S.R.L.',
+  baseUrl: resolveBaseUrl(),
   defaultOgImage: '/images/hero1.jpg',
   locale: 'ro_RO',
   currency: 'RON',
@@ -1471,9 +1479,17 @@ export class SEOManager {
           '@type': 'WebSite',
           '@id': `${baseUrl}/#website`,
           url: baseUrl,
-          name: SEO_CONFIG.marketplaceName,
+          name: 'TOPinStock',
+          alternateName: [
+            'topinstock',
+            'topinstock.ro',
+            'Top In Stock',
+            'topinstock romania',
+            'TOPinStock România',
+            'TOPinStock Marketplace',
+          ],
           description:
-            'TOPinStock este marketplace-ul de încredere al României, conectând mii de vânzători verificați cu milioane de cumpărători.',
+            'TOPinStock este marketplace-ul modern al României, conectând mii de vânzători verificați cu milioane de cumpărători.',
           inLanguage: 'ro-RO',
           publisher: {
             '@id': `${baseUrl}/#organization`,
@@ -1490,13 +1506,14 @@ export class SEOManager {
         {
           '@type': 'Organization',
           '@id': `${baseUrl}/#organization`,
-          name: SEO_CONFIG.marketplaceName,
-          legalName: SEO_CONFIG.marketplaceLegalName,
+          name: 'TOPinStock',
+          alternateName: ['topinstock', 'topinstock.ro', 'Top In Stock', 'TOPinStock România'],
+          legalName: 'TOPinStock S.R.L.',
           url: baseUrl,
           logo: {
             '@type': 'ImageObject',
             url: `${baseUrl}/images/hero1.jpg`,
-            caption: SEO_CONFIG.marketplaceName,
+            caption: 'TOPinStock Marketplace România',
           },
           contactPoint: [
             {

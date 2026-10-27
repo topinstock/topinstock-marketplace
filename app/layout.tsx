@@ -32,34 +32,38 @@ export const viewport: Viewport = {
 // ============================================
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://topinstock.ro'),
+  metadataBase: new URL('https://topinstock.ro'),
   alternates: {
-    canonical: '/',
+    canonical: 'https://topinstock.ro',
   },
   title: {
     default: 'TOPinStock — Marketplace România',
     template: '%s | TOPinStock',
   },
   description:
-    'TOPinStock este marketplace-ul de încredere al României, conectând mii de vânzători verificați cu milioane de cumpărători. Produse de calitate, prețuri competitive, livrare rapidă.',
+    'TOPinStock (topinstock.ro) este marketplace-ul de încredere al României, conectând mii de vânzători verificați cu milioane de cumpărători. Produse originale din stoc, prețuri competitive, livrare rapidă.',
   keywords: [
-    'marketplace',
+    'topinstock',
+    'topinstock.ro',
+    'top in stock',
+    'topinstock romania',
+    'marketplace romania',
     'cumpărături online',
-    'România',
-    'electronice',
-    'modă',
-    'TOPinStock',
+    'magazin online romania',
   ],
   authors: [{ name: 'TOPinStock' }],
   creator: 'TOPinStock S.R.L.',
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION || undefined,
+  },
   openGraph: {
     type: 'website',
     locale: 'ro_RO',
-    url: process.env.NEXT_PUBLIC_APP_URL,
+    url: 'https://topinstock.ro',
     siteName: 'TOPinStock',
     title: 'TOPinStock — Marketplace România',
     description:
-      'Produse de la mii de vânzători verificați, la prețuri excelente.',
+      'Cumpără online din mii de produse originale la prețuri competitive cu livrare rapidă.',
   },
   robots: {
     index: true,
