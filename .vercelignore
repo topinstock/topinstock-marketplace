@@ -1,0 +1,10 @@
+.next
+.git
+node_modules
+*.tsbuildinfo
+prisma/*.db*
+prisma/*.backup*
+prisma/*.backup_*
+scripts/*.json
+scratch/
+
