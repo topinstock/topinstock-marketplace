@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'TOPinStock' }],
   creator: 'TOPinStock S.R.L.',
   verification: {
-    google: process.env.GOOGLE_SITE_VERIFICATION || undefined,
+    google: 'd8618c3f22e85091',
   },
   openGraph: {
     type: 'website',
