@@ -557,53 +557,65 @@ export async function getCatalogProducts(
 
     const andConditions: Prisma.ProductWhereInput[] = [];
 
-    // Search: Multi-term word splitting over indexed title, sku, and attributes
+    // Search: Multi-term word splitting over indexed title, sku, attributes, and Bohmann SEO aliases
     if (filters.search) {
       const searchTerms = filters.search.trim().split(/\s+/).filter(Boolean);
+      const buildSearchOr = (term: string) => {
+        const conds: any[] = [
+          { title: { contains: term } },
+          { sku: { contains: term } },
+          { attributes: { contains: term } },
+        ];
+        if (term.toLowerCase() === 'bohmann') {
+          conds.push(
+            { sku: { startsWith: 'BH ' } },
+            { sku: { startsWith: 'BOH' } },
+            { sku: { startsWith: 'BH-' } }
+          );
+        }
+        return conds;
+      };
+
       if (searchTerms.length === 1) {
         andConditions.push({
-          OR: [
-            { title: { contains: searchTerms[0] } },
-            { sku: { contains: searchTerms[0] } },
-            { attributes: { contains: searchTerms[0] } },
-          ],
+          OR: buildSearchOr(searchTerms[0]),
         });
       } else if (searchTerms.length > 1) {
         searchTerms.forEach((term) => {
           andConditions.push({
-            OR: [
-              { title: { contains: term } },
-              { sku: { contains: term } },
-              { attributes: { contains: term } },
-            ],
+            OR: buildSearchOr(term),
           });
         });
       }
     }
 
-    // Brand filtering: matches title, normalized title, and attributes (avoiding large description scans)
+    // Brand filtering: matches title, normalized title, attributes, and Bohmann SEO aliases
     if (filters.brand) {
       const brandList = filters.brand.split(',').map((b) => b.trim()).filter(Boolean);
-      if (brandList.length === 1) {
-        const b = brandList[0];
+      const buildBrandOr = (b: string) => {
         const bNorm = b.replace(/ü/gi, 'u');
+        const conditions: any[] = [
+          { title: { contains: b } },
+          { title: { contains: bNorm } },
+          { attributes: { contains: b } },
+        ];
+        if (b.toLowerCase() === 'bohmann') {
+          conditions.push(
+            { sku: { startsWith: 'BH ' } },
+            { sku: { startsWith: 'BOH' } },
+            { sku: { startsWith: 'BH-' } }
+          );
+        }
+        return conditions;
+      };
+
+      if (brandList.length === 1) {
         andConditions.push({
-          OR: [
-            { title: { contains: b } },
-            { title: { contains: bNorm } },
-            { attributes: { contains: b } },
-          ],
+          OR: buildBrandOr(brandList[0]),
         });
       } else if (brandList.length > 1) {
         andConditions.push({
-          OR: brandList.flatMap((b) => {
-            const bNorm = b.replace(/ü/gi, 'u');
-            return [
-              { title: { contains: b } },
-              { title: { contains: bNorm } },
-              { attributes: { contains: b } },
-            ];
-          }),
+          OR: brandList.flatMap(buildBrandOr),
         });
       }
     }
@@ -1267,7 +1279,7 @@ export const getCategoryDetails = cache(async function getCategoryDetails(catego
       if (p.vendor?.storeName && !p.vendor.storeName.includes('Oficial')) {
         brandsSet.add(p.vendor.storeName);
       }
-      const titleMatch = p.title.match(/\b(Grünberg|TOPinStock|Berlinger Haus|Apple|Samsung|Xiaomi|Nike|Adidas|Puma|Zara|Trendyol)\b/i);
+      const titleMatch = p.title.match(/\b(Grünberg|Bohmann|TOPinStock|Berlinger Haus|Apple|Samsung|Xiaomi|Nike|Adidas|Puma|Zara|Trendyol)\b/i);
       if (titleMatch) brandsSet.add(titleMatch[1]);
     }
 
@@ -1277,7 +1289,7 @@ export const getCategoryDetails = cache(async function getCategoryDetails(catego
       category: category || null,
       totalProducts: count > 0 ? count : products.length,
       minPrice,
-      topBrands: topBrands.length > 0 ? topBrands : ['Grünberg', 'TOPinStock', 'Berlinger Haus'],
+      topBrands: topBrands.length > 0 ? topBrands : ['Grünberg', 'Bohmann', 'TOPinStock', 'Berlinger Haus'],
     };
 
     categoryDetailsCache.set(cacheKey, { timestamp: now, data: result });
@@ -1304,7 +1316,7 @@ export const getCategoryDetails = cache(async function getCategoryDetails(catego
         brandsSet.add(p.vendor.storeName);
       }
       const titleMatch = p.title.match(
-        /\b(Grünberg|TOPinStock|Berlinger Haus|Apple|Samsung|Xiaomi|Nike|Adidas|Puma|Victronic|Hausberg|Jolie Silver|Schneider Electric)\b/i
+        /\b(Grünberg|Bohmann|TOPinStock|Berlinger Haus|Apple|Samsung|Xiaomi|Nike|Adidas|Puma|Victronic|Hausberg|Jolie Silver|Schneider Electric)\b/i
       );
       if (titleMatch) brandsSet.add(titleMatch[1]);
     });
