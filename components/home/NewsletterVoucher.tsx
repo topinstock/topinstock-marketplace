@@ -50,9 +50,9 @@ export default function NewsletterVoucher() {
           </div>
 
           {/* Right Action */}
-          <div className="w-full lg:w-auto min-w-[320px] sm:min-w-[380px]">
+          <div className="w-full lg:w-auto max-w-full">
             {!submitted ? (
-              <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2">
+              <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 w-full">
                 <div className="relative flex-1">
                   <Mail
                     size={18}

@@ -58,9 +58,9 @@ export default function CategoryBar() {
           </button>
         </div>
 
-        {/* All Products Department Button with eMAG Mega Menu */}
+        {/* All Products Department Button with eMAG Mega Menu (Desktop only) */}
         <div
-          className="relative h-full flex items-center"
+          className="hidden md:flex relative h-full items-center"
           onMouseEnter={handleEmagMouseEnter}
           onMouseLeave={handleEmagMouseLeave}
         >

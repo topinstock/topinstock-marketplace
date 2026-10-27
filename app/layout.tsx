@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import TopBar from '@/components/layout/TopBar';
@@ -15,6 +15,17 @@ const inter = Inter({
   variable: '--font-inter',
   display: 'swap',
 });
+
+// ============================================
+//   Viewport Configuration (Prevents Mobile Zoom-Out & Overflow)
+// ============================================
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: '#008fa8',
+};
 
 // ============================================
 //   Root Metadata
@@ -72,7 +83,7 @@ export default function RootLayout({
   const websiteOrgJsonLd = SEOManager.getHomepageJsonLd();
 
   return (
-    <html lang="ro" className={inter.variable} data-scroll-behavior="smooth">
+    <html lang="ro" className={`${inter.variable} overflow-x-hidden max-w-full`} data-scroll-behavior="smooth">
       <head>
         {/* ── Schema.org WebSite & Organization JSON-LD in <head> for Googlebot & Sitelinks Searchbox (eMAG standard) ── */}
         <script
@@ -80,7 +91,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteOrgJsonLd) }}
         />
       </head>
-      <body className={`${inter.className} pb-16 md:pb-0`}>
+      <body className={`${inter.className} pb-16 md:pb-0 overflow-x-hidden max-w-full relative`}>
         {/* Global announcement bar */}
         <TopBar />
         {/* Sticky header + category mega menu */}

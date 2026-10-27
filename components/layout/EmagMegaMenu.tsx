@@ -26,26 +26,19 @@ export default function EmagMegaMenu({
 
   const ActiveIcon = activeCategory.icon;
 
+  if (!isOpen) return null;
+
   return (
     <>
       {/* ── Dim Backdrop Overlay (eMAG style) ── */}
       <div
-        className={cn(
-          'fixed inset-0 top-[120px] bg-slate-950/25 backdrop-blur-[1px] z-40 transition-opacity duration-200',
-          isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
-        )}
+        className="hidden md:block fixed inset-0 top-[120px] bg-slate-950/25 backdrop-blur-[1px] z-40 transition-opacity duration-200 opacity-100 pointer-events-auto"
         onClick={onClose}
       />
 
-      {/* ── Main Mega Menu Container ── */}
+      {/* ── Main Mega Menu Container (Desktop only) ── */}
       <div
-        className={cn(
-          'absolute left-0 top-[48px] z-50 flex bg-white rounded-2xl shadow-2xl border border-slate-200/90 overflow-hidden',
-          'transition-all duration-200 origin-top-left',
-          isOpen
-            ? 'opacity-100 scale-100 pointer-events-auto visible'
-            : 'opacity-0 scale-98 pointer-events-none invisible'
-        )}
+        className="hidden md:flex absolute left-0 top-[48px] z-50 bg-white rounded-2xl shadow-2xl border border-slate-200/90 overflow-hidden transition-all duration-200 origin-top-left opacity-100 scale-100 pointer-events-auto visible"
         style={{
           boxShadow: '0 25px 60px -15px rgba(0,0,0,0.22), 0 0 0 1px rgba(0,0,0,0.04)',
         }}

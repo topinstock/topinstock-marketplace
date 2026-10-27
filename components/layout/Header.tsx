@@ -26,13 +26,79 @@ export default function Header() {
 
   return (
     <header
-      className="sticky z-40 top-0 shadow-md"
+      className="sticky z-40 top-0 shadow-md w-full max-w-full overflow-hidden"
       style={{
         background: 'linear-gradient(135deg, #008fa8 0%, #006b80 100%)',
       }}
     >
-      {/* Main header row */}
-      <div className="container-app flex items-center min-h-[80px] md:min-h-[86px] py-2 gap-4 md:gap-6">
+      {/* ── Mobile Header Bar (< md) ── */}
+      <div className="md:hidden container-app pt-2.5 pb-2 flex flex-col gap-2">
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <Link href="/" className="flex flex-col justify-center select-none py-0.5">
+            <span
+              className="text-[26px] sm:text-[30px] font-black italic text-white tracking-tight leading-none"
+              style={{ textShadow: '0 1px 3px rgba(0,0,0,0.5)' }}
+            >
+              TOPin<span style={{ color: '#FF1744' }}>Stock</span>
+            </span>
+            <span
+              className="text-[11px] sm:text-[12px] font-black italic tracking-[0.05em] text-[#FFE600] mt-0.5 leading-none"
+              style={{ textShadow: '0 1px 2px rgba(0,0,0,0.6)' }}
+            >
+              Marketplace Outlet
+            </span>
+          </Link>
+
+          {/* Quick Header Actions: Favorite & Coș */}
+          <div className="flex items-center gap-1">
+            <Link
+              href="/favorite"
+              className="p-2 text-white/90 hover:text-white relative rounded-lg hover:bg-white/10 transition-colors"
+              aria-label={`Favorite (${wishlistCount} produse)`}
+            >
+              <Heart size={21} strokeWidth={1.75} />
+              {wishlistCount > 0 && (
+                <span
+                  className="absolute top-1 right-1 bg-rose-500 text-white
+                             text-[9px] font-bold w-[17px] h-[17px] rounded-full
+                             flex items-center justify-center border-2 border-[#006b80] shadow-xs"
+                >
+                  {wishlistCount}
+                </span>
+              )}
+            </Link>
+
+            <button
+              type="button"
+              onClick={openCart}
+              className="p-2 text-white/90 hover:text-white relative rounded-lg hover:bg-white/10 transition-colors cursor-pointer"
+              aria-label={`Coș (${totalCount} produse)`}
+            >
+              <ShoppingCart size={21} strokeWidth={1.75} />
+              {totalCount > 0 && (
+                <span
+                  className="absolute top-1 right-1 bg-orange-500 text-white
+                             text-[9px] font-bold w-[17px] h-[17px] rounded-full
+                             flex items-center justify-center border-2 border-[#006b80] shadow-xs"
+                >
+                  {totalCount}
+                </span>
+              )}
+            </button>
+          </div>
+        </div>
+
+        {/* Full-width Search Bar for Mobile */}
+        <div className="w-full">
+          <Suspense fallback={<div className="h-[42px] bg-white/20 rounded-full animate-pulse" />}>
+            <SearchBar />
+          </Suspense>
+        </div>
+      </div>
+
+      {/* ── Desktop Header Bar (>= md) ── */}
+      <div className="hidden md:flex container-app items-center min-h-[86px] py-2 gap-6">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0 flex flex-col justify-center group select-none">
           <div className="flex items-baseline leading-none">

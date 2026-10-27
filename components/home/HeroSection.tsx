@@ -137,7 +137,7 @@ export default function HeroSection() {
             style={{ transform: `translateX(-${currentSlide * 100}%)` }}
           >
             {SLIDES.map((slide, index) => (
-              <div key={index} className="relative min-w-full h-full flex-shrink-0">
+              <div key={index} className="relative min-w-full w-full h-full flex-shrink-0 overflow-hidden">
                 <Image
                   src={slide.image}
                   alt={slide.title}
@@ -153,7 +153,7 @@ export default function HeroSection() {
                 {slide.isBlackFriday ? (
                   /* ── Banner Black Friday: Design High-Impact, Iluminat & Conversie Maximă ── */
                   <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/75 sm:via-slate-950/65 to-transparent flex items-center">
-                    <div className="max-w-[620px] px-6 sm:px-12 text-white">
+                    <div className="max-w-[620px] px-4 sm:px-12 text-white">
                       {/* Badge Campanie cu data si pulsating glow */}
                       <div className="flex flex-wrap items-center gap-2 mb-3">
                         <span className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 via-orange-500 to-[#F5436A] text-white text-[11px] sm:text-xs font-black px-4 py-1.5 rounded-full uppercase tracking-wider shadow-[0_0_24px_rgba(245,158,11,0.55)] border border-amber-300/40">
@@ -168,7 +168,7 @@ export default function HeroSection() {
                       </div>
 
                       {/* Headline Exploziv: BLACK FRIDAY TOATA LUNA */}
-                      <h2 className="text-3xl sm:text-5xl md:text-6xl font-black uppercase tracking-tight leading-[0.95] mb-2 drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]">
+                      <h2 className="text-2xl sm:text-5xl md:text-6xl font-black uppercase tracking-tight leading-[0.95] mb-2 drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]">
                         <span className="text-white block">BLACK FRIDAY</span>
                         <span className="bg-gradient-to-r from-amber-300 via-yellow-200 to-amber-500 bg-clip-text text-transparent block mt-1 drop-shadow-sm">
                           TOATĂ LUNA
@@ -195,7 +195,7 @@ export default function HeroSection() {
                       <div className="flex flex-wrap items-center gap-3">
                         <Link
                           href={slide.ctaHref}
-                          className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 via-orange-500 to-[#F5436A] hover:from-amber-300 hover:to-[#C03653] text-slate-950 font-black text-xs sm:text-sm px-8 py-3.5 rounded-full shadow-[0_4px_24px_rgba(245,158,11,0.6)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_6px_32px_rgba(245,158,11,0.8)] active:scale-95 cursor-pointer"
+                          className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 via-orange-500 to-[#F5436A] hover:from-amber-300 hover:to-[#C03653] text-slate-950 font-black text-xs sm:text-sm px-6 sm:px-8 py-3 sm:py-3.5 rounded-full shadow-[0_4px_24px_rgba(245,158,11,0.6)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_6px_32px_rgba(245,158,11,0.8)] active:scale-95 cursor-pointer"
                         >
                           <span>{slide.ctaText}</span>
                           <ArrowRight size={17} />
@@ -252,7 +252,7 @@ export default function HeroSection() {
                 ) : (
                   /* ── Banner standard cu text și gradient lateral optimizat pe mobil și desktop ── */
                   <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/75 to-slate-950/30 sm:to-transparent flex items-center">
-                    <div className="max-w-[560px] px-6 sm:px-12 text-white">
+                    <div className="max-w-[560px] px-4 sm:px-12 text-white">
                       {/* Badge */}
                       <div className="flex items-center gap-2 mb-3">
                         <span className="inline-flex items-center gap-1.5 bg-gradient-to-r from-[#F5436A] to-[#C03653] text-white text-xs font-black px-3.5 py-1 rounded-full uppercase tracking-wider shadow-lg">
@@ -262,11 +262,11 @@ export default function HeroSection() {
                       </div>
 
                       {/* Headline */}
-                      <h2 className="text-2xl sm:text-4xl md:text-5xl font-black leading-[1.1] mb-2 tracking-tight drop-shadow-md">
+                      <h2 className="text-xl sm:text-4xl md:text-5xl font-black leading-[1.1] mb-2 tracking-tight drop-shadow-md">
                         {slide.title}
                       </h2>
 
-                      <p className="text-amber-300 font-bold text-sm sm:text-base mb-2">
+                      <p className="text-amber-300 font-bold text-xs sm:text-base mb-2">
                         {slide.highlight}
                       </p>
 
@@ -278,7 +278,7 @@ export default function HeroSection() {
                       <div className="flex flex-wrap items-center gap-3">
                         <Link
                           href={slide.ctaHref}
-                          className="inline-flex items-center gap-2 bg-gradient-to-r from-[#F5436A] to-[#C03653] hover:from-[#C03653] hover:to-[#A02B44] text-white font-bold text-sm px-7 py-3 rounded-full shadow-[0_4px_16px_rgba(245,67,106,0.45)] transition-all duration-200 hover:-translate-y-0.5 active:scale-95"
+                          className="inline-flex items-center gap-2 bg-gradient-to-r from-[#F5436A] to-[#C03653] hover:from-[#C03653] hover:to-[#A02B44] text-white font-bold text-xs sm:text-sm px-5 sm:px-7 py-2.5 sm:py-3 rounded-full shadow-[0_4px_16px_rgba(245,67,106,0.45)] transition-all duration-200 hover:-translate-y-0.5 active:scale-95"
                         >
                           <span>{slide.ctaText}</span>
                           <ArrowRight size={16} />

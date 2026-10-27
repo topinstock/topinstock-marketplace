@@ -59,7 +59,7 @@ export default function CartDrawer() {
   return (
     <div
       className={cn(
-        'fixed inset-0 z-50 transition-visibility duration-300',
+        'fixed inset-0 z-50 overflow-hidden transition-all duration-300',
         isOpen ? 'visible pointer-events-auto' : 'invisible pointer-events-none'
       )}
     >
