@@ -1,1 +1,4223 @@
-[{"id":"cmv7u9dtz000014gb75q94uzw","name":"Materiale Electrice (En-Gross)","slug":"materiale-electrice-engross","parentId":null,"count":0},{"id":"cmv7u9du9000214gb19mlvnh6","name":"Cabluri & Conductori Electrice (En-Gross)","slug":"cabluri-conductori-engross","parentId":"cmv7u9dtz000014gb75q94uzw","count":271},{"id":"cmv7u9duf000414gb61tb9anl","name":"Tablouri & Siguranțe Electrice (En-Gross)","slug":"tablouri-sigurante-engross","parentId":"cmv7u9dtz000014gb75q94uzw","count":103},{"id":"cmv7u9dum000614gbjfoiltoa","name":"Prize, Întrerupătoare & Smart Home (En-Gross)","slug":"prize-intrerupatoare-engross","parentId":"cmv7u9dtz000014gb75q94uzw","count":17},{"id":"cmv7u9duu000814gbe9n141wi","name":"Corpuri & Surse de Iluminat LED (En-Gross)","slug":"corpuri-iluminat-engross","parentId":"cmv7u9dtz000014gb75q94uzw","count":99},{"id":"cmv7u9dv2000a14gbz6udc4mu","name":"Tuburi, Canale Cablu & Conectică (En-Gross)","slug":"tuburi-conectica-engross","parentId":"cmv7u9dtz000014gb75q94uzw","count":194},{"id":"cmv7u9dv9000c14gb73oz0fpo","name":"Instalații & Automatizări En-Gross","slug":"instalatii-automatizari-engross","parentId":"cmv7u9dtz000014gb75q94uzw","count":71},{"id":"cmv7u9dvi000e14gbexrco1wr","name":"Espressoare & Cafetiere","slug":"espressoare-cafetiere","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":68},{"id":"cmv7u9dvp000g14gbpt8os7k7","name":"Airfryer & Friteuze fără Ulei","slug":"airfryer-friteuze","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":17},{"id":"cmv7u9dvw000i14gbktotnvt4","name":"Mixere, Roboti & Blendere","slug":"mixere-roboti-blendere","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":139},{"id":"cmv7u9dw5000k14gbno7y0t0b","name":"Seturi de Oale & Tigăi","slug":"seturi-oale-si-tigai","parentId":"cmuvuntw80003hq5tkoy495vh","count":241},{"id":"cmv7u9dwc000m14gbxdx3369i","name":"Ustensile Bucătărie & Menaj","slug":"ustensile-bucatarie-menaj","parentId":"cmuvuntw80003hq5tkoy495vh","count":269},{"id":"cmv7u9dwj000o14gb2iib50ha","name":"Tăvi & Forme de Copt","slug":"tavi-forme-copt","parentId":"cmuvuntw80003hq5tkoy495vh","count":44},{"id":"cmv7u9dws000q14gbbkpxwjb5","name":"Fierbătoare & Cani Electrice","slug":"fierbatoare-cani-electrice","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":20},{"id":"cmv7u9dwz000s14gbsmx5wed8","name":"Aspiratoare & Curățenie","slug":"aspiratoare-curatenie","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":23},{"id":"cmvchi3mb0001cetkcopcd7xh","name":"Încălțăminte Bărbați","slug":"incaltaminte-barbati","parentId":"cmuul4dsn000bqmgwiseabfrv","count":32},{"id":"cmvchi3mh0003cetkfzflmpws","name":"Îmbrăcăminte Bărbați","slug":"imbracaminte-barbati","parentId":"cmuul4dsn000bqmgwiseabfrv","count":4},{"id":"cmvchi3mm0005cetka45isv6c","name":"Geci & Jachete Bărbați","slug":"geci-barbati","parentId":"cmuul4dsn000bqmgwiseabfrv","count":138},{"id":"cmvchi3mr0007cetkh21esbdn","name":"Articole Sport Bărbați","slug":"sport-barbati","parentId":"cmuul4dsn000bqmgwiseabfrv","count":2},{"id":"cmvchi3mx0009cetkvleyjl6c","name":"Accesorii Bărbați","slug":"accesorii-barbati","parentId":"cmuul4dsn000bqmgwiseabfrv","count":13},{"id":"cmvchi3n5000bcetk7okipkhr","name":"Încălțăminte Femei","slug":"incaltaminte-femei","parentId":"cmuul4ds30006qmgwaz9umwhb","count":0},{"id":"cmvchi3na000dcetk4nb1jeye","name":"Îmbrăcăminte Femei","slug":"imbracaminte-femei","parentId":"cmuul4ds30006qmgwaz9umwhb","count":22},{"id":"cmvchi3nh000fcetkeiiylpzc","name":"Accesorii Damă","slug":"accesorii-femei","parentId":"cmuul4ds30006qmgwaz9umwhb","count":28},{"id":"cmvchi3np000hcetkn792nw9x","name":"Suporturi Telefoane & Auto","slug":"suporturi-telefoane","parentId":"cmvaeej92005qksv99nn9fltu","count":38},{"id":"cmuul4ds30006qmgwaz9umwhb","name":"Femei","slug":"femei","parentId":null,"count":0},{"id":"cmuul4ds90008qmgww8cy6bmu","name":"Rochii","slug":"rochii-femei","parentId":"cmuul4ds30006qmgwaz9umwhb","count":10},{"id":"cmuul4dss000dqmgwu9hgf8zw","name":"Cămăși","slug":"camasi-barbati","parentId":"cmuul4dsn000bqmgwiseabfrv","count":0},{"id":"cmuvuntw80003hq5tkoy495vh","name":"Bucătărie & Menaj","slug":"bucatarie-menaj","parentId":null,"count":0},{"id":"cmuvuntye000chq5tkhrekvjm","name":"Calorifere tip panou","slug":"calorifere-tip-panou","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":7},{"id":"cmvaeeitj0005ksv92kgug2vi","name":"Acuarele, pensule si blocuri de desen","slug":"acuarele-pensule-si-blocuri-de-desen","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":10},{"id":"cmvaeeitu0009ksv9fxzl13qe","name":"Tatuaje Temporare si Stikere","slug":"tatuaje-temporare-si-stikere","parentId":"cmvaeeito0007ksv9m5562r01","count":17},{"id":"cmvaeeiy3001wksv9ohgjn6dk","name":"Accesorii Baloane","slug":"accesorii-baloane","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":36},{"id":"cmvaeeiyo0024ksv931pc2zp7","name":"Baloane Coronita","slug":"baloane-coronita","parentId":"cmvaeeiyj0022ksv9kc7rq4bj","count":2},{"id":"cmvaeej2h003hksv9er2xqmzl","name":"Accesorii Machiaj si Trimmere","slug":"accesorii-machiaj-si-trimmere","parentId":"cmvaeej2b003fksv9ua041xym","count":95},{"id":"cmvaeej3v003zksv9ramuya0e","name":"Perii Electrice","slug":"perii-electrice","parentId":"cmvaeej3o003xksv9t24f6r3g","count":4},{"id":"cmvaeej67004qksv9yjszu5q1","name":"Accesorii Argint","slug":"accesorii-argint","parentId":"cmvaeej61004oksv9h04p4up0","count":0},{"id":"cmvaeej86005fksv92mb6f89i","name":"Kendama V3 Cupe King Size","slug":"kendama-v3-cupe-king-size","parentId":"cmvaeej7z005dksv997qacgz5","count":0},{"id":"cmvaeej97005sksv93m3k4mqy","name":"Accesorii Playere si Casti","slug":"accesorii-playere-si-casti","parentId":"cmvaeej92005qksv99nn9fltu","count":0},{"id":"cmvaeej9d005uksv9iwph5awv","name":"Huse AirPods","slug":"huse-airpods","parentId":"cmvaeej97005sksv93m3k4mqy","count":6},{"id":"cmvaeejah0068ksv9vs9lmwez","name":"Huse Iqos","slug":"huse-iqos","parentId":"cmvaeejaa0066ksv93dtmyk4o","count":4},{"id":"cmvaeejas006cksv9ufusxkli","name":"3 in 1 Magnetic","slug":"3-in-1-magnetic","parentId":"cmvaeejam006aksv9iw3ko85z","count":2},{"id":"cmvaeejbv006qksv9qrhha8pk","name":"Diverse","slug":"diverse","parentId":"cmvaeejbp006oksv9crrp9rel","count":5},{"id":"cmvaeejff007yksv9uqnphpky","name":"Back Case","slug":"back-case","parentId":"cmvaeejf9007wksv9roatnwwk","count":30},{"id":"cmvaeejl6009uksv95abz6er9","name":"Suport Stand Adeziv","slug":"suport-stand-adeziv","parentId":"cmvaeejkz009sksv9ckdhpiu8","count":25},{"id":"cmvaeejlt00a2ksv994j9gl0k","name":"Accesorii Smartwatch","slug":"accesorii-smartwatch","parentId":"cmvaeejlo00a0ksv93z92rkwt","count":24},{"id":"cmvaeejm900a7ksv9bpceb6z3","name":"Accesorii Confectionare Martisoare","slug":"accesorii-confectionare-martisoare","parentId":"cmvaeejm300a5ksv9hgz74w8e","count":0},{"id":"cmvaeejmg00a9ksv9czp8basj","name":"Ambalaje Martisor","slug":"ambalaje-martisor","parentId":"cmvaeejm900a7ksv9bpceb6z3","count":36},{"id":"cmvaeejnb00alksv9jyj3twle","name":"Martisoare Brosa Primavara","slug":"martisoare-brosa-primavara","parentId":"cmvaeejn600ajksv9yko78wyv","count":18},{"id":"cmvaeejo500axksv9ljfybr9h","name":"Bratara Inox Copii","slug":"bratara-inox-copii","parentId":"cmvaeejo000avksv9prdauqut","count":26},{"id":"cmvaeejpc00bdksv9g4rv2v16","name":"Cercei","slug":"cercei-1","parentId":"cmvaeejp700bbksv9jz0w2o3x","count":10},{"id":"cmvaeejq500bnksv93479fy4d","name":"Bratara Aurie","slug":"bratara-aurie","parentId":"cmvaeejpy00blksv9be38yiiy","count":0},{"id":"cmvaeejs800cbksv97qwh9ah1","name":"Bratara Placata cu Aur 24k","slug":"bratara-placata-cu-aur-24k","parentId":"cmvaeejs300c9ksv9bqij0aqe","count":21},{"id":"cmvaeejsx00ciksv9of2pihgm","name":"Accesorii aparate climatizare","slug":"accesorii-aparate-climatizare","parentId":"cmvaeejsr00cgksv9zo84d57l","count":26},{"id":"cmvaeejtg00coksv9zep11997","name":"Accesorii Auto","slug":"accesorii-auto","parentId":"cmvaeejt900cmksv9t8r58woe","count":134},{"id":"cmvaeejum00d2ksv9ki6od4jv","name":"Ansambluri de joaca animale","slug":"ansambluri-de-joaca-animale","parentId":"cmvaeejug00d0ksv9q6pe7j4r","count":0},{"id":"cmvaeejv000d6ksv90kh50ja6","name":"Baterii sanitare","slug":"baterii-sanitare","parentId":"cmvaeejuu00d4ksv9l3el0syb","count":55},{"id":"cmvaeejvg00dcksv9kvab2nfw","name":"Accesorii Bucătărie","slug":"accesorii-bucatarie","parentId":"cmvaeejvb00daksv9n5uhn7wb","count":130},{"id":"cmvaeejwm00dqksv9ames5uw1","name":"Accesorii Birou si Consumabile","slug":"accesorii-birou-si-consumabile","parentId":"cmvaeejwh00doksv983aim23e","count":67},{"id":"cmvaeejzp00esksv9nl1v7rhz","name":"Corturi Evenimente si Articole Camping","slug":"corturi-evenimente-si-articole-camping","parentId":"cmvaeejzj00eqksv9acjo7vsv","count":118},{"id":"cmvaeek0e00f0ksv9fr5ipleu","name":"Corpuri de iluminat","slug":"corpuri-de-iluminat","parentId":"cmvaeek0600eyksv9enq5lsm1","count":14},{"id":"cmvaeek1y00fhksv9l5wzvp33","name":"Ambalaje Craciun","slug":"ambalaje-craciun","parentId":"cmvaeek1t00ffksv9f709e6sv","count":32},{"id":"cmvaeek5800glksv9kijf35bn","name":"Accesorii si componente","slug":"accesorii-si-componente","parentId":"cmvaeek5200gjksv9p5cu3tt1","count":28},{"id":"cmvaeek7q00hgksv9qdrgw8s6","name":"Lampi solare","slug":"lampi-solare","parentId":"cmvaeek7l00heksv9vfr22ten","count":205},{"id":"cmuul4dsf000aqmgwaepreb7s","name":"Pantofi","slug":"pantofi-femei","parentId":"cmuul4ds30006qmgwaz9umwhb","count":0},{"id":"cmuul4dsn000bqmgwiseabfrv","name":"Bărbați","slug":"barbati","parentId":null,"count":0},{"id":"cmuul4dt0000fqmgw9jip2ffn","name":"Pantaloni","slug":"pantaloni-barbati","parentId":"cmuul4dsn000bqmgwiseabfrv","count":0},{"id":"cmuvuntwi0004hq5t7jqkgr3c","name":"Electrocasnice","slug":"electrocasnice","parentId":null,"count":0},{"id":"cmuvuntyo000ehq5tq29h4434","name":"Seturi veselă","slug":"seturi-vesela","parentId":"cmuvuntw80003hq5tkoy495vh","count":15},{"id":"cmvaeeito0007ksv9m5562r01","name":"Articole copii","slug":"articole-copii","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":0},{"id":"cmvaeeiy8001yksv9vlu4ps9z","name":"Accesorii Petrecere","slug":"accesorii-petrecere","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":68},{"id":"cmvaeeiyt0026ksv94hv0xx8r","name":"Baloane cu Suport","slug":"baloane-cu-suport","parentId":"cmvaeeiyj0022ksv9kc7rq4bj","count":2},{"id":"cmvaeej2m003jksv9mf2raers","name":"Aparate de tuns","slug":"aparate-de-tuns","parentId":"cmvaeej2b003fksv9ua041xym","count":63},{"id":"cmvaeej410041ksv9yw8roe8e","name":"Placi de indreptat parul","slug":"placi-de-indreptat-parul","parentId":"cmvaeej3o003xksv9t24f6r3g","count":8},{"id":"cmvaeej6d004sksv9xvrqir4o","name":"Bijuterii copii","slug":"bijuterii-copii","parentId":"cmvaeej61004oksv9h04p4up0","count":6},{"id":"cmvaeej8a005hksv9za40c40t","name":"Accesorii Kendama","slug":"accesorii-kendama","parentId":"cmvaeej7z005dksv997qacgz5","count":119},{"id":"cmvaeej9i005wksv9eykl8ma7","name":"Accesorii Tablete","slug":"accesorii-tablete","parentId":"cmvaeej92005qksv99nn9fltu","count":0},{"id":"cmvaeejay006eksv9bvgoc69x","name":"Lightning","slug":"lightning","parentId":"cmvaeejam006aksv9iw3ko85z","count":8},{"id":"cmvaeejc0006sksv94fra40sz","name":"Folie Anti Blue-Ray","slug":"folie-anti-blue-ray","parentId":"cmvaeejbp006oksv9crrp9rel","count":1},{"id":"cmvaeejfm0080ksv9uw28fiap","name":"Carbon Fiber","slug":"carbon-fiber","parentId":"cmvaeejf9007wksv9roatnwwk","count":3},{"id":"cmvaeejlc009wksv93t1xwo6s","name":"Suporti auto","slug":"suporti-auto","parentId":"cmvaeejkz009sksv9ckdhpiu8","count":36},{"id":"cmvaeejlx00a4ksv9tf1omnqu","name":"Smartwatch-uri","slug":"smartwatch-uri","parentId":"cmvaeejlo00a0ksv93z92rkwt","count":7},{"id":"cmvaeejml00abksv9zs8156vs","name":"Seturi Brose","slug":"seturi-brose","parentId":"cmvaeejm900a7ksv9bpceb6z3","count":140},{"id":"cmvaeejn000ahksv9wzi892qz","name":"Display- uri Prezentare Martisoare","slug":"display-uri-prezentare-martisoare","parentId":"cmvaeejm300a5ksv9hgz74w8e","count":2},{"id":"cmvaeejng00anksv9c4lq7on7","name":"Martisoare Brosa Vintage","slug":"martisoare-brosa-vintage","parentId":"cmvaeejn600ajksv9yko78wyv","count":1},{"id":"cmvaeejob00azksv9wk0dr2kh","name":"Martisor Bratara Copii","slug":"martisor-bratara-copii","parentId":"cmvaeejo000avksv9prdauqut","count":35},{"id":"cmvaeejph00bfksv94fnzeh3h","name":"Martisoare Cauciuc","slug":"martisoare-cauciuc","parentId":"cmvaeejp700bbksv9jz0w2o3x","count":24},{"id":"cmvaeejqb00bpksv940o8pka5","name":"Bratara cu 4 Bile","slug":"bratara-cu-4-bile","parentId":"cmvaeejpy00blksv9be38yiiy","count":9},{"id":"cmvaeejse00cdksv94csa6rmy","name":"Martisor Brosa Placata cu Aur 24K","slug":"martisor-brosa-placata-cu-aur-24k","parentId":"cmvaeejs300c9ksv9bqij0aqe","count":0},{"id":"cmvaeejt400ckksv9xnn6s6q0","name":"Apicultura","slug":"apicultura","parentId":"cmvaeejsr00cgksv9zo84d57l","count":3},{"id":"cmvaeejtl00cqksv9t0xoq4pj","name":"Anvelope","slug":"anvelope","parentId":"cmvaeejt900cmksv9t8r58woe","count":25},{"id":"cmvaeejv600d8ksv9xiput6y0","name":"Mobilier baie","slug":"mobilier-baie","parentId":"cmvaeejuu00d4ksv9l3el0syb","count":0},{"id":"cmvaeejvm00deksv9y6o0gts1","name":"Folii si Pungi Alimentare","slug":"folii-si-pungi-alimentare","parentId":"cmvaeejvb00daksv9n5uhn7wb","count":0},{"id":"cmvaeejws00dsksv9gv1f8sre","name":"Accesorii Ingrijire Casa","slug":"accesorii-ingrijire-casa","parentId":"cmvaeejwh00doksv983aim23e","count":46},{"id":"cmvaeejzv00euksv9e6e3quy9","name":"Pasari Decorative din Metal","slug":"pasari-decorative-din-metal","parentId":"cmvaeejzj00eqksv9acjo7vsv","count":7},{"id":"cmvaeek0k00f2ksv9qru3sdvq","name":"Lampi de veghe","slug":"lampi-de-veghe","parentId":"cmvaeek0600eyksv9enq5lsm1","count":93},{"id":"cmvaeek2300fjksv9sj5fv7s0","name":"Articole Craciun Bucatarie","slug":"articole-craciun-bucatarie","parentId":"cmvaeek1t00ffksv9f709e6sv","count":53},{"id":"cmvaeek5f00gnksv93xxo0eij","name":"Diverse","slug":"diverse-2","parentId":"cmvaeek5200gjksv9p5cu3tt1","count":0},{"id":"cmvaeek7v00hiksv9osest7r3","name":"Panouri Solare","slug":"panouri-solare","parentId":"cmvaeek7l00heksv9vfr22ten","count":3},{"id":"cmuul4dt7000gqmgwqfkmdyc6","name":"Reduceri","slug":"reduceri","parentId":null,"count":0},{"id":"cmuvuntws0005hq5t8e3gnbcp","name":"Jucării, Copii & Bebe","slug":"copii-jucarii","parentId":null,"count":0},{"id":"cmuvuntyz000ghq5touqx6ayg","name":"Materiale pentru gătit și servire","slug":"materiale-pentru-gatit-si-servire","parentId":"cmuvuntw80003hq5tkoy495vh","count":24},{"id":"cmvaeeity000bksv9l8ix1oxb","name":"Articole Diverse copii","slug":"articole-diverse-copii","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":41},{"id":"cmvaeeiye0020ksv9jwllape1","name":"Articole Servire Masa","slug":"articole-servire-masa","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":134},{"id":"cmvaeeiyz0028ksv95bspzhv2","name":"Baloane Nume Baieti","slug":"baloane-nume-baieti","parentId":"cmvaeeiyj0022ksv9kc7rq4bj","count":25},{"id":"cmvaeej2s003lksv9fkl66wtt","name":"Articole Sanatate","slug":"articole-sanatate","parentId":"cmvaeej2b003fksv9ua041xym","count":197},{"id":"cmvaeej6j004uksv94v7qzfrc","name":"Bratari","slug":"bratari","parentId":"cmvaeej61004oksv9h04p4up0","count":9},{"id":"cmvaeej8g005jksv9icgbkt7r","name":"Kendama V2 Cupe Mari","slug":"kendama-v2-cupe-mari","parentId":"cmvaeej7z005dksv997qacgz5","count":0},{"id":"cmvaeej9n005yksv9iqjhr9e6","name":"Accesorii Tesla","slug":"accesorii-tesla","parentId":"cmvaeej92005qksv99nn9fltu","count":4},{"id":"cmvaeejb3006gksv9xcmbn365","name":"Micro USB","slug":"micro-usb","parentId":"cmvaeejam006aksv9iw3ko85z","count":3},{"id":"cmvaeejc6006uksv9r5685ppr","name":"Folie Ceramic Glass 9D","slug":"folie-ceramic-glass-9d","parentId":"cmvaeejbp006oksv9crrp9rel","count":5},{"id":"cmvaeejft0082ksv9gsa0i4nu","name":"Defender","slug":"defender","parentId":"cmvaeejf9007wksv9roatnwwk","count":10},{"id":"cmvaeejli009yksv924ymj8e7","name":"Suporti Birou","slug":"suporti-birou","parentId":"cmvaeejkz009sksv9ckdhpiu8","count":8},{"id":"cmvaeejmq00adksv9740qk72n","name":"Seturi Pandantive","slug":"seturi-pandantive","parentId":"cmvaeejm900a7ksv9bpceb6z3","count":4},{"id":"cmvaeejn600ajksv9yko78wyv","name":"Martisoare Brosa si Pandantiv","slug":"martisoare-brosa-si-pandantiv","parentId":"cmvaeejm300a5ksv9hgz74w8e","count":0},{"id":"cmvaeejnl00apksv9b2bdu0gv","name":"Martisor Acril Vis de Primavara","slug":"martisor-acril-vis-de-primavara","parentId":"cmvaeejn600ajksv9yko78wyv","count":7},{"id":"cmvaeejog00b1ksv9s711kweq","name":"Martisor Bratara Curcubeu","slug":"martisor-bratara-curcubeu","parentId":"cmvaeejo000avksv9prdauqut","count":1},{"id":"cmvaeejpn00bhksv9ui5z4qaw","name":"Martisoare Traditionale","slug":"martisoare-traditionale","parentId":"cmvaeejp700bbksv9jz0w2o3x","count":17},{"id":"cmvaeejqi00brksv9yu9gkf4j","name":"Bratara Elastica","slug":"bratara-elastica","parentId":"cmvaeejpy00blksv9be38yiiy","count":3},{"id":"cmvaeejt900cmksv9t8r58woe","name":"Articole Auto","slug":"articole-auto","parentId":"cmvaeejsr00cgksv9zo84d57l","count":366},{"id":"cmvaeejtr00csksv9rodgwfo3","name":"Kit-uri Siguranţă Auto","slug":"kit-uri-siguranta-auto","parentId":"cmvaeejt900cmksv9t8r58woe","count":5},{"id":"cmvaeejvt00dgksv91josour4","name":"Genti Termoizolante Mancare","slug":"genti-termoizolante-mancare","parentId":"cmvaeejvb00daksv9n5uhn7wb","count":61},{"id":"cmvaeejwy00duksv984bspidh","name":"Clepsidre","slug":"clepsidre","parentId":"cmvaeejwh00doksv983aim23e","count":0},{"id":"cmvaeek0100ewksv9npb3fgeq","name":"Plase Umbrire, Umbrele si Prelate Gradina","slug":"plase-umbrire-umbrele-si-prelate-gradina","parentId":"cmvaeejzj00eqksv9acjo7vsv","count":17},{"id":"cmvaeek2800flksv9s1tbrbgo","name":"Beteala Craciun","slug":"beteala-craciun","parentId":"cmvaeek1t00ffksv9f709e6sv","count":57},{"id":"cmvaeek5m00gpksv9zgds5jd6","name":"Furtun / Tub / Rola","slug":"furtun-tub-rola","parentId":"cmvaeek5200gjksv9p5cu3tt1","count":204},{"id":"cmuvuntx10006hq5tbkm40mjn","name":"Casă & Decorațiuni","slug":"casa-decoratiuni","parentId":null,"count":0},{"id":"cmuvuntza000ihq5tr631aoff","name":"Coș de gunoi","slug":"cos-de-gunoi","parentId":"cmuvuntx10006hq5tbkm40mjn","count":3},{"id":"cmvaeeiu3000dksv95ue5a5jf","name":"Carnetele Razuibile","slug":"carnetele-razuibile","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":5},{"id":"cmvaeeiyj0022ksv9kc7rq4bj","name":"Baloane Folie","slug":"baloane-folie","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":0},{"id":"cmvaeeiz4002aksv94l53339c","name":"Baloane Nume Fete","slug":"baloane-nume-fete","parentId":"cmvaeeiyj0022ksv9kc7rq4bj","count":35},{"id":"cmvaeej2x003nksv98v8g1x82","name":"Deodorante si antiperspirante","slug":"deodorante-si-antiperspirante","parentId":"cmvaeej2b003fksv9ua041xym","count":660},{"id":"cmvaeej6o004wksv92p4tm21p","name":"Bratari cu snur","slug":"bratari-cu-snur","parentId":"cmvaeej61004oksv9h04p4up0","count":146},{"id":"cmvaeej8l005lksv9zss2myrq","name":"Kendama V1 Cupe Standard","slug":"kendama-v1-cupe-standard","parentId":"cmvaeej7z005dksv997qacgz5","count":0},{"id":"cmvaeej9t0060ksv9qks1oroj","name":"Adaptoare Telefoane Mobile","slug":"adaptoare-telefoane-mobile","parentId":"cmvaeej92005qksv99nn9fltu","count":9},{"id":"cmvaeejb9006iksv91xl0rvwk","name":"Type C","slug":"type-c","parentId":"cmvaeejam006aksv9iw3ko85z","count":2},{"id":"cmvaeejcb006wksv9w01ut8zi","name":"Folie Flexibila Hidrogel","slug":"folie-flexibila-hidrogel","parentId":"cmvaeejbp006oksv9crrp9rel","count":1},{"id":"cmvaeejfy0084ksv9drsxcs1k","name":"Diverse Imprimeuri","slug":"diverse-imprimeuri","parentId":"cmvaeejf9007wksv9roatnwwk","count":29},{"id":"cmvaeejmw00afksv9hzfn090u","name":"Snururi martisor","slug":"snururi-martisor","parentId":"cmvaeejm900a7ksv9bpceb6z3","count":7},{"id":"cmvaeejnq00arksv9ozl7dws8","name":"Martisor Brosa Medie","slug":"martisor-brosa-medie","parentId":"cmvaeejn600ajksv9yko78wyv","count":2},{"id":"cmvaeejo000avksv9prdauqut","name":"Martisoare Copii","slug":"martisoare-copii","parentId":"cmvaeejm300a5ksv9hgz74w8e","count":0},{"id":"cmvaeejol00b3ksv961ki2usi","name":"Martisor Bratara Multicolora","slug":"martisor-bratara-multicolora","parentId":"cmvaeejo000avksv9prdauqut","count":10},{"id":"cmvaeejpt00bjksv93kn1jdf2","name":"Martisor Motiv Floral","slug":"martisor-motiv-floral","parentId":"cmvaeejp700bbksv9jz0w2o3x","count":6},{"id":"cmvaeejqr00btksv93remhjqe","name":"Bratara Primavara","slug":"bratara-primavara","parentId":"cmvaeejpy00blksv9be38yiiy","count":18},{"id":"cmvaeejty00cuksv9t7pn5nf2","name":"Pistoale de Stropit","slug":"pistoale-de-stropit","parentId":"cmvaeejt900cmksv9t8r58woe","count":2},{"id":"cmvaeejug00d0ksv9q6pe7j4r","name":"Articole pentru Animale","slug":"articole-pentru-animale","parentId":"cmvaeejsr00cgksv9zo84d57l","count":84},{"id":"cmvaeejvz00diksv9d54r6jnf","name":"Organizatoare si Depozitare Bucatarie","slug":"organizatoare-si-depozitare-bucatarie","parentId":"cmvaeejvb00daksv9n5uhn7wb","count":227},{"id":"cmvaeejx400dwksv9qmlnrmxu","name":"Cutii depozitare","slug":"cutii-depozitare","parentId":"cmvaeejwh00doksv983aim23e","count":210},{"id":"cmvaeek2f00fnksv9w9co7en1","name":"Beteala LED","slug":"beteala-led","parentId":"cmvaeek1t00ffksv9f709e6sv","count":9},{"id":"cmvaeek5s00grksv9ssw32bxx","name":"Instalatii 220V","slug":"instalatii-220v","parentId":"cmvaeek5200gjksv9p5cu3tt1","count":67},{"id":"cmuvuntxc0007hq5txa6npbce","name":"Rucsacuri, Genți & Valize","slug":"genti-accesorii","parentId":null,"count":0},{"id":"cmuvuntzj000khq5t5aee8hci","name":"Brazi de Crăciun","slug":"brazi-de-craciun","parentId":"cmuvuntx10006hq5tbkm40mjn","count":10},{"id":"cmvaeeiu9000fksv9ydxeil21","name":"Carucioare Copii","slug":"carucioare-copii","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":2},{"id":"cmvaeeiza002cksv9pl5ozqff","name":"Baloane Tip Bratara","slug":"baloane-tip-bratara","parentId":"cmvaeeiyj0022ksv9kc7rq4bj","count":1},{"id":"cmvaeej08002oksv95s8v6e1o","name":"Baloane Latex","slug":"baloane-latex","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":42},{"id":"cmvaeej32003pksv9a1t7bce7","name":"Fitness si sport","slug":"fitness-si-sport","parentId":"cmvaeej2b003fksv9ua041xym","count":8},{"id":"cmvaeej6t004yksv9pnfihxts","name":"Brose","slug":"brose","parentId":"cmvaeej61004oksv9h04p4up0","count":29},{"id":"cmvaeej8r005nksv9sz01b4n8","name":"Kendama 52 cm Super Big","slug":"kendama-52-cm-super-big","parentId":"cmvaeej7z005dksv997qacgz5","count":0},{"id":"cmvaeej9z0062ksv91lposf09","name":"Alte Accesorii Telefoane","slug":"alte-accesorii-telefoane","parentId":"cmvaeej92005qksv99nn9fltu","count":54},{"id":"cmvaeejbe006kksv9y0qjfgdi","name":"Type-C - Type-C","slug":"type-c-type-c","parentId":"cmvaeejam006aksv9iw3ko85z","count":3},{"id":"cmvaeejci006yksv9ra95k5ut","name":"Folie Plastic","slug":"folie-plastic","parentId":"cmvaeejbp006oksv9crrp9rel","count":2},{"id":"cmvaeejg40086ksv94a3cfj91","name":"Flip Cover","slug":"flip-cover","parentId":"cmvaeejf9007wksv9roatnwwk","count":5},{"id":"cmvaeejnv00atksv9u8trb6o0","name":"Martisor Primavara","slug":"martisor-primavara","parentId":"cmvaeejn600ajksv9yko78wyv","count":8},{"id":"cmvaeejos00b5ksv9cpblrcn3","name":"Martisor Brosa Copii","slug":"martisor-brosa-copii","parentId":"cmvaeejo000avksv9prdauqut","count":2},{"id":"cmvaeejp200b9ksv9bt4i7x0g","name":"Martisoare Create cu Cristale Swarovski","slug":"martisoare-create-cu-cristale-swarovski","parentId":"cmvaeejm300a5ksv9hgz74w8e","count":0},{"id":"cmvaeejqz00bvksv9y594agss","name":"Bratari Diverse","slug":"bratari-diverse","parentId":"cmvaeejpy00blksv9be38yiiy","count":10},{"id":"cmvaeeju400cwksv9pfnje8v4","name":"Scutere si Tricicluri Electrice","slug":"scutere-si-tricicluri-electrice","parentId":"cmvaeejt900cmksv9t8r58woe","count":0},{"id":"cmvaeejuu00d4ksv9l3el0syb","name":"Articole pentru baie","slug":"articole-pentru-baie","parentId":"cmvaeejsr00cgksv9zo84d57l","count":415},{"id":"cmvaeejw600dkksv9suxsbe66","name":"Pahare, Sticle si Cani","slug":"pahare-sticle-si-cani","parentId":"cmvaeejvb00daksv9n5uhn7wb","count":32},{"id":"cmvaeejxb00dyksv9od3wptrs","name":"Cutii depozitare medicamente","slug":"cutii-depozitare-medicamente","parentId":"cmvaeejwh00doksv983aim23e","count":56},{"id":"cmvaeek2o00fpksv98glousel","name":"Brazi Craciun","slug":"brazi-craciun","parentId":"cmvaeek1t00ffksv9f709e6sv","count":50},{"id":"cmvaeek5x00gtksv9sggz04l8","name":"Instalatii cu baterii","slug":"instalatii-cu-baterii","parentId":"cmvaeek5200gjksv9p5cu3tt1","count":83},{"id":"cmuvuntxm0008hq5tiryfscb7","name":"Modă & Încălțăminte","slug":"moda-incaltaminte","parentId":null,"count":0},{"id":"cmuvuntzt000mhq5tsmn2ss06","name":"Oale","slug":"oale","parentId":"cmuvuntw80003hq5tkoy495vh","count":394},{"id":"cmvaeeiud000hksv9uboo5jaz","name":"Console","slug":"console","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":7},{"id":"cmvaeeizf002eksv9vqmfdxty","name":"Cifre","slug":"cifre","parentId":"cmvaeeiyj0022ksv9kc7rq4bj","count":6},{"id":"cmvaeej0e002qksv9m9kzix6z","name":"Baloane si Accesorii Absolvire","slug":"baloane-si-accesorii-absolvire","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":20},{"id":"cmvaeej37003rksv9mf5sdy6b","name":"Geluri de dus","slug":"geluri-de-dus","parentId":"cmvaeej2b003fksv9ua041xym","count":416},{"id":"cmvaeej6z0050ksv9fjhb04zy","name":"Cercei","slug":"cercei","parentId":"cmvaeej61004oksv9h04p4up0","count":48},{"id":"cmvaeej8x005pksv9tbut3aur","name":"Kendama Pill","slug":"kendama-pill","parentId":"cmvaeej7z005dksv997qacgz5","count":0},{"id":"cmvaeeja50064ksv9992swbbf","name":"Ambalaje","slug":"ambalaje","parentId":"cmvaeej92005qksv99nn9fltu","count":20},{"id":"cmvaeejcn0070ksv9y0gpfy64","name":"Folie Sticla OG","slug":"folie-sticla-og","parentId":"cmvaeejbp006oksv9crrp9rel","count":1},{"id":"cmvaeejga0088ksv95lmoxli1","name":"Flip Cover Oglinda","slug":"flip-cover-oglinda","parentId":"cmvaeejf9007wksv9roatnwwk","count":6},{"id":"cmvaeejox00b7ksv9o60emeze","name":"Martisor Insigna Copii","slug":"martisor-insigna-copii","parentId":"cmvaeejo000avksv9prdauqut","count":13},{"id":"cmvaeejp700bbksv9jz0w2o3x","name":"Martisoare Diverse","slug":"martisoare-diverse","parentId":"cmvaeejm300a5ksv9hgz74w8e","count":0},{"id":"cmvaeejr800bxksv9fl555xb3","name":"Martisor Bratara cu Ciucure","slug":"martisor-bratara-cu-ciucure","parentId":"cmvaeejpy00blksv9be38yiiy","count":21},{"id":"cmvaeeju900cyksv9exw70vke","name":"Seturi Scule Auto","slug":"seturi-scule-auto","parentId":"cmvaeejt900cmksv9t8r58woe","count":0},{"id":"cmvaeejvb00daksv9n5uhn7wb","name":"Articole pentru Bucatarie","slug":"articole-pentru-bucatarie","parentId":"cmvaeejsr00cgksv9zo84d57l","count":59},{"id":"cmvaeejwc00dmksv9x0fv1uft","name":"Ustensile pentru Bucătărie","slug":"ustensile-pentru-bucatarie","parentId":"cmvaeejvb00daksv9n5uhn7wb","count":347},{"id":"cmvaeejxh00e0ksv95ycdbaer","name":"Diverse Casa","slug":"diverse-casa","parentId":"cmvaeejwh00doksv983aim23e","count":140},{"id":"cmvaeek2u00frksv9ab126u2i","name":"Ciorapi Craciun","slug":"ciorapi-craciun","parentId":"cmvaeek1t00ffksv9f709e6sv","count":23},{"id":"cmvaeek6400gvksv9bmjz6cm7","name":"Instalatii Solare","slug":"instalatii-solare","parentId":"cmvaeek5200gjksv9p5cu3tt1","count":18},{"id":"cmuvuntxu0009hq5tnpvd9an4","name":"Frumusețe & Îngrijire","slug":"frumusete-ingrijire","parentId":null,"count":0},{"id":"cmuvunu01000ohq5tx8mh4e0i","name":"Mese de călcat și accesorii","slug":"mese-de-calcat-si-accesorii","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":4},{"id":"cmvaeeiui000jksv9933eup0t","name":"Covorase de joaca","slug":"covorase-de-joaca","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":8},{"id":"cmvaeeizk002gksv9ywrmfm9x","name":"Figurine si Baloane 3D","slug":"figurine-si-baloane-3d","parentId":"cmvaeeiyj0022ksv9kc7rq4bj","count":25},{"id":"cmvaeej0k002sksv9tzwgxr9u","name":"Baloane si Accesorii Halloween","slug":"baloane-si-accesorii-halloween","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":10},{"id":"cmvaeej3d003tksv95m06mkjg","name":"Genti Cosmetice si Organizare","slug":"genti-cosmetice-si-organizare","parentId":"cmvaeej2b003fksv9ua041xym","count":33},{"id":"cmvaeej740052ksv9fw6gaqa3","name":"Coliere","slug":"coliere","parentId":"cmvaeej61004oksv9h04p4up0","count":27},{"id":"cmvaeejaa0066ksv93dtmyk4o","name":"Articole si Accesorii Tutun","slug":"articole-si-accesorii-tutun","parentId":"cmvaeej92005qksv99nn9fltu","count":0},{"id":"cmvaeejcs0072ksv9mkcs3yjp","name":"Folie Sticla Securizata 10D","slug":"folie-sticla-securizata-10d","parentId":"cmvaeejbp006oksv9crrp9rel","count":1},{"id":"cmvaeejgf008aksv90qrvz26w","name":"Full Cover 360","slug":"full-cover-360","parentId":"cmvaeejf9007wksv9roatnwwk","count":13},{"id":"cmvaeejpy00blksv9be38yiiy","name":"Martisor Bratara","slug":"martisor-bratara","parentId":"cmvaeejm300a5ksv9hgz74w8e","count":0},{"id":"cmvaeejrd00bzksv94ajt11wo","name":"Martisor Bratara Impletita","slug":"martisor-bratara-impletita","parentId":"cmvaeejpy00blksv9be38yiiy","count":4},{"id":"cmvaeejwh00doksv983aim23e","name":"Articole pentru Casa si Curatenie","slug":"articole-pentru-casa-si-curatenie","parentId":"cmvaeejsr00cgksv9zo84d57l","count":1559},{"id":"cmvaeejxn00e2ksv9jwp3t6xw","name":"Electronice","slug":"electronice","parentId":"cmvaeejwh00doksv983aim23e","count":71},{"id":"cmvaeek3000ftksv9jqb7c2b0","name":"Coronita Craciun","slug":"coronita-craciun","parentId":"cmvaeek1t00ffksv9f709e6sv","count":16},{"id":"cmvaeek6b00gxksv9cfiyddgl","name":"Liniar / Sir","slug":"liniar-sir","parentId":"cmvaeek5200gjksv9p5cu3tt1","count":1091},{"id":"cmuvunty4000ahq5tfk041nwz","name":"Sport, Grădină & Camping","slug":"sport-outdoor","parentId":null,"count":0},{"id":"cmuvunu0b000qhq5t67to8hli","name":"Set shaker și cocktail","slug":"set-shaker-si-cocktail","parentId":"cmuvuntw80003hq5tkoy495vh","count":1},{"id":"cmvaeeiun000lksv9o9i6ek5j","name":"Fuste fete","slug":"fuste-fete","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":0},{"id":"cmvaeeizq002iksv9q0aozuyu","name":"Litere","slug":"litere","parentId":"cmvaeeiyj0022ksv9kc7rq4bj","count":2},{"id":"cmvaeej0o002uksv9mwg0d1hk","name":"Banda adeziva","slug":"banda-adeziva","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":7},{"id":"cmvaeej3j003vksv9u4nnpskf","name":"Igiena dentara","slug":"igiena-dentara","parentId":"cmvaeej2b003fksv9ua041xym","count":317},{"id":"cmvaeej7a0054ksv9joniyzy4","name":"Inele","slug":"inele","parentId":"cmvaeej61004oksv9h04p4up0","count":85},{"id":"cmvaeejam006aksv9iw3ko85z","name":"Cabluri de Date Telefoane","slug":"cabluri-de-date-telefoane","parentId":"cmvaeej92005qksv99nn9fltu","count":42},{"id":"cmvaeejcy0074ksv9wzqr9fst","name":"Folie Sticla Securizata 111D","slug":"folie-sticla-securizata-111d","parentId":"cmvaeejbp006oksv9crrp9rel","count":17},{"id":"cmvaeejgm008cksv9s0z54y7o","name":"Gama Design","slug":"gama-design","parentId":"cmvaeejf9007wksv9roatnwwk","count":9},{"id":"cmvaeejrh00c1ksv9vnukuu7o","name":"Martisor Bratara Sidef","slug":"martisor-bratara-sidef","parentId":"cmvaeejpy00blksv9be38yiiy","count":11},{"id":"cmvaeejs300c9ksv9bqij0aqe","name":"Martisor Placat Aur 24K","slug":"martisor-placat-aur-24k","parentId":"cmvaeejm300a5ksv9hgz74w8e","count":0},{"id":"cmvaeejxu00e4ksv95hdx55mo","name":"Incalzire si climatizare","slug":"incalzire-si-climatizare","parentId":"cmvaeejwh00doksv983aim23e","count":18},{"id":"cmvaeejzj00eqksv9acjo7vsv","name":"Articole pentru Gradina si Bricolaj","slug":"articole-pentru-gradina-si-bricolaj","parentId":"cmvaeejsr00cgksv9zo84d57l","count":55},{"id":"cmvaeek3500fvksv9c9azpi73","name":"Costume Craciun","slug":"costume-craciun","parentId":"cmvaeek1t00ffksv9f709e6sv","count":74},{"id":"cmvaeek6f00gzksv9vktxasj9","name":"Perdea","slug":"perdea","parentId":"cmvaeek5200gjksv9p5cu3tt1","count":455},{"id":"cmuvunu0k000shq5t667aef8k","name":"Farfurii decorative și boluri","slug":"farfurii-decorative-si-boluri","parentId":"cmuvuntw80003hq5tkoy495vh","count":1},{"id":"cmvaeeius000nksv9bvdswtz5","name":"Genti, Portofele, Penare","slug":"genti-portofele-penare","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":63},{"id":"cmvaeeizw002kksv9fxwsptip","name":"Seturi Baloane Folie","slug":"seturi-baloane-folie","parentId":"cmvaeeiyj0022ksv9kc7rq4bj","count":37},{"id":"cmvaeej0t002wksv9if009j2p","name":"Confetti","slug":"confetti","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":57},{"id":"cmvaeej3o003xksv9t24f6r3g","name":"Ingrijire par si Accesorii","slug":"ingrijire-par-si-accesorii","parentId":"cmvaeej2b003fksv9ua041xym","count":1054},{"id":"cmvaeej7f0056ksv9ew0vqn25","name":"Lantisoare","slug":"lantisoare","parentId":"cmvaeej61004oksv9h04p4up0","count":17},{"id":"cmvaeejbj006mksv9om9cfeof","name":"Casti Audio Telefoane","slug":"casti-audio-telefoane","parentId":"cmvaeej92005qksv99nn9fltu","count":2},{"id":"cmvaeejd30076ksv9nzd8phfy","name":"Folie Sticla Securizata 5D","slug":"folie-sticla-securizata-5d","parentId":"cmvaeejbp006oksv9crrp9rel","count":2},{"id":"cmvaeejgs008eksv9nzf8w4e0","name":"Gama MagSafe","slug":"gama-magsafe","parentId":"cmvaeejf9007wksv9roatnwwk","count":204},{"id":"cmvaeejrm00c3ksv9x3fo9sor","name":"Martisor Bratara snur Alb-Rosu","slug":"martisor-bratara-snur-alb-rosu","parentId":"cmvaeejpy00blksv9be38yiiy","count":21},{"id":"cmvaeejsk00cfksv9lemztuoz","name":"Seturi Martisoare","slug":"seturi-martisoare","parentId":"cmvaeejm300a5ksv9hgz74w8e","count":364},{"id":"cmvaeejxz00e6ksv9xtpqjr8c","name":"Lumanari","slug":"lumanari","parentId":"cmvaeejwh00doksv983aim23e","count":124},{"id":"cmvaeek0600eyksv9enq5lsm1","name":"Articole pentru Iluminat","slug":"articole-pentru-iluminat","parentId":"cmvaeejsr00cgksv9zo84d57l","count":1374},{"id":"cmvaeek3b00fxksv9b9zd4rcn","name":"Covorase Brad","slug":"covorase-brad","parentId":"cmvaeek1t00ffksv9f709e6sv","count":26},{"id":"cmvaeek6m00h1ksv9pvy5nlc3","name":"Plasa","slug":"plasa","parentId":"cmvaeek5200gjksv9p5cu3tt1","count":478},{"id":"cmuvunu0w000uhq5th17avl69","name":"Birouri","slug":"birouri","parentId":"cmuvuntx10006hq5tbkm40mjn","count":2},{"id":"cmvaeeiuw000pksv9emps2v3g","name":"Ghiozdane","slug":"ghiozdane","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":2},{"id":"cmvaeej02002mksv99ifu5x2u","name":"Tematica Fata/Baiat","slug":"tematica-fatabaiat","parentId":"cmvaeeiyj0022ksv9kc7rq4bj","count":30},{"id":"cmvaeej0y002yksv9behwkaf5","name":"Costume si Deghizare","slug":"costume-si-deghizare","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":45},{"id":"cmvaeej480043ksv9qt8eldfo","name":"Ingrijire ten si corp","slug":"ingrijire-ten-si-corp","parentId":"cmvaeej2b003fksv9ua041xym","count":427},{"id":"cmvaeej7k0058ksv9qukjdreo","name":"Pandantive Argint","slug":"pandantive-argint","parentId":"cmvaeej61004oksv9h04p4up0","count":218},{"id":"cmvaeejbp006oksv9crrp9rel","name":"Folii Protectie Telefoane","slug":"folii-protectie-telefoane","parentId":"cmvaeej92005qksv99nn9fltu","count":162},{"id":"cmvaeejd80078ksv9oxwkghk2","name":"Folie Sticla Securizata 6D","slug":"folie-sticla-securizata-6d","parentId":"cmvaeejbp006oksv9crrp9rel","count":1},{"id":"cmvaeejgz008gksv9jgpyrzpi","name":"Husa cu Pliere 3D","slug":"husa-cu-pliere-3d","parentId":"cmvaeejf9007wksv9roatnwwk","count":0},{"id":"cmvaeejrs00c5ksv9n8n0480j","name":"Martisor Bratara Traditionala","slug":"martisor-bratara-traditionala","parentId":"cmvaeejpy00blksv9be38yiiy","count":2},{"id":"cmvaeejy500e8ksv9snfllhyh","name":"Maturi, Perii, Mopuri si Galeti","slug":"maturi-perii-mopuri-si-galeti","parentId":"cmvaeejwh00doksv983aim23e","count":80},{"id":"cmvaeek0q00f4ksv9ap7663ks","name":"Echipamente pentru Transport şi Ridicat","slug":"echipamente-pentru-transport-i-ridicat","parentId":"cmvaeejsr00cgksv9zo84d57l","count":10},{"id":"cmvaeek3h00fzksv9wos9uds0","name":"Cutiute Muzicale","slug":"cutiute-muzicale","parentId":"cmvaeek1t00ffksv9f709e6sv","count":11},{"id":"cmvaeek6r00h3ksv96kowbkxq","name":"Turturi / Franjuri","slug":"turturi-franjuri","parentId":"cmvaeek5200gjksv9p5cu3tt1","count":1363},{"id":"cmvch3f400001114z35u2nj29","name":"Scule si Unelte","slug":"scule-si-unelte","parentId":"cmvaeejsr00cgksv9zo84d57l","count":104},{"id":"cmvch3f4n0003114zt1kdw2rv","name":"Motoare Electrice","slug":"motoare-electrice","parentId":"cmvch3f400001114z35u2nj29","count":9},{"id":"cmvch3f4y0005114zw5sje40o","name":"Casa si camping","slug":"casa-si-camping","parentId":"cmvaeejsr00cgksv9zo84d57l","count":4},{"id":"cmvch3f540007114zfh70q8ne","name":"Pirostrii","slug":"pirostrii","parentId":"cmvch3f4y0005114zw5sje40o","count":5},{"id":"cmvch3f5a0009114zk323ewa8","name":"Vehicule Electrice","slug":"vehicule-electrice","parentId":"cmvaeejsr00cgksv9zo84d57l","count":26},{"id":"cmuvunu17000whq5tolem05ns","name":"Echipamente industriale de bucătărie","slug":"echipamente-industriale-de-bucatarie","parentId":"cmuvuntw80003hq5tkoy495vh","count":1},{"id":"cmvaeeiv2000rksv94knr09o1","name":"Ingrijire Unghii","slug":"ingrijire-unghii","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":21},{"id":"cmvaeej140030ksv9ow39rl4y","name":"Fete Masa si Perdele Franjurate","slug":"fete-masa-si-perdele-franjurate","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":44},{"id":"cmvaeej4d0045ksv9vd6h8c6l","name":"Ingrijirea Unghiilor","slug":"ingrijirea-unghiilor","parentId":"cmvaeej2b003fksv9ua041xym","count":7},{"id":"cmvaeej7p005aksv9qjol6jmb","name":"Seturi","slug":"seturi","parentId":"cmvaeej61004oksv9h04p4up0","count":37},{"id":"cmvaeejde007aksv9izdezlv3","name":"Folie Sticla Securizata 9D","slug":"folie-sticla-securizata-9d","parentId":"cmvaeejbp006oksv9crrp9rel","count":1},{"id":"cmvaeejf9007wksv9roatnwwk","name":"Huse Telefoane","slug":"huse-telefoane","parentId":"cmvaeej92005qksv99nn9fltu","count":498},{"id":"cmvaeejh6008iksv9ddixg5s8","name":"Husa cu Suport","slug":"husa-cu-suport","parentId":"cmvaeejf9007wksv9roatnwwk","count":73},{"id":"cmvaeejrx00c7ksv9kcc5tvrv","name":"Martisor bratara zodiac","slug":"martisor-bratara-zodiac","parentId":"cmvaeejpy00blksv9be38yiiy","count":13},{"id":"cmvaeejya00eaksv92p26i64r","name":"Paturi electrice cu incalzire","slug":"paturi-electrice-cu-incalzire","parentId":"cmvaeejwh00doksv983aim23e","count":5},{"id":"cmvaeek0x00f6ksv9b74ti2iz","name":"Gratare si Accesorii BBQ","slug":"gratare-si-accesorii-bbq","parentId":"cmvaeejsr00cgksv9zo84d57l","count":25},{"id":"cmvaeek3o00g1ksv9rfxb6fhf","name":"Decoratiune Muzicala Craciun","slug":"decoratiune-muzicala-craciun","parentId":"cmvaeek1t00ffksv9f709e6sv","count":4},{"id":"cmuvunu1h000yhq5tek2b3vuv","name":"Găleată de gheață","slug":"galeata-de-gheata","parentId":"cmuvuntw80003hq5tkoy495vh","count":1},{"id":"cmvaeeiv7000tksv90hagdt8n","name":"Jocuri de societate","slug":"jocuri-de-societate","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":63},{"id":"cmvaeej190032ksv9yfyttlsm","name":"Lumanari si Toppere","slug":"lumanari-si-toppere","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":40},{"id":"cmvaeej4j0047ksv9wl5b8729","name":"Lenjerie Modelatoare","slug":"lenjerie-modelatoare","parentId":"cmvaeej2b003fksv9ua041xym","count":1},{"id":"cmvaeej7u005cksv9bsszncai","name":"Tacamuri","slug":"tacamuri","parentId":"cmvaeej61004oksv9h04p4up0","count":1},{"id":"cmvaeejdk007cksv999us76pj","name":"Folie Sticla Securizata Camera","slug":"folie-sticla-securizata-camera","parentId":"cmvaeejbp006oksv9crrp9rel","count":2},{"id":"cmvaeejhb008kksv9k4yok9r4","name":"Huse Waterproof","slug":"huse-waterproof","parentId":"cmvaeejf9007wksv9roatnwwk","count":45},{"id":"cmvaeejkh009mksv9zr9i4r11","name":"Incarcatoare Telefoane","slug":"incarcatoare-telefoane","parentId":"cmvaeej92005qksv99nn9fltu","count":49},{"id":"cmvaeejyh00ecksv9tk67q5pt","name":"Perne Voiaj, Paturi si Textile","slug":"perne-voiaj-paturi-si-textile","parentId":"cmvaeejwh00doksv983aim23e","count":118},{"id":"cmvaeek1300f8ksv96xvh1lx9","name":"Masti si costume carnaval","slug":"masti-si-costume-carnaval","parentId":"cmvaeejsr00cgksv9zo84d57l","count":8},{"id":"cmvaeek3t00g3ksv9j9ehsmdw","name":"Decoratiuni Brad","slug":"decoratiuni-brad","parentId":"cmvaeek1t00ffksv9f709e6sv","count":41},{"id":"cmuvunu1s0010hq5tzofhwku8","name":"Premergătoare","slug":"premergatoare","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":9},{"id":"cmvaeeivc000vksv9560wi5m0","name":"Jucarii Creative","slug":"jucarii-creative","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":27},{"id":"cmvaeej1e0034ksv9j0dvwaxp","name":"Petrecere Tematica","slug":"petrecere-tematica","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":61},{"id":"cmvaeej4p0049ksv9z5yd8rhl","name":"Lotiuni si creme de corp","slug":"lotiuni-si-creme-de-corp","parentId":"cmvaeej2b003fksv9ua041xym","count":255},{"id":"cmvaeejdq007eksv9m96zw50y","name":"Folie Sticla Securizata Easy Tool - instalare rapida","slug":"folie-sticla-securizata-easy-tool-instalare-rapida","parentId":"cmvaeejbp006oksv9crrp9rel","count":4},{"id":"cmvaeejhg008mksv9bz6msq76","name":"Hybrid Back Degrade","slug":"hybrid-back-degrade","parentId":"cmvaeejf9007wksv9roatnwwk","count":14},{"id":"cmvaeejkm009oksv9ayifu35a","name":"Power bank telefoane","slug":"power-bank-telefoane","parentId":"cmvaeej92005qksv99nn9fltu","count":5},{"id":"cmvaeejym00eeksv98qwm84vk","name":"Produse ingrijire incaltaminte","slug":"produse-ingrijire-incaltaminte","parentId":"cmvaeejwh00doksv983aim23e","count":81},{"id":"cmvaeek1900faksv90yv284tk","name":"Pelerine, Umbrele si Accesorii","slug":"pelerine-umbrele-si-accesorii","parentId":"cmvaeejsr00cgksv9zo84d57l","count":53},{"id":"cmvaeek3z00g5ksv9sywsa79o","name":"Decoratiuni Craciun","slug":"decoratiuni-craciun","parentId":"cmvaeek1t00ffksv9f709e6sv","count":142},{"id":"cmuvunu210012hq5tuvbyfw84","name":"Caserole pentru mâncare","slug":"caserole-pentru-mancare","parentId":"cmuvuntw80003hq5tkoy495vh","count":15},{"id":"cmvaeeivh000xksv93upbnlpb","name":"Jucarii de Plus Brainrot","slug":"jucarii-de-plus-brainrot","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":26},{"id":"cmvaeej1k0036ksv9gzymp43w","name":"Pinata","slug":"pinata","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":3},{"id":"cmvaeej4v004bksv9oa8cuop1","name":"Masti faciale","slug":"masti-faciale","parentId":"cmvaeej2b003fksv9ua041xym","count":127},{"id":"cmvaeejdw007gksv9h3q5n9mb","name":"Folie Sticla Securizata ESD - antistatica","slug":"folie-sticla-securizata-esd-antistatica","parentId":"cmvaeejbp006oksv9crrp9rel","count":7},{"id":"cmvaeejhl008oksv9iwg2eryh","name":"IPAKY","slug":"ipaky","parentId":"cmvaeejf9007wksv9roatnwwk","count":26},{"id":"cmvaeejkt009qksv9lyymmjpv","name":"Selfie Stick-uri","slug":"selfie-stick-uri","parentId":"cmvaeej92005qksv99nn9fltu","count":2},{"id":"cmvaeejys00egksv9q3jpzslc","name":"Radiatoare si Seminee electrice","slug":"radiatoare-si-seminee-electrice","parentId":"cmvaeejwh00doksv983aim23e","count":16},{"id":"cmvaeek1f00fcksv9glsfexr0","name":"Sanii","slug":"sanii","parentId":"cmvaeejsr00cgksv9zo84d57l","count":2},{"id":"cmvaeek4400g7ksv9fj5v7tuf","name":"Decoratiuni Luminoase","slug":"decoratiuni-luminoase","parentId":"cmvaeek1t00ffksv9f709e6sv","count":70},{"id":"cmuvunu2a0014hq5tq0670gim","name":"Leagăne și balansoare bebeluși","slug":"leagane-si-balansoare-bebelusi","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":1},{"id":"cmvaeeivm000zksv9lrmzks7s","name":"Jucarii din lemn","slug":"jucarii-din-lemn","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":43},{"id":"cmvaeej1p0038ksv98i4ji24y","name":"Pompe Baloane","slug":"pompe-baloane","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":13},{"id":"cmvaeej52004dksv99nntmtoc","name":"Masti pentru ten si gomaje","slug":"masti-pentru-ten-si-gomaje","parentId":"cmvaeej2b003fksv9ua041xym","count":9},{"id":"cmvaeeje2007iksv9cxngotnr","name":"Folie Sticla Securizata Full Glue","slug":"folie-sticla-securizata-full-glue","parentId":"cmvaeejbp006oksv9crrp9rel","count":15},{"id":"cmvaeejhs008qksv95tls504x","name":"Liquid Silicone","slug":"liquid-silicone","parentId":"cmvaeejf9007wksv9roatnwwk","count":520},{"id":"cmvaeejkz009sksv9ckdhpiu8","name":"Suport si Docking Telefoane","slug":"suport-si-docking-telefoane","parentId":"cmvaeej92005qksv99nn9fltu","count":0},{"id":"cmvaeejyx00eiksv9yxrhv1xz","name":"Steaguri","slug":"steaguri","parentId":"cmvaeejwh00doksv983aim23e","count":13},{"id":"cmvaeek4900g9ksv983qk0mvs","name":"Figurine Decorative Craciun","slug":"figurine-decorative-craciun","parentId":"cmvaeek1t00ffksv9f709e6sv","count":52},{"id":"cmuvunu2j0016hq5tpl8zyaka","name":"Tirbușoane","slug":"tirbusoane","parentId":"cmuvuntw80003hq5tkoy495vh","count":1},{"id":"cmvaeeivq0011ksv9o4v3b9bz","name":"Jucarii educative","slug":"jucarii-educative","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":110},{"id":"cmvaeej1u003aksv9jlaso71j","name":"Seturi si Arcade Baloane","slug":"seturi-si-arcade-baloane","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":3},{"id":"cmvaeej56004fksv944isoaoa","name":"Palete Farduri si Truse Make-Up","slug":"palete-farduri-si-truse-make-up","parentId":"cmvaeej2b003fksv9ua041xym","count":144},{"id":"cmvaeeje8007kksv9s0wkkisk","name":"Folie Sticla Securizata Luminous","slug":"folie-sticla-securizata-luminous","parentId":"cmvaeejbp006oksv9crrp9rel","count":1},{"id":"cmvaeejhy008sksv95ff1ai4y","name":"Magnetic 360","slug":"magnetic-360","parentId":"cmvaeejf9007wksv9roatnwwk","count":12},{"id":"cmvaeejlo00a0ksv93z92rkwt","name":"Wearables &amp; Gadgeturi","slug":"wearables-amp-gadgeturi","parentId":"cmvaeej92005qksv99nn9fltu","count":1},{"id":"cmvaeejz200ekksv9b12xu9mu","name":"Tapet 3D Autoadeziv","slug":"tapet-3d-autoadeziv","parentId":"cmvaeejwh00doksv983aim23e","count":79},{"id":"cmvaeek1n00feksv9cvfvh63b","name":"Videoproiectoare","slug":"videoproiectoare","parentId":"cmvaeejsr00cgksv9zo84d57l","count":5},{"id":"cmvaeek4e00gbksv9ole3xtfw","name":"Fundite Brad","slug":"fundite-brad","parentId":"cmvaeek1t00ffksv9f709e6sv","count":22},{"id":"cmuvunu2t0018hq5tjve470sv","name":"Biciclete cu trei roți pentru copii","slug":"biciclete-cu-trei-roti-pentru-copii","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":5},{"id":"cmvaeeivv0013ksv9ayxryxgf","name":"Jucarii interactive","slug":"jucarii-interactive","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":229},{"id":"cmvaeej20003cksv902ri9bux","name":"Tematica Nunta","slug":"tematica-nunta","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":58},{"id":"cmvaeej5c004hksv9xrr4g9qp","name":"Parfumuri si seturi","slug":"parfumuri-si-seturi","parentId":"cmvaeej2b003fksv9ua041xym","count":463},{"id":"cmvaeejed007mksv9kkcv4coz","name":"Folie Sticla Securizata Oglinda","slug":"folie-sticla-securizata-oglinda","parentId":"cmvaeejbp006oksv9crrp9rel","count":1},{"id":"cmvaeeji5008uksv97swfq1ec","name":"MG Defender Series","slug":"mg-defender-series","parentId":"cmvaeejf9007wksv9roatnwwk","count":7},{"id":"cmvaeejz800emksv94rspidha","name":"Umidificatoare","slug":"umidificatoare","parentId":"cmvaeejwh00doksv983aim23e","count":18},{"id":"cmvaeek4j00gdksv9ttkmexxv","name":"Ghirlanda Decorativa","slug":"ghirlanda-decorativa","parentId":"cmvaeek1t00ffksv9f709e6sv","count":8},{"id":"cmuvunu35001ahq5t2cnk4mpm","name":"Caserole pentru prânz","slug":"caserole-pentru-pranz","parentId":"cmuvuntw80003hq5tkoy495vh","count":3},{"id":"cmvaeeiw10015ksv9asrqekb2","name":"Jucarii Senzoriale, Fidget Toys","slug":"jucarii-senzoriale-fidget-toys","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":189},{"id":"cmvaeej25003eksv95kisj6l4","name":"Vopsea fata si corp","slug":"vopsea-fata-si-corp","parentId":"cmvaeeixx001uksv9l1p5c0dl","count":7},{"id":"cmvaeej5i004jksv91p7ni6dz","name":"Produse demachiere si curatare","slug":"produse-demachiere-si-curatare","parentId":"cmvaeej2b003fksv9ua041xym","count":43},{"id":"cmvaeejek007oksv91s83mwkx","name":"Folie Sticla Securizata Privacy","slug":"folie-sticla-securizata-privacy","parentId":"cmvaeejbp006oksv9crrp9rel","count":10},{"id":"cmvaeejid008wksv9y9yl4t5u","name":"Motomo","slug":"motomo","parentId":"cmvaeejf9007wksv9roatnwwk","count":56},{"id":"cmvaeejzd00eoksv9s7fqjxvp","name":"Uscatoare si Standere Haine","slug":"uscatoare-si-standere-haine","parentId":"cmvaeejwh00doksv983aim23e","count":38},{"id":"cmvaeek4q00gfksv9e2xi0yaj","name":"Globuri Brad","slug":"globuri-brad","parentId":"cmvaeek1t00ffksv9f709e6sv","count":17},{"id":"cmuvunu3d001chq5tbobh6i7s","name":"Aspirator vertical","slug":"aspirator-vertical","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":2},{"id":"cmvaeeiw50017ksv9lnrqwy02","name":"Jucarii si Jocuri","slug":"jucarii-si-jocuri","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":410},{"id":"cmvaeej5p004lksv9eet0ihb2","name":"Suporturi ortopedice si orteze","slug":"suporturi-ortopedice-si-orteze","parentId":"cmvaeej2b003fksv9ua041xym","count":23},{"id":"cmvaeejeq007qksv9yxvhvzhx","name":"Folie Sticla Temperata 2.5 D","slug":"folie-sticla-temperata-25-d","parentId":"cmvaeejbp006oksv9crrp9rel","count":3},{"id":"cmvaeejij008yksv9lzoaumv3","name":"Nillkin","slug":"nillkin","parentId":"cmvaeejf9007wksv9roatnwwk","count":21},{"id":"cmvaeek4w00ghksv9i98wk06z","name":"Iluminat Festiv","slug":"iluminat-festiv","parentId":"cmvaeek1t00ffksv9f709e6sv","count":15},{"id":"cmuvunu3m001ehq5ta9dtaqwe","name":"Leagăne pentru copii","slug":"leagane-pentru-copii","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":1},{"id":"cmvaeeiwb0019ksv9kvkfji4d","name":"Jucarii Squishy si Gonggi","slug":"jucarii-squishy-si-gonggi","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":103},{"id":"cmvaeej5w004nksv9907mdlzn","name":"Sutiene","slug":"sutiene","parentId":"cmvaeej2b003fksv9ua041xym","count":0},{"id":"cmvaeejew007sksv9a48qq1n3","name":"Folie Sticla Temperata 3D","slug":"folie-sticla-temperata-3d","parentId":"cmvaeejbp006oksv9crrp9rel","count":2},{"id":"cmvaeejio0090ksv94mdnonup","name":"Ring Silicone Case","slug":"ring-silicone-case","parentId":"cmvaeejf9007wksv9roatnwwk","count":174},{"id":"cmvaeek5200gjksv9p5cu3tt1","name":"Instalatii de Craciun","slug":"instalatii-de-craciun","parentId":"cmvaeek1t00ffksv9f709e6sv","count":0},{"id":"cmvch4gb00004109521au9xlw","name":"Gradina","slug":"gradina","parentId":"cmvaeejsr00cgksv9zo84d57l","count":13},{"id":"cmvch4gb400061095u5ohpgt3","name":"Furtunuri","slug":"furtunuri","parentId":"cmvch4gb00004109521au9xlw","count":122},{"id":"cmvch4gt4000810959pxukgyy","name":"Constructii","slug":"constructii","parentId":"cmvaeejsr00cgksv9zo84d57l","count":6},{"id":"cmvch4gt9000a1095fd5c4rh0","name":"Accesorii constructii","slug":"accesorii-constructii","parentId":"cmvch4gt4000810959pxukgyy","count":131},{"id":"cmvch4gtp000c1095ce0yswpn","name":"Vehicule si Accesorii","slug":"vehicule-si-accesorii","parentId":"cmvaeejsr00cgksv9zo84d57l","count":19},{"id":"cmvch4gvn000e1095mw1iejzo","name":"Drujbe","slug":"drujbe","parentId":"cmvch4gb00004109521au9xlw","count":56},{"id":"cmvch4gvt000g1095vh94gc5l","name":"Lame & lanturi","slug":"lame-lanturi","parentId":"cmvch4gvn000e1095mw1iejzo","count":36},{"id":"cmvch4h4i000i1095mfltuwzo","name":"Amestecatoare Vopsea si Mortar","slug":"amestecatoare-vopsea-si-mortar","parentId":"cmvch4gt4000810959pxukgyy","count":8},{"id":"cmvch4h6b000k1095v16zqgbm","name":"Motocultoare","slug":"motocultoare","parentId":"cmvch4gb00004109521au9xlw","count":16},{"id":"cmvch4h6f000m1095j9jjpdah","name":"Accesorii Motocultoare","slug":"accesorii-motocultoare","parentId":"cmvch4h6b000k1095v16zqgbm","count":23},{"id":"cmvch4hb3000o109552l5tudt","name":"Saboti","slug":"saboti","parentId":"cmvch4gb00004109521au9xlw","count":0},{"id":"cmvch4hha000q1095495u197z","name":"Unelte de Sapat","slug":"unelte-de-sapat","parentId":"cmvch4gb00004109521au9xlw","count":5},{"id":"cmvch4hin000s1095o9jg48w0","name":"Lopeti si Cazmale","slug":"lopeti-si-cazmale","parentId":"cmvch4gb00004109521au9xlw","count":4},{"id":"cmvch4hix000u10953wdfj2hd","name":"Croitorie","slug":"croitorie","parentId":"cmvch3f4y0005114zw5sje40o","count":4},{"id":"cmvch4hka000w10958h7h4cbj","name":"Incarcatoare si Acumulatori","slug":"incarcatoare-si-acumulatori","parentId":"cmvch3f400001114z35u2nj29","count":18},{"id":"cmvch4hlg000y1095hgca85q7","name":"Mini tractoare","slug":"mini-tractoare","parentId":"cmvch4gb00004109521au9xlw","count":3},{"id":"cmvch4hqg001010954xt32ha1","name":"Araci","slug":"araci","parentId":"cmvch4gb00004109521au9xlw","count":44},{"id":"cmvch4i9r00121095or8rnrc7","name":"Sfori de Gradina","slug":"sfori-de-gradina","parentId":"cmvch4gb00004109521au9xlw","count":30},{"id":"cmvch4iap00141095cndkm8nv","name":"Sere si Prelate","slug":"sere-si-prelate","parentId":"cmvch4gb00004109521au9xlw","count":20},{"id":"cmvch4iew00161095xmvev4mn","name":"Aragaze Camping Portabile","slug":"aragaze-camping-portabile","parentId":"cmvch3f4y0005114zw5sje40o","count":12},{"id":"cmvch4ixl00181095oosnmixl","name":"Roabe","slug":"roabe","parentId":"cmvch4gt4000810959pxukgyy","count":17},{"id":"cmvch4j4q001a1095etwmknte","name":"Drujbe cu acumulator","slug":"drujbe-cu-acumulator","parentId":"cmvch4gvn000e1095mw1iejzo","count":8},{"id":"cmvch4j5q001c1095kiebvrc3","name":"Motocoase","slug":"motocoase","parentId":"cmvch4gb00004109521au9xlw","count":168},{"id":"cmvch4j8r001e1095bqhub0ir","name":"Pompe","slug":"pompe","parentId":"cmvch4gb00004109521au9xlw","count":6},{"id":"cmvch4j8u001g1095rbc93l95","name":"Accesorii pentru pompe","slug":"accesorii-pentru-pompe","parentId":"cmvch4j8r001e1095bqhub0ir","count":5},{"id":"cmvch4jaj001i10958qppt3pu","name":"Masini de Tuns Iarba","slug":"masini-de-tuns-iarba","parentId":"cmvch4gb00004109521au9xlw","count":8},{"id":"cmvch4jb7001k10954gblicio","name":"Zdrobitoare si Teascuri","slug":"zdrobitoare-si-teascuri","parentId":"cmvch4gb00004109521au9xlw","count":7},{"id":"cmvch4jeg001m1095epkw523a","name":"Foarfeci gradina","slug":"foarfeci-gradina","parentId":"cmvch4gb00004109521au9xlw","count":18},{"id":"cmvch4jhi001o1095s78d1zsw","name":"Generatoare","slug":"generatoare","parentId":"cmvch3f400001114z35u2nj29","count":9},{"id":"cmvch4jqd001q1095mar8mq47","name":"Suflante","slug":"suflante","parentId":"cmvch4gb00004109521au9xlw","count":4},{"id":"cmvch4jr1001s1095o4h17cq9","name":"Zootehnie","slug":"zootehnie","parentId":"cmvaeejsr00cgksv9zo84d57l","count":14},{"id":"cmvch4jr4001u1095shwcgwkp","name":"Mori","slug":"mori","parentId":"cmvch4jr1001s1095o4h17cq9","count":23},{"id":"cmvch4jtk001w10954nx84867","name":"Incalzire, Climatizare, Instalatii","slug":"incalzire-climatizare-instalatii","parentId":"cmvaeejsr00cgksv9zo84d57l","count":0},{"id":"cmvch4jtn001y10953fqyqwcn","name":"Incalzire pe Lemne","slug":"incalzire-pe-lemne","parentId":"cmvch4jtk001w10954nx84867","count":18},{"id":"cmvch4jvy002010957qe0iuyn","name":"Despicatoare si Tocatoare Crengi","slug":"despicatoare-si-tocatoare-crengi","parentId":"cmvch4gb00004109521au9xlw","count":17},{"id":"cmvch4k2b002210951bwvayo7","name":"Betoniere si Vibratoare Beton","slug":"betoniere-si-vibratoare-beton","parentId":"cmvch4gt4000810959pxukgyy","count":11},{"id":"cmvch4k2z00241095ruqqzufg","name":"Slefuitoare si Masini de Tencuit","slug":"slefuitoare-si-masini-de-tencuit","parentId":"cmvch4gt4000810959pxukgyy","count":14},{"id":"cmvch4k3f00261095ukrj72ek","name":"Aparate Sudura","slug":"aparate-sudura","parentId":"cmvch3f400001114z35u2nj29","count":49},{"id":"cmvch4k9d00281095205irm9v","name":"Rulete","slug":"rulete","parentId":"cmvch3f400001114z35u2nj29","count":5},{"id":"cmvch4kfp002a10959ope7v5z","name":"Masini Taiat Placi Ceramice si Parchet","slug":"masini-taiat-placi-ceramice-si-parchet","parentId":"cmvch4gt4000810959pxukgyy","count":8},{"id":"cmvch4ku0002c1095cpkmg94i","name":"Drujbe Electrice","slug":"drujbe-electrice","parentId":"cmvch3f400001114z35u2nj29","count":1},{"id":"cmvch4kuy002e1095g7szlxt3","name":"Fierastraie Circulare si Pendulare Electrice","slug":"fierastraie-circulare-si-pendulare-electrice","parentId":"cmvch3f400001114z35u2nj29","count":18},{"id":"cmvch4l6a002g1095bifhrovm","name":"Masini de Tuns Iarba si Trimmere Electrice","slug":"masini-de-tuns-iarba-si-trimmere-electrice","parentId":"cmvch3f400001114z35u2nj29","count":3},{"id":"cmvch4ldo002i1095rymwynbm","name":"Ciocane Rotopercutoare","slug":"ciocane-rotopercutoare","parentId":"cmvch3f400001114z35u2nj29","count":4},{"id":"cmvch4leq002k10959eufw8ia","name":"Electrice Auto","slug":"electrice-auto","parentId":"cmvch4gtp000c1095ce0yswpn","count":18},{"id":"cmvch4ljv002m1095xxpmxu4p","name":"Greble si Furci","slug":"greble-si-furci","parentId":"cmvch4gb00004109521au9xlw","count":10},{"id":"cmvch4lnp002o1095977p346n","name":"Coase si Seceri","slug":"coase-si-seceri","parentId":"cmvch4gb00004109521au9xlw","count":3},{"id":"cmvch4luc002q1095z1e46r94","name":"Sanitare Bucatarie","slug":"sanitare-bucatarie","parentId":"cmvch3f4y0005114zw5sje40o","count":13},{"id":"cmvch4lx8002s1095smgi40n0","name":"Clesti si Patenti","slug":"clesti-si-patenti","parentId":"cmvch3f400001114z35u2nj29","count":19},{"id":"cmvch4lyu002u1095r2xfyr71","name":"Sanitare Baie","slug":"sanitare-baie","parentId":"cmvch3f4y0005114zw5sje40o","count":2},{"id":"cmvch4m3b002w1095rm1hp9w6","name":"Racorduri si Furtunuri Gaz","slug":"racorduri-si-furtunuri-gaz","parentId":"cmvch4jtk001w10954nx84867","count":1},{"id":"cmvch4m7d002y1095zmapme7i","name":"Roti Auto","slug":"roti-auto","parentId":"cmvch4gtp000c1095ce0yswpn","count":9},{"id":"cmvch4mnz00301095shofio9t","name":"Unelte pentru Plantare","slug":"unelte-pentru-plantare","parentId":"cmvch4gb00004109521au9xlw","count":7},{"id":"cmvch4mvh00321095121wd6w2","name":"Unelte pentru altoit","slug":"unelte-pentru-altoit","parentId":"cmvch4gb00004109521au9xlw","count":4},{"id":"cmvch4mvu0034109552s98qs0","name":"Echipamente Bucatarie","slug":"echipamente-bucatarie","parentId":"cmvch3f4y0005114zw5sje40o","count":25},{"id":"cmvch4n0s003610953i0v3hqk","name":"Hidrofoare","slug":"hidrofoare","parentId":"cmvch4gb00004109521au9xlw","count":23},{"id":"cmvch4n5200381095w9tda58f","name":"Motopompe","slug":"motopompe","parentId":"cmvch4gb00004109521au9xlw","count":14},{"id":"cmvch4nj0003a109504i2wtxr","name":"Aparate pentru stropit","slug":"aparate-pentru-stropit","parentId":"cmvch4gb00004109521au9xlw","count":31},{"id":"cmvch4nj2003c10955oq42t2k","name":"Piese & accesorii","slug":"piese-accesorii","parentId":"cmvch4nj0003a109504i2wtxr","count":28},{"id":"cmvch4nnj003e1095j03uvr1z","name":"Batoze","slug":"batoze","parentId":"cmvch4jr1001s1095o4h17cq9","count":1},{"id":"cmvch4o0c003g1095ft7xz670","name":"Remorcare si Tractare Auto","slug":"remorcare-si-tractare-auto","parentId":"cmvch4gtp000c1095ce0yswpn","count":2},{"id":"cmvch4onw003i1095f8uxnecm","name":"Alte Produse Pasari si Animale","slug":"alte-produse-pasari-si-animale","parentId":"cmvch4jr1001s1095o4h17cq9","count":4},{"id":"cmvch4oo7003k109588ohwvcs","name":"Alte accesorii","slug":"alte-accesorii","parentId":"cmvch3f400001114z35u2nj29","count":4},{"id":"cmvch4org003m10959r89oa5u","name":"Adezivi si Izolanti","slug":"adezivi-si-izolanti","parentId":"cmvch4gt4000810959pxukgyy","count":3},{"id":"cmvch4oth003o1095tnk3h2p5","name":"Unelte pentru Vie","slug":"unelte-pentru-vie","parentId":"cmvch4gb00004109521au9xlw","count":12},{"id":"cmvch4rlt003q1095pb5uegpy","name":"Feronerie Usi si Ferestre","slug":"feronerie-usi-si-ferestre","parentId":"cmvch4gt4000810959pxukgyy","count":6},{"id":"cmvch4rw0003s1095fj68vi4p","name":"Pompe de suprafata","slug":"pompe-de-suprafata","parentId":"cmvch4j8r001e1095bqhub0ir","count":11},{"id":"cmvch4rza003u1095wnfpymal","name":"Pompe submersibile","slug":"pompe-submersibile","parentId":"cmvch4j8r001e1095bqhub0ir","count":21},{"id":"cmvch4sjb003w10953vturt09","name":"Plase Gradina","slug":"plase-gradina","parentId":"cmvch4gb00004109521au9xlw","count":35},{"id":"cmvch4sou003y1095mx2m7n3j","name":"Uleiuri","slug":"uleiuri","parentId":"cmvch4gb00004109521au9xlw","count":10},{"id":"cmvch4td300401095y576gqrn","name":"Tocatoare Furaje","slug":"tocatoare-furaje","parentId":"cmvch4jr1001s1095o4h17cq9","count":4},{"id":"cmvch4tna00421095d6344zq7","name":"Cantare","slug":"cantare","parentId":"cmvch3f400001114z35u2nj29","count":3},{"id":"cmvch4tod00441095rou4a1do","name":"Deplumatoare","slug":"deplumatoare","parentId":"cmvch4jr1001s1095o4h17cq9","count":3},{"id":"cmvch4u1b00461095gea1anyx","name":"Incubatoare","slug":"incubatoare","parentId":"cmvch4jr1001s1095o4h17cq9","count":5},{"id":"cmvch4ubk00481095qz6qt4bm","name":"Organizare","slug":"organizare","parentId":"cmvch3f4y0005114zw5sje40o","count":10},{"id":"cmvch4uik004c10958x14v5km","name":"Casti protectie","slug":"casti-protectie","parentId":"cmvch3f400001114z35u2nj29","count":2},{"id":"cmvch4v7p004e1095mfhhetnl","name":"Granulatoare de Furaje","slug":"granulatoare-de-furaje","parentId":"cmvch4jr1001s1095o4h17cq9","count":7},{"id":"cmvch4wgf004g10954146haqg","name":"Accesorii Biciclete","slug":"accesorii-biciclete","parentId":"cmvch4gtp000c1095ce0yswpn","count":33},{"id":"cmvch4x4f004i10954q2xo7jc","name":"Polizoare Unghiulare si de Banc","slug":"polizoare-unghiulare-si-de-banc","parentId":"cmvch3f400001114z35u2nj29","count":36},{"id":"cmvch4yyd004k1095guvcxzg9","name":"Aparate Curatat","slug":"aparate-curatat","parentId":"cmvch3f4y0005114zw5sje40o","count":12},{"id":"cmvch4zwz004m1095flrvxtx2","name":"Masini Gaurit si Insurubat","slug":"masini-gaurit-si-insurubat","parentId":"cmvch3f400001114z35u2nj29","count":16},{"id":"cmvch507b004o1095cv73qan8","name":"Scari","slug":"scari","parentId":"cmvch4gt4000810959pxukgyy","count":6},{"id":"cmvch50ht004q1095ff7vknz1","name":"Pistoale de Vopsit","slug":"pistoale-de-vopsit","parentId":"cmvch3f400001114z35u2nj29","count":4},{"id":"cmvch50iw004s1095yxl33w4j","name":"Masini Batut Stalpi","slug":"masini-batut-stalpi","parentId":"cmvch4gb00004109521au9xlw","count":2},{"id":"cmvch50p5004u10951utuzume","name":"Motoburghie","slug":"motoburghie","parentId":"cmvch4gb00004109521au9xlw","count":12},{"id":"cmvch50q7004w1095k1u0wb8m","name":"Demolatoare","slug":"demolatoare","parentId":"cmvch4gt4000810959pxukgyy","count":1},{"id":"cmvch50rc004y1095heyxi2ss","name":"Accesorii Gaz","slug":"accesorii-gaz","parentId":"cmvch4jtk001w10954nx84867","count":4},{"id":"cmvch50va00501095sfp35hry","name":"Fierastraie Circulare si Drujbe cu Acumulator","slug":"fierastraie-circulare-si-drujbe-cu-acumulator","parentId":"cmvch3f400001114z35u2nj29","count":3},{"id":"cmvch51y400521095yvti4r03","name":"Scule Prelucrare Lemn","slug":"scule-prelucrare-lemn","parentId":"cmvch3f400001114z35u2nj29","count":4},{"id":"cmvch539n00541095tld57k7q","name":"Aeroterme si Convectori","slug":"aeroterme-si-convectori","parentId":"cmvch4jtk001w10954nx84867","count":10},{"id":"cmvch53tn005610951l2aqcry","name":"Masini de Tuns Iarba si Trimmere cu Acumulatori","slug":"masini-de-tuns-iarba-si-trimmere-cu-acumulatori","parentId":"cmvch3f400001114z35u2nj29","count":2},{"id":"cmvch53vh0058109546shbwix","name":"Pompe de piscina","slug":"pompe-de-piscina","parentId":"cmvch4j8r001e1095bqhub0ir","count":1},{"id":"cmvch54hq005a1095uh74p8m1","name":"Plite Electrice","slug":"plite-electrice","parentId":"cmvch3f4y0005114zw5sje40o","count":2},{"id":"cmvch54nx005c1095yvfc08zb","name":"Masini Gaurit si Insurubat cu Acumulator","slug":"masini-gaurit-si-insurubat-cu-acumulator","parentId":"cmvch3f400001114z35u2nj29","count":7},{"id":"cmvch54p4005e1095each5gd3","name":"Fierastraie Pendulare cu Acumulatori","slug":"fierastraie-pendulare-cu-acumulatori","parentId":"cmvch3f400001114z35u2nj29","count":4},{"id":"cmvch54yj005g1095vl7re3cj","name":"Alte Scule cu Acumulatori","slug":"alte-scule-cu-acumulatori","parentId":"cmvch3f400001114z35u2nj29","count":1},{"id":"cmvch54z8005i1095ye97g3wn","name":"Iluminat Exterior","slug":"iluminat-exterior","parentId":"cmvch4gt4000810959pxukgyy","count":1},{"id":"cmvch553k005k10953tghcgdc","name":"Polizoare Unghiulare cu Acumulatori","slug":"polizoare-unghiulare-cu-acumulatori","parentId":"cmvch3f400001114z35u2nj29","count":1},{"id":"cmvch5573005m1095uddczaip","name":"Cutii si Genti pentru Scule","slug":"cutii-si-genti-pentru-scule","parentId":"cmvch3f400001114z35u2nj29","count":2},{"id":"cmvch5728005o10950a3saevp","name":"Motoare Termice","slug":"motoare-termice","parentId":"cmvch3f400001114z35u2nj29","count":1},{"id":"cmvch5cb2005q1095nfebljx0","name":"Adapatori","slug":"adapatori","parentId":"cmvch4jr1001s1095o4h17cq9","count":6},{"id":"cmvch5cuk005s1095ut4a219k","name":"Truse PPR","slug":"truse-ppr","parentId":"cmvch3f400001114z35u2nj29","count":1},{"id":"cmvch5de7005u1095h26s3c23","name":"Cotete si Tarcuri","slug":"cotete-si-tarcuri","parentId":"cmvch4jr1001s1095o4h17cq9","count":4},{"id":"cmvch5dfj005w10950rgs6aa3","name":"Produse pentru Caini","slug":"produse-pentru-caini","parentId":"cmvch4jr1001s1095o4h17cq9","count":4},{"id":"cmvch5fib005y10951hw4kd8f","name":"Masini de sapat santuri","slug":"masini-de-sapat-santuri","parentId":"cmvch4gb00004109521au9xlw","count":3},{"id":"cmvch5fm100601095r3smvnnp","name":"Alte Scule Electrice","slug":"alte-scule-electrice","parentId":"cmvch3f400001114z35u2nj29","count":1},{"id":"cmvch5gpf00621095osy25ss3","name":"Topoare","slug":"topoare","parentId":"cmvch4gb00004109521au9xlw","count":6},{"id":"cmvch5gqn00641095ogn5tspe","name":"Ciocane","slug":"ciocane","parentId":"cmvch3f400001114z35u2nj29","count":3},{"id":"cmvch5n5r00661095jwdxs7z6","name":"Masini de umplut carnati","slug":"masini-de-umplut-carnati","parentId":"cmvch4mvu0034109552s98qs0","count":1},{"id":"cmuvunu3x001ghq5tapo0zg6g","name":"Ceainic","slug":"ceainic","parentId":"cmuvuntw80003hq5tkoy495vh","count":6},{"id":"cmvaeeitd0003ksv9jmqb2t6j","name":"Articole pentru copii","slug":"articole-pentru-copii","parentId":null,"count":0},{"id":"cmvaeeiwg001bksv9zuuw5stn","name":"Markere si Set Desen","slug":"markere-si-set-desen","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":47},{"id":"cmvaeejf2007uksv9eqopuwdk","name":"Folie Sticla Temperata 4D","slug":"folie-sticla-temperata-4d","parentId":"cmvaeejbp006oksv9crrp9rel","count":0},{"id":"cmvaeejis0092ksv93tdqrqft","name":"Silicone Full Cover 360°","slug":"silicone-full-cover-360","parentId":"cmvaeejf9007wksv9roatnwwk","count":39},{"id":"cmvaeek6w00h5ksv9h7s5dkgb","name":"Ornamente Brad","slug":"ornamente-brad","parentId":"cmvaeek1t00ffksv9f709e6sv","count":190},{"id":"cmuvunu49001ihq5tz527gis5","name":"Tigăi","slug":"tigai","parentId":"cmuvuntw80003hq5tkoy495vh","count":59},{"id":"cmvaeeiwm001dksv9ss9ji5i6","name":"Masinute, Triciclete si Masinute Electrice","slug":"masinute-triciclete-si-masinute-electrice","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":109},{"id":"cmvaeeixx001uksv9l1p5c0dl","name":"Articole Petrecere","slug":"articole-petrecere","parentId":null,"count":0},{"id":"cmvaeejix0094ksv9tv3rmciz","name":"TPU - Suport Card","slug":"tpu-suport-card","parentId":"cmvaeejf9007wksv9roatnwwk","count":96},{"id":"cmvaeek7100h7ksv9rmrcswlt","name":"Panglica Decorativa","slug":"panglica-decorativa","parentId":"cmvaeek1t00ffksv9f709e6sv","count":7},{"id":"cmuvunu4j001khq5toqgkk4tz","name":"Boluri","slug":"boluri","parentId":"cmuvuntw80003hq5tkoy495vh","count":11},{"id":"cmvaeeiwq001fksv9r77393he","name":"Maternitate","slug":"maternitate","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":3},{"id":"cmvaeej2b003fksv9ua041xym","name":"Ingrijire Personala si Cosmetice","slug":"ingrijire-personala-si-cosmetice","parentId":null,"count":0},{"id":"cmvaeejj30096ksv915butylq","name":"TPU 360° Full Cover","slug":"tpu-360-full-cover","parentId":"cmvaeejf9007wksv9roatnwwk","count":56},{"id":"cmvaeek7700h9ksv9fwo2jj22","name":"Panglica LED","slug":"panglica-led","parentId":"cmvaeek1t00ffksv9f709e6sv","count":15},{"id":"cmuvunu4u001mhq5tyuw6crbs","name":"Biciclete pentru copii","slug":"biciclete-pentru-copii","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":24},{"id":"cmvaeeiww001hksv9kdpt8pz9","name":"Mitraliere cu Bile Hidrogen","slug":"mitraliere-cu-bile-hidrogen","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":20},{"id":"cmvaeej61004oksv9h04p4up0","name":"Bijuterii Argint","slug":"bijuterii-argint","parentId":null,"count":0},{"id":"cmvaeejj80098ksv9r2i1o66i","name":"TPU 360° Full Cover - PC + Silicon","slug":"tpu-360-full-cover-pc-silicon","parentId":"cmvaeejf9007wksv9roatnwwk","count":13},{"id":"cmvaeek7b00hbksv9n5gy7e26","name":"Suport Decorativ Lumanare","slug":"suport-decorativ-lumanare","parentId":"cmvaeek1t00ffksv9f709e6sv","count":6},{"id":"cmuvunu54001ohq5tumgtrt9u","name":"Mașini de tocat carne","slug":"masini-de-tocat-carne","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":10},{"id":"cmvaeeix1001jksv97mnhct6l","name":"Needoh si Dumpling","slug":"needoh-si-dumpling","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":69},{"id":"cmvaeej7z005dksv997qacgz5","name":"Kendama si Spinnere","slug":"kendama-si-spinnere","parentId":null,"count":0},{"id":"cmvaeejjf009aksv970z15ky5","name":"TPU 360° Max Defence Full Cover","slug":"tpu-360-max-defence-full-cover","parentId":"cmvaeejf9007wksv9roatnwwk","count":45},{"id":"cmvaeek7g00hdksv9xkwyjat9","name":"Varfuri Decorative","slug":"varfuri-decorative","parentId":"cmvaeek1t00ffksv9f709e6sv","count":9},{"id":"cmuvunu5f001qhq5tlzft4ods","name":"Carafe","slug":"carafe","parentId":"cmuvuntw80003hq5tkoy495vh","count":1},{"id":"cmvaeej92005qksv99nn9fltu","name":"GSM si Gadgets","slug":"gsm-si-gadgets","parentId":null,"count":0},{"id":"cmvaeejjl009cksv9evlddo71","name":"TPU Antisoc","slug":"tpu-antisoc","parentId":"cmvaeejf9007wksv9roatnwwk","count":221},{"id":"cmuvunu5p001shq5tk5fhzf0w","name":"Scurgător de vase","slug":"scurgator-de-vase","parentId":"cmuvuntw80003hq5tkoy495vh","count":4},{"id":"cmvaeeix6001lksv9haz97tm4","name":"Saci sporturi de lupta","slug":"saci-sporturi-de-lupta","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":3},{"id":"cmvaeejjr009eksv9f9sz82z1","name":"TPU Matte","slug":"tpu-matte","parentId":"cmvaeejf9007wksv9roatnwwk","count":347},{"id":"cmvaeejm300a5ksv9hgz74w8e","name":"Martisoare","slug":"martisoare","parentId":null,"count":0},{"id":"cmuvunu5z001uhq5tgpmq3553","name":"Jucării de exterior","slug":"jucarii-de-exterior","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":42},{"id":"cmvaeeixc001nksv9mma4ljs9","name":"Scaune de masa bebe","slug":"scaune-de-masa-bebe","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":57},{"id":"cmvaeejjw009gksv9gmn4qw8w","name":"TPU Ombre","slug":"tpu-ombre","parentId":"cmvaeejf9007wksv9roatnwwk","count":55},{"id":"cmvaeejsr00cgksv9zo84d57l","name":"Casa si Bricolaj","slug":"casa-si-bricolaj","parentId":null,"count":0},{"id":"cmuvunu69001whq5tgdxtpz5s","name":"Șampon","slug":"sampon","parentId":"cmuvuntxu0009hq5tnpvd9an4","count":4},{"id":"cmvaeeixh001pksv90z6k3bjj","name":"Seturi de Constructie","slug":"seturi-de-constructie","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":55},{"id":"cmvaeejk5009iksv9ti84iop4","name":"TPU Phantom","slug":"tpu-phantom","parentId":"cmvaeejf9007wksv9roatnwwk","count":13},{"id":"cmvaeek1t00ffksv9f709e6sv","name":"Craciun","slug":"craciun","parentId":null,"count":0},{"id":"cmuvunu6h001yhq5tguwnhl2e","name":"Sticlă","slug":"sticla","parentId":"cmuvuntw80003hq5tkoy495vh","count":1},{"id":"cmvaeeixm001rksv9o4yvsxpb","name":"Termometre copii","slug":"termometre-copii","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":2},{"id":"cmvaeejka009kksv9ynfe19rb","name":"TPU Protect Plus ","slug":"tpu-protect-plus","parentId":"cmvaeejf9007wksv9roatnwwk","count":131},{"id":"cmvaeek7l00heksv9vfr22ten","name":"Solare","slug":"solare","parentId":null,"count":0},{"id":"cmuvunu6s0020hq5tzchpm7gi","name":"Rucsacuri","slug":"rucsacuri","parentId":"cmuvuntxc0007hq5txa6npbce","count":21},{"id":"cmvaeeixs001tksv9jz667sbw","name":"Trambuline","slug":"trambuline","parentId":"cmvaeeitd0003ksv9jmqb2t6j","count":1},{"id":"cmuvunu720022hq5t3z7juxg7","name":"Piese de schimb și accesorii pentru vesele pentru gătit","slug":"piese-de-schimb-si-accesorii-pentru-vesele-pentru-gatit","parentId":"cmuvuntw80003hq5tkoy495vh","count":8},{"id":"cmuvunu7d0024hq5tlzk7k7jp","name":"Seturi de tacâmuri","slug":"seturi-de-tacamuri","parentId":"cmuvuntw80003hq5tkoy495vh","count":21},{"id":"cmuvunu7m0026hq5tbck8wen8","name":"Umbrele și copertine","slug":"umbrele-si-copertine","parentId":"cmuvuntx10006hq5tbkm40mjn","count":1},{"id":"cmuvunu7w0028hq5tm0jed94n","name":"Grătare","slug":"gratare","parentId":"cmuvunty4000ahq5tfk041nwz","count":7},{"id":"cmuvunu85002ahq5tj8oj9w9y","name":"Birou","slug":"birou","parentId":"cmuvuntx10006hq5tbkm40mjn","count":2},{"id":"cmuvunu8h002chq5th5gev8nm","name":"Ustensile de gătit","slug":"ustensile-de-gatit","parentId":"cmuvuntw80003hq5tkoy495vh","count":40},{"id":"cmuvunu8s002ehq5tf945t8kk","name":"Vopsele de păr","slug":"vopsele-de-par","parentId":"cmuvuntxu0009hq5tnpvd9an4","count":1},{"id":"cmuvunu92002ghq5t6hcainlz","name":"Tocătoare","slug":"tocatoare","parentId":"cmuvuntw80003hq5tkoy495vh","count":63},{"id":"cmuvunu9d002ihq5tp34kn5pm","name":"Comode","slug":"comode","parentId":"cmuvuntx10006hq5tbkm40mjn","count":1},{"id":"cmuvunu9m002khq5tz0gvxehn","name":"Borcan","slug":"borcan","parentId":"cmuvuntw80003hq5tkoy495vh","count":1},{"id":"cmuvunu9w002mhq5ti57ditco","name":"Ventilator","slug":"ventilator","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":52},{"id":"cmuvunua5002ohq5twc5kr9vy","name":"Pantofi de baschet","slug":"pantofi-de-baschet","parentId":"cmuvuntxm0008hq5tiryfscb7","count":0},{"id":"cmuvunuah002qhq5tsg2jhry3","name":"Râșnițe de cafea și condimente","slug":"rasnite-de-cafea-si-condimente","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":2},{"id":"cmuvunuas002shq5tvbjtd6p3","name":"Accesorii pentru grătar","slug":"accesorii-pentru-gratar","parentId":"cmuvunty4000ahq5tfk041nwz","count":2},{"id":"cmuvunub2002uhq5tvfpfidw7","name":"Botoși","slug":"botosi","parentId":"cmuvuntxm0008hq5tiryfscb7","count":1},{"id":"cmuvunubc002whq5tlx2y5999","name":"Cântare și balanțe","slug":"cantare-si-balante","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":1},{"id":"cmuvunubn002yhq5tvo8f4veu","name":"Sneakers","slug":"sneakers","parentId":"cmuvuntxm0008hq5tiryfscb7","count":1},{"id":"cmuvunubv0030hq5tfxs2b9i4","name":"Cuiere","slug":"cuiere","parentId":"cmuvuntx10006hq5tbkm40mjn","count":2},{"id":"cmuvunuc60032hq5ttuv3cmki","name":"Jachete sport","slug":"jachete-sport","parentId":"cmuvuntxm0008hq5tiryfscb7","count":0},{"id":"cmuvunucg0034hq5txx1hsvzy","name":"Jucării balansoare","slug":"jucarii-balansoare","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":6},{"id":"cmuvunucq0036hq5tv4oxchog","name":"Kit de tricotat","slug":"kit-de-tricotat","parentId":"cmuvuntx10006hq5tbkm40mjn","count":1},{"id":"cmuvunud00038hq5tnh4gsw39","name":"Cuțit și set de cuțite","slug":"cutit-si-set-de-cutite","parentId":"cmuvuntw80003hq5tkoy495vh","count":21},{"id":"cmuvunudb003ahq5tudivl6d4","name":"Borcane pentru condimente","slug":"borcane-pentru-condimente","parentId":"cmuvuntw80003hq5tkoy495vh","count":2},{"id":"cmuvunudl003chq5tsxmqv8xh","name":"Storcător de fructe și legume","slug":"storcator-de-fructe-si-legume","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":7},{"id":"cmuvunudu003ehq5t8u6cm3w2","name":"Pedale pentru bicicletă","slug":"pedale-pentru-bicicleta","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":1},{"id":"cmuvunue3003ghq5tr2bwp68w","name":"Baloane","slug":"baloane","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":0},{"id":"cmuvunuef003ihq5th79ggrky","name":"Vehicul alimentat cu baterie","slug":"vehicul-alimentat-cu-baterie","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":7},{"id":"cmuvunueq003khq5tpaw75z3z","name":"Blazere sport","slug":"blazere-sport","parentId":"cmuvuntxm0008hq5tiryfscb7","count":1},{"id":"cmuvunuf2003mhq5tepi7p829","name":"Cești de cafea","slug":"cesti-de-cafea","parentId":"cmuvuntw80003hq5tkoy495vh","count":1},{"id":"cmuvunufd003ohq5ti6u4yyvd","name":"Placă","slug":"placa","parentId":"cmuvuntw80003hq5tkoy495vh","count":3},{"id":"cmuvunufn003qhq5th9prtnge","name":"Candelabre","slug":"candelabre","parentId":"cmuvuntx10006hq5tbkm40mjn","count":2},{"id":"cmuvunufx003shq5tpo9je60j","name":"Motociclete cu telecomandă","slug":"motociclete-cu-telecomanda","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":2},{"id":"cmuvunug9003uhq5t7lqsbai9","name":"Jucărie cu telecomandă","slug":"jucarie-cu-telecomanda","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":1},{"id":"cmuvunugj003whq5t446lskr0","name":"Cărucior","slug":"carucior","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":3},{"id":"cmuvunugu003yhq5tznd1mcm6","name":"Fierbător de apă și ceainic","slug":"fierbator-de-apa-si-ceainic","parentId":"cmuvuntw80003hq5tkoy495vh","count":2},{"id":"cmuvunuh60040hq5ty2n47faq","name":"Scaun de hrănire","slug":"scaun-de-hranire","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":1},{"id":"cmuvunuhh0042hq5tgh1rqkfr","name":"Seruri și uleiuri pentru păr","slug":"seruri-si-uleiuri-pentru-par","parentId":"cmuvuntxu0009hq5tnpvd9an4","count":0},{"id":"cmuvunuhs0044hq5tgtxgjrj2","name":"Mop","slug":"mop","parentId":"cmuvuntx10006hq5tbkm40mjn","count":2},{"id":"cmuvunui30046hq5tjalqmd6q","name":"Roți de mobilier","slug":"roti-de-mobilier","parentId":"cmuvuntx10006hq5tbkm40mjn","count":1},{"id":"cmuvunuid0048hq5tq2gurxf6","name":"Halate de baie","slug":"halate-de-baie","parentId":"cmuvuntx10006hq5tbkm40mjn","count":1},{"id":"cmuvunuin004ahq5tpi6smars","name":"Aparat de gătit cu aburi","slug":"aparat-de-gatit-cu-aburi","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":1},{"id":"cmuvunuiy004chq5tk23xai8f","name":"Figurine animale","slug":"figurine-animale","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":1},{"id":"cmuvunuj8004ehq5trc0g9x7r","name":"Pantofi de alergare și de antrenament","slug":"pantofi-de-alergare-si-de-antrenament","parentId":"cmuvuntxm0008hq5tiryfscb7","count":0},{"id":"cmuvunujj004ghq5t5iao6ftr","name":"Veste sport","slug":"veste-sport","parentId":"cmuvuntxm0008hq5tiryfscb7","count":0},{"id":"cmuvunujs004ihq5t174iy36a","name":"Genți de mână","slug":"genti-de-mana","parentId":"cmuvuntxc0007hq5txa6npbce","count":29},{"id":"cmuvunuk3004khq5th8pe8sm2","name":"Huse de pilotă pentru pat dublu","slug":"huse-de-pilota-pentru-pat-dublu","parentId":"cmuvuntx10006hq5tbkm40mjn","count":5},{"id":"cmuvunukc004mhq5tbmd3q076","name":"Deschizătoare de sticle","slug":"deschizatoare-de-sticle","parentId":"cmuvuntw80003hq5tkoy495vh","count":1},{"id":"cmuvunukn004ohq5t7x1jif6x","name":"Termos","slug":"termos","parentId":"cmuvuntw80003hq5tkoy495vh","count":7},{"id":"cmuvunuky004qhq5tzchnnpd7","name":"Geci de ploaie și de vânt","slug":"geci-de-ploaie-si-de-vant","parentId":"cmuvuntxm0008hq5tiryfscb7","count":0},{"id":"cmuvunul9004shq5t9567xnox","name":"Furouri și jupe","slug":"furouri-si-jupe","parentId":"cmuvuntxm0008hq5tiryfscb7","count":1},{"id":"cmuvunulk004uhq5t96gsx6fj","name":"Jucărie din lemn","slug":"jucarie-din-lemn","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":3},{"id":"cmuvunulu004whq5t1q4f8zjw","name":"Jachete de iarnă","slug":"jachete-de-iarna","parentId":"cmuvuntxm0008hq5tiryfscb7","count":0},{"id":"cmuvunum6004yhq5thh701gy0","name":"Tocătoare și mărunțitoare","slug":"tocatoare-si-maruntitoare","parentId":"cmuvuntw80003hq5tkoy495vh","count":2},{"id":"cmuvunumh0050hq5tap5j5p8n","name":"Fermoar","slug":"fermoar","parentId":"cmuvuntx10006hq5tbkm40mjn","count":1},{"id":"cmuvunumq0052hq5t9w732fkx","name":"Scaune de birou","slug":"scaune-de-birou","parentId":"cmuvuntx10006hq5tbkm40mjn","count":3},{"id":"cmuvunun20054hq5tjan5vlva","name":"Mașinuțe de jucărie","slug":"masinute-de-jucarie","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":12},{"id":"cmuvunund0056hq5tsfequepb","name":"Scaune de bicicletă pentru copii","slug":"scaune-de-bicicleta-pentru-copii","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":1},{"id":"cmuvununw0058hq5taqeymw00","name":"Genți de transport pentru câini","slug":"genti-de-transport-pentru-caini","parentId":"cmuvuntx10006hq5tbkm40mjn","count":1},{"id":"cmuvunuo7005ahq5t74p6elr3","name":"Articole sportive","slug":"articole-sportive","parentId":"cmuvunty4000ahq5tfk041nwz","count":17},{"id":"cmuvunuoj005chq5to869ya1z","name":"Decorațiuni de Crăciun","slug":"decoratiuni-de-craciun","parentId":"cmuvuntx10006hq5tbkm40mjn","count":3},{"id":"cmuvunuot005ehq5tjgd3s9hw","name":"Vehicul cu telecomandă","slug":"vehicul-cu-telecomanda","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":1},{"id":"cmuvunup3005ghq5t00sp2i7i","name":"Paltoane sport","slug":"paltoane-sport","parentId":"cmuvuntxm0008hq5tiryfscb7","count":0},{"id":"cmuvunupd005ihq5tf2f12gs1","name":"Multicooker","slug":"multicooker","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":1},{"id":"cmuvunupo005khq5twry46c4k","name":"Lăzi frigorifice, frigidere și congelatoare portabile","slug":"lazi-frigorifice-frigidere-si-congelatoare-portabile","parentId":"cmuvunty4000ahq5tfk041nwz","count":15},{"id":"cmuvunuq1005mhq5tkk0lvhn6","name":"Încălțăminte outdoor","slug":"incaltaminte-outdoor","parentId":"cmuvuntxm0008hq5tiryfscb7","count":0},{"id":"cmuvunuqe005ohq5tuosc8plh","name":"Aparat de călcat vertical","slug":"aparat-de-calcat-vertical","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":19},{"id":"cmuvunuqt005qhq5tr1enu9dk","name":"Portofele","slug":"portofele","parentId":"cmuvuntxc0007hq5txa6npbce","count":9},{"id":"cmuvunur3005shq5tg550uu98","name":"Oglinzi baie","slug":"oglinzi-baie","parentId":"cmuvuntx10006hq5tbkm40mjn","count":1},{"id":"cmuvunurf005uhq5tpqc7fnos","name":"Organizator de baie","slug":"organizator-de-baie","parentId":"cmuvuntx10006hq5tbkm40mjn","count":1},{"id":"cmuvunuro005whq5tj8juvb5v","name":"Genți tip poștaș","slug":"genti-tip-postas","parentId":"cmuvuntxc0007hq5txa6npbce","count":2},{"id":"cmuvunus0005yhq5t4z9bslg3","name":"Mixer și set de mixere","slug":"mixer-si-set-de-mixere","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":3},{"id":"cmuvunusb0060hq5tx8jhinum","name":"Aparate de cafea cu filtru","slug":"aparate-de-cafea-cu-filtru","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":1},{"id":"cmuvunusn0062hq5tcqxvi0u5","name":"Măsuțe","slug":"masute","parentId":"cmuvuntx10006hq5tbkm40mjn","count":1},{"id":"cmuvunusy0064hq5tc2rgapti","name":"Piese de schimb pentru blendere","slug":"piese-de-schimb-pentru-blendere","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":1},{"id":"cmuvunut90066hq5t5l89y9ba","name":"Îngrijire personală","slug":"ingrijire-personala","parentId":"cmuvuntxu0009hq5tnpvd9an4","count":71},{"id":"cmuvunutl0068hq5turgzk3n7","name":"Șepci sportive","slug":"sepci-sportive","parentId":"cmuvuntxm0008hq5tiryfscb7","count":1},{"id":"cmuvunutw006ahq5te9ulichf","name":"Cămăși casual","slug":"camasi-casual","parentId":"cmuvuntxm0008hq5tiryfscb7","count":2},{"id":"cmuvunuu8006chq5ts1cnxyhk","name":"Jucării de plajă","slug":"jucarii-de-plaja","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":9},{"id":"cmuvunuuj006ehq5tx6fs05uc","name":"Set de hrănire bebeluși","slug":"set-de-hranire-bebelusi","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":1},{"id":"cmuvunuuw006ghq5tqca05dbo","name":"Genți de voiaj","slug":"genti-de-voiaj","parentId":"cmuvuntxc0007hq5txa6npbce","count":3},{"id":"cmuvunuv8006ihq5tn8nhgtcc","name":"Fier de călcat cu aburi","slug":"fier-de-calcat-cu-aburi","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":1},{"id":"cmuvunuvk006khq5tx8amzpfz","name":"Șosete","slug":"sosete","parentId":"cmuvuntxm0008hq5tiryfscb7","count":0},{"id":"cmuvunuvw006mhq5tblpu8svz","name":"Trotinete pentru copii","slug":"trotinete-pentru-copii","parentId":"cmuvuntws0005hq5t8e3gnbcp","count":3},{"id":"cmuvunuw8006ohq5t6sjrri3d","name":"Prăjitor de pâine","slug":"prajitor-de-paine","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":22},{"id":"cmuvunuwl006qhq5t3naunpry","name":"Grătar electric","slug":"gratar-electric","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":2},{"id":"cmuvunuxn006shq5ta4p0tkq7","name":"Cămăși","slug":"camasi","parentId":"cmuvuntxm0008hq5tiryfscb7","count":2},{"id":"cmuvunuy0006uhq5tcgk1bbor","name":"Blender de blender de blat","slug":"blender-de-blender-de-blat","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":1},{"id":"cmuvunuyd006whq5tf7k6fqer","name":"Blender și set de blender","slug":"blender-si-set-de-blender","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":1},{"id":"cmuvunuyq006yhq5tk83hiy28","name":"Iluminat inteligent","slug":"iluminat-inteligent","parentId":"cmuvuntx10006hq5tbkm40mjn","count":1},{"id":"cmuvunuz30070hq5tnjf27fbd","name":"Genți de umăr","slug":"genti-de-umar","parentId":"cmuvuntxc0007hq5txa6npbce","count":1},{"id":"cmuvunuzg0072hq5td1xce9lf","name":"Oale sub presiune","slug":"oale-sub-presiune","parentId":"cmuvuntw80003hq5tkoy495vh","count":1},{"id":"cmuvunuzu0074hq5t9yc3ni49","name":"Cântar de bucătărie","slug":"cantar-de-bucatarie","parentId":"cmuvuntwi0004hq5t7jqkgr3c","count":1},{"id":"cmuvunv070076hq5tjxq4vjsg","name":"Uscător de păr","slug":"uscator-de-par","parentId":"cmuvuntxu0009hq5tnpvd9an4","count":11}]
+[
+  {
+    "id": "cmuul4ds30006qmgwaz9umwhb",
+    "name": "Femei",
+    "slug": "femei",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmuul4ds90008qmgww8cy6bmu",
+    "name": "Rochii",
+    "slug": "rochii-femei",
+    "parentId": "cmuul4ds30006qmgwaz9umwhb",
+    "count": 10
+  },
+  {
+    "id": "cmuul4dsf000aqmgwaepreb7s",
+    "name": "Pantofi",
+    "slug": "pantofi-femei",
+    "parentId": "cmuul4ds30006qmgwaz9umwhb",
+    "count": 0
+  },
+  {
+    "id": "cmuul4dsn000bqmgwiseabfrv",
+    "name": "Bărbați",
+    "slug": "barbati",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmuul4dss000dqmgwu9hgf8zw",
+    "name": "Cămăși",
+    "slug": "camasi-barbati",
+    "parentId": "cmuul4dsn000bqmgwiseabfrv",
+    "count": 0
+  },
+  {
+    "id": "cmuul4dt0000fqmgw9jip2ffn",
+    "name": "Pantaloni",
+    "slug": "pantaloni-barbati",
+    "parentId": "cmuul4dsn000bqmgwiseabfrv",
+    "count": 0
+  },
+  {
+    "id": "cmuul4dt7000gqmgwqfkmdyc6",
+    "name": "Reduceri",
+    "slug": "reduceri",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmuvuntw80003hq5tkoy495vh",
+    "name": "Bucătărie & Menaj",
+    "slug": "bucatarie-menaj",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmuvuntwi0004hq5t7jqkgr3c",
+    "name": "Electrocasnice",
+    "slug": "electrocasnice",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmuvuntws0005hq5t8e3gnbcp",
+    "name": "Jucării, Copii & Bebe",
+    "slug": "copii-jucarii",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmuvuntx10006hq5tbkm40mjn",
+    "name": "Casă & Decorațiuni",
+    "slug": "casa-decoratiuni",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmuvuntxc0007hq5txa6npbce",
+    "name": "Rucsacuri, Genți & Valize",
+    "slug": "genti-accesorii",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmuvuntxm0008hq5tiryfscb7",
+    "name": "Modă & Încălțăminte",
+    "slug": "moda-incaltaminte",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmuvuntxu0009hq5tnpvd9an4",
+    "name": "Frumusețe & Îngrijire",
+    "slug": "frumusete-ingrijire",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmuvunty4000ahq5tfk041nwz",
+    "name": "Sport, Grădină & Camping",
+    "slug": "sport-outdoor",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmuvuntye000chq5tkhrekvjm",
+    "name": "Calorifere tip panou",
+    "slug": "calorifere-tip-panou",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 53
+  },
+  {
+    "id": "cmuvuntyo000ehq5tq29h4434",
+    "name": "Seturi veselă",
+    "slug": "seturi-vesela",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 15
+  },
+  {
+    "id": "cmuvuntyz000ghq5touqx6ayg",
+    "name": "Materiale pentru gătit și servire",
+    "slug": "materiale-pentru-gatit-si-servire",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 22
+  },
+  {
+    "id": "cmuvuntza000ihq5tr631aoff",
+    "name": "Coș de gunoi",
+    "slug": "cos-de-gunoi",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 3
+  },
+  {
+    "id": "cmuvuntzj000khq5t5aee8hci",
+    "name": "Brazi de Crăciun",
+    "slug": "brazi-de-craciun",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 10
+  },
+  {
+    "id": "cmuvuntzt000mhq5tsmn2ss06",
+    "name": "Oale",
+    "slug": "oale",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 163
+  },
+  {
+    "id": "cmuvunu01000ohq5tx8mh4e0i",
+    "name": "Mese de călcat și accesorii",
+    "slug": "mese-de-calcat-si-accesorii",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 4
+  },
+  {
+    "id": "cmuvunu0b000qhq5t67to8hli",
+    "name": "Set shaker și cocktail",
+    "slug": "set-shaker-si-cocktail",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu0k000shq5t667aef8k",
+    "name": "Farfurii decorative și boluri",
+    "slug": "farfurii-decorative-si-boluri",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu0w000uhq5th17avl69",
+    "name": "Birouri",
+    "slug": "birouri",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 2
+  },
+  {
+    "id": "cmuvunu17000whq5tolem05ns",
+    "name": "Echipamente industriale de bucătărie",
+    "slug": "echipamente-industriale-de-bucatarie",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu1h000yhq5tek2b3vuv",
+    "name": "Găleată de gheață",
+    "slug": "galeata-de-gheata",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu1s0010hq5tzofhwku8",
+    "name": "Premergătoare",
+    "slug": "premergatoare",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 9
+  },
+  {
+    "id": "cmuvunu210012hq5tuvbyfw84",
+    "name": "Caserole pentru mâncare",
+    "slug": "caserole-pentru-mancare",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 14
+  },
+  {
+    "id": "cmuvunu2a0014hq5tq0670gim",
+    "name": "Leagăne și balansoare bebeluși",
+    "slug": "leagane-si-balansoare-bebelusi",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu2j0016hq5tpl8zyaka",
+    "name": "Tirbușoane",
+    "slug": "tirbusoane",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu2t0018hq5tjve470sv",
+    "name": "Biciclete cu trei roți pentru copii",
+    "slug": "biciclete-cu-trei-roti-pentru-copii",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 5
+  },
+  {
+    "id": "cmuvunu35001ahq5t2cnk4mpm",
+    "name": "Caserole pentru prânz",
+    "slug": "caserole-pentru-pranz",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 3
+  },
+  {
+    "id": "cmuvunu3d001chq5tbobh6i7s",
+    "name": "Aspirator vertical",
+    "slug": "aspirator-vertical",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 0
+  },
+  {
+    "id": "cmuvunu3m001ehq5ta9dtaqwe",
+    "name": "Leagăne pentru copii",
+    "slug": "leagane-pentru-copii",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu3x001ghq5tapo0zg6g",
+    "name": "Ceainic",
+    "slug": "ceainic",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 4
+  },
+  {
+    "id": "cmuvunu49001ihq5tz527gis5",
+    "name": "Tigăi",
+    "slug": "tigai",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 65
+  },
+  {
+    "id": "cmuvunu4j001khq5toqgkk4tz",
+    "name": "Boluri",
+    "slug": "boluri",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 11
+  },
+  {
+    "id": "cmuvunu4u001mhq5tyuw6crbs",
+    "name": "Biciclete pentru copii",
+    "slug": "biciclete-pentru-copii",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 24
+  },
+  {
+    "id": "cmuvunu54001ohq5tumgtrt9u",
+    "name": "Mașini de tocat carne",
+    "slug": "masini-de-tocat-carne",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 10
+  },
+  {
+    "id": "cmuvunu5f001qhq5tlzft4ods",
+    "name": "Carafe",
+    "slug": "carafe",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu5p001shq5tk5fhzf0w",
+    "name": "Scurgător de vase",
+    "slug": "scurgator-de-vase",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 4
+  },
+  {
+    "id": "cmuvunu5z001uhq5tgpmq3553",
+    "name": "Jucării de exterior",
+    "slug": "jucarii-de-exterior",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 42
+  },
+  {
+    "id": "cmuvunu69001whq5tgdxtpz5s",
+    "name": "Șampon",
+    "slug": "sampon",
+    "parentId": "cmuvuntxu0009hq5tnpvd9an4",
+    "count": 4
+  },
+  {
+    "id": "cmuvunu6h001yhq5tguwnhl2e",
+    "name": "Sticlă",
+    "slug": "sticla",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu6s0020hq5tzchpm7gi",
+    "name": "Rucsacuri",
+    "slug": "rucsacuri",
+    "parentId": "cmuvuntxc0007hq5txa6npbce",
+    "count": 21
+  },
+  {
+    "id": "cmuvunu720022hq5t3z7juxg7",
+    "name": "Piese de schimb și accesorii pentru vesele pentru gătit",
+    "slug": "piese-de-schimb-si-accesorii-pentru-vesele-pentru-gatit",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 7
+  },
+  {
+    "id": "cmuvunu7d0024hq5tlzk7k7jp",
+    "name": "Seturi de tacâmuri",
+    "slug": "seturi-de-tacamuri",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 21
+  },
+  {
+    "id": "cmuvunu7m0026hq5tbck8wen8",
+    "name": "Umbrele și copertine",
+    "slug": "umbrele-si-copertine",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu7w0028hq5tm0jed94n",
+    "name": "Grătare",
+    "slug": "gratare",
+    "parentId": "cmuvunty4000ahq5tfk041nwz",
+    "count": 7
+  },
+  {
+    "id": "cmuvunu85002ahq5tj8oj9w9y",
+    "name": "Birou",
+    "slug": "birou",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 2
+  },
+  {
+    "id": "cmuvunu8h002chq5th5gev8nm",
+    "name": "Ustensile de gătit",
+    "slug": "ustensile-de-gatit",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 40
+  },
+  {
+    "id": "cmuvunu8s002ehq5tf945t8kk",
+    "name": "Vopsele de păr",
+    "slug": "vopsele-de-par",
+    "parentId": "cmuvuntxu0009hq5tnpvd9an4",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu92002ghq5t6hcainlz",
+    "name": "Tocătoare",
+    "slug": "tocatoare",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 63
+  },
+  {
+    "id": "cmuvunu9d002ihq5tp34kn5pm",
+    "name": "Comode",
+    "slug": "comode",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu9m002khq5tz0gvxehn",
+    "name": "Borcan",
+    "slug": "borcan",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 1
+  },
+  {
+    "id": "cmuvunu9w002mhq5ti57ditco",
+    "name": "Ventilator",
+    "slug": "ventilator",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 52
+  },
+  {
+    "id": "cmuvunua5002ohq5twc5kr9vy",
+    "name": "Pantofi de baschet",
+    "slug": "pantofi-de-baschet",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 0
+  },
+  {
+    "id": "cmuvunuah002qhq5tsg2jhry3",
+    "name": "Râșnițe de cafea și condimente",
+    "slug": "rasnite-de-cafea-si-condimente",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuas002shq5tvbjtd6p3",
+    "name": "Accesorii pentru grătar",
+    "slug": "accesorii-pentru-gratar",
+    "parentId": "cmuvunty4000ahq5tfk041nwz",
+    "count": 2
+  },
+  {
+    "id": "cmuvunub2002uhq5tvfpfidw7",
+    "name": "Botoși",
+    "slug": "botosi",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 1
+  },
+  {
+    "id": "cmuvunubc002whq5tlx2y5999",
+    "name": "Cântare și balanțe",
+    "slug": "cantare-si-balante",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 1
+  },
+  {
+    "id": "cmuvunubn002yhq5tvo8f4veu",
+    "name": "Sneakers",
+    "slug": "sneakers",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 1
+  },
+  {
+    "id": "cmuvunubv0030hq5tfxs2b9i4",
+    "name": "Cuiere",
+    "slug": "cuiere",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 2
+  },
+  {
+    "id": "cmuvunuc60032hq5ttuv3cmki",
+    "name": "Jachete sport",
+    "slug": "jachete-sport",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 0
+  },
+  {
+    "id": "cmuvunucg0034hq5txx1hsvzy",
+    "name": "Jucării balansoare",
+    "slug": "jucarii-balansoare",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 6
+  },
+  {
+    "id": "cmuvunucq0036hq5tv4oxchog",
+    "name": "Kit de tricotat",
+    "slug": "kit-de-tricotat",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 1
+  },
+  {
+    "id": "cmuvunud00038hq5tnh4gsw39",
+    "name": "Cuțit și set de cuțite",
+    "slug": "cutit-si-set-de-cutite",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 21
+  },
+  {
+    "id": "cmuvunudb003ahq5tudivl6d4",
+    "name": "Borcane pentru condimente",
+    "slug": "borcane-pentru-condimente",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 2
+  },
+  {
+    "id": "cmuvunudl003chq5tsxmqv8xh",
+    "name": "Storcător de fructe și legume",
+    "slug": "storcator-de-fructe-si-legume",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 7
+  },
+  {
+    "id": "cmuvunudu003ehq5t8u6cm3w2",
+    "name": "Pedale pentru bicicletă",
+    "slug": "pedale-pentru-bicicleta",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 1
+  },
+  {
+    "id": "cmuvunue3003ghq5tr2bwp68w",
+    "name": "Baloane",
+    "slug": "baloane",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 0
+  },
+  {
+    "id": "cmuvunuef003ihq5th79ggrky",
+    "name": "Vehicul alimentat cu baterie",
+    "slug": "vehicul-alimentat-cu-baterie",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 7
+  },
+  {
+    "id": "cmuvunueq003khq5tpaw75z3z",
+    "name": "Blazere sport",
+    "slug": "blazere-sport",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuf2003mhq5tepi7p829",
+    "name": "Cești de cafea",
+    "slug": "cesti-de-cafea",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 1
+  },
+  {
+    "id": "cmuvunufd003ohq5ti6u4yyvd",
+    "name": "Placă",
+    "slug": "placa",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 3
+  },
+  {
+    "id": "cmuvunufn003qhq5th9prtnge",
+    "name": "Candelabre",
+    "slug": "candelabre",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 2
+  },
+  {
+    "id": "cmuvunufx003shq5tpo9je60j",
+    "name": "Motociclete cu telecomandă",
+    "slug": "motociclete-cu-telecomanda",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 2
+  },
+  {
+    "id": "cmuvunug9003uhq5t7lqsbai9",
+    "name": "Jucărie cu telecomandă",
+    "slug": "jucarie-cu-telecomanda",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 1
+  },
+  {
+    "id": "cmuvunugj003whq5t446lskr0",
+    "name": "Cărucior",
+    "slug": "carucior",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 3
+  },
+  {
+    "id": "cmuvunugu003yhq5tznd1mcm6",
+    "name": "Fierbător de apă și ceainic",
+    "slug": "fierbator-de-apa-si-ceainic",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 2
+  },
+  {
+    "id": "cmuvunuh60040hq5ty2n47faq",
+    "name": "Scaun de hrănire",
+    "slug": "scaun-de-hranire",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuhh0042hq5tgh1rqkfr",
+    "name": "Seruri și uleiuri pentru păr",
+    "slug": "seruri-si-uleiuri-pentru-par",
+    "parentId": "cmuvuntxu0009hq5tnpvd9an4",
+    "count": 0
+  },
+  {
+    "id": "cmuvunuhs0044hq5tgtxgjrj2",
+    "name": "Mop",
+    "slug": "mop",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 2
+  },
+  {
+    "id": "cmuvunui30046hq5tjalqmd6q",
+    "name": "Roți de mobilier",
+    "slug": "roti-de-mobilier",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuid0048hq5tq2gurxf6",
+    "name": "Halate de baie",
+    "slug": "halate-de-baie",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuin004ahq5tpi6smars",
+    "name": "Aparat de gătit cu aburi",
+    "slug": "aparat-de-gatit-cu-aburi",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuiy004chq5tk23xai8f",
+    "name": "Figurine animale",
+    "slug": "figurine-animale",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuj8004ehq5trc0g9x7r",
+    "name": "Pantofi de alergare și de antrenament",
+    "slug": "pantofi-de-alergare-si-de-antrenament",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 0
+  },
+  {
+    "id": "cmuvunujj004ghq5t5iao6ftr",
+    "name": "Veste sport",
+    "slug": "veste-sport",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 0
+  },
+  {
+    "id": "cmuvunujs004ihq5t174iy36a",
+    "name": "Genți de mână",
+    "slug": "genti-de-mana",
+    "parentId": "cmuvuntxc0007hq5txa6npbce",
+    "count": 29
+  },
+  {
+    "id": "cmuvunuk3004khq5th8pe8sm2",
+    "name": "Huse de pilotă pentru pat dublu",
+    "slug": "huse-de-pilota-pentru-pat-dublu",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 5
+  },
+  {
+    "id": "cmuvunukc004mhq5tbmd3q076",
+    "name": "Deschizătoare de sticle",
+    "slug": "deschizatoare-de-sticle",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 1
+  },
+  {
+    "id": "cmuvunukn004ohq5t7x1jif6x",
+    "name": "Termos",
+    "slug": "termos",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 0
+  },
+  {
+    "id": "cmuvunuky004qhq5tzchnnpd7",
+    "name": "Geci de ploaie și de vânt",
+    "slug": "geci-de-ploaie-si-de-vant",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 0
+  },
+  {
+    "id": "cmuvunul9004shq5t9567xnox",
+    "name": "Furouri și jupe",
+    "slug": "furouri-si-jupe",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 1
+  },
+  {
+    "id": "cmuvunulk004uhq5t96gsx6fj",
+    "name": "Jucărie din lemn",
+    "slug": "jucarie-din-lemn",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 3
+  },
+  {
+    "id": "cmuvunulu004whq5t1q4f8zjw",
+    "name": "Jachete de iarnă",
+    "slug": "jachete-de-iarna",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 0
+  },
+  {
+    "id": "cmuvunum6004yhq5thh701gy0",
+    "name": "Tocătoare și mărunțitoare",
+    "slug": "tocatoare-si-maruntitoare",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 2
+  },
+  {
+    "id": "cmuvunumh0050hq5tap5j5p8n",
+    "name": "Fermoar",
+    "slug": "fermoar",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 1
+  },
+  {
+    "id": "cmuvunumq0052hq5t9w732fkx",
+    "name": "Scaune de birou",
+    "slug": "scaune-de-birou",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 3
+  },
+  {
+    "id": "cmuvunun20054hq5tjan5vlva",
+    "name": "Mașinuțe de jucărie",
+    "slug": "masinute-de-jucarie",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 12
+  },
+  {
+    "id": "cmuvunund0056hq5tsfequepb",
+    "name": "Scaune de bicicletă pentru copii",
+    "slug": "scaune-de-bicicleta-pentru-copii",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 1
+  },
+  {
+    "id": "cmuvununw0058hq5taqeymw00",
+    "name": "Genți de transport pentru câini",
+    "slug": "genti-de-transport-pentru-caini",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuo7005ahq5t74p6elr3",
+    "name": "Articole sportive",
+    "slug": "articole-sportive",
+    "parentId": "cmuvunty4000ahq5tfk041nwz",
+    "count": 17
+  },
+  {
+    "id": "cmuvunuoj005chq5to869ya1z",
+    "name": "Decorațiuni de Crăciun",
+    "slug": "decoratiuni-de-craciun",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 3
+  },
+  {
+    "id": "cmuvunuot005ehq5tjgd3s9hw",
+    "name": "Vehicul cu telecomandă",
+    "slug": "vehicul-cu-telecomanda",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 1
+  },
+  {
+    "id": "cmuvunup3005ghq5t00sp2i7i",
+    "name": "Paltoane sport",
+    "slug": "paltoane-sport",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 0
+  },
+  {
+    "id": "cmuvunupd005ihq5tf2f12gs1",
+    "name": "Multicooker",
+    "slug": "multicooker",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 1
+  },
+  {
+    "id": "cmuvunupo005khq5twry46c4k",
+    "name": "Lăzi frigorifice, frigidere și congelatoare portabile",
+    "slug": "lazi-frigorifice-frigidere-si-congelatoare-portabile",
+    "parentId": "cmuvunty4000ahq5tfk041nwz",
+    "count": 15
+  },
+  {
+    "id": "cmuvunuq1005mhq5tkk0lvhn6",
+    "name": "Încălțăminte outdoor",
+    "slug": "incaltaminte-outdoor",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 0
+  },
+  {
+    "id": "cmuvunuqe005ohq5tuosc8plh",
+    "name": "Aparat de călcat vertical",
+    "slug": "aparat-de-calcat-vertical",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 3
+  },
+  {
+    "id": "cmuvunuqt005qhq5tr1enu9dk",
+    "name": "Portofele",
+    "slug": "portofele",
+    "parentId": "cmuvuntxc0007hq5txa6npbce",
+    "count": 9
+  },
+  {
+    "id": "cmuvunur3005shq5tg550uu98",
+    "name": "Oglinzi baie",
+    "slug": "oglinzi-baie",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 1
+  },
+  {
+    "id": "cmuvunurf005uhq5tpqc7fnos",
+    "name": "Organizator de baie",
+    "slug": "organizator-de-baie",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuro005whq5tj8juvb5v",
+    "name": "Genți tip poștaș",
+    "slug": "genti-tip-postas",
+    "parentId": "cmuvuntxc0007hq5txa6npbce",
+    "count": 2
+  },
+  {
+    "id": "cmuvunus0005yhq5t4z9bslg3",
+    "name": "Mixer și set de mixere",
+    "slug": "mixer-si-set-de-mixere",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 3
+  },
+  {
+    "id": "cmuvunusb0060hq5tx8jhinum",
+    "name": "Aparate de cafea cu filtru",
+    "slug": "aparate-de-cafea-cu-filtru",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 1
+  },
+  {
+    "id": "cmuvunusn0062hq5tcqxvi0u5",
+    "name": "Măsuțe",
+    "slug": "masute",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 1
+  },
+  {
+    "id": "cmuvunusy0064hq5tc2rgapti",
+    "name": "Piese de schimb pentru blendere",
+    "slug": "piese-de-schimb-pentru-blendere",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 1
+  },
+  {
+    "id": "cmuvunut90066hq5t5l89y9ba",
+    "name": "Îngrijire personală",
+    "slug": "ingrijire-personala",
+    "parentId": "cmuvuntxu0009hq5tnpvd9an4",
+    "count": 65
+  },
+  {
+    "id": "cmuvunutl0068hq5turgzk3n7",
+    "name": "Șepci sportive",
+    "slug": "sepci-sportive",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 1
+  },
+  {
+    "id": "cmuvunutw006ahq5te9ulichf",
+    "name": "Cămăși casual",
+    "slug": "camasi-casual",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 2
+  },
+  {
+    "id": "cmuvunuu8006chq5ts1cnxyhk",
+    "name": "Jucării de plajă",
+    "slug": "jucarii-de-plaja",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 9
+  },
+  {
+    "id": "cmuvunuuj006ehq5tx6fs05uc",
+    "name": "Set de hrănire bebeluși",
+    "slug": "set-de-hranire-bebelusi",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuuw006ghq5tqca05dbo",
+    "name": "Genți de voiaj",
+    "slug": "genti-de-voiaj",
+    "parentId": "cmuvuntxc0007hq5txa6npbce",
+    "count": 3
+  },
+  {
+    "id": "cmuvunuv8006ihq5tn8nhgtcc",
+    "name": "Fier de călcat cu aburi",
+    "slug": "fier-de-calcat-cu-aburi",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 0
+  },
+  {
+    "id": "cmuvunuvk006khq5tx8amzpfz",
+    "name": "Șosete",
+    "slug": "sosete",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 0
+  },
+  {
+    "id": "cmuvunuvw006mhq5tblpu8svz",
+    "name": "Trotinete pentru copii",
+    "slug": "trotinete-pentru-copii",
+    "parentId": "cmuvuntws0005hq5t8e3gnbcp",
+    "count": 3
+  },
+  {
+    "id": "cmuvunuw8006ohq5t6sjrri3d",
+    "name": "Prăjitor de pâine",
+    "slug": "prajitor-de-paine",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 17
+  },
+  {
+    "id": "cmuvunuwl006qhq5t3naunpry",
+    "name": "Grătar electric",
+    "slug": "gratar-electric",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 2
+  },
+  {
+    "id": "cmuvunuxn006shq5ta4p0tkq7",
+    "name": "Cămăși",
+    "slug": "camasi",
+    "parentId": "cmuvuntxm0008hq5tiryfscb7",
+    "count": 2
+  },
+  {
+    "id": "cmuvunuy0006uhq5tcgk1bbor",
+    "name": "Blender de blender de blat",
+    "slug": "blender-de-blender-de-blat",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuyd006whq5tf7k6fqer",
+    "name": "Blender și set de blender",
+    "slug": "blender-si-set-de-blender",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuyq006yhq5tk83hiy28",
+    "name": "Iluminat inteligent",
+    "slug": "iluminat-inteligent",
+    "parentId": "cmuvuntx10006hq5tbkm40mjn",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuz30070hq5tnjf27fbd",
+    "name": "Genți de umăr",
+    "slug": "genti-de-umar",
+    "parentId": "cmuvuntxc0007hq5txa6npbce",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuzg0072hq5td1xce9lf",
+    "name": "Oale sub presiune",
+    "slug": "oale-sub-presiune",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 1
+  },
+  {
+    "id": "cmuvunuzu0074hq5t9yc3ni49",
+    "name": "Cântar de bucătărie",
+    "slug": "cantar-de-bucatarie",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 1
+  },
+  {
+    "id": "cmuvunv070076hq5tjxq4vjsg",
+    "name": "Uscător de păr",
+    "slug": "uscator-de-par",
+    "parentId": "cmuvuntxu0009hq5tnpvd9an4",
+    "count": 11
+  },
+  {
+    "id": "cmv7u9dtz000014gb75q94uzw",
+    "name": "Materiale Electrice (En-Gross)",
+    "slug": "materiale-electrice-engross",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmv7u9du9000214gb19mlvnh6",
+    "name": "Cabluri & Conductori Electrice (En-Gross)",
+    "slug": "cabluri-conductori-engross",
+    "parentId": "cmv7u9dtz000014gb75q94uzw",
+    "count": 261
+  },
+  {
+    "id": "cmv7u9duf000414gb61tb9anl",
+    "name": "Tablouri & Siguranțe Electrice (En-Gross)",
+    "slug": "tablouri-sigurante-engross",
+    "parentId": "cmv7u9dtz000014gb75q94uzw",
+    "count": 103
+  },
+  {
+    "id": "cmv7u9dum000614gbjfoiltoa",
+    "name": "Prize, Întrerupătoare & Smart Home (En-Gross)",
+    "slug": "prize-intrerupatoare-engross",
+    "parentId": "cmv7u9dtz000014gb75q94uzw",
+    "count": 17
+  },
+  {
+    "id": "cmv7u9duu000814gbe9n141wi",
+    "name": "Corpuri & Surse de Iluminat LED (En-Gross)",
+    "slug": "corpuri-iluminat-engross",
+    "parentId": "cmv7u9dtz000014gb75q94uzw",
+    "count": 99
+  },
+  {
+    "id": "cmv7u9dv2000a14gbz6udc4mu",
+    "name": "Tuburi, Canale Cablu & Conectică (En-Gross)",
+    "slug": "tuburi-conectica-engross",
+    "parentId": "cmv7u9dtz000014gb75q94uzw",
+    "count": 194
+  },
+  {
+    "id": "cmv7u9dv9000c14gb73oz0fpo",
+    "name": "Instalații & Automatizări En-Gross",
+    "slug": "instalatii-automatizari-engross",
+    "parentId": "cmv7u9dtz000014gb75q94uzw",
+    "count": 71
+  },
+  {
+    "id": "cmv7u9dvi000e14gbexrco1wr",
+    "name": "Espressoare & Cafetiere",
+    "slug": "espressoare-cafetiere",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 71
+  },
+  {
+    "id": "cmv7u9dvp000g14gbpt8os7k7",
+    "name": "Airfryer & Friteuze fără Ulei",
+    "slug": "airfryer-friteuze",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 12
+  },
+  {
+    "id": "cmv7u9dvw000i14gbktotnvt4",
+    "name": "Mixere, Roboti & Blendere",
+    "slug": "mixere-roboti-blendere",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 132
+  },
+  {
+    "id": "cmv7u9dw5000k14gbno7y0t0b",
+    "name": "Seturi de Oale & Tigăi",
+    "slug": "seturi-oale-si-tigai",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 256
+  },
+  {
+    "id": "cmv7u9dwc000m14gbxdx3369i",
+    "name": "Ustensile Bucătărie & Menaj",
+    "slug": "ustensile-bucatarie-menaj",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 252
+  },
+  {
+    "id": "cmv7u9dwj000o14gb2iib50ha",
+    "name": "Tăvi & Forme de Copt",
+    "slug": "tavi-forme-copt",
+    "parentId": "cmuvuntw80003hq5tkoy495vh",
+    "count": 43
+  },
+  {
+    "id": "cmv7u9dws000q14gbbkpxwjb5",
+    "name": "Fierbătoare & Cani Electrice",
+    "slug": "fierbatoare-cani-electrice",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 20
+  },
+  {
+    "id": "cmv7u9dwz000s14gbsmx5wed8",
+    "name": "Aspiratoare & Curățenie",
+    "slug": "aspiratoare-curatenie",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 1
+  },
+  {
+    "id": "cmvaeeitd0003ksv9jmqb2t6j",
+    "name": "Articole pentru copii",
+    "slug": "articole-pentru-copii",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmvaeeitj0005ksv92kgug2vi",
+    "name": "Acuarele, pensule si blocuri de desen",
+    "slug": "acuarele-pensule-si-blocuri-de-desen",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 10
+  },
+  {
+    "id": "cmvaeeito0007ksv9m5562r01",
+    "name": "Articole copii",
+    "slug": "articole-copii",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 0
+  },
+  {
+    "id": "cmvaeeitu0009ksv9fxzl13qe",
+    "name": "Tatuaje Temporare si Stikere",
+    "slug": "tatuaje-temporare-si-stikere",
+    "parentId": "cmvaeeito0007ksv9m5562r01",
+    "count": 17
+  },
+  {
+    "id": "cmvaeeity000bksv9l8ix1oxb",
+    "name": "Articole Diverse copii",
+    "slug": "articole-diverse-copii",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 41
+  },
+  {
+    "id": "cmvaeeiu3000dksv95ue5a5jf",
+    "name": "Carnetele Razuibile",
+    "slug": "carnetele-razuibile",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 2
+  },
+  {
+    "id": "cmvaeeiu9000fksv9ydxeil21",
+    "name": "Carucioare Copii",
+    "slug": "carucioare-copii",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 2
+  },
+  {
+    "id": "cmvaeeiud000hksv9uboo5jaz",
+    "name": "Console",
+    "slug": "console",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 7
+  },
+  {
+    "id": "cmvaeeiui000jksv9933eup0t",
+    "name": "Covorase de joaca",
+    "slug": "covorase-de-joaca",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 8
+  },
+  {
+    "id": "cmvaeeiun000lksv9o9i6ek5j",
+    "name": "Fuste fete",
+    "slug": "fuste-fete",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 0
+  },
+  {
+    "id": "cmvaeeius000nksv9bvdswtz5",
+    "name": "Genti, Portofele, Penare",
+    "slug": "genti-portofele-penare",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 63
+  },
+  {
+    "id": "cmvaeeiuw000pksv9emps2v3g",
+    "name": "Ghiozdane",
+    "slug": "ghiozdane",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 2
+  },
+  {
+    "id": "cmvaeeiv2000rksv94knr09o1",
+    "name": "Ingrijire Unghii",
+    "slug": "ingrijire-unghii",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 21
+  },
+  {
+    "id": "cmvaeeiv7000tksv90hagdt8n",
+    "name": "Jocuri de societate",
+    "slug": "jocuri-de-societate",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 63
+  },
+  {
+    "id": "cmvaeeivc000vksv9560wi5m0",
+    "name": "Jucarii Creative",
+    "slug": "jucarii-creative",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 27
+  },
+  {
+    "id": "cmvaeeivh000xksv93upbnlpb",
+    "name": "Jucarii de Plus Brainrot",
+    "slug": "jucarii-de-plus-brainrot",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 26
+  },
+  {
+    "id": "cmvaeeivm000zksv9lrmzks7s",
+    "name": "Jucarii din lemn",
+    "slug": "jucarii-din-lemn",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 33
+  },
+  {
+    "id": "cmvaeeivq0011ksv9o4v3b9bz",
+    "name": "Jucarii educative",
+    "slug": "jucarii-educative",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 110
+  },
+  {
+    "id": "cmvaeeivv0013ksv9ayxryxgf",
+    "name": "Jucarii interactive",
+    "slug": "jucarii-interactive",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 227
+  },
+  {
+    "id": "cmvaeeiw10015ksv9asrqekb2",
+    "name": "Jucarii Senzoriale, Fidget Toys",
+    "slug": "jucarii-senzoriale-fidget-toys",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 189
+  },
+  {
+    "id": "cmvaeeiw50017ksv9lnrqwy02",
+    "name": "Jucarii si Jocuri",
+    "slug": "jucarii-si-jocuri",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 401
+  },
+  {
+    "id": "cmvaeeiwb0019ksv9kvkfji4d",
+    "name": "Jucarii Squishy si Gonggi",
+    "slug": "jucarii-squishy-si-gonggi",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 103
+  },
+  {
+    "id": "cmvaeeiwg001bksv9zuuw5stn",
+    "name": "Markere si Set Desen",
+    "slug": "markere-si-set-desen",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 47
+  },
+  {
+    "id": "cmvaeeiwm001dksv9ss9ji5i6",
+    "name": "Masinute, Triciclete si Masinute Electrice",
+    "slug": "masinute-triciclete-si-masinute-electrice",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 109
+  },
+  {
+    "id": "cmvaeeiwq001fksv9r77393he",
+    "name": "Maternitate",
+    "slug": "maternitate",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 3
+  },
+  {
+    "id": "cmvaeeiww001hksv9kdpt8pz9",
+    "name": "Mitraliere cu Bile Hidrogen",
+    "slug": "mitraliere-cu-bile-hidrogen",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 20
+  },
+  {
+    "id": "cmvaeeix1001jksv97mnhct6l",
+    "name": "Needoh si Dumpling",
+    "slug": "needoh-si-dumpling",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 69
+  },
+  {
+    "id": "cmvaeeix6001lksv9haz97tm4",
+    "name": "Saci sporturi de lupta",
+    "slug": "saci-sporturi-de-lupta",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 3
+  },
+  {
+    "id": "cmvaeeixc001nksv9mma4ljs9",
+    "name": "Scaune de masa bebe",
+    "slug": "scaune-de-masa-bebe",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 57
+  },
+  {
+    "id": "cmvaeeixh001pksv90z6k3bjj",
+    "name": "Seturi de Constructie",
+    "slug": "seturi-de-constructie",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 55
+  },
+  {
+    "id": "cmvaeeixm001rksv9o4yvsxpb",
+    "name": "Termometre copii",
+    "slug": "termometre-copii",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 2
+  },
+  {
+    "id": "cmvaeeixs001tksv9jz667sbw",
+    "name": "Trambuline",
+    "slug": "trambuline",
+    "parentId": "cmvaeeitd0003ksv9jmqb2t6j",
+    "count": 1
+  },
+  {
+    "id": "cmvaeeixx001uksv9l1p5c0dl",
+    "name": "Articole Petrecere",
+    "slug": "articole-petrecere",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmvaeeiy3001wksv9ohgjn6dk",
+    "name": "Accesorii Baloane",
+    "slug": "accesorii-baloane",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 36
+  },
+  {
+    "id": "cmvaeeiy8001yksv9vlu4ps9z",
+    "name": "Accesorii Petrecere",
+    "slug": "accesorii-petrecere",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 67
+  },
+  {
+    "id": "cmvaeeiye0020ksv9jwllape1",
+    "name": "Articole Servire Masa",
+    "slug": "articole-servire-masa",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 180
+  },
+  {
+    "id": "cmvaeeiyj0022ksv9kc7rq4bj",
+    "name": "Baloane Folie",
+    "slug": "baloane-folie",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 0
+  },
+  {
+    "id": "cmvaeeiyo0024ksv931pc2zp7",
+    "name": "Baloane Coronita",
+    "slug": "baloane-coronita",
+    "parentId": "cmvaeeiyj0022ksv9kc7rq4bj",
+    "count": 2
+  },
+  {
+    "id": "cmvaeeiyt0026ksv94hv0xx8r",
+    "name": "Baloane cu Suport",
+    "slug": "baloane-cu-suport",
+    "parentId": "cmvaeeiyj0022ksv9kc7rq4bj",
+    "count": 2
+  },
+  {
+    "id": "cmvaeeiyz0028ksv95bspzhv2",
+    "name": "Baloane Nume Baieti",
+    "slug": "baloane-nume-baieti",
+    "parentId": "cmvaeeiyj0022ksv9kc7rq4bj",
+    "count": 25
+  },
+  {
+    "id": "cmvaeeiz4002aksv94l53339c",
+    "name": "Baloane Nume Fete",
+    "slug": "baloane-nume-fete",
+    "parentId": "cmvaeeiyj0022ksv9kc7rq4bj",
+    "count": 35
+  },
+  {
+    "id": "cmvaeeiza002cksv9pl5ozqff",
+    "name": "Baloane Tip Bratara",
+    "slug": "baloane-tip-bratara",
+    "parentId": "cmvaeeiyj0022ksv9kc7rq4bj",
+    "count": 1
+  },
+  {
+    "id": "cmvaeeizf002eksv9vqmfdxty",
+    "name": "Cifre",
+    "slug": "cifre",
+    "parentId": "cmvaeeiyj0022ksv9kc7rq4bj",
+    "count": 6
+  },
+  {
+    "id": "cmvaeeizk002gksv9ywrmfm9x",
+    "name": "Figurine si Baloane 3D",
+    "slug": "figurine-si-baloane-3d",
+    "parentId": "cmvaeeiyj0022ksv9kc7rq4bj",
+    "count": 25
+  },
+  {
+    "id": "cmvaeeizq002iksv9q0aozuyu",
+    "name": "Litere",
+    "slug": "litere",
+    "parentId": "cmvaeeiyj0022ksv9kc7rq4bj",
+    "count": 2
+  },
+  {
+    "id": "cmvaeeizw002kksv9fxwsptip",
+    "name": "Seturi Baloane Folie",
+    "slug": "seturi-baloane-folie",
+    "parentId": "cmvaeeiyj0022ksv9kc7rq4bj",
+    "count": 37
+  },
+  {
+    "id": "cmvaeej02002mksv99ifu5x2u",
+    "name": "Tematica Fata/Baiat",
+    "slug": "tematica-fatabaiat",
+    "parentId": "cmvaeeiyj0022ksv9kc7rq4bj",
+    "count": 30
+  },
+  {
+    "id": "cmvaeej08002oksv95s8v6e1o",
+    "name": "Baloane Latex",
+    "slug": "baloane-latex",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 42
+  },
+  {
+    "id": "cmvaeej0e002qksv9m9kzix6z",
+    "name": "Baloane si Accesorii Absolvire",
+    "slug": "baloane-si-accesorii-absolvire",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 20
+  },
+  {
+    "id": "cmvaeej0k002sksv9tzwgxr9u",
+    "name": "Baloane si Accesorii Halloween",
+    "slug": "baloane-si-accesorii-halloween",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 10
+  },
+  {
+    "id": "cmvaeej0o002uksv9mwg0d1hk",
+    "name": "Banda adeziva",
+    "slug": "banda-adeziva",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 2
+  },
+  {
+    "id": "cmvaeej0t002wksv9if009j2p",
+    "name": "Confetti",
+    "slug": "confetti",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 57
+  },
+  {
+    "id": "cmvaeej0y002yksv9behwkaf5",
+    "name": "Costume si Deghizare",
+    "slug": "costume-si-deghizare",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 45
+  },
+  {
+    "id": "cmvaeej140030ksv9ow39rl4y",
+    "name": "Fete Masa si Perdele Franjurate",
+    "slug": "fete-masa-si-perdele-franjurate",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 44
+  },
+  {
+    "id": "cmvaeej190032ksv9yfyttlsm",
+    "name": "Lumanari si Toppere",
+    "slug": "lumanari-si-toppere",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 39
+  },
+  {
+    "id": "cmvaeej1e0034ksv9j0dvwaxp",
+    "name": "Petrecere Tematica",
+    "slug": "petrecere-tematica",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 61
+  },
+  {
+    "id": "cmvaeej1k0036ksv9gzymp43w",
+    "name": "Pinata",
+    "slug": "pinata",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 3
+  },
+  {
+    "id": "cmvaeej1p0038ksv98i4ji24y",
+    "name": "Pompe Baloane",
+    "slug": "pompe-baloane",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 13
+  },
+  {
+    "id": "cmvaeej1u003aksv9jlaso71j",
+    "name": "Seturi si Arcade Baloane",
+    "slug": "seturi-si-arcade-baloane",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 3
+  },
+  {
+    "id": "cmvaeej20003cksv902ri9bux",
+    "name": "Tematica Nunta",
+    "slug": "tematica-nunta",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 58
+  },
+  {
+    "id": "cmvaeej25003eksv95kisj6l4",
+    "name": "Vopsea fata si corp",
+    "slug": "vopsea-fata-si-corp",
+    "parentId": "cmvaeeixx001uksv9l1p5c0dl",
+    "count": 7
+  },
+  {
+    "id": "cmvaeej2b003fksv9ua041xym",
+    "name": "Ingrijire Personala si Cosmetice",
+    "slug": "ingrijire-personala-si-cosmetice",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmvaeej2h003hksv9er2xqmzl",
+    "name": "Accesorii Machiaj si Trimmere",
+    "slug": "accesorii-machiaj-si-trimmere",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 93
+  },
+  {
+    "id": "cmvaeej2m003jksv9mf2raers",
+    "name": "Aparate de tuns",
+    "slug": "aparate-de-tuns",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 63
+  },
+  {
+    "id": "cmvaeej2s003lksv9fkl66wtt",
+    "name": "Articole Sanatate",
+    "slug": "articole-sanatate",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 197
+  },
+  {
+    "id": "cmvaeej2x003nksv98v8g1x82",
+    "name": "Deodorante si antiperspirante",
+    "slug": "deodorante-si-antiperspirante",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 660
+  },
+  {
+    "id": "cmvaeej32003pksv9a1t7bce7",
+    "name": "Fitness si sport",
+    "slug": "fitness-si-sport",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 8
+  },
+  {
+    "id": "cmvaeej37003rksv9mf5sdy6b",
+    "name": "Geluri de dus",
+    "slug": "geluri-de-dus",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 416
+  },
+  {
+    "id": "cmvaeej3d003tksv95m06mkjg",
+    "name": "Genti Cosmetice si Organizare",
+    "slug": "genti-cosmetice-si-organizare",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 33
+  },
+  {
+    "id": "cmvaeej3j003vksv9u4nnpskf",
+    "name": "Igiena dentara",
+    "slug": "igiena-dentara",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 317
+  },
+  {
+    "id": "cmvaeej3o003xksv9t24f6r3g",
+    "name": "Ingrijire par si Accesorii",
+    "slug": "ingrijire-par-si-accesorii",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 1054
+  },
+  {
+    "id": "cmvaeej3v003zksv9ramuya0e",
+    "name": "Perii Electrice",
+    "slug": "perii-electrice",
+    "parentId": "cmvaeej3o003xksv9t24f6r3g",
+    "count": 4
+  },
+  {
+    "id": "cmvaeej410041ksv9yw8roe8e",
+    "name": "Placi de indreptat parul",
+    "slug": "placi-de-indreptat-parul",
+    "parentId": "cmvaeej3o003xksv9t24f6r3g",
+    "count": 8
+  },
+  {
+    "id": "cmvaeej480043ksv9qt8eldfo",
+    "name": "Ingrijire ten si corp",
+    "slug": "ingrijire-ten-si-corp",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 427
+  },
+  {
+    "id": "cmvaeej4d0045ksv9vd6h8c6l",
+    "name": "Ingrijirea Unghiilor",
+    "slug": "ingrijirea-unghiilor",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 7
+  },
+  {
+    "id": "cmvaeej4j0047ksv9wl5b8729",
+    "name": "Lenjerie Modelatoare",
+    "slug": "lenjerie-modelatoare",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 1
+  },
+  {
+    "id": "cmvaeej4p0049ksv9z5yd8rhl",
+    "name": "Lotiuni si creme de corp",
+    "slug": "lotiuni-si-creme-de-corp",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 255
+  },
+  {
+    "id": "cmvaeej4v004bksv9oa8cuop1",
+    "name": "Masti faciale",
+    "slug": "masti-faciale",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 127
+  },
+  {
+    "id": "cmvaeej52004dksv99nntmtoc",
+    "name": "Masti pentru ten si gomaje",
+    "slug": "masti-pentru-ten-si-gomaje",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 9
+  },
+  {
+    "id": "cmvaeej56004fksv944isoaoa",
+    "name": "Palete Farduri si Truse Make-Up",
+    "slug": "palete-farduri-si-truse-make-up",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 137
+  },
+  {
+    "id": "cmvaeej5c004hksv9xrr4g9qp",
+    "name": "Parfumuri si seturi",
+    "slug": "parfumuri-si-seturi",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 463
+  },
+  {
+    "id": "cmvaeej5i004jksv91p7ni6dz",
+    "name": "Produse demachiere si curatare",
+    "slug": "produse-demachiere-si-curatare",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 43
+  },
+  {
+    "id": "cmvaeej5p004lksv9eet0ihb2",
+    "name": "Suporturi ortopedice si orteze",
+    "slug": "suporturi-ortopedice-si-orteze",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 23
+  },
+  {
+    "id": "cmvaeej5w004nksv9907mdlzn",
+    "name": "Sutiene",
+    "slug": "sutiene",
+    "parentId": "cmvaeej2b003fksv9ua041xym",
+    "count": 0
+  },
+  {
+    "id": "cmvaeej61004oksv9h04p4up0",
+    "name": "Bijuterii Argint",
+    "slug": "bijuterii-argint",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmvaeej67004qksv9yjszu5q1",
+    "name": "Accesorii Argint",
+    "slug": "accesorii-argint",
+    "parentId": "cmvaeej61004oksv9h04p4up0",
+    "count": 0
+  },
+  {
+    "id": "cmvaeej6d004sksv9xvrqir4o",
+    "name": "Bijuterii copii",
+    "slug": "bijuterii-copii",
+    "parentId": "cmvaeej61004oksv9h04p4up0",
+    "count": 6
+  },
+  {
+    "id": "cmvaeej6j004uksv94v7qzfrc",
+    "name": "Bratari",
+    "slug": "bratari",
+    "parentId": "cmvaeej61004oksv9h04p4up0",
+    "count": 9
+  },
+  {
+    "id": "cmvaeej6o004wksv92p4tm21p",
+    "name": "Bratari cu snur",
+    "slug": "bratari-cu-snur",
+    "parentId": "cmvaeej61004oksv9h04p4up0",
+    "count": 146
+  },
+  {
+    "id": "cmvaeej6t004yksv9pnfihxts",
+    "name": "Brose",
+    "slug": "brose",
+    "parentId": "cmvaeej61004oksv9h04p4up0",
+    "count": 29
+  },
+  {
+    "id": "cmvaeej6z0050ksv9fjhb04zy",
+    "name": "Cercei",
+    "slug": "cercei",
+    "parentId": "cmvaeej61004oksv9h04p4up0",
+    "count": 48
+  },
+  {
+    "id": "cmvaeej740052ksv9fw6gaqa3",
+    "name": "Coliere",
+    "slug": "coliere",
+    "parentId": "cmvaeej61004oksv9h04p4up0",
+    "count": 27
+  },
+  {
+    "id": "cmvaeej7a0054ksv9joniyzy4",
+    "name": "Inele",
+    "slug": "inele",
+    "parentId": "cmvaeej61004oksv9h04p4up0",
+    "count": 85
+  },
+  {
+    "id": "cmvaeej7f0056ksv9ew0vqn25",
+    "name": "Lantisoare",
+    "slug": "lantisoare",
+    "parentId": "cmvaeej61004oksv9h04p4up0",
+    "count": 17
+  },
+  {
+    "id": "cmvaeej7k0058ksv9qukjdreo",
+    "name": "Pandantive Argint",
+    "slug": "pandantive-argint",
+    "parentId": "cmvaeej61004oksv9h04p4up0",
+    "count": 218
+  },
+  {
+    "id": "cmvaeej7p005aksv9qjol6jmb",
+    "name": "Seturi",
+    "slug": "seturi",
+    "parentId": "cmvaeej61004oksv9h04p4up0",
+    "count": 37
+  },
+  {
+    "id": "cmvaeej7u005cksv9bsszncai",
+    "name": "Tacamuri",
+    "slug": "tacamuri",
+    "parentId": "cmvaeej61004oksv9h04p4up0",
+    "count": 1
+  },
+  {
+    "id": "cmvaeej7z005dksv997qacgz5",
+    "name": "Kendama si Spinnere",
+    "slug": "kendama-si-spinnere",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmvaeej86005fksv92mb6f89i",
+    "name": "Kendama V3 Cupe King Size",
+    "slug": "kendama-v3-cupe-king-size",
+    "parentId": "cmvaeej7z005dksv997qacgz5",
+    "count": 0
+  },
+  {
+    "id": "cmvaeej8a005hksv9za40c40t",
+    "name": "Accesorii Kendama",
+    "slug": "accesorii-kendama",
+    "parentId": "cmvaeej7z005dksv997qacgz5",
+    "count": 119
+  },
+  {
+    "id": "cmvaeej8g005jksv9icgbkt7r",
+    "name": "Kendama V2 Cupe Mari",
+    "slug": "kendama-v2-cupe-mari",
+    "parentId": "cmvaeej7z005dksv997qacgz5",
+    "count": 0
+  },
+  {
+    "id": "cmvaeej8l005lksv9zss2myrq",
+    "name": "Kendama V1 Cupe Standard",
+    "slug": "kendama-v1-cupe-standard",
+    "parentId": "cmvaeej7z005dksv997qacgz5",
+    "count": 0
+  },
+  {
+    "id": "cmvaeej8r005nksv9sz01b4n8",
+    "name": "Kendama 52 cm Super Big",
+    "slug": "kendama-52-cm-super-big",
+    "parentId": "cmvaeej7z005dksv997qacgz5",
+    "count": 0
+  },
+  {
+    "id": "cmvaeej8x005pksv9tbut3aur",
+    "name": "Kendama Pill",
+    "slug": "kendama-pill",
+    "parentId": "cmvaeej7z005dksv997qacgz5",
+    "count": 0
+  },
+  {
+    "id": "cmvaeej92005qksv99nn9fltu",
+    "name": "GSM si Gadgets",
+    "slug": "gsm-si-gadgets",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmvaeej97005sksv93m3k4mqy",
+    "name": "Accesorii Playere si Casti",
+    "slug": "accesorii-playere-si-casti",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 0
+  },
+  {
+    "id": "cmvaeej9d005uksv9iwph5awv",
+    "name": "Huse AirPods",
+    "slug": "huse-airpods",
+    "parentId": "cmvaeej97005sksv93m3k4mqy",
+    "count": 6
+  },
+  {
+    "id": "cmvaeej9i005wksv9eykl8ma7",
+    "name": "Accesorii Tablete",
+    "slug": "accesorii-tablete",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 0
+  },
+  {
+    "id": "cmvaeej9n005yksv9iqjhr9e6",
+    "name": "Accesorii Tesla",
+    "slug": "accesorii-tesla",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 4
+  },
+  {
+    "id": "cmvaeej9t0060ksv9qks1oroj",
+    "name": "Adaptoare Telefoane Mobile",
+    "slug": "adaptoare-telefoane-mobile",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 9
+  },
+  {
+    "id": "cmvaeej9z0062ksv91lposf09",
+    "name": "Alte Accesorii Telefoane",
+    "slug": "alte-accesorii-telefoane",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 54
+  },
+  {
+    "id": "cmvaeeja50064ksv9992swbbf",
+    "name": "Ambalaje",
+    "slug": "ambalaje",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 20
+  },
+  {
+    "id": "cmvaeejaa0066ksv93dtmyk4o",
+    "name": "Articole si Accesorii Tutun",
+    "slug": "articole-si-accesorii-tutun",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 11
+  },
+  {
+    "id": "cmvaeejah0068ksv9vs9lmwez",
+    "name": "Huse Iqos",
+    "slug": "huse-iqos",
+    "parentId": "cmvaeejaa0066ksv93dtmyk4o",
+    "count": 4
+  },
+  {
+    "id": "cmvaeejam006aksv9iw3ko85z",
+    "name": "Cabluri de Date Telefoane",
+    "slug": "cabluri-de-date-telefoane",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 42
+  },
+  {
+    "id": "cmvaeejas006cksv9ufusxkli",
+    "name": "3 in 1 Magnetic",
+    "slug": "3-in-1-magnetic",
+    "parentId": "cmvaeejam006aksv9iw3ko85z",
+    "count": 2
+  },
+  {
+    "id": "cmvaeejay006eksv9bvgoc69x",
+    "name": "Lightning",
+    "slug": "lightning",
+    "parentId": "cmvaeejam006aksv9iw3ko85z",
+    "count": 8
+  },
+  {
+    "id": "cmvaeejb3006gksv9xcmbn365",
+    "name": "Micro USB",
+    "slug": "micro-usb",
+    "parentId": "cmvaeejam006aksv9iw3ko85z",
+    "count": 3
+  },
+  {
+    "id": "cmvaeejb9006iksv91xl0rvwk",
+    "name": "Type C",
+    "slug": "type-c",
+    "parentId": "cmvaeejam006aksv9iw3ko85z",
+    "count": 2
+  },
+  {
+    "id": "cmvaeejbe006kksv9y0qjfgdi",
+    "name": "Type-C - Type-C",
+    "slug": "type-c-type-c",
+    "parentId": "cmvaeejam006aksv9iw3ko85z",
+    "count": 3
+  },
+  {
+    "id": "cmvaeejbj006mksv9om9cfeof",
+    "name": "Casti Audio Telefoane",
+    "slug": "casti-audio-telefoane",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 2
+  },
+  {
+    "id": "cmvaeejbp006oksv9crrp9rel",
+    "name": "Folii Protectie Telefoane",
+    "slug": "folii-protectie-telefoane",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 162
+  },
+  {
+    "id": "cmvaeejbv006qksv9qrhha8pk",
+    "name": "Diverse",
+    "slug": "diverse",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 5
+  },
+  {
+    "id": "cmvaeejc0006sksv94fra40sz",
+    "name": "Folie Anti Blue-Ray",
+    "slug": "folie-anti-blue-ray",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 1
+  },
+  {
+    "id": "cmvaeejc6006uksv9r5685ppr",
+    "name": "Folie Ceramic Glass 9D",
+    "slug": "folie-ceramic-glass-9d",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 5
+  },
+  {
+    "id": "cmvaeejcb006wksv9w01ut8zi",
+    "name": "Folie Flexibila Hidrogel",
+    "slug": "folie-flexibila-hidrogel",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 1
+  },
+  {
+    "id": "cmvaeejci006yksv9ra95k5ut",
+    "name": "Folie Plastic",
+    "slug": "folie-plastic",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 2
+  },
+  {
+    "id": "cmvaeejcn0070ksv9y0gpfy64",
+    "name": "Folie Sticla OG",
+    "slug": "folie-sticla-og",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 1
+  },
+  {
+    "id": "cmvaeejcs0072ksv9mkcs3yjp",
+    "name": "Folie Sticla Securizata 10D",
+    "slug": "folie-sticla-securizata-10d",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 1
+  },
+  {
+    "id": "cmvaeejcy0074ksv9wzqr9fst",
+    "name": "Folie Sticla Securizata 111D",
+    "slug": "folie-sticla-securizata-111d",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 17
+  },
+  {
+    "id": "cmvaeejd30076ksv9nzd8phfy",
+    "name": "Folie Sticla Securizata 5D",
+    "slug": "folie-sticla-securizata-5d",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 2
+  },
+  {
+    "id": "cmvaeejd80078ksv9oxwkghk2",
+    "name": "Folie Sticla Securizata 6D",
+    "slug": "folie-sticla-securizata-6d",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 1
+  },
+  {
+    "id": "cmvaeejde007aksv9izdezlv3",
+    "name": "Folie Sticla Securizata 9D",
+    "slug": "folie-sticla-securizata-9d",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 1
+  },
+  {
+    "id": "cmvaeejdk007cksv999us76pj",
+    "name": "Folie Sticla Securizata Camera",
+    "slug": "folie-sticla-securizata-camera",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 2
+  },
+  {
+    "id": "cmvaeejdq007eksv9m96zw50y",
+    "name": "Folie Sticla Securizata Easy Tool - instalare rapida",
+    "slug": "folie-sticla-securizata-easy-tool-instalare-rapida",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 4
+  },
+  {
+    "id": "cmvaeejdw007gksv9h3q5n9mb",
+    "name": "Folie Sticla Securizata ESD - antistatica",
+    "slug": "folie-sticla-securizata-esd-antistatica",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 7
+  },
+  {
+    "id": "cmvaeeje2007iksv9cxngotnr",
+    "name": "Folie Sticla Securizata Full Glue",
+    "slug": "folie-sticla-securizata-full-glue",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 15
+  },
+  {
+    "id": "cmvaeeje8007kksv9s0wkkisk",
+    "name": "Folie Sticla Securizata Luminous",
+    "slug": "folie-sticla-securizata-luminous",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 1
+  },
+  {
+    "id": "cmvaeejed007mksv9kkcv4coz",
+    "name": "Folie Sticla Securizata Oglinda",
+    "slug": "folie-sticla-securizata-oglinda",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 1
+  },
+  {
+    "id": "cmvaeejek007oksv91s83mwkx",
+    "name": "Folie Sticla Securizata Privacy",
+    "slug": "folie-sticla-securizata-privacy",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 10
+  },
+  {
+    "id": "cmvaeejeq007qksv9yxvhvzhx",
+    "name": "Folie Sticla Temperata 2.5 D",
+    "slug": "folie-sticla-temperata-25-d",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 3
+  },
+  {
+    "id": "cmvaeejew007sksv9a48qq1n3",
+    "name": "Folie Sticla Temperata 3D",
+    "slug": "folie-sticla-temperata-3d",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 2
+  },
+  {
+    "id": "cmvaeejf2007uksv9eqopuwdk",
+    "name": "Folie Sticla Temperata 4D",
+    "slug": "folie-sticla-temperata-4d",
+    "parentId": "cmvaeejbp006oksv9crrp9rel",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejf9007wksv9roatnwwk",
+    "name": "Huse Telefoane",
+    "slug": "huse-telefoane",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 498
+  },
+  {
+    "id": "cmvaeejff007yksv9uqnphpky",
+    "name": "Back Case",
+    "slug": "back-case",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 30
+  },
+  {
+    "id": "cmvaeejfm0080ksv9uw28fiap",
+    "name": "Carbon Fiber",
+    "slug": "carbon-fiber",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 3
+  },
+  {
+    "id": "cmvaeejft0082ksv9gsa0i4nu",
+    "name": "Defender",
+    "slug": "defender",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 10
+  },
+  {
+    "id": "cmvaeejfy0084ksv9drsxcs1k",
+    "name": "Diverse Imprimeuri",
+    "slug": "diverse-imprimeuri",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 29
+  },
+  {
+    "id": "cmvaeejg40086ksv94a3cfj91",
+    "name": "Flip Cover",
+    "slug": "flip-cover",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 5
+  },
+  {
+    "id": "cmvaeejga0088ksv95lmoxli1",
+    "name": "Flip Cover Oglinda",
+    "slug": "flip-cover-oglinda",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 6
+  },
+  {
+    "id": "cmvaeejgf008aksv90qrvz26w",
+    "name": "Full Cover 360",
+    "slug": "full-cover-360",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 13
+  },
+  {
+    "id": "cmvaeejgm008cksv9s0z54y7o",
+    "name": "Gama Design",
+    "slug": "gama-design",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 9
+  },
+  {
+    "id": "cmvaeejgs008eksv9nzf8w4e0",
+    "name": "Gama MagSafe",
+    "slug": "gama-magsafe",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 204
+  },
+  {
+    "id": "cmvaeejgz008gksv9jgpyrzpi",
+    "name": "Husa cu Pliere 3D",
+    "slug": "husa-cu-pliere-3d",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejh6008iksv9ddixg5s8",
+    "name": "Husa cu Suport",
+    "slug": "husa-cu-suport",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 73
+  },
+  {
+    "id": "cmvaeejhb008kksv9k4yok9r4",
+    "name": "Huse Waterproof",
+    "slug": "huse-waterproof",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 45
+  },
+  {
+    "id": "cmvaeejhg008mksv9bz6msq76",
+    "name": "Hybrid Back Degrade",
+    "slug": "hybrid-back-degrade",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 14
+  },
+  {
+    "id": "cmvaeejhl008oksv9iwg2eryh",
+    "name": "IPAKY",
+    "slug": "ipaky",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 26
+  },
+  {
+    "id": "cmvaeejhs008qksv95tls504x",
+    "name": "Liquid Silicone",
+    "slug": "liquid-silicone",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 520
+  },
+  {
+    "id": "cmvaeejhy008sksv95ff1ai4y",
+    "name": "Magnetic 360",
+    "slug": "magnetic-360",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 12
+  },
+  {
+    "id": "cmvaeeji5008uksv97swfq1ec",
+    "name": "MG Defender Series",
+    "slug": "mg-defender-series",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 7
+  },
+  {
+    "id": "cmvaeejid008wksv9y9yl4t5u",
+    "name": "Motomo",
+    "slug": "motomo",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 56
+  },
+  {
+    "id": "cmvaeejij008yksv9lzoaumv3",
+    "name": "Nillkin",
+    "slug": "nillkin",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 21
+  },
+  {
+    "id": "cmvaeejio0090ksv94mdnonup",
+    "name": "Ring Silicone Case",
+    "slug": "ring-silicone-case",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 174
+  },
+  {
+    "id": "cmvaeejis0092ksv93tdqrqft",
+    "name": "Silicone Full Cover 360°",
+    "slug": "silicone-full-cover-360",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 39
+  },
+  {
+    "id": "cmvaeejix0094ksv9tv3rmciz",
+    "name": "TPU - Suport Card",
+    "slug": "tpu-suport-card",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 96
+  },
+  {
+    "id": "cmvaeejj30096ksv915butylq",
+    "name": "TPU 360° Full Cover",
+    "slug": "tpu-360-full-cover",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 56
+  },
+  {
+    "id": "cmvaeejj80098ksv9r2i1o66i",
+    "name": "TPU 360° Full Cover - PC + Silicon",
+    "slug": "tpu-360-full-cover-pc-silicon",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 13
+  },
+  {
+    "id": "cmvaeejjf009aksv970z15ky5",
+    "name": "TPU 360° Max Defence Full Cover",
+    "slug": "tpu-360-max-defence-full-cover",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 45
+  },
+  {
+    "id": "cmvaeejjl009cksv9evlddo71",
+    "name": "TPU Antisoc",
+    "slug": "tpu-antisoc",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 221
+  },
+  {
+    "id": "cmvaeejjr009eksv9f9sz82z1",
+    "name": "TPU Matte",
+    "slug": "tpu-matte",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 347
+  },
+  {
+    "id": "cmvaeejjw009gksv9gmn4qw8w",
+    "name": "TPU Ombre",
+    "slug": "tpu-ombre",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 55
+  },
+  {
+    "id": "cmvaeejk5009iksv9ti84iop4",
+    "name": "TPU Phantom",
+    "slug": "tpu-phantom",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 13
+  },
+  {
+    "id": "cmvaeejka009kksv9ynfe19rb",
+    "name": "TPU Protect Plus ",
+    "slug": "tpu-protect-plus",
+    "parentId": "cmvaeejf9007wksv9roatnwwk",
+    "count": 131
+  },
+  {
+    "id": "cmvaeejkh009mksv9zr9i4r11",
+    "name": "Incarcatoare Telefoane",
+    "slug": "incarcatoare-telefoane",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 49
+  },
+  {
+    "id": "cmvaeejkm009oksv9ayifu35a",
+    "name": "Power bank telefoane",
+    "slug": "power-bank-telefoane",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 5
+  },
+  {
+    "id": "cmvaeejkt009qksv9lyymmjpv",
+    "name": "Selfie Stick-uri",
+    "slug": "selfie-stick-uri",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 2
+  },
+  {
+    "id": "cmvaeejkz009sksv9ckdhpiu8",
+    "name": "Suport si Docking Telefoane",
+    "slug": "suport-si-docking-telefoane",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejl6009uksv95abz6er9",
+    "name": "Suport Stand Adeziv",
+    "slug": "suport-stand-adeziv",
+    "parentId": "cmvaeejkz009sksv9ckdhpiu8",
+    "count": 25
+  },
+  {
+    "id": "cmvaeejlc009wksv93t1xwo6s",
+    "name": "Suporti auto",
+    "slug": "suporti-auto",
+    "parentId": "cmvaeejkz009sksv9ckdhpiu8",
+    "count": 36
+  },
+  {
+    "id": "cmvaeejli009yksv924ymj8e7",
+    "name": "Suporti Birou",
+    "slug": "suporti-birou",
+    "parentId": "cmvaeejkz009sksv9ckdhpiu8",
+    "count": 8
+  },
+  {
+    "id": "cmvaeejlo00a0ksv93z92rkwt",
+    "name": "Wearables &amp; Gadgeturi",
+    "slug": "wearables-amp-gadgeturi",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 1
+  },
+  {
+    "id": "cmvaeejlt00a2ksv994j9gl0k",
+    "name": "Accesorii Smartwatch",
+    "slug": "accesorii-smartwatch",
+    "parentId": "cmvaeejlo00a0ksv93z92rkwt",
+    "count": 24
+  },
+  {
+    "id": "cmvaeejlx00a4ksv9tf1omnqu",
+    "name": "Smartwatch-uri",
+    "slug": "smartwatch-uri",
+    "parentId": "cmvaeejlo00a0ksv93z92rkwt",
+    "count": 7
+  },
+  {
+    "id": "cmvaeejm300a5ksv9hgz74w8e",
+    "name": "Martisoare",
+    "slug": "martisoare",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmvaeejm900a7ksv9bpceb6z3",
+    "name": "Accesorii Confectionare Martisoare",
+    "slug": "accesorii-confectionare-martisoare",
+    "parentId": "cmvaeejm300a5ksv9hgz74w8e",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejmg00a9ksv9czp8basj",
+    "name": "Ambalaje Martisor",
+    "slug": "ambalaje-martisor",
+    "parentId": "cmvaeejm900a7ksv9bpceb6z3",
+    "count": 36
+  },
+  {
+    "id": "cmvaeejml00abksv9zs8156vs",
+    "name": "Seturi Brose",
+    "slug": "seturi-brose",
+    "parentId": "cmvaeejm900a7ksv9bpceb6z3",
+    "count": 140
+  },
+  {
+    "id": "cmvaeejmq00adksv9740qk72n",
+    "name": "Seturi Pandantive",
+    "slug": "seturi-pandantive",
+    "parentId": "cmvaeejm900a7ksv9bpceb6z3",
+    "count": 4
+  },
+  {
+    "id": "cmvaeejmw00afksv9hzfn090u",
+    "name": "Snururi martisor",
+    "slug": "snururi-martisor",
+    "parentId": "cmvaeejm900a7ksv9bpceb6z3",
+    "count": 7
+  },
+  {
+    "id": "cmvaeejn000ahksv9wzi892qz",
+    "name": "Display- uri Prezentare Martisoare",
+    "slug": "display-uri-prezentare-martisoare",
+    "parentId": "cmvaeejm300a5ksv9hgz74w8e",
+    "count": 2
+  },
+  {
+    "id": "cmvaeejn600ajksv9yko78wyv",
+    "name": "Martisoare Brosa si Pandantiv",
+    "slug": "martisoare-brosa-si-pandantiv",
+    "parentId": "cmvaeejm300a5ksv9hgz74w8e",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejnb00alksv9jyj3twle",
+    "name": "Martisoare Brosa Primavara",
+    "slug": "martisoare-brosa-primavara",
+    "parentId": "cmvaeejn600ajksv9yko78wyv",
+    "count": 18
+  },
+  {
+    "id": "cmvaeejng00anksv9c4lq7on7",
+    "name": "Martisoare Brosa Vintage",
+    "slug": "martisoare-brosa-vintage",
+    "parentId": "cmvaeejn600ajksv9yko78wyv",
+    "count": 1
+  },
+  {
+    "id": "cmvaeejnl00apksv9b2bdu0gv",
+    "name": "Martisor Acril Vis de Primavara",
+    "slug": "martisor-acril-vis-de-primavara",
+    "parentId": "cmvaeejn600ajksv9yko78wyv",
+    "count": 7
+  },
+  {
+    "id": "cmvaeejnq00arksv9ozl7dws8",
+    "name": "Martisor Brosa Medie",
+    "slug": "martisor-brosa-medie",
+    "parentId": "cmvaeejn600ajksv9yko78wyv",
+    "count": 2
+  },
+  {
+    "id": "cmvaeejnv00atksv9u8trb6o0",
+    "name": "Martisor Primavara",
+    "slug": "martisor-primavara",
+    "parentId": "cmvaeejn600ajksv9yko78wyv",
+    "count": 8
+  },
+  {
+    "id": "cmvaeejo000avksv9prdauqut",
+    "name": "Martisoare Copii",
+    "slug": "martisoare-copii",
+    "parentId": "cmvaeejm300a5ksv9hgz74w8e",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejo500axksv9ljfybr9h",
+    "name": "Bratara Inox Copii",
+    "slug": "bratara-inox-copii",
+    "parentId": "cmvaeejo000avksv9prdauqut",
+    "count": 26
+  },
+  {
+    "id": "cmvaeejob00azksv9wk0dr2kh",
+    "name": "Martisor Bratara Copii",
+    "slug": "martisor-bratara-copii",
+    "parentId": "cmvaeejo000avksv9prdauqut",
+    "count": 35
+  },
+  {
+    "id": "cmvaeejog00b1ksv9s711kweq",
+    "name": "Martisor Bratara Curcubeu",
+    "slug": "martisor-bratara-curcubeu",
+    "parentId": "cmvaeejo000avksv9prdauqut",
+    "count": 1
+  },
+  {
+    "id": "cmvaeejol00b3ksv961ki2usi",
+    "name": "Martisor Bratara Multicolora",
+    "slug": "martisor-bratara-multicolora",
+    "parentId": "cmvaeejo000avksv9prdauqut",
+    "count": 10
+  },
+  {
+    "id": "cmvaeejos00b5ksv9cpblrcn3",
+    "name": "Martisor Brosa Copii",
+    "slug": "martisor-brosa-copii",
+    "parentId": "cmvaeejo000avksv9prdauqut",
+    "count": 2
+  },
+  {
+    "id": "cmvaeejox00b7ksv9o60emeze",
+    "name": "Martisor Insigna Copii",
+    "slug": "martisor-insigna-copii",
+    "parentId": "cmvaeejo000avksv9prdauqut",
+    "count": 13
+  },
+  {
+    "id": "cmvaeejp200b9ksv9bt4i7x0g",
+    "name": "Martisoare Create cu Cristale Swarovski",
+    "slug": "martisoare-create-cu-cristale-swarovski",
+    "parentId": "cmvaeejm300a5ksv9hgz74w8e",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejp700bbksv9jz0w2o3x",
+    "name": "Martisoare Diverse",
+    "slug": "martisoare-diverse",
+    "parentId": "cmvaeejm300a5ksv9hgz74w8e",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejpc00bdksv9g4rv2v16",
+    "name": "Cercei",
+    "slug": "cercei-1",
+    "parentId": "cmvaeejp700bbksv9jz0w2o3x",
+    "count": 10
+  },
+  {
+    "id": "cmvaeejph00bfksv94fnzeh3h",
+    "name": "Martisoare Cauciuc",
+    "slug": "martisoare-cauciuc",
+    "parentId": "cmvaeejp700bbksv9jz0w2o3x",
+    "count": 24
+  },
+  {
+    "id": "cmvaeejpn00bhksv9ui5z4qaw",
+    "name": "Martisoare Traditionale",
+    "slug": "martisoare-traditionale",
+    "parentId": "cmvaeejp700bbksv9jz0w2o3x",
+    "count": 17
+  },
+  {
+    "id": "cmvaeejpt00bjksv93kn1jdf2",
+    "name": "Martisor Motiv Floral",
+    "slug": "martisor-motiv-floral",
+    "parentId": "cmvaeejp700bbksv9jz0w2o3x",
+    "count": 6
+  },
+  {
+    "id": "cmvaeejpy00blksv9be38yiiy",
+    "name": "Martisor Bratara",
+    "slug": "martisor-bratara",
+    "parentId": "cmvaeejm300a5ksv9hgz74w8e",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejq500bnksv93479fy4d",
+    "name": "Bratara Aurie",
+    "slug": "bratara-aurie",
+    "parentId": "cmvaeejpy00blksv9be38yiiy",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejqb00bpksv940o8pka5",
+    "name": "Bratara cu 4 Bile",
+    "slug": "bratara-cu-4-bile",
+    "parentId": "cmvaeejpy00blksv9be38yiiy",
+    "count": 9
+  },
+  {
+    "id": "cmvaeejqi00brksv9yu9gkf4j",
+    "name": "Bratara Elastica",
+    "slug": "bratara-elastica",
+    "parentId": "cmvaeejpy00blksv9be38yiiy",
+    "count": 3
+  },
+  {
+    "id": "cmvaeejqr00btksv93remhjqe",
+    "name": "Bratara Primavara",
+    "slug": "bratara-primavara",
+    "parentId": "cmvaeejpy00blksv9be38yiiy",
+    "count": 18
+  },
+  {
+    "id": "cmvaeejqz00bvksv9y594agss",
+    "name": "Bratari Diverse",
+    "slug": "bratari-diverse",
+    "parentId": "cmvaeejpy00blksv9be38yiiy",
+    "count": 10
+  },
+  {
+    "id": "cmvaeejr800bxksv9fl555xb3",
+    "name": "Martisor Bratara cu Ciucure",
+    "slug": "martisor-bratara-cu-ciucure",
+    "parentId": "cmvaeejpy00blksv9be38yiiy",
+    "count": 21
+  },
+  {
+    "id": "cmvaeejrd00bzksv94ajt11wo",
+    "name": "Martisor Bratara Impletita",
+    "slug": "martisor-bratara-impletita",
+    "parentId": "cmvaeejpy00blksv9be38yiiy",
+    "count": 4
+  },
+  {
+    "id": "cmvaeejrh00c1ksv9vnukuu7o",
+    "name": "Martisor Bratara Sidef",
+    "slug": "martisor-bratara-sidef",
+    "parentId": "cmvaeejpy00blksv9be38yiiy",
+    "count": 11
+  },
+  {
+    "id": "cmvaeejrm00c3ksv9x3fo9sor",
+    "name": "Martisor Bratara snur Alb-Rosu",
+    "slug": "martisor-bratara-snur-alb-rosu",
+    "parentId": "cmvaeejpy00blksv9be38yiiy",
+    "count": 21
+  },
+  {
+    "id": "cmvaeejrs00c5ksv9n8n0480j",
+    "name": "Martisor Bratara Traditionala",
+    "slug": "martisor-bratara-traditionala",
+    "parentId": "cmvaeejpy00blksv9be38yiiy",
+    "count": 2
+  },
+  {
+    "id": "cmvaeejrx00c7ksv9kcc5tvrv",
+    "name": "Martisor bratara zodiac",
+    "slug": "martisor-bratara-zodiac",
+    "parentId": "cmvaeejpy00blksv9be38yiiy",
+    "count": 13
+  },
+  {
+    "id": "cmvaeejs300c9ksv9bqij0aqe",
+    "name": "Martisor Placat Aur 24K",
+    "slug": "martisor-placat-aur-24k",
+    "parentId": "cmvaeejm300a5ksv9hgz74w8e",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejs800cbksv97qwh9ah1",
+    "name": "Bratara Placata cu Aur 24k",
+    "slug": "bratara-placata-cu-aur-24k",
+    "parentId": "cmvaeejs300c9ksv9bqij0aqe",
+    "count": 21
+  },
+  {
+    "id": "cmvaeejse00cdksv94csa6rmy",
+    "name": "Martisor Brosa Placata cu Aur 24K",
+    "slug": "martisor-brosa-placata-cu-aur-24k",
+    "parentId": "cmvaeejs300c9ksv9bqij0aqe",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejsk00cfksv9lemztuoz",
+    "name": "Seturi Martisoare",
+    "slug": "seturi-martisoare",
+    "parentId": "cmvaeejm300a5ksv9hgz74w8e",
+    "count": 364
+  },
+  {
+    "id": "cmvaeejsr00cgksv9zo84d57l",
+    "name": "Casa si Bricolaj",
+    "slug": "casa-si-bricolaj",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmvaeejsx00ciksv9of2pihgm",
+    "name": "Accesorii aparate climatizare",
+    "slug": "accesorii-aparate-climatizare",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 26
+  },
+  {
+    "id": "cmvaeejt400ckksv9xnn6s6q0",
+    "name": "Apicultura",
+    "slug": "apicultura",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 3
+  },
+  {
+    "id": "cmvaeejt900cmksv9t8r58woe",
+    "name": "Articole Auto",
+    "slug": "articole-auto",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 361
+  },
+  {
+    "id": "cmvaeejtg00coksv9zep11997",
+    "name": "Accesorii Auto",
+    "slug": "accesorii-auto",
+    "parentId": "cmvaeejt900cmksv9t8r58woe",
+    "count": 113
+  },
+  {
+    "id": "cmvaeejtl00cqksv9t0xoq4pj",
+    "name": "Anvelope",
+    "slug": "anvelope",
+    "parentId": "cmvaeejt900cmksv9t8r58woe",
+    "count": 25
+  },
+  {
+    "id": "cmvaeejtr00csksv9rodgwfo3",
+    "name": "Kit-uri Siguranţă Auto",
+    "slug": "kit-uri-siguranta-auto",
+    "parentId": "cmvaeejt900cmksv9t8r58woe",
+    "count": 5
+  },
+  {
+    "id": "cmvaeejty00cuksv9t7pn5nf2",
+    "name": "Pistoale de Stropit",
+    "slug": "pistoale-de-stropit",
+    "parentId": "cmvaeejt900cmksv9t8r58woe",
+    "count": 2
+  },
+  {
+    "id": "cmvaeeju400cwksv9pfnje8v4",
+    "name": "Scutere si Tricicluri Electrice",
+    "slug": "scutere-si-tricicluri-electrice",
+    "parentId": "cmvaeejt900cmksv9t8r58woe",
+    "count": 0
+  },
+  {
+    "id": "cmvaeeju900cyksv9exw70vke",
+    "name": "Seturi Scule Auto",
+    "slug": "seturi-scule-auto",
+    "parentId": "cmvaeejt900cmksv9t8r58woe",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejug00d0ksv9q6pe7j4r",
+    "name": "Articole pentru Animale",
+    "slug": "articole-pentru-animale",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 84
+  },
+  {
+    "id": "cmvaeejum00d2ksv9ki6od4jv",
+    "name": "Ansambluri de joaca animale",
+    "slug": "ansambluri-de-joaca-animale",
+    "parentId": "cmvaeejug00d0ksv9q6pe7j4r",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejuu00d4ksv9l3el0syb",
+    "name": "Articole pentru baie",
+    "slug": "articole-pentru-baie",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 411
+  },
+  {
+    "id": "cmvaeejv000d6ksv90kh50ja6",
+    "name": "Baterii sanitare",
+    "slug": "baterii-sanitare",
+    "parentId": "cmvaeejuu00d4ksv9l3el0syb",
+    "count": 55
+  },
+  {
+    "id": "cmvaeejv600d8ksv9xiput6y0",
+    "name": "Mobilier baie",
+    "slug": "mobilier-baie",
+    "parentId": "cmvaeejuu00d4ksv9l3el0syb",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejvb00daksv9n5uhn7wb",
+    "name": "Articole pentru Bucatarie",
+    "slug": "articole-pentru-bucatarie",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 58
+  },
+  {
+    "id": "cmvaeejvg00dcksv9kvab2nfw",
+    "name": "Accesorii Bucătărie",
+    "slug": "accesorii-bucatarie",
+    "parentId": "cmvaeejvb00daksv9n5uhn7wb",
+    "count": 144
+  },
+  {
+    "id": "cmvaeejvm00deksv9y6o0gts1",
+    "name": "Folii si Pungi Alimentare",
+    "slug": "folii-si-pungi-alimentare",
+    "parentId": "cmvaeejvb00daksv9n5uhn7wb",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejvt00dgksv91josour4",
+    "name": "Genti Termoizolante Mancare",
+    "slug": "genti-termoizolante-mancare",
+    "parentId": "cmvaeejvb00daksv9n5uhn7wb",
+    "count": 61
+  },
+  {
+    "id": "cmvaeejvz00diksv9d54r6jnf",
+    "name": "Organizatoare si Depozitare Bucatarie",
+    "slug": "organizatoare-si-depozitare-bucatarie",
+    "parentId": "cmvaeejvb00daksv9n5uhn7wb",
+    "count": 230
+  },
+  {
+    "id": "cmvaeejw600dkksv9suxsbe66",
+    "name": "Pahare, Sticle si Cani",
+    "slug": "pahare-sticle-si-cani",
+    "parentId": "cmvaeejvb00daksv9n5uhn7wb",
+    "count": 30
+  },
+  {
+    "id": "cmvaeejwc00dmksv9x0fv1uft",
+    "name": "Ustensile pentru Bucătărie",
+    "slug": "ustensile-pentru-bucatarie",
+    "parentId": "cmvaeejvb00daksv9n5uhn7wb",
+    "count": 406
+  },
+  {
+    "id": "cmvaeejwh00doksv983aim23e",
+    "name": "Articole pentru Casa si Curatenie",
+    "slug": "articole-pentru-casa-si-curatenie",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 1557
+  },
+  {
+    "id": "cmvaeejwm00dqksv9ames5uw1",
+    "name": "Accesorii Birou si Consumabile",
+    "slug": "accesorii-birou-si-consumabile",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 128
+  },
+  {
+    "id": "cmvaeejws00dsksv9gv1f8sre",
+    "name": "Accesorii Ingrijire Casa",
+    "slug": "accesorii-ingrijire-casa",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 42
+  },
+  {
+    "id": "cmvaeejwy00duksv984bspidh",
+    "name": "Clepsidre",
+    "slug": "clepsidre",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 0
+  },
+  {
+    "id": "cmvaeejx400dwksv9qmlnrmxu",
+    "name": "Cutii depozitare",
+    "slug": "cutii-depozitare",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 208
+  },
+  {
+    "id": "cmvaeejxb00dyksv9od3wptrs",
+    "name": "Cutii depozitare medicamente",
+    "slug": "cutii-depozitare-medicamente",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 56
+  },
+  {
+    "id": "cmvaeejxh00e0ksv95ycdbaer",
+    "name": "Diverse Casa",
+    "slug": "diverse-casa",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 137
+  },
+  {
+    "id": "cmvaeejxn00e2ksv9jwp3t6xw",
+    "name": "Electronice",
+    "slug": "electronice",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 66
+  },
+  {
+    "id": "cmvaeejxu00e4ksv95hdx55mo",
+    "name": "Incalzire si climatizare",
+    "slug": "incalzire-si-climatizare",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 15
+  },
+  {
+    "id": "cmvaeejxz00e6ksv9xtpqjr8c",
+    "name": "Lumanari",
+    "slug": "lumanari",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 124
+  },
+  {
+    "id": "cmvaeejy500e8ksv9snfllhyh",
+    "name": "Maturi, Perii, Mopuri si Galeti",
+    "slug": "maturi-perii-mopuri-si-galeti",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 80
+  },
+  {
+    "id": "cmvaeejya00eaksv92p26i64r",
+    "name": "Paturi electrice cu incalzire",
+    "slug": "paturi-electrice-cu-incalzire",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 5
+  },
+  {
+    "id": "cmvaeejyh00ecksv9tk67q5pt",
+    "name": "Perne Voiaj, Paturi si Textile",
+    "slug": "perne-voiaj-paturi-si-textile",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 118
+  },
+  {
+    "id": "cmvaeejym00eeksv98qwm84vk",
+    "name": "Produse ingrijire incaltaminte",
+    "slug": "produse-ingrijire-incaltaminte",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 81
+  },
+  {
+    "id": "cmvaeejys00egksv9q3jpzslc",
+    "name": "Radiatoare si Seminee electrice",
+    "slug": "radiatoare-si-seminee-electrice",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 6
+  },
+  {
+    "id": "cmvaeejyx00eiksv9yxrhv1xz",
+    "name": "Steaguri",
+    "slug": "steaguri",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 13
+  },
+  {
+    "id": "cmvaeejz200ekksv9b12xu9mu",
+    "name": "Tapet 3D Autoadeziv",
+    "slug": "tapet-3d-autoadeziv",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 79
+  },
+  {
+    "id": "cmvaeejz800emksv94rspidha",
+    "name": "Umidificatoare",
+    "slug": "umidificatoare",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 18
+  },
+  {
+    "id": "cmvaeejzd00eoksv9s7fqjxvp",
+    "name": "Uscatoare si Standere Haine",
+    "slug": "uscatoare-si-standere-haine",
+    "parentId": "cmvaeejwh00doksv983aim23e",
+    "count": 36
+  },
+  {
+    "id": "cmvaeejzj00eqksv9acjo7vsv",
+    "name": "Articole pentru Gradina si Bricolaj",
+    "slug": "articole-pentru-gradina-si-bricolaj",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 55
+  },
+  {
+    "id": "cmvaeejzp00esksv9nl1v7rhz",
+    "name": "Corturi Evenimente si Articole Camping",
+    "slug": "corturi-evenimente-si-articole-camping",
+    "parentId": "cmvaeejzj00eqksv9acjo7vsv",
+    "count": 118
+  },
+  {
+    "id": "cmvaeejzv00euksv9e6e3quy9",
+    "name": "Pasari Decorative din Metal",
+    "slug": "pasari-decorative-din-metal",
+    "parentId": "cmvaeejzj00eqksv9acjo7vsv",
+    "count": 7
+  },
+  {
+    "id": "cmvaeek0100ewksv9npb3fgeq",
+    "name": "Plase Umbrire, Umbrele si Prelate Gradina",
+    "slug": "plase-umbrire-umbrele-si-prelate-gradina",
+    "parentId": "cmvaeejzj00eqksv9acjo7vsv",
+    "count": 17
+  },
+  {
+    "id": "cmvaeek0600eyksv9enq5lsm1",
+    "name": "Articole pentru Iluminat",
+    "slug": "articole-pentru-iluminat",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 1373
+  },
+  {
+    "id": "cmvaeek0e00f0ksv9fr5ipleu",
+    "name": "Corpuri de iluminat",
+    "slug": "corpuri-de-iluminat",
+    "parentId": "cmvaeek0600eyksv9enq5lsm1",
+    "count": 14
+  },
+  {
+    "id": "cmvaeek0k00f2ksv9qru3sdvq",
+    "name": "Lampi de veghe",
+    "slug": "lampi-de-veghe",
+    "parentId": "cmvaeek0600eyksv9enq5lsm1",
+    "count": 93
+  },
+  {
+    "id": "cmvaeek0q00f4ksv9ap7663ks",
+    "name": "Echipamente pentru Transport şi Ridicat",
+    "slug": "echipamente-pentru-transport-i-ridicat",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 10
+  },
+  {
+    "id": "cmvaeek0x00f6ksv9b74ti2iz",
+    "name": "Gratare si Accesorii BBQ",
+    "slug": "gratare-si-accesorii-bbq",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 25
+  },
+  {
+    "id": "cmvaeek1300f8ksv96xvh1lx9",
+    "name": "Masti si costume carnaval",
+    "slug": "masti-si-costume-carnaval",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 8
+  },
+  {
+    "id": "cmvaeek1900faksv90yv284tk",
+    "name": "Pelerine, Umbrele si Accesorii",
+    "slug": "pelerine-umbrele-si-accesorii",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 53
+  },
+  {
+    "id": "cmvaeek1f00fcksv9glsfexr0",
+    "name": "Sanii",
+    "slug": "sanii",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 2
+  },
+  {
+    "id": "cmvaeek1n00feksv9cvfvh63b",
+    "name": "Videoproiectoare",
+    "slug": "videoproiectoare",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 5
+  },
+  {
+    "id": "cmvaeek1t00ffksv9f709e6sv",
+    "name": "Craciun",
+    "slug": "craciun",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmvaeek1y00fhksv9l5wzvp33",
+    "name": "Ambalaje Craciun",
+    "slug": "ambalaje-craciun",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 32
+  },
+  {
+    "id": "cmvaeek2300fjksv9sj5fv7s0",
+    "name": "Articole Craciun Bucatarie",
+    "slug": "articole-craciun-bucatarie",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 53
+  },
+  {
+    "id": "cmvaeek2800flksv9s1tbrbgo",
+    "name": "Beteala Craciun",
+    "slug": "beteala-craciun",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 57
+  },
+  {
+    "id": "cmvaeek2f00fnksv9w9co7en1",
+    "name": "Beteala LED",
+    "slug": "beteala-led",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 9
+  },
+  {
+    "id": "cmvaeek2o00fpksv98glousel",
+    "name": "Brazi Craciun",
+    "slug": "brazi-craciun",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 50
+  },
+  {
+    "id": "cmvaeek2u00frksv9ab126u2i",
+    "name": "Ciorapi Craciun",
+    "slug": "ciorapi-craciun",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 23
+  },
+  {
+    "id": "cmvaeek3000ftksv9jqb7c2b0",
+    "name": "Coronita Craciun",
+    "slug": "coronita-craciun",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 16
+  },
+  {
+    "id": "cmvaeek3500fvksv9c9azpi73",
+    "name": "Costume Craciun",
+    "slug": "costume-craciun",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 74
+  },
+  {
+    "id": "cmvaeek3b00fxksv9b9zd4rcn",
+    "name": "Covorase Brad",
+    "slug": "covorase-brad",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 26
+  },
+  {
+    "id": "cmvaeek3h00fzksv9wos9uds0",
+    "name": "Cutiute Muzicale",
+    "slug": "cutiute-muzicale",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 11
+  },
+  {
+    "id": "cmvaeek3o00g1ksv9rfxb6fhf",
+    "name": "Decoratiune Muzicala Craciun",
+    "slug": "decoratiune-muzicala-craciun",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 4
+  },
+  {
+    "id": "cmvaeek3t00g3ksv9j9ehsmdw",
+    "name": "Decoratiuni Brad",
+    "slug": "decoratiuni-brad",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 41
+  },
+  {
+    "id": "cmvaeek3z00g5ksv9sywsa79o",
+    "name": "Decoratiuni Craciun",
+    "slug": "decoratiuni-craciun",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 142
+  },
+  {
+    "id": "cmvaeek4400g7ksv9fj5v7tuf",
+    "name": "Decoratiuni Luminoase",
+    "slug": "decoratiuni-luminoase",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 70
+  },
+  {
+    "id": "cmvaeek4900g9ksv983qk0mvs",
+    "name": "Figurine Decorative Craciun",
+    "slug": "figurine-decorative-craciun",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 52
+  },
+  {
+    "id": "cmvaeek4e00gbksv9ole3xtfw",
+    "name": "Fundite Brad",
+    "slug": "fundite-brad",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 22
+  },
+  {
+    "id": "cmvaeek4j00gdksv9ttkmexxv",
+    "name": "Ghirlanda Decorativa",
+    "slug": "ghirlanda-decorativa",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 8
+  },
+  {
+    "id": "cmvaeek4q00gfksv9e2xi0yaj",
+    "name": "Globuri Brad",
+    "slug": "globuri-brad",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 17
+  },
+  {
+    "id": "cmvaeek4w00ghksv9i98wk06z",
+    "name": "Iluminat Festiv",
+    "slug": "iluminat-festiv",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 15
+  },
+  {
+    "id": "cmvaeek5200gjksv9p5cu3tt1",
+    "name": "Instalatii de Craciun",
+    "slug": "instalatii-de-craciun",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 0
+  },
+  {
+    "id": "cmvaeek5800glksv9kijf35bn",
+    "name": "Accesorii si componente",
+    "slug": "accesorii-si-componente",
+    "parentId": "cmvaeek5200gjksv9p5cu3tt1",
+    "count": 28
+  },
+  {
+    "id": "cmvaeek5f00gnksv93xxo0eij",
+    "name": "Diverse",
+    "slug": "diverse-2",
+    "parentId": "cmvaeek5200gjksv9p5cu3tt1",
+    "count": 0
+  },
+  {
+    "id": "cmvaeek5m00gpksv9zgds5jd6",
+    "name": "Furtun / Tub / Rola",
+    "slug": "furtun-tub-rola",
+    "parentId": "cmvaeek5200gjksv9p5cu3tt1",
+    "count": 204
+  },
+  {
+    "id": "cmvaeek5s00grksv9ssw32bxx",
+    "name": "Instalatii 220V",
+    "slug": "instalatii-220v",
+    "parentId": "cmvaeek5200gjksv9p5cu3tt1",
+    "count": 67
+  },
+  {
+    "id": "cmvaeek5x00gtksv9sggz04l8",
+    "name": "Instalatii cu baterii",
+    "slug": "instalatii-cu-baterii",
+    "parentId": "cmvaeek5200gjksv9p5cu3tt1",
+    "count": 83
+  },
+  {
+    "id": "cmvaeek6400gvksv9bmjz6cm7",
+    "name": "Instalatii Solare",
+    "slug": "instalatii-solare",
+    "parentId": "cmvaeek5200gjksv9p5cu3tt1",
+    "count": 18
+  },
+  {
+    "id": "cmvaeek6b00gxksv9cfiyddgl",
+    "name": "Liniar / Sir",
+    "slug": "liniar-sir",
+    "parentId": "cmvaeek5200gjksv9p5cu3tt1",
+    "count": 1091
+  },
+  {
+    "id": "cmvaeek6f00gzksv9vktxasj9",
+    "name": "Perdea",
+    "slug": "perdea",
+    "parentId": "cmvaeek5200gjksv9p5cu3tt1",
+    "count": 455
+  },
+  {
+    "id": "cmvaeek6m00h1ksv9pvy5nlc3",
+    "name": "Plasa",
+    "slug": "plasa",
+    "parentId": "cmvaeek5200gjksv9p5cu3tt1",
+    "count": 478
+  },
+  {
+    "id": "cmvaeek6r00h3ksv96kowbkxq",
+    "name": "Turturi / Franjuri",
+    "slug": "turturi-franjuri",
+    "parentId": "cmvaeek5200gjksv9p5cu3tt1",
+    "count": 1363
+  },
+  {
+    "id": "cmvaeek6w00h5ksv9h7s5dkgb",
+    "name": "Ornamente Brad",
+    "slug": "ornamente-brad",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 190
+  },
+  {
+    "id": "cmvaeek7100h7ksv9rmrcswlt",
+    "name": "Panglica Decorativa",
+    "slug": "panglica-decorativa",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 7
+  },
+  {
+    "id": "cmvaeek7700h9ksv9fwo2jj22",
+    "name": "Panglica LED",
+    "slug": "panglica-led",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 15
+  },
+  {
+    "id": "cmvaeek7b00hbksv9n5gy7e26",
+    "name": "Suport Decorativ Lumanare",
+    "slug": "suport-decorativ-lumanare",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 6
+  },
+  {
+    "id": "cmvaeek7g00hdksv9xkwyjat9",
+    "name": "Varfuri Decorative",
+    "slug": "varfuri-decorative",
+    "parentId": "cmvaeek1t00ffksv9f709e6sv",
+    "count": 9
+  },
+  {
+    "id": "cmvaeek7l00heksv9vfr22ten",
+    "name": "Solare",
+    "slug": "solare",
+    "parentId": null,
+    "count": 0
+  },
+  {
+    "id": "cmvaeek7q00hgksv9qdrgw8s6",
+    "name": "Lampi solare",
+    "slug": "lampi-solare",
+    "parentId": "cmvaeek7l00heksv9vfr22ten",
+    "count": 205
+  },
+  {
+    "id": "cmvaeek7v00hiksv9osest7r3",
+    "name": "Panouri Solare",
+    "slug": "panouri-solare",
+    "parentId": "cmvaeek7l00heksv9vfr22ten",
+    "count": 3
+  },
+  {
+    "id": "cmvch3f400001114z35u2nj29",
+    "name": "Scule si Unelte",
+    "slug": "scule-si-unelte",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 104
+  },
+  {
+    "id": "cmvch3f4n0003114zt1kdw2rv",
+    "name": "Motoare Electrice",
+    "slug": "motoare-electrice",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 9
+  },
+  {
+    "id": "cmvch3f4y0005114zw5sje40o",
+    "name": "Casa si camping",
+    "slug": "casa-si-camping",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 4
+  },
+  {
+    "id": "cmvch3f540007114zfh70q8ne",
+    "name": "Pirostrii",
+    "slug": "pirostrii",
+    "parentId": "cmvch3f4y0005114zw5sje40o",
+    "count": 5
+  },
+  {
+    "id": "cmvch3f5a0009114zk323ewa8",
+    "name": "Vehicule Electrice",
+    "slug": "vehicule-electrice",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 26
+  },
+  {
+    "id": "cmvch4gb00004109521au9xlw",
+    "name": "Gradina",
+    "slug": "gradina",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 13
+  },
+  {
+    "id": "cmvch4gb400061095u5ohpgt3",
+    "name": "Furtunuri",
+    "slug": "furtunuri",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 122
+  },
+  {
+    "id": "cmvch4gt4000810959pxukgyy",
+    "name": "Constructii",
+    "slug": "constructii",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 6
+  },
+  {
+    "id": "cmvch4gt9000a1095fd5c4rh0",
+    "name": "Accesorii constructii",
+    "slug": "accesorii-constructii",
+    "parentId": "cmvch4gt4000810959pxukgyy",
+    "count": 130
+  },
+  {
+    "id": "cmvch4gtp000c1095ce0yswpn",
+    "name": "Vehicule si Accesorii",
+    "slug": "vehicule-si-accesorii",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 19
+  },
+  {
+    "id": "cmvch4gvn000e1095mw1iejzo",
+    "name": "Drujbe",
+    "slug": "drujbe",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 56
+  },
+  {
+    "id": "cmvch4gvt000g1095vh94gc5l",
+    "name": "Lame & lanturi",
+    "slug": "lame-lanturi",
+    "parentId": "cmvch4gvn000e1095mw1iejzo",
+    "count": 36
+  },
+  {
+    "id": "cmvch4h4i000i1095mfltuwzo",
+    "name": "Amestecatoare Vopsea si Mortar",
+    "slug": "amestecatoare-vopsea-si-mortar",
+    "parentId": "cmvch4gt4000810959pxukgyy",
+    "count": 8
+  },
+  {
+    "id": "cmvch4h6b000k1095v16zqgbm",
+    "name": "Motocultoare",
+    "slug": "motocultoare",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 16
+  },
+  {
+    "id": "cmvch4h6f000m1095j9jjpdah",
+    "name": "Accesorii Motocultoare",
+    "slug": "accesorii-motocultoare",
+    "parentId": "cmvch4h6b000k1095v16zqgbm",
+    "count": 23
+  },
+  {
+    "id": "cmvch4hb3000o109552l5tudt",
+    "name": "Saboti",
+    "slug": "saboti",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 0
+  },
+  {
+    "id": "cmvch4hha000q1095495u197z",
+    "name": "Unelte de Sapat",
+    "slug": "unelte-de-sapat",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 5
+  },
+  {
+    "id": "cmvch4hin000s1095o9jg48w0",
+    "name": "Lopeti si Cazmale",
+    "slug": "lopeti-si-cazmale",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 4
+  },
+  {
+    "id": "cmvch4hix000u10953wdfj2hd",
+    "name": "Croitorie",
+    "slug": "croitorie",
+    "parentId": "cmvch3f4y0005114zw5sje40o",
+    "count": 4
+  },
+  {
+    "id": "cmvch4hka000w10958h7h4cbj",
+    "name": "Incarcatoare si Acumulatori",
+    "slug": "incarcatoare-si-acumulatori",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 18
+  },
+  {
+    "id": "cmvch4hlg000y1095hgca85q7",
+    "name": "Mini tractoare",
+    "slug": "mini-tractoare",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 3
+  },
+  {
+    "id": "cmvch4hqg001010954xt32ha1",
+    "name": "Araci",
+    "slug": "araci",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 44
+  },
+  {
+    "id": "cmvch4i9r00121095or8rnrc7",
+    "name": "Sfori de Gradina",
+    "slug": "sfori-de-gradina",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 30
+  },
+  {
+    "id": "cmvch4iap00141095cndkm8nv",
+    "name": "Sere si Prelate",
+    "slug": "sere-si-prelate",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 20
+  },
+  {
+    "id": "cmvch4iew00161095xmvev4mn",
+    "name": "Aragaze Camping Portabile",
+    "slug": "aragaze-camping-portabile",
+    "parentId": "cmvch3f4y0005114zw5sje40o",
+    "count": 11
+  },
+  {
+    "id": "cmvch4ixl00181095oosnmixl",
+    "name": "Roabe",
+    "slug": "roabe",
+    "parentId": "cmvch4gt4000810959pxukgyy",
+    "count": 17
+  },
+  {
+    "id": "cmvch4j4q001a1095etwmknte",
+    "name": "Drujbe cu acumulator",
+    "slug": "drujbe-cu-acumulator",
+    "parentId": "cmvch4gvn000e1095mw1iejzo",
+    "count": 8
+  },
+  {
+    "id": "cmvch4j5q001c1095kiebvrc3",
+    "name": "Motocoase",
+    "slug": "motocoase",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 168
+  },
+  {
+    "id": "cmvch4j8r001e1095bqhub0ir",
+    "name": "Pompe",
+    "slug": "pompe",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 6
+  },
+  {
+    "id": "cmvch4j8u001g1095rbc93l95",
+    "name": "Accesorii pentru pompe",
+    "slug": "accesorii-pentru-pompe",
+    "parentId": "cmvch4j8r001e1095bqhub0ir",
+    "count": 5
+  },
+  {
+    "id": "cmvch4jaj001i10958qppt3pu",
+    "name": "Masini de Tuns Iarba",
+    "slug": "masini-de-tuns-iarba",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 8
+  },
+  {
+    "id": "cmvch4jb7001k10954gblicio",
+    "name": "Zdrobitoare si Teascuri",
+    "slug": "zdrobitoare-si-teascuri",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 7
+  },
+  {
+    "id": "cmvch4jeg001m1095epkw523a",
+    "name": "Foarfeci gradina",
+    "slug": "foarfeci-gradina",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 18
+  },
+  {
+    "id": "cmvch4jhi001o1095s78d1zsw",
+    "name": "Generatoare",
+    "slug": "generatoare",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 9
+  },
+  {
+    "id": "cmvch4jqd001q1095mar8mq47",
+    "name": "Suflante",
+    "slug": "suflante",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 2
+  },
+  {
+    "id": "cmvch4jr1001s1095o4h17cq9",
+    "name": "Zootehnie",
+    "slug": "zootehnie",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 14
+  },
+  {
+    "id": "cmvch4jr4001u1095shwcgwkp",
+    "name": "Mori",
+    "slug": "mori",
+    "parentId": "cmvch4jr1001s1095o4h17cq9",
+    "count": 23
+  },
+  {
+    "id": "cmvch4jtk001w10954nx84867",
+    "name": "Incalzire, Climatizare, Instalatii",
+    "slug": "incalzire-climatizare-instalatii",
+    "parentId": "cmvaeejsr00cgksv9zo84d57l",
+    "count": 0
+  },
+  {
+    "id": "cmvch4jtn001y10953fqyqwcn",
+    "name": "Incalzire pe Lemne",
+    "slug": "incalzire-pe-lemne",
+    "parentId": "cmvch4jtk001w10954nx84867",
+    "count": 18
+  },
+  {
+    "id": "cmvch4jvy002010957qe0iuyn",
+    "name": "Despicatoare si Tocatoare Crengi",
+    "slug": "despicatoare-si-tocatoare-crengi",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 17
+  },
+  {
+    "id": "cmvch4k2b002210951bwvayo7",
+    "name": "Betoniere si Vibratoare Beton",
+    "slug": "betoniere-si-vibratoare-beton",
+    "parentId": "cmvch4gt4000810959pxukgyy",
+    "count": 11
+  },
+  {
+    "id": "cmvch4k2z00241095ruqqzufg",
+    "name": "Slefuitoare si Masini de Tencuit",
+    "slug": "slefuitoare-si-masini-de-tencuit",
+    "parentId": "cmvch4gt4000810959pxukgyy",
+    "count": 12
+  },
+  {
+    "id": "cmvch4k3f00261095ukrj72ek",
+    "name": "Aparate Sudura",
+    "slug": "aparate-sudura",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 49
+  },
+  {
+    "id": "cmvch4k9d00281095205irm9v",
+    "name": "Rulete",
+    "slug": "rulete",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 5
+  },
+  {
+    "id": "cmvch4kfp002a10959ope7v5z",
+    "name": "Masini Taiat Placi Ceramice si Parchet",
+    "slug": "masini-taiat-placi-ceramice-si-parchet",
+    "parentId": "cmvch4gt4000810959pxukgyy",
+    "count": 8
+  },
+  {
+    "id": "cmvch4ku0002c1095cpkmg94i",
+    "name": "Drujbe Electrice",
+    "slug": "drujbe-electrice",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 1
+  },
+  {
+    "id": "cmvch4kuy002e1095g7szlxt3",
+    "name": "Fierastraie Circulare si Pendulare Electrice",
+    "slug": "fierastraie-circulare-si-pendulare-electrice",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 18
+  },
+  {
+    "id": "cmvch4l6a002g1095bifhrovm",
+    "name": "Masini de Tuns Iarba si Trimmere Electrice",
+    "slug": "masini-de-tuns-iarba-si-trimmere-electrice",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 3
+  },
+  {
+    "id": "cmvch4ldo002i1095rymwynbm",
+    "name": "Ciocane Rotopercutoare",
+    "slug": "ciocane-rotopercutoare",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 4
+  },
+  {
+    "id": "cmvch4leq002k10959eufw8ia",
+    "name": "Electrice Auto",
+    "slug": "electrice-auto",
+    "parentId": "cmvch4gtp000c1095ce0yswpn",
+    "count": 18
+  },
+  {
+    "id": "cmvch4ljv002m1095xxpmxu4p",
+    "name": "Greble si Furci",
+    "slug": "greble-si-furci",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 10
+  },
+  {
+    "id": "cmvch4lnp002o1095977p346n",
+    "name": "Coase si Seceri",
+    "slug": "coase-si-seceri",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 3
+  },
+  {
+    "id": "cmvch4luc002q1095z1e46r94",
+    "name": "Sanitare Bucatarie",
+    "slug": "sanitare-bucatarie",
+    "parentId": "cmvch3f4y0005114zw5sje40o",
+    "count": 13
+  },
+  {
+    "id": "cmvch4lx8002s1095smgi40n0",
+    "name": "Clesti si Patenti",
+    "slug": "clesti-si-patenti",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 19
+  },
+  {
+    "id": "cmvch4lyu002u1095r2xfyr71",
+    "name": "Sanitare Baie",
+    "slug": "sanitare-baie",
+    "parentId": "cmvch3f4y0005114zw5sje40o",
+    "count": 2
+  },
+  {
+    "id": "cmvch4m3b002w1095rm1hp9w6",
+    "name": "Racorduri si Furtunuri Gaz",
+    "slug": "racorduri-si-furtunuri-gaz",
+    "parentId": "cmvch4jtk001w10954nx84867",
+    "count": 1
+  },
+  {
+    "id": "cmvch4m7d002y1095zmapme7i",
+    "name": "Roti Auto",
+    "slug": "roti-auto",
+    "parentId": "cmvch4gtp000c1095ce0yswpn",
+    "count": 9
+  },
+  {
+    "id": "cmvch4mnz00301095shofio9t",
+    "name": "Unelte pentru Plantare",
+    "slug": "unelte-pentru-plantare",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 7
+  },
+  {
+    "id": "cmvch4mvh00321095121wd6w2",
+    "name": "Unelte pentru altoit",
+    "slug": "unelte-pentru-altoit",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 4
+  },
+  {
+    "id": "cmvch4mvu0034109552s98qs0",
+    "name": "Echipamente Bucatarie",
+    "slug": "echipamente-bucatarie",
+    "parentId": "cmvch3f4y0005114zw5sje40o",
+    "count": 25
+  },
+  {
+    "id": "cmvch4n0s003610953i0v3hqk",
+    "name": "Hidrofoare",
+    "slug": "hidrofoare",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 23
+  },
+  {
+    "id": "cmvch4n5200381095w9tda58f",
+    "name": "Motopompe",
+    "slug": "motopompe",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 14
+  },
+  {
+    "id": "cmvch4nj0003a109504i2wtxr",
+    "name": "Aparate pentru stropit",
+    "slug": "aparate-pentru-stropit",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 31
+  },
+  {
+    "id": "cmvch4nj2003c10955oq42t2k",
+    "name": "Piese & accesorii",
+    "slug": "piese-accesorii",
+    "parentId": "cmvch4nj0003a109504i2wtxr",
+    "count": 28
+  },
+  {
+    "id": "cmvch4nnj003e1095j03uvr1z",
+    "name": "Batoze",
+    "slug": "batoze",
+    "parentId": "cmvch4jr1001s1095o4h17cq9",
+    "count": 1
+  },
+  {
+    "id": "cmvch4o0c003g1095ft7xz670",
+    "name": "Remorcare si Tractare Auto",
+    "slug": "remorcare-si-tractare-auto",
+    "parentId": "cmvch4gtp000c1095ce0yswpn",
+    "count": 2
+  },
+  {
+    "id": "cmvch4onw003i1095f8uxnecm",
+    "name": "Alte Produse Pasari si Animale",
+    "slug": "alte-produse-pasari-si-animale",
+    "parentId": "cmvch4jr1001s1095o4h17cq9",
+    "count": 4
+  },
+  {
+    "id": "cmvch4oo7003k109588ohwvcs",
+    "name": "Alte accesorii",
+    "slug": "alte-accesorii",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 4
+  },
+  {
+    "id": "cmvch4org003m10959r89oa5u",
+    "name": "Adezivi si Izolanti",
+    "slug": "adezivi-si-izolanti",
+    "parentId": "cmvch4gt4000810959pxukgyy",
+    "count": 3
+  },
+  {
+    "id": "cmvch4oth003o1095tnk3h2p5",
+    "name": "Unelte pentru Vie",
+    "slug": "unelte-pentru-vie",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 12
+  },
+  {
+    "id": "cmvch4rlt003q1095pb5uegpy",
+    "name": "Feronerie Usi si Ferestre",
+    "slug": "feronerie-usi-si-ferestre",
+    "parentId": "cmvch4gt4000810959pxukgyy",
+    "count": 6
+  },
+  {
+    "id": "cmvch4rw0003s1095fj68vi4p",
+    "name": "Pompe de suprafata",
+    "slug": "pompe-de-suprafata",
+    "parentId": "cmvch4j8r001e1095bqhub0ir",
+    "count": 11
+  },
+  {
+    "id": "cmvch4rza003u1095wnfpymal",
+    "name": "Pompe submersibile",
+    "slug": "pompe-submersibile",
+    "parentId": "cmvch4j8r001e1095bqhub0ir",
+    "count": 21
+  },
+  {
+    "id": "cmvch4sjb003w10953vturt09",
+    "name": "Plase Gradina",
+    "slug": "plase-gradina",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 35
+  },
+  {
+    "id": "cmvch4sou003y1095mx2m7n3j",
+    "name": "Uleiuri",
+    "slug": "uleiuri",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 10
+  },
+  {
+    "id": "cmvch4td300401095y576gqrn",
+    "name": "Tocatoare Furaje",
+    "slug": "tocatoare-furaje",
+    "parentId": "cmvch4jr1001s1095o4h17cq9",
+    "count": 4
+  },
+  {
+    "id": "cmvch4tna00421095d6344zq7",
+    "name": "Cantare",
+    "slug": "cantare",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 3
+  },
+  {
+    "id": "cmvch4tod00441095rou4a1do",
+    "name": "Deplumatoare",
+    "slug": "deplumatoare",
+    "parentId": "cmvch4jr1001s1095o4h17cq9",
+    "count": 3
+  },
+  {
+    "id": "cmvch4u1b00461095gea1anyx",
+    "name": "Incubatoare",
+    "slug": "incubatoare",
+    "parentId": "cmvch4jr1001s1095o4h17cq9",
+    "count": 5
+  },
+  {
+    "id": "cmvch4ubk00481095qz6qt4bm",
+    "name": "Organizare",
+    "slug": "organizare",
+    "parentId": "cmvch3f4y0005114zw5sje40o",
+    "count": 10
+  },
+  {
+    "id": "cmvch4uik004c10958x14v5km",
+    "name": "Casti protectie",
+    "slug": "casti-protectie",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 2
+  },
+  {
+    "id": "cmvch4v7p004e1095mfhhetnl",
+    "name": "Granulatoare de Furaje",
+    "slug": "granulatoare-de-furaje",
+    "parentId": "cmvch4jr1001s1095o4h17cq9",
+    "count": 7
+  },
+  {
+    "id": "cmvch4wgf004g10954146haqg",
+    "name": "Accesorii Biciclete",
+    "slug": "accesorii-biciclete",
+    "parentId": "cmvch4gtp000c1095ce0yswpn",
+    "count": 33
+  },
+  {
+    "id": "cmvch4x4f004i10954q2xo7jc",
+    "name": "Polizoare Unghiulare si de Banc",
+    "slug": "polizoare-unghiulare-si-de-banc",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 36
+  },
+  {
+    "id": "cmvch4yyd004k1095guvcxzg9",
+    "name": "Aparate Curatat",
+    "slug": "aparate-curatat",
+    "parentId": "cmvch3f4y0005114zw5sje40o",
+    "count": 6
+  },
+  {
+    "id": "cmvch4zwz004m1095flrvxtx2",
+    "name": "Masini Gaurit si Insurubat",
+    "slug": "masini-gaurit-si-insurubat",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 16
+  },
+  {
+    "id": "cmvch507b004o1095cv73qan8",
+    "name": "Scari",
+    "slug": "scari",
+    "parentId": "cmvch4gt4000810959pxukgyy",
+    "count": 6
+  },
+  {
+    "id": "cmvch50ht004q1095ff7vknz1",
+    "name": "Pistoale de Vopsit",
+    "slug": "pistoale-de-vopsit",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 4
+  },
+  {
+    "id": "cmvch50iw004s1095yxl33w4j",
+    "name": "Masini Batut Stalpi",
+    "slug": "masini-batut-stalpi",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 2
+  },
+  {
+    "id": "cmvch50p5004u10951utuzume",
+    "name": "Motoburghie",
+    "slug": "motoburghie",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 12
+  },
+  {
+    "id": "cmvch50q7004w1095k1u0wb8m",
+    "name": "Demolatoare",
+    "slug": "demolatoare",
+    "parentId": "cmvch4gt4000810959pxukgyy",
+    "count": 1
+  },
+  {
+    "id": "cmvch50rc004y1095heyxi2ss",
+    "name": "Accesorii Gaz",
+    "slug": "accesorii-gaz",
+    "parentId": "cmvch4jtk001w10954nx84867",
+    "count": 4
+  },
+  {
+    "id": "cmvch50va00501095sfp35hry",
+    "name": "Fierastraie Circulare si Drujbe cu Acumulator",
+    "slug": "fierastraie-circulare-si-drujbe-cu-acumulator",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 3
+  },
+  {
+    "id": "cmvch51y400521095yvti4r03",
+    "name": "Scule Prelucrare Lemn",
+    "slug": "scule-prelucrare-lemn",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 4
+  },
+  {
+    "id": "cmvch539n00541095tld57k7q",
+    "name": "Aeroterme si Convectori",
+    "slug": "aeroterme-si-convectori",
+    "parentId": "cmvch4jtk001w10954nx84867",
+    "count": 0
+  },
+  {
+    "id": "cmvch53tn005610951l2aqcry",
+    "name": "Masini de Tuns Iarba si Trimmere cu Acumulatori",
+    "slug": "masini-de-tuns-iarba-si-trimmere-cu-acumulatori",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 2
+  },
+  {
+    "id": "cmvch53vh0058109546shbwix",
+    "name": "Pompe de piscina",
+    "slug": "pompe-de-piscina",
+    "parentId": "cmvch4j8r001e1095bqhub0ir",
+    "count": 1
+  },
+  {
+    "id": "cmvch54hq005a1095uh74p8m1",
+    "name": "Plite Electrice",
+    "slug": "plite-electrice",
+    "parentId": "cmvch3f4y0005114zw5sje40o",
+    "count": 2
+  },
+  {
+    "id": "cmvch54nx005c1095yvfc08zb",
+    "name": "Masini Gaurit si Insurubat cu Acumulator",
+    "slug": "masini-gaurit-si-insurubat-cu-acumulator",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 7
+  },
+  {
+    "id": "cmvch54p4005e1095each5gd3",
+    "name": "Fierastraie Pendulare cu Acumulatori",
+    "slug": "fierastraie-pendulare-cu-acumulatori",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 4
+  },
+  {
+    "id": "cmvch54yj005g1095vl7re3cj",
+    "name": "Alte Scule cu Acumulatori",
+    "slug": "alte-scule-cu-acumulatori",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 1
+  },
+  {
+    "id": "cmvch54z8005i1095ye97g3wn",
+    "name": "Iluminat Exterior",
+    "slug": "iluminat-exterior",
+    "parentId": "cmvch4gt4000810959pxukgyy",
+    "count": 1
+  },
+  {
+    "id": "cmvch553k005k10953tghcgdc",
+    "name": "Polizoare Unghiulare cu Acumulatori",
+    "slug": "polizoare-unghiulare-cu-acumulatori",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 1
+  },
+  {
+    "id": "cmvch5573005m1095uddczaip",
+    "name": "Cutii si Genti pentru Scule",
+    "slug": "cutii-si-genti-pentru-scule",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 2
+  },
+  {
+    "id": "cmvch5728005o10950a3saevp",
+    "name": "Motoare Termice",
+    "slug": "motoare-termice",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 1
+  },
+  {
+    "id": "cmvch5cb2005q1095nfebljx0",
+    "name": "Adapatori",
+    "slug": "adapatori",
+    "parentId": "cmvch4jr1001s1095o4h17cq9",
+    "count": 6
+  },
+  {
+    "id": "cmvch5cuk005s1095ut4a219k",
+    "name": "Truse PPR",
+    "slug": "truse-ppr",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 1
+  },
+  {
+    "id": "cmvch5de7005u1095h26s3c23",
+    "name": "Cotete si Tarcuri",
+    "slug": "cotete-si-tarcuri",
+    "parentId": "cmvch4jr1001s1095o4h17cq9",
+    "count": 4
+  },
+  {
+    "id": "cmvch5dfj005w10950rgs6aa3",
+    "name": "Produse pentru Caini",
+    "slug": "produse-pentru-caini",
+    "parentId": "cmvch4jr1001s1095o4h17cq9",
+    "count": 4
+  },
+  {
+    "id": "cmvch5fib005y10951hw4kd8f",
+    "name": "Masini de sapat santuri",
+    "slug": "masini-de-sapat-santuri",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 3
+  },
+  {
+    "id": "cmvch5fm100601095r3smvnnp",
+    "name": "Alte Scule Electrice",
+    "slug": "alte-scule-electrice",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 1
+  },
+  {
+    "id": "cmvch5gpf00621095osy25ss3",
+    "name": "Topoare",
+    "slug": "topoare",
+    "parentId": "cmvch4gb00004109521au9xlw",
+    "count": 6
+  },
+  {
+    "id": "cmvch5gqn00641095ogn5tspe",
+    "name": "Ciocane",
+    "slug": "ciocane",
+    "parentId": "cmvch3f400001114z35u2nj29",
+    "count": 3
+  },
+  {
+    "id": "cmvch5n5r00661095jwdxs7z6",
+    "name": "Masini de umplut carnati",
+    "slug": "masini-de-umplut-carnati",
+    "parentId": "cmvch4mvu0034109552s98qs0",
+    "count": 1
+  },
+  {
+    "id": "cmvchi3mb0001cetkcopcd7xh",
+    "name": "Încălțăminte Bărbați",
+    "slug": "incaltaminte-barbati",
+    "parentId": "cmuul4dsn000bqmgwiseabfrv",
+    "count": 32
+  },
+  {
+    "id": "cmvchi3mh0003cetkfzflmpws",
+    "name": "Îmbrăcăminte Bărbați",
+    "slug": "imbracaminte-barbati",
+    "parentId": "cmuul4dsn000bqmgwiseabfrv",
+    "count": 4
+  },
+  {
+    "id": "cmvchi3mm0005cetka45isv6c",
+    "name": "Geci & Jachete Bărbați",
+    "slug": "geci-barbati",
+    "parentId": "cmuul4dsn000bqmgwiseabfrv",
+    "count": 137
+  },
+  {
+    "id": "cmvchi3mr0007cetkh21esbdn",
+    "name": "Articole Sport Bărbați",
+    "slug": "sport-barbati",
+    "parentId": "cmuul4dsn000bqmgwiseabfrv",
+    "count": 2
+  },
+  {
+    "id": "cmvchi3mx0009cetkvleyjl6c",
+    "name": "Accesorii Bărbați",
+    "slug": "accesorii-barbati",
+    "parentId": "cmuul4dsn000bqmgwiseabfrv",
+    "count": 13
+  },
+  {
+    "id": "cmvchi3n5000bcetk7okipkhr",
+    "name": "Încălțăminte Femei",
+    "slug": "incaltaminte-femei",
+    "parentId": "cmuul4ds30006qmgwaz9umwhb",
+    "count": 0
+  },
+  {
+    "id": "cmvchi3na000dcetk4nb1jeye",
+    "name": "Îmbrăcăminte Femei",
+    "slug": "imbracaminte-femei",
+    "parentId": "cmuul4ds30006qmgwaz9umwhb",
+    "count": 22
+  },
+  {
+    "id": "cmvchi3nh000fcetkeiiylpzc",
+    "name": "Accesorii Damă",
+    "slug": "accesorii-femei",
+    "parentId": "cmuul4ds30006qmgwaz9umwhb",
+    "count": 28
+  },
+  {
+    "id": "cmvchi3np000hcetkn792nw9x",
+    "name": "Suporturi Telefoane & Auto",
+    "slug": "suporturi-telefoane",
+    "parentId": "cmvaeej92005qksv99nn9fltu",
+    "count": 38
+  },
+  {
+    "id": "cmvr7m98s0001qiizguybrnqb",
+    "name": "Tăvi și Forme de Copt",
+    "slug": "tavi-si-forme-copt",
+    "parentId": null,
+    "count": 23
+  },
+  {
+    "id": "cmvr7m9920003qiizugw7d2se",
+    "name": "Ibrice & Preparare Cafea",
+    "slug": "ibrice-cafea",
+    "parentId": null,
+    "count": 21
+  },
+  {
+    "id": "cmvr7m9950005qiizvjgryl5t",
+    "name": "Termosuri & Bidoane",
+    "slug": "termosuri-si-bidoane",
+    "parentId": null,
+    "count": 42
+  },
+  {
+    "id": "cmvr7m9990007qiizbtsnl6cm",
+    "name": "Pahare, Căni & Frapiere",
+    "slug": "pahare-si-cani",
+    "parentId": null,
+    "count": 27
+  },
+  {
+    "id": "cmvr7m99c0009qiizba9ytbyh",
+    "name": "Fiare și Stații de Călcat",
+    "slug": "fiare-de-calcat",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 22
+  },
+  {
+    "id": "cmvr7m99g000bqiizzomelpca",
+    "name": "Aspiratoare & Curățare",
+    "slug": "aspiratoare",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 56
+  },
+  {
+    "id": "cmvr7m99k000dqiizowxyhsis",
+    "name": "Prăjitoare Pâine & Sandviș",
+    "slug": "prajitoare-paine-sandwich",
+    "parentId": "cmuvuntwi0004hq5t7jqkgr3c",
+    "count": 10
+  }
+]

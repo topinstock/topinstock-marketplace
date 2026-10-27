@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import Link from 'next/link';
-import { Package2, RotateCcw, ShieldCheck, Truck, RotateCw } from 'lucide-react';
+import { Package2, RotateCcw } from 'lucide-react';
 import {
   getCatalogProducts,
   getCatalogCategories,
@@ -175,35 +175,18 @@ export default async function EmagCategoryPage({
               <span className="text-white font-semibold">{categoryName}</span>
             </nav>
 
-            {/* Single Clean <h1> matching eMAG SEO Title */}
+            {/* Clean Category Header */}
             <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3">
               <div>
                 <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight">
-                  Cauți {categoryName}? Alege din {total} {total === 1 ? 'produs' : 'produse'}
+                  {categoryName}
                 </h1>
-                <p className="text-white/85 text-[13px] sm:text-[14px] mt-1.5 font-medium max-w-3xl leading-relaxed">
-                  Prețuri de la{' '}
+                <p className="text-white/85 text-sm sm:text-base mt-1.5 font-medium">
+                  {total.toLocaleString('ro-RO')} {total === 1 ? 'produs' : 'produse'} disponibile direct din stoc • Prețuri de la{' '}
                   <span className="font-bold text-amber-300">
                     {Math.round(details.minPrice || 39)} Lei
                   </span>
-                  . Profită de livrare rapidă prin curier direct la adresă (DPD, Fan Courier), deschiderea coletului la livrare și retur gratuit în 30 de zile.
                 </p>
-              </div>
-
-              {/* Trust Micro-badges (eMAG conversion triggers) */}
-              <div className="flex items-center gap-2 flex-wrap text-[11px] font-bold text-white/90">
-                <span className="inline-flex items-center gap-1 bg-white/10 backdrop-blur-xs px-2.5 py-1 rounded-lg">
-                  <Truck size={14} className="text-emerald-300" />
-                  <span>Curier DPD &amp; Fan Courier</span>
-                </span>
-                <span className="inline-flex items-center gap-1 bg-white/10 backdrop-blur-xs px-2.5 py-1 rounded-lg">
-                  <RotateCw size={14} className="text-amber-300" />
-                  <span>Retur 30 zile</span>
-                </span>
-                <span className="inline-flex items-center gap-1 bg-white/10 backdrop-blur-xs px-2.5 py-1 rounded-lg">
-                  <ShieldCheck size={14} className="text-cyan-300" />
-                  <span>Verificare colet</span>
-                </span>
               </div>
             </div>
           </div>

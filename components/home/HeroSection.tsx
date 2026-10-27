@@ -29,57 +29,57 @@ interface Slide {
 const SLIDES: Slide[] = [
   {
     image: '/images/hero-black-friday.jpg',
-    badge: '🔥 28 OCTOMBRIE – 1 DECEMBRIE',
-    title: 'BLACK FRIDAY',
-    highlight: 'PREȚURI SUB OUTLET • DIRECT DIN STOC',
-    desc: 'Campania anului a început pe TOPinStock! Mii de produse cu prețuri mai mici decât la outlet: electrocasnice, casă, bucătărie și cadouri direct din stoc.',
-    ctaText: 'Prinde Ofertele Black Friday',
+    badge: '🔥 BLACK FRIDAY',
+    title: 'Prețuri Sub Outlet',
+    highlight: 'Campania Sezonului',
+    desc: 'Mii de produse originale cu livrare rapidă din depozit.',
+    ctaText: 'Descoperă Ofertele',
     ctaHref: '/produse',
     isBlackFriday: true,
   },
   {
     image: '/images/promo_christmas_lights.jpg',
-    badge: '🎄 Sărbători & Sezon Festiv',
-    title: 'Instalații & Turturi Crăciun',
-    highlight: '1.300+ Modele TOPinStock Direct din Stoc',
-    desc: 'Turturi LED exterior, perdele luminoase interconectabile și ghirlande festive pentru decorul complet de sărbători.',
+    badge: '🎄 SĂRBĂTORI',
+    title: 'Instalații & Decorațiuni',
+    highlight: 'Magia Crăciunului',
+    desc: 'Turturi LED, perdele luminoase și ghirlande festive direct din stoc.',
     ctaText: 'Vezi Instalațiile',
     ctaHref: '/turturi-franjuri/c',
   },
   {
     image: '/images/hero-victronic-electrocasnice.webp',
-    badge: '⚡ Sezonul Confortului & Căldurii',
-    title: 'Electrocasnice & Încălzire Victronic',
-    highlight: 'Căldură Rapidă & Consum Redus',
-    desc: 'Calorifere electrice cu ulei, aeroterme și electrocasnice de bucătărie cu termostat inteligent.',
-    ctaText: 'Vezi Soluțiile de Încălzire',
+    badge: '⚡ CONFORT TERMIC',
+    title: 'Electrocasnice & Încălzire',
+    highlight: 'Victronic & Oliver Voltz',
+    desc: 'Calorifere electrice și aparate de bucătărie eficiente.',
+    ctaText: 'Vezi Produsele',
     ctaHref: '/calorifere-tip-panou/c',
   },
   {
     image: '/images/promo_coffee.jpg',
-    badge: '☕ Dimineți Calde & Aromate',
-    title: 'Espressoare & Preparare Cafea',
-    highlight: 'Oliver Voltz & Grünberg · Presiune Optimă',
-    desc: 'Espressoare automate, râșnițe electrice și cafetiere moka pentru cafea aromată și spumă densă în zilele reci.',
-    ctaText: 'Descoperă Espressoarele',
+    badge: '☕ CAFEA & AROMĂ',
+    title: 'Espressoare & Cafetiere',
+    highlight: 'Dimineți Perfecte',
+    desc: 'Aparate de cafea și espressoare automate pentru acasă.',
+    ctaText: 'Descoperă Gama',
     ctaHref: '/produse?search=cafea',
   },
   {
     image: '/images/promo_toys.jpg',
-    badge: '🎁 Cadouri Sf. Nicolae & Crăciun',
-    title: 'Jucării & Cadouri pentru Copii',
-    highlight: '410+ Jocuri, Plușuri & Seturi Creative',
-    desc: 'Board games distractive de familie, mașinuțe, căsuțe și jucării educative gata de pus sub brad.',
+    badge: '🎁 PENTRU COPII',
+    title: 'Jucării & Cadouri',
+    highlight: 'Bucuria Celor Mici',
+    desc: 'Jocuri educative, mașinuțe și seturi creative gata de livrare.',
     ctaText: 'Alege Cadourile',
     ctaHref: '/jucarii-si-jocuri/c',
   },
   {
     image: '/images/promo_cookware.jpg',
-    badge: '🍳 Pregătiri Festive de Sezon',
-    title: 'Seturi Oale & Inox Profesionale',
-    highlight: 'Grünberg & Bohmann · 140+ Opțiuni',
-    desc: 'Seturi complete din inox alimentar cu bază termică multistrat, ideale pentru mesele bogate de sărbători.',
-    ctaText: 'Descoperă Oalele Inox',
+    badge: '🍳 GĂTIT & BUCĂTĂRIE',
+    title: 'Seturi Oale & Inox',
+    highlight: 'Calitate Profesională',
+    desc: 'Inox alimentar cu bază termică multistrat pentru preparate gustoase.',
+    ctaText: 'Vezi Oalele',
     ctaHref: '/oale/c',
   },
 ];
@@ -151,150 +151,87 @@ export default function HeroSection() {
                 />
 
                 {slide.isBlackFriday ? (
-                  /* ── Banner Black Friday: Design High-Impact, Iluminat & Conversie Maximă ── */
-                  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/75 sm:via-slate-950/65 to-transparent flex items-center">
-                    <div className="max-w-[620px] px-4 sm:px-12 text-white">
-                      {/* Badge Campanie cu data si pulsating glow */}
-                      <div className="flex flex-wrap items-center gap-2 mb-3">
-                        <span className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 via-orange-500 to-[#F5436A] text-white text-[11px] sm:text-xs font-black px-4 py-1.5 rounded-full uppercase tracking-wider shadow-[0_0_24px_rgba(245,158,11,0.55)] border border-amber-300/40">
-                          <span className="w-2 h-2 rounded-full bg-white animate-ping" />
-                          <Flame size={14} className="text-amber-200 fill-amber-200" />
-                          <span>28 OCTOMBRIE – 1 DECEMBRIE</span>
-                        </span>
-                        <span className="hidden sm:inline-flex items-center gap-1.5 bg-black/60 backdrop-blur-md border border-white/15 text-amber-300 text-[11px] font-bold px-3 py-1 rounded-full shadow-sm">
-                          <Sparkles size={12} className="text-amber-400" />
-                          <span>Campania Anului</span>
+                  /* ── Banner Black Friday: Design Minimalist, Impact Puternic ── */
+                  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/70 sm:via-slate-950/50 to-transparent flex items-center">
+                    <div className="max-w-[560px] px-6 sm:px-12 text-white">
+                      {/* Badge Simplu */}
+                      <div className="mb-3">
+                        <span className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-[#F5436A] text-white text-xs font-black px-3.5 py-1 rounded-full uppercase tracking-wider shadow-md">
+                          <Flame size={13} className="text-amber-200 fill-amber-200" />
+                          <span>{slide.badge}</span>
                         </span>
                       </div>
 
-                      {/* Headline Exploziv: BLACK FRIDAY TOATA LUNA */}
-                      <h2 className="text-2xl sm:text-5xl md:text-6xl font-black uppercase tracking-tight leading-[0.95] mb-2 drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]">
+                      {/* Headline BOLD */}
+                      <h2 className="text-3xl sm:text-5xl md:text-6xl font-black uppercase tracking-tight leading-[0.95] mb-2 drop-shadow-md">
                         <span className="text-white block">BLACK FRIDAY</span>
-                        <span className="bg-gradient-to-r from-amber-300 via-yellow-200 to-amber-500 bg-clip-text text-transparent block mt-1 drop-shadow-sm">
+                        <span className="bg-gradient-to-r from-amber-300 via-yellow-200 to-amber-500 bg-clip-text text-transparent block mt-1">
                           TOATĂ LUNA
                         </span>
                       </h2>
 
-                      {/* Hook Comercial: PREȚURI SUB OUTLET */}
-                      <div className="inline-flex flex-wrap items-center gap-2 my-2.5 py-1.5 px-3.5 rounded-xl bg-gradient-to-r from-rose-500/30 via-amber-500/20 to-transparent border-l-4 border-[#F5436A] backdrop-blur-xs">
-                        <span className="text-xs sm:text-sm md:text-base font-black text-rose-300 tracking-wide uppercase drop-shadow-xs">
-                          ⚡ PREȚURI SUB OUTLET
-                        </span>
-                        <span className="text-white/40 hidden sm:inline">•</span>
-                        <span className="text-xs sm:text-sm font-bold text-amber-200">
-                          Direct din Depozit
-                        </span>
-                      </div>
-
-                      {/* Text Copywriting */}
-                      <p className="text-slate-200 text-xs sm:text-sm leading-relaxed mb-6 line-clamp-2 max-w-[500px]">
+                      {/* Text Curat */}
+                      <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-6 font-medium max-w-[440px]">
                         {slide.desc}
                       </p>
 
-                      {/* CTA & Trust signals */}
-                      <div className="flex flex-wrap items-center gap-3">
+                      {/* CTA Curat */}
+                      <div>
                         <Link
                           href={slide.ctaHref}
-                          className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 via-orange-500 to-[#F5436A] hover:from-amber-300 hover:to-[#C03653] text-slate-950 font-black text-xs sm:text-sm px-6 sm:px-8 py-3 sm:py-3.5 rounded-full shadow-[0_4px_24px_rgba(245,158,11,0.6)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_6px_32px_rgba(245,158,11,0.8)] active:scale-95 cursor-pointer"
+                          className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 via-orange-500 to-[#F5436A] hover:from-amber-300 hover:to-[#C03653] text-slate-950 font-black text-sm px-8 py-3.5 rounded-full shadow-lg transition-all duration-200 hover:-translate-y-0.5 active:scale-95 cursor-pointer"
                         >
                           <span>{slide.ctaText}</span>
                           <ArrowRight size={17} />
                         </Link>
-
-                        <div className="hidden sm:flex items-center gap-3 text-white/90 text-xs font-semibold bg-black/45 backdrop-blur-md border border-white/10 px-4 py-2.5 rounded-full shadow-sm">
-                          <span className="flex items-center gap-1.5 text-emerald-300">
-                            <Truck size={14} className="text-emerald-400" />
-                            Direct din Stoc
-                          </span>
-                          <span className="text-white/20">·</span>
-                          <span className="flex items-center gap-1.5 text-[#29DCFA]">
-                            <ShieldCheck size={14} />
-                            Retur 30 Zile
-                          </span>
-                        </div>
                       </div>
                     </div>
                   </div>
                 ) : slide.hasBuiltinText ? (
-                  /* ── Banner cu artwork dedicat: lăsăm imaginea 100% vizibilă + bară CTA floating modernă ── */
+                  /* ── Banner cu artwork dedicat ── */
                   <Link
                     href={slide.ctaHref}
                     className="absolute inset-0 flex flex-col justify-end p-5 sm:p-8 group/link cursor-pointer"
                   >
                     <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-slate-950/85 via-slate-950/30 to-transparent pointer-events-none" />
 
-                    <div className="relative z-10 flex flex-wrap items-center justify-between gap-3">
-                      <div className="flex flex-wrap items-center gap-3">
-                        <span className="inline-flex items-center gap-2 bg-gradient-to-r from-[#F5436A] to-[#C03653] hover:from-[#C03653] hover:to-[#A02B44] text-white font-black text-xs sm:text-sm px-6 py-3 rounded-full shadow-[0_4px_16px_rgba(245,67,106,0.5)] transition-all group-hover/link:scale-105 group-hover/link:shadow-[0_6px_24px_rgba(245,67,106,0.65)]">
-                          <span>{slide.ctaText}</span>
-                          <ArrowRight size={16} />
-                        </span>
-
-                        <span className="inline-flex items-center gap-1.5 bg-black/50 backdrop-blur-md border border-white/15 text-white/95 text-xs font-bold px-3.5 py-2.5 rounded-full shadow-sm">
-                          <Sparkles size={13} className="text-amber-300" />
-                          <span>Mii de produse pe stoc</span>
-                        </span>
-                      </div>
-
-                      <div className="hidden sm:flex items-center gap-3 text-white/90 text-xs font-medium bg-black/50 backdrop-blur-md border border-white/15 px-4 py-2.5 rounded-full shadow-sm">
-                        <span className="flex items-center gap-1.5 text-emerald-300">
-                          <Truck size={14} className="text-emerald-400" />
-                          Livrare 2-3 zile
-                        </span>
-                        <span className="text-white/20">·</span>
-                        <span className="flex items-center gap-1.5 text-[#29DCFA]">
-                          <ShieldCheck size={14} />
-                          Retur Simplu 30 Zile
-                        </span>
-                      </div>
+                    <div className="relative z-10">
+                      <span className="inline-flex items-center gap-2 bg-gradient-to-r from-[#F5436A] to-[#C03653] hover:from-[#C03653] hover:to-[#A02B44] text-white font-black text-sm px-7 py-3 rounded-full shadow-md transition-all group-hover/link:scale-105">
+                        <span>{slide.ctaText}</span>
+                        <ArrowRight size={16} />
+                      </span>
                     </div>
                   </Link>
                 ) : (
-                  /* ── Banner standard cu text și gradient lateral optimizat pe mobil și desktop ── */
-                  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/75 to-slate-950/30 sm:to-transparent flex items-center">
-                    <div className="max-w-[560px] px-4 sm:px-12 text-white">
+                  /* ── Banner standard minimalist ── */
+                  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/70 to-slate-950/20 sm:to-transparent flex items-center">
+                    <div className="max-w-[540px] px-6 sm:px-12 text-white">
                       {/* Badge */}
-                      <div className="flex items-center gap-2 mb-3">
-                        <span className="inline-flex items-center gap-1.5 bg-gradient-to-r from-[#F5436A] to-[#C03653] text-white text-xs font-black px-3.5 py-1 rounded-full uppercase tracking-wider shadow-lg">
-                          <Sparkles size={12} />
-                          {slide.badge}
+                      <div className="mb-3">
+                        <span className="inline-flex items-center gap-1.5 bg-white/20 backdrop-blur-md text-white text-xs font-black px-3.5 py-1 rounded-full uppercase tracking-wider">
+                          <Sparkles size={12} className="text-amber-300" />
+                          <span>{slide.badge}</span>
                         </span>
                       </div>
 
                       {/* Headline */}
-                      <h2 className="text-xl sm:text-4xl md:text-5xl font-black leading-[1.1] mb-2 tracking-tight drop-shadow-md">
+                      <h2 className="text-2xl sm:text-4xl md:text-5xl font-black leading-[1.1] mb-2 tracking-tight drop-shadow-md">
                         {slide.title}
                       </h2>
 
-                      <p className="text-amber-300 font-bold text-xs sm:text-base mb-2">
-                        {slide.highlight}
-                      </p>
-
-                      <p className="text-slate-200 text-xs sm:text-sm leading-relaxed mb-6 line-clamp-2 max-w-[460px]">
+                      <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-6 font-medium max-w-[420px]">
                         {slide.desc}
                       </p>
 
-                      {/* Action buttons & Trust pills */}
-                      <div className="flex flex-wrap items-center gap-3">
+                      {/* Action button */}
+                      <div>
                         <Link
                           href={slide.ctaHref}
-                          className="inline-flex items-center gap-2 bg-gradient-to-r from-[#F5436A] to-[#C03653] hover:from-[#C03653] hover:to-[#A02B44] text-white font-bold text-xs sm:text-sm px-5 sm:px-7 py-2.5 sm:py-3 rounded-full shadow-[0_4px_16px_rgba(245,67,106,0.45)] transition-all duration-200 hover:-translate-y-0.5 active:scale-95"
+                          className="inline-flex items-center gap-2 bg-gradient-to-r from-[#F5436A] to-[#C03653] hover:from-[#C03653] hover:to-[#A02B44] text-white font-bold text-sm px-8 py-3.5 rounded-full shadow-md transition-all duration-200 hover:-translate-y-0.5 active:scale-95"
                         >
                           <span>{slide.ctaText}</span>
                           <ArrowRight size={16} />
                         </Link>
-
-                        <div className="hidden sm:flex items-center gap-3 text-white/80 text-[11px] font-medium ml-2">
-                          <span className="flex items-center gap-1">
-                            <Truck size={13} className="text-emerald-400" />
-                            Livrare 2-3 zile
-                          </span>
-                          <span>·</span>
-                          <span className="flex items-center gap-1">
-                            <ShieldCheck size={13} className="text-[#29DCFA]" />
-                            Garanție furnizor
-                          </span>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -355,18 +292,12 @@ export default function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-[#004f61]/85 to-transparent pointer-events-none" />
 
             <div className="relative z-10">
-              <div className="flex items-center justify-between mb-2">
-                <span className="inline-flex items-center gap-1 bg-white/20 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider backdrop-blur-md">
-                  <Flame size={11} className="text-amber-300" />
-                  GĂTIT & BUCĂTĂRIE
-                </span>
-              </div>
-              <h3 className="text-xl sm:text-2xl font-black leading-snug mb-1 drop-shadow-sm text-white">
+              <span className="inline-block text-[#29DCFA] font-bold text-xs uppercase tracking-wider mb-1">
+                Gătit &amp; Bucătărie
+              </span>
+              <h3 className="text-xl sm:text-2xl font-black leading-tight drop-shadow-sm text-white">
                 Seturi Oale &amp; Inox
               </h3>
-              <p className="text-[#29DCFA] font-bold text-xs drop-shadow-xs">
-                Grünberg &amp; Bohmann · 140+ modele
-              </p>
             </div>
 
             <div className="relative z-10 flex items-center justify-between text-xs font-bold text-white mt-4 pt-3 border-t border-white/20">
@@ -377,14 +308,14 @@ export default function HeroSection() {
             </div>
           </Link>
 
-          {/* Card 2: Coral / Red Bestseller - Biciclete Splendor Victronic */}
+          {/* Card 2: Coral / Red Bestseller - Biciclete Copii */}
           <Link
             href="/biciclete-pentru-copii/c"
             className="flex-1 min-h-[195px] rounded-3xl p-6 text-white flex flex-col justify-between relative overflow-hidden transition-all duration-300 hover:-translate-y-1 shadow-marketplace hover:shadow-marketplace-hover group border border-[#F5436A]/40 bg-slate-950"
           >
             <Image
               src="/images/promo_bike.jpg"
-              alt="Biciclete Splendor Victronic"
+              alt="Biciclete Copii"
               fill
               loading="lazy"
               fetchPriority="low"
@@ -394,18 +325,12 @@ export default function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-[#8e2038]/85 to-transparent pointer-events-none" />
 
             <div className="relative z-10">
-              <div className="flex items-center justify-between mb-2">
-                <span className="inline-flex items-center gap-1 bg-white/20 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider backdrop-blur-md">
-                  <Bike size={12} className="text-yellow-300" />
-                  SPORT &amp; TIMP LIBER
-                </span>
-              </div>
-              <h3 className="text-xl sm:text-2xl font-black leading-snug mb-1 drop-shadow-sm text-white">
-                Biciclete Splendor
+              <span className="inline-block text-amber-200 font-bold text-xs uppercase tracking-wider mb-1">
+                Sport &amp; Timp Liber
+              </span>
+              <h3 className="text-xl sm:text-2xl font-black leading-tight drop-shadow-sm text-white">
+                Biciclete pentru Copii
               </h3>
-              <p className="text-amber-200 font-bold text-xs drop-shadow-xs">
-                Victronic · 12" – 24" · 23 modele
-              </p>
             </div>
 
             <div className="relative z-10 flex items-center justify-between text-xs font-bold text-white mt-4 pt-3 border-t border-white/20">
