@@ -1,10 +1,11 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { SEO_CONFIG } from '@/lib/seo';
+import productsFallback from '@/lib/data/products_catalog_fallback.json';
 
 // ============================================
 //   Sitemap Index (/sitemap.xml)
-//   - Splits 40,000+ products into lightweight, fast chunks (5,000 URLs / chunk)
+//   - Splits products into lightweight chunks (5,000 URLs / chunk)
 //   - Prevents timeouts and memory overflow
 //   - Fully compliant with Google & Bing Sitemap 0.9 protocol
 // ============================================
@@ -18,9 +19,18 @@ export async function GET() {
   const now = new Date().toISOString();
 
   try {
-    const totalProducts = await prisma.product.count({
-      where: { isPublished: true },
-    });
+    let totalProducts = 0;
+    try {
+      totalProducts = await prisma.product.count({
+        where: { isPublished: true },
+      });
+    } catch {
+      totalProducts = (productsFallback as any[]).length;
+    }
+
+    if (!totalProducts) {
+      totalProducts = (productsFallback as any[]).length;
+    }
 
     const totalProductSitemaps = Math.max(1, Math.ceil(totalProducts / PRODUCTS_PER_SITEMAP));
 

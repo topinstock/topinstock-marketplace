@@ -6,15 +6,25 @@ export const dynamic = 'force-dynamic';
 
 export async function GET() {
   const baseUrl = SEO_CONFIG.baseUrl;
+  const now = new Date().toISOString();
 
   try {
-    const vendors = await prisma.vendor.findMany({
-      select: {
-        slug: true,
-        updatedAt: true,
-      },
-      orderBy: { updatedAt: 'desc' },
-    });
+    let vendors: Array<{ slug: string; updatedAt?: Date | null }> = [];
+    try {
+      vendors = await prisma.vendor.findMany({
+        select: {
+          slug: true,
+          updatedAt: true,
+        },
+        orderBy: { updatedAt: 'desc' },
+      });
+    } catch {
+      vendors = [{ slug: 'topinstock-oficial', updatedAt: new Date() }];
+    }
+
+    if (!vendors || vendors.length === 0) {
+      vendors = [{ slug: 'topinstock-oficial', updatedAt: new Date() }];
+    }
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -22,7 +32,7 @@ ${vendors
   .map((v) => {
     const relativeUrl = SEOManager.buildSellerUrl(v.slug);
     const loc = `${baseUrl}${relativeUrl}`;
-    const lastmod = v.updatedAt ? v.updatedAt.toISOString() : new Date().toISOString();
+    const lastmod = v.updatedAt ? new Date(v.updatedAt).toISOString() : now;
 
     return `  <url>
     <loc>${loc.replace(/&/g, '&amp;')}</loc>
@@ -43,8 +53,16 @@ ${vendors
   } catch (err: any) {
     console.error('Error generating sellers sitemap:', err);
     return new NextResponse(
-      `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>`,
-      { status: 500, headers: { 'Content-Type': 'application/xml' } }
+      `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>${baseUrl}${SEOManager.buildSellerUrl('topinstock-oficial')}</loc>
+    <lastmod>${now}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>`,
+      { status: 200, headers: { 'Content-Type': 'application/xml; charset=utf-8' } }
     );
   }
 }
