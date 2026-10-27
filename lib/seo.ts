@@ -316,7 +316,7 @@ export class SEOManager {
   static buildProductUrl(product: { slug: string; id: string; sku?: string | null }): string {
     const cleanSlug = product.slug.trim().toLowerCase().replace(/^\/+|\/+$/g, '');
     const code = (product.id || product.sku || 'pd').trim();
-    return `/${cleanSlug}/pd/${code}/`;
+    return `/${cleanSlug}/pd/${code}`;
   }
 
   /**
