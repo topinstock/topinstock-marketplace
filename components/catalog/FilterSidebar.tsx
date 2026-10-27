@@ -68,12 +68,11 @@ const COMMON_SIZES = ['XS', 'S', 'M', 'L', 'XL', 'XXL', '36', '37', '38', '39', 
 
 // Curated top brands with realistic product counts from database
 const DEFAULT_CATALOG_BRANDS: { name: string; count: number }[] = [
-  { name: 'TOPinStock', count: 26400 },
+  { name: 'TOPinStock', count: 26680 },
   { name: 'Victronic', count: 907 },
   { name: 'SPIN', count: 893 },
   { name: 'Grunberg', count: 726 },
   { name: 'Rosberg', count: 354 },
-  { name: 'Bohmann', count: 281 },
   { name: 'GOLDMANN', count: 275 },
   { name: 'Voltz', count: 257 },
   { name: 'Kitchen Tools', count: 189 },

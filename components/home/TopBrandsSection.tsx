@@ -24,10 +24,10 @@ const BRANDS: Brand[] = [
     href: '/produse?search=victronic',
   },
   {
-    name: 'Bohmann',
+    name: 'TOPinStock',
     category: 'Seturi Oale & Tăvi',
-    productsCount: '40+ produse',
-    href: '/produse?search=bohmann',
+    productsCount: '150+ produse',
+    href: '/produse?search=topinstock',
   },
   {
     name: 'Desigual',

@@ -56,7 +56,7 @@ const CATEGORY_PROFILES: Record<string, {
   // 1. Bucătărie & Menaj, Oale, Tigăi
   'bucatarie-menaj': {
     name: 'Bucătărie & Menaj',
-    brands: ['Grunberg', 'Victronic', 'Bohmann', 'Royalty Line', 'Berlinger Haus', 'Cheffinger', 'Tefal', 'Schmitter', 'Qlux', 'Blueberg', 'Sapir', 'Voltz'],
+    brands: ['TOPinStock', 'Grunberg', 'Victronic', 'Royalty Line', 'Berlinger Haus', 'Cheffinger', 'Tefal', 'Schmitter', 'Qlux', 'Blueberg', 'Sapir', 'Voltz'],
     attributes: [
       {
         id: 'tip-produs',
@@ -562,7 +562,6 @@ export function getCategoryFilterConfig(categorySlug?: string | null): CategoryF
       { name: 'Grunberg' },
       { name: 'Victronic' },
       { name: 'Rosberg' },
-      { name: 'Bohmann' },
       { name: 'Voltz' },
       { name: 'Royalty Line' },
       { name: 'Disney Frozen' },

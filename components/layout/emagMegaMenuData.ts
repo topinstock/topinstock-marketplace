@@ -134,7 +134,7 @@ export const EMAG_CATALOG: EmagCategory[] = [
     href: '/bucatarie-menaj/c',
     icon: UtensilsCrossed,
     productCount: '1.200+ produse',
-    topBrands: ['Grünberg', 'Bohmann', 'Royalty Line', 'Herevin'],
+    topBrands: ['Grünberg', 'TOPinStock', 'Royalty Line', 'Herevin'],
     groups: [
       {
         title: 'Gătit & Oale Inox',

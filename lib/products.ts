@@ -1267,7 +1267,7 @@ export const getCategoryDetails = cache(async function getCategoryDetails(catego
       if (p.vendor?.storeName && !p.vendor.storeName.includes('Oficial')) {
         brandsSet.add(p.vendor.storeName);
       }
-      const titleMatch = p.title.match(/\b(Grünberg|Bohmann|Berlinger Haus|Apple|Samsung|Xiaomi|Nike|Adidas|Puma|Zara|Trendyol)\b/i);
+      const titleMatch = p.title.match(/\b(Grünberg|TOPinStock|Berlinger Haus|Apple|Samsung|Xiaomi|Nike|Adidas|Puma|Zara|Trendyol)\b/i);
       if (titleMatch) brandsSet.add(titleMatch[1]);
     }
 
@@ -1277,7 +1277,7 @@ export const getCategoryDetails = cache(async function getCategoryDetails(catego
       category: category || null,
       totalProducts: count > 0 ? count : products.length,
       minPrice,
-      topBrands: topBrands.length > 0 ? topBrands : ['Grünberg', 'Bohmann', 'Berlinger Haus'],
+      topBrands: topBrands.length > 0 ? topBrands : ['Grünberg', 'TOPinStock', 'Berlinger Haus'],
     };
 
     categoryDetailsCache.set(cacheKey, { timestamp: now, data: result });
@@ -1304,7 +1304,7 @@ export const getCategoryDetails = cache(async function getCategoryDetails(catego
         brandsSet.add(p.vendor.storeName);
       }
       const titleMatch = p.title.match(
-        /\b(Grünberg|Bohmann|Berlinger Haus|Apple|Samsung|Xiaomi|Nike|Adidas|Puma|Victronic|Hausberg|Jolie Silver|Schneider Electric)\b/i
+        /\b(Grünberg|TOPinStock|Berlinger Haus|Apple|Samsung|Xiaomi|Nike|Adidas|Puma|Victronic|Hausberg|Jolie Silver|Schneider Electric)\b/i
       );
       if (titleMatch) brandsSet.add(titleMatch[1]);
     });

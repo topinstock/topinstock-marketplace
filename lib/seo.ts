@@ -371,8 +371,8 @@ export class SEOManager {
     // Listă de branduri cunoscute
     const KNOWN_BRANDS = [
       'Apple', 'Samsung', 'Xiaomi', 'Huawei', 'Asus', 'Lenovo', 'HP', 'Dell',
-      'Sony', 'Philips', 'Bosch', 'Tefal', 'Grünberg', 'Victronic', 'Bohmann', 'Berlinger Haus',
-      'Nike', 'Adidas', 'Puma', 'Zara', 'Mango', 'Trendyol', 'TOPinStock', 'Urban Fashion'
+      'Sony', 'Philips', 'Bosch', 'Tefal', 'Grünberg', 'Victronic', 'TOPinStock', 'Berlinger Haus',
+      'Nike', 'Adidas', 'Puma', 'Zara', 'Mango', 'Trendyol', 'Urban Fashion'
     ];
 
     for (const b of KNOWN_BRANDS) {
@@ -486,7 +486,7 @@ export class SEOManager {
     const count = productsCount > 0 ? productsCount : 50;
     const brandsText = (topBrands && topBrands.length > 0)
       ? topBrands.slice(0, 3).join(', ')
-      : 'Grünberg, Bohmann, Berlinger Haus';
+      : 'Grünberg, TOPinStock, Berlinger Haus';
 
     return `Ai căutat ${categoryName}. La ${SEO_CONFIG.marketplaceName} ai libertatea să alegi din ${count} oferte de la branduri de top precum ${brandsText}. Beneficiezi de promoțiile zilei, deschiderea coletului la livrare, livrare rapidă prin curier (DPD, Fan Courier) și retur gratuit în 30 de zile!`;
   }
@@ -532,7 +532,7 @@ export class SEOManager {
       tefal: 'Tefal',
       grunberg: 'Grünberg',
       victronic: 'Victronic',
-      bohmann: 'Bohmann',
+      bohmann: 'TOPinStock',
       'oliver-voltz': 'Oliver Voltz',
       goldmann: 'GOLDMANN',
       rosberg: 'Rosberg',
@@ -1228,7 +1228,7 @@ export class SEOManager {
         url: this.buildCategoryUrl(categorySlug),
       });
 
-      // 3. Subcategorie + Brand (e.g. Calorifere tip panou Victronic sau Oale Bohmann)
+      // 3. Subcategorie + Brand (e.g. Calorifere tip panou Victronic sau Oale TOPinStock)
       if (brand && brandSlug) {
         items.push({
           name: `${categoryName} ${brand}`,
@@ -1599,10 +1599,10 @@ export class SEOManager {
       'mixere-roboti-blendere': ['oliver-voltz', 'rosberg', 'sapir', 'zephyr'],
       'fierbatoare-cani-electrice': ['oliver-voltz', 'rosberg', 'sapir'],
       'prajitor-de-paine': ['oliver-voltz', 'rosberg', 'sapir'],
-      'seturi-oale-si-tigai': ['bohmann', 'grunberg', 'zephyr', 'sapir', 'rainstahl'],
-      oale: ['bohmann', 'grunberg', 'zephyr', 'sapir'],
-      tigai: ['zephyr', 'bohmann', 'grunberg', 'sapir'],
-      'ustensile-bucatarie-menaj': ['bohmann', 'zephyr', 'sapir', 'grunberg'],
+      'seturi-oale-si-tigai': ['topinstock', 'grunberg', 'zephyr', 'sapir', 'rainstahl'],
+      oale: ['topinstock', 'grunberg', 'zephyr', 'sapir'],
+      tigai: ['zephyr', 'topinstock', 'grunberg', 'sapir'],
+      'ustensile-bucatarie-menaj': ['topinstock', 'zephyr', 'sapir', 'grunberg'],
       'aspiratoare-curatenie': ['oliver-voltz', 'rosberg'],
       'calorifere-tip-panou': ['victronic'],
       'materiale-electrice-engross': ['spin', 'spincom'],
@@ -1621,7 +1621,7 @@ export class SEOManager {
       smartwatch: ['apple', 'samsung'],
     };
 
-    const targetBrands = CATEGORY_BRAND_MAP[cleanSlug] || ['bohmann', 'oliver-voltz', 'grunberg', 'spin'];
+    const targetBrands = CATEGORY_BRAND_MAP[cleanSlug] || ['topinstock', 'oliver-voltz', 'grunberg', 'spin'];
     for (const bSlug of targetBrands) {
       const bName = this.parseBrandSlug(bSlug);
       links.push({
@@ -1733,7 +1733,7 @@ export class SEOManager {
 
     const brandList = (options.brands && options.brands.length > 0)
       ? options.brands.slice(0, 5).join(', ')
-      : 'Oliver Voltz, Bohmann, Grünberg, SPIN, Rosberg, Zephyr';
+      : 'Oliver Voltz, TOPinStock, Grünberg, SPIN, Rosberg, Zephyr';
 
     const isEngross = cleanSlug.includes('engross');
 
