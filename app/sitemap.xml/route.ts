@@ -1,12 +1,12 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { SEO_CONFIG } from '@/lib/seo';
-import productsFallback from '@/lib/data/products_catalog_fallback.json';
+import sitemapProducts from '@/lib/data/all_products_sitemap.json';
 
 // ============================================
 //   Sitemap Index (/sitemap.xml)
-//   - Splits products into lightweight chunks (5,000 URLs / chunk)
-//   - Prevents timeouts and memory overflow
+//   - Covers all 28,074 products across 6 lightweight sitemaps (5,000 URLs / chunk)
+//   - Includes categories sitemap and sellers sitemap
 //   - Fully compliant with Google & Bing Sitemap 0.9 protocol
 // ============================================
 
@@ -25,11 +25,11 @@ export async function GET() {
         where: { isPublished: true },
       });
     } catch {
-      totalProducts = (productsFallback as any[]).length;
+      totalProducts = (sitemapProducts as any[]).length;
     }
 
     if (!totalProducts) {
-      totalProducts = (productsFallback as any[]).length;
+      totalProducts = (sitemapProducts as any[]).length;
     }
 
     const totalProductSitemaps = Math.max(1, Math.ceil(totalProducts / PRODUCTS_PER_SITEMAP));
@@ -65,20 +65,27 @@ ${sitemapEntries.join('\n')}
     });
   } catch (error) {
     console.error('Error generating sitemap index:', error);
-    const fallbackXml = `<?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
+    const totalProductSitemaps = Math.max(1, Math.ceil((sitemapProducts as any[]).length / PRODUCTS_PER_SITEMAP));
+    const entries = [
+      `  <sitemap>
     <loc>${baseUrl}/sitemap-categories.xml</loc>
     <lastmod>${now}</lastmod>
-  </sitemap>
-  <sitemap>
+  </sitemap>`,
+      `  <sitemap>
     <loc>${baseUrl}/sitemap-sellers.xml</loc>
     <lastmod>${now}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>${baseUrl}/sitemap-products-1.xml</loc>
+  </sitemap>`,
+    ];
+    for (let i = 1; i <= totalProductSitemaps; i++) {
+      entries.push(`  <sitemap>
+    <loc>${baseUrl}/sitemap-products-${i}.xml</loc>
     <lastmod>${now}</lastmod>
-  </sitemap>
+  </sitemap>`);
+    }
+
+    const fallbackXml = `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${entries.join('\n')}
 </sitemapindex>`;
 
     return new NextResponse(fallbackXml, {

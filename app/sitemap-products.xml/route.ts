@@ -1,13 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { SEOManager, SEO_CONFIG } from '@/lib/seo';
-import productsFallback from '@/lib/data/products_catalog_fallback.json';
+import sitemapProducts from '@/lib/data/all_products_sitemap.json';
 
 // ============================================
 //   Paginated Products Sitemap (/sitemap-products.xml)
-//   - Supports ?page=1, ?page=2 or /sitemap-products-1.xml rewrite
+//   - Supports ?page=1..6 or /sitemap-products-1..6.xml rewrite
 //   - Fixed page size: 5,000 URLs (prevents timeouts & memory exhaustion)
-//   - Indexed primary key scan for instant (<100ms) generation
+//   - Covers all 28,074 products
 // ============================================
 
 export const dynamic = 'force-dynamic';
@@ -20,19 +20,7 @@ export async function GET(request: NextRequest) {
   const rawPage = searchParams.get('page');
 
   try {
-    let totalProducts = 0;
-    try {
-      totalProducts = await prisma.product.count({
-        where: { isPublished: true },
-      });
-    } catch {
-      totalProducts = (productsFallback as any[]).length;
-    }
-
-    if (!totalProducts) {
-      totalProducts = (productsFallback as any[]).length;
-    }
-
+    const totalProducts = (sitemapProducts as any[]).length;
     const totalPages = Math.max(1, Math.ceil(totalProducts / PRODUCTS_PER_SITEMAP));
 
     // If no page is specified and we have multiple pages, return sub-sitemapindex
@@ -80,23 +68,24 @@ ${sitemapEntries}
         take: PRODUCTS_PER_SITEMAP,
       });
     } catch {
-      products = (productsFallback as any[]).slice(skip, skip + PRODUCTS_PER_SITEMAP).map((p) => ({
+      products = (sitemapProducts as any[]).slice(skip, skip + PRODUCTS_PER_SITEMAP).map((p) => ({
         id: p.id,
         slug: p.slug,
         sku: p.sku,
-        updatedAt: p.createdAt ? new Date(p.createdAt) : new Date(),
+        updatedAt: p.u || '2026-10-28',
       }));
     }
 
     if (!products || products.length === 0) {
-      products = (productsFallback as any[]).slice(skip, skip + PRODUCTS_PER_SITEMAP).map((p) => ({
+      products = (sitemapProducts as any[]).slice(skip, skip + PRODUCTS_PER_SITEMAP).map((p) => ({
         id: p.id,
         slug: p.slug,
         sku: p.sku,
-        updatedAt: p.createdAt ? new Date(p.createdAt) : new Date(),
+        updatedAt: p.u || '2026-10-28',
       }));
     }
 
+    const nowIso = new Date().toISOString();
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${products
@@ -107,7 +96,7 @@ ${products
       id: p.id,
     });
     const loc = `${baseUrl}${relativeUrl}`.replace(/&/g, '&amp;');
-    const lastmod = p.updatedAt ? (p.updatedAt instanceof Date ? p.updatedAt.toISOString() : new Date(p.updatedAt).toISOString()) : new Date().toISOString();
+    const lastmod = p.updatedAt ? (p.updatedAt instanceof Date ? p.updatedAt.toISOString() : String(p.updatedAt)) : nowIso;
 
     return `  <url>
     <loc>${loc}</loc>
@@ -127,11 +116,11 @@ ${products
     });
   } catch (err: any) {
     console.error('Error generating paginated products sitemap:', err);
-    const fallbackUrls = (productsFallback as any[]).slice(0, 100).map((p) => {
-      const loc = `${baseUrl}${SEOManager.buildProductUrl(p)}`.replace(/&/g, '&amp;');
+    const fallbackUrls = (sitemapProducts as any[]).slice(0, 100).map((p) => {
+      const loc = `${baseUrl}${SEOManager.buildProductUrl({ slug: p.slug, id: p.id, sku: p.sku })}`.replace(/&/g, '&amp;');
       return `  <url>
     <loc>${loc}</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
+    <lastmod>${p.u || new Date().toISOString()}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>`;
