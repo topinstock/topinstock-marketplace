@@ -66,7 +66,7 @@ export default function CategoryBar() {
         >
           <Link
             href="/produse"
-            className={`hidden md:flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs sm:text-[13px] font-black tracking-tight text-white transition-all duration-150 whitespace-nowrap flex-shrink-0 cursor-pointer ${
+            className={`hidden md:flex relative z-50 items-center gap-2 px-3 py-1.5 rounded-lg text-xs sm:text-[13px] font-black tracking-tight text-white transition-all duration-150 whitespace-nowrap flex-shrink-0 cursor-pointer ${
               isEmagMenuOpen
                 ? 'bg-[#003845] ring-2 ring-[#29DCFA]/40 shadow-sm'
                 : 'bg-gradient-to-r from-[#004f61] to-[#006b80] hover:from-[#003845] hover:to-[#004f61] shadow-xs hover:shadow-sm'

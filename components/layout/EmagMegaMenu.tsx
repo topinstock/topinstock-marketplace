@@ -32,13 +32,13 @@ export default function EmagMegaMenu({
     <>
       {/* ── Dim Backdrop Overlay (eMAG style) ── */}
       <div
-        className="hidden md:block fixed inset-0 top-[120px] bg-slate-950/25 backdrop-blur-[1px] z-40 transition-opacity duration-200 opacity-100 pointer-events-auto"
+        className="hidden md:block fixed inset-x-0 bottom-0 top-[134px] bg-slate-950/25 backdrop-blur-[1px] z-40 transition-opacity duration-200 opacity-100 pointer-events-auto"
         onClick={onClose}
       />
 
       {/* ── Main Mega Menu Container (Desktop only) ── */}
       <div
-        className="hidden md:flex absolute left-0 top-[48px] z-50 bg-white rounded-2xl shadow-2xl border border-slate-200/90 overflow-hidden transition-all duration-200 origin-top-left opacity-100 scale-100 pointer-events-auto visible"
+        className="hidden md:flex absolute left-0 top-[calc(100%+4px)] z-50 bg-white rounded-2xl shadow-2xl border border-slate-200/90 overflow-hidden transition-all duration-200 origin-top-left opacity-100 scale-100 pointer-events-auto visible before:content-[''] before:absolute before:-top-4 before:left-0 before:right-0 before:h-4"
         style={{
           boxShadow: '0 25px 60px -15px rgba(0,0,0,0.22), 0 0 0 1px rgba(0,0,0,0.04)',
         }}

@@ -26,7 +26,7 @@ export default function Header() {
 
   return (
     <header
-      className="sticky z-40 top-0 shadow-md w-full max-w-full overflow-hidden"
+      className="sticky z-40 top-0 shadow-md w-full max-w-full"
       style={{
         background: 'linear-gradient(135deg, #008fa8 0%, #006b80 100%)',
       }}
