@@ -1128,11 +1128,20 @@ export async function getRelatedProducts(
 const categoryDetailsCache = new Map<string, { timestamp: number; data: any }>();
 const CATEGORY_DETAILS_CACHE_TTL = 10 * 60 * 1000; // 10 minutes
 
+export interface SubcategoryItem {
+  id: string;
+  name: string;
+  slug: string;
+  productCount: number;
+  image?: string | null;
+}
+
 export const getCategoryDetails = cache(async function getCategoryDetails(categorySlug: string): Promise<{
   category: { id: string; name: string; slug: string; description?: string | null } | null;
   totalProducts: number;
   minPrice: number;
   topBrands: string[];
+  subcategories: SubcategoryItem[];
 }> {
   const cacheKey = categorySlug.toLowerCase().trim();
   const now = Date.now();
@@ -1149,7 +1158,22 @@ export const getCategoryDetails = cache(async function getCategoryDetails(catego
           { id: categorySlug },
         ],
       },
-      select: { id: true, name: true, slug: true, description: true },
+      select: {
+        id: true,
+        name: true,
+        slug: true,
+        description: true,
+        children: {
+          select: {
+            id: true,
+            name: true,
+            slug: true,
+            image: true,
+            _count: { select: { products: true } },
+          },
+          orderBy: { name: 'asc' },
+        },
+      },
     });
 
     const isReduceri = categorySlug.toLowerCase() === 'reduceri';
@@ -1196,11 +1220,22 @@ export const getCategoryDetails = cache(async function getCategoryDetails(catego
 
     const topBrands = Array.from(brandsSet).slice(0, 4);
 
+    const subcategories: SubcategoryItem[] = (category?.children || [])
+      .map((c) => ({
+        id: c.id,
+        name: c.name,
+        slug: c.slug,
+        productCount: c._count.products,
+        image: c.image,
+      }))
+      .filter((c) => c.productCount > 0);
+
     const result = {
       category: category || null,
       totalProducts: count > 0 ? count : products.length,
       minPrice,
       topBrands: topBrands.length > 0 ? topBrands : ['Grünberg', 'Bohmann', 'TOPinStock', 'Berlinger Haus'],
+      subcategories,
     };
 
     categoryDetailsCache.set(cacheKey, { timestamp: now, data: result });
@@ -1234,11 +1269,22 @@ export const getCategoryDetails = cache(async function getCategoryDetails(catego
 
     const topBrands = Array.from(brandsSet).slice(0, 4);
 
+    const fallbackChildren: SubcategoryItem[] = (categoriesFallbackData as any[])
+      .filter((c) => c.parentId === catData?.id && (c.count > 0 || c.productCount > 0))
+      .map((c) => ({
+        id: c.id,
+        name: c.name,
+        slug: c.slug,
+        productCount: c.count || c.productCount || 0,
+        image: c.image || null,
+      }));
+
     const fallbackResult = {
       category: catData ? { id: catData.id, name: catData.name, slug: catData.slug, description: null } : null,
       totalProducts: catData && catData.count > 0 ? catData.count : (matchingMocks.length > 0 ? matchingMocks.length : 18),
       minPrice,
       topBrands: topBrands.length > 0 ? topBrands : ['TOPinStock', 'Victronic', 'Grünberg', 'Hausberg'],
+      subcategories: fallbackChildren,
     };
     categoryDetailsCache.set(cacheKey, { timestamp: now, data: fallbackResult });
     return fallbackResult;

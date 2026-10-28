@@ -52,8 +52,10 @@ export default function EmagMegaMenu({
             const isActive = cat.id === activeCategory.id;
 
             return (
-              <div
+              <Link
                 key={cat.id}
+                href={cat.href}
+                onClick={onClose}
                 onMouseEnter={() => setActiveCategoryId(cat.id)}
                 className={cn(
                   'flex items-center justify-between px-3.5 py-2.5 mx-1.5 rounded-xl cursor-pointer text-xs transition-all duration-150 group select-none',
@@ -81,7 +83,7 @@ export default function EmagMegaMenu({
                       : 'text-slate-300 opacity-60 group-hover:opacity-100'
                   )}
                 />
-              </div>
+              </Link>
             );
           })}
         </div>
@@ -91,26 +93,30 @@ export default function EmagMegaMenu({
           <div>
             {/* Header / Breadcrumb strip */}
             <div className="flex items-center justify-between pb-3.5 mb-5 border-b border-slate-100">
-              <div className="flex items-center gap-2.5">
-                <div className="w-8 h-8 rounded-lg bg-[#008fa8]/10 text-[#008fa8] flex items-center justify-center">
+              <Link
+                href={activeCategory.href}
+                onClick={onClose}
+                className="flex items-center gap-2.5 group/title cursor-pointer"
+              >
+                <div className="w-8 h-8 rounded-lg bg-[#008fa8]/10 text-[#008fa8] flex items-center justify-center group-hover/title:bg-[#008fa8] group-hover/title:text-white transition-colors">
                   <ActiveIcon size={18} />
                 </div>
                 <div>
-                  <h3 className="text-base font-black text-slate-900 tracking-tight leading-none mb-1">
+                  <h3 className="text-base font-black text-slate-900 group-hover/title:text-[#008fa8] tracking-tight leading-none mb-1 transition-colors">
                     {activeCategory.name}
                   </h3>
                   <span className="text-[11px] font-semibold text-slate-400">
                     {activeCategory.productCount} garantate în stoc
                   </span>
                 </div>
-              </div>
+              </Link>
 
               <Link
                 href={activeCategory.href}
                 onClick={onClose}
                 className="text-xs font-bold text-[#008fa8] hover:text-[#005c6e] flex items-center gap-1.5 py-1 px-3 rounded-full hover:bg-[#008fa8]/10 transition-colors group"
               >
-                <span>Vezi toate produsele</span>
+                <span>Toate subcategoriile</span>
                 <ArrowRight size={13} className="group-hover:translate-x-0.5 transition-transform" />
               </Link>
             </div>

@@ -19,6 +19,8 @@ import { CatalogLoadingProvider } from '@/components/catalog/CatalogLoadingConte
 import CatalogGridWrapper from '@/components/catalog/CatalogGridWrapper';
 import PopularSearches from '@/components/seo/PopularSearches';
 import CategorySeoGuide from '@/components/seo/CategorySeoGuide';
+import CategorySubcategories from '@/components/catalog/CategorySubcategories';
+import { EMAG_CATALOG } from '@/components/layout/emagMegaMenuData';
 
 export const revalidate = 120; // 2 minutes Edge ISR Cache
 
@@ -132,6 +134,10 @@ export default async function EmagCategoryPage({
   const { products, total, totalPages } = catalogResult;
   const categoryName = details.category?.name || SEOManager.getCategoryDisplayName(categorySlug);
 
+  const emagCategory = EMAG_CATALOG.find(
+    (c) => c.slug.toLowerCase() === categorySlug.toLowerCase() || c.id === categorySlug
+  );
+
   // Schema.org JSON-LD Structured Data for Googlebot & Rich Snippets
   const breadcrumbJsonLd = SEOManager.getBreadcrumbsJsonLd([
     { name: 'Acasă', url: '/' },
@@ -194,6 +200,14 @@ export default async function EmagCategoryPage({
 
         {/* ── Main Catalog Content Area ── */}
         <div className="container-app py-6">
+          {/* ── Subcategories Section (when visiting a parent category) ── */}
+          <CategorySubcategories
+            categoryName={categoryName}
+            categorySlug={categorySlug}
+            subcategories={details.subcategories}
+            emagCategory={emagCategory}
+          />
+
           <CatalogLoadingProvider>
             <div className="flex flex-col lg:flex-row gap-4 sm:gap-6 items-start" style={{ alignItems: 'flex-start' }}>
               {/* ── Left Sidebar Filter (Client Component) ── */}
