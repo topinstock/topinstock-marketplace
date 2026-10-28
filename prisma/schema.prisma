@@ -1,6 +1,6 @@
 // ============================================
 //   TopinStock Marketplace — Prisma Schema
-//   Provider: SQLite (local file database)
+//   Provider: PostgreSQL (Supabase Cloud Database)
 //   ORM: Prisma v5
 // ============================================
 
@@ -9,8 +9,9 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
 // ============================================

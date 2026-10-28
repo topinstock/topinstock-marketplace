@@ -16,7 +16,7 @@ export const prisma =
     log: ['error', 'warn'],
   });
 
-if (!globalForPrisma.prisma) {
+if (!globalForPrisma.prisma && process.env.DATABASE_URL?.includes('sqlite')) {
   // Apply SQLite performance & reliability PRAGMAs once on startup
   prisma.$queryRawUnsafe('PRAGMA journal_mode = WAL;').catch(() => {});
   prisma.$queryRawUnsafe('PRAGMA busy_timeout = 10000;').catch(() => {});

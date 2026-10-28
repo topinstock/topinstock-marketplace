@@ -35,6 +35,9 @@ next-env.d.ts
 
 # Prisma
 prisma/*.db*
+prisma/*.bak
+prisma/*.sqlite.prisma
+prisma/generated/
 
 # Large scraped datasets
 scripts/*.json

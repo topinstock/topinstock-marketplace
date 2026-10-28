@@ -10,3 +10,4 @@ for (let i = 1; i <= totalPages; i++) {
   const chunk = sitemap.slice(skip, skip + PRODUCTS_PER_SITEMAP);
   console.log(`Page ${i}: ${chunk.length} products (from index ${skip} to ${skip + chunk.length - 1})`);
 }
+

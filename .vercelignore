@@ -3,8 +3,11 @@
 node_modules
 *.tsbuildinfo
 prisma/*.db*
+prisma/*.bak
 prisma/*.backup*
 prisma/*.backup_*
+prisma/*.sqlite.prisma
+prisma/generated/
 scripts/*.json
 scratch/
 
