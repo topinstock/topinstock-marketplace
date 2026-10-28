@@ -29,6 +29,10 @@ export async function generateMetadata({
   const resolvedQuery = await searchParams;
   const { slug, brandSlug, attributeSlug } = resolvedParams;
 
+  if (attributeSlug === 'calitate-premium' || attributeSlug === 'livrare-rapida') {
+    return {};
+  }
+
   const brandName = SEOManager.parseBrandSlug(brandSlug);
   const parsedAttr = SEOManager.parseAttributeSlug(attributeSlug);
   const details = await getCategoryDetails(slug);

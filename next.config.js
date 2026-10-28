@@ -44,6 +44,25 @@ const nextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: '/brazi-craciun/c',
+        destination: '/brazi-de-craciun/c',
+        permanent: true,
+      },
+      {
+        source: '/:slug/calitate-premium/c',
+        destination: '/:slug/c',
+        permanent: true,
+      },
+      {
+        source: '/:slug/livrare-rapida/c',
+        destination: '/:slug/c',
+        permanent: true,
+      },
+    ];
+  },
   async rewrites() {
     return [
       {

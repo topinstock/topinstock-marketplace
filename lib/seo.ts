@@ -1696,10 +1696,7 @@ export class SEOManager {
       ],
     };
 
-    const targetAttrs = CATEGORY_ATTR_MAP[cleanSlug] || [
-      { slug: 'calitate-premium', name: 'Gama Premium' },
-      { slug: 'livrare-rapida', name: 'Livrare 24h' },
-    ];
+    const targetAttrs = CATEGORY_ATTR_MAP[cleanSlug] || [];
 
     for (const attr of targetAttrs) {
       links.push({

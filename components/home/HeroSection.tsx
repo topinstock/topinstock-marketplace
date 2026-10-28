@@ -32,21 +32,19 @@ const SLIDES: Slide[] = [
   {
     image: '/images/hero-black-friday.jpg',
     badge: '🔥 BLACK FRIDAY',
-    dateBadge: '20 — 30 NOIEMBRIE',
     title: 'BLACK FRIDAY',
     highlight: '20 - 30 NOIEMBRIE',
-    desc: 'Campania începe pe 20 Noiembrie și ține până pe 30 Noiembrie. Mii de produse originale cu reduceri masive și livrare rapidă din depozit.',
+    desc: 'Mii de produse originale cu reduceri masive și livrare rapidă din depozit.',
     ctaText: 'Descoperă Ofertele',
     ctaHref: '/produse',
     isBlackFriday: true,
   },
   {
     image: '/images/banner-black-friday-brazi.jpg',
-    badge: '🎄 BLACK FRIDAY',
-    dateBadge: 'REDUCERI LA TOȚI BRAZII',
+    badge: '🎄 REDUCERI DE SEZON',
     title: 'BRAZI DE CRĂCIUN',
-    highlight: 'REDUCERI LA TOȚI BRAZII',
-    desc: 'Reduceri exclusive de Black Friday la toată gama de brazi artificiali în perioada 20 – 30 Noiembrie. Peste 500 de modele cu aspect natural și suport inclus!',
+    highlight: 'REDUCERI SPECIALE',
+    desc: 'Brazi artificiali cu aspect natural, pin dens și suport inclus, gata de livrare.',
     ctaText: 'Vezi Toți Brazii',
     ctaHref: '/brazi-de-craciun/c',
     isBlackFridayBrazi: true,
@@ -166,16 +164,13 @@ export default function HeroSection() {
 
                 {slide.isBlackFriday ? (
                   /* ── Banner Black Friday: Design Minimalist, Impact Puternic ── */
-                  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/80 sm:via-slate-950/55 to-transparent flex items-center">
-                    <div className="max-w-[580px] px-6 sm:px-12 text-white">
-                      {/* Badges cu data 20 - 30 Noiembrie */}
-                      <div className="mb-3 flex items-center gap-2 flex-wrap">
+                  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/75 sm:via-slate-950/50 to-transparent flex items-center">
+                    <div className="max-w-[560px] px-6 sm:px-12 text-white">
+                      {/* Badge Simplu */}
+                      <div className="mb-3">
                         <span className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-[#F5436A] text-white text-xs font-black px-3.5 py-1 rounded-full uppercase tracking-wider shadow-md">
                           <Flame size={13} className="text-amber-200 fill-amber-200" />
-                          <span>{slide.badge}</span>
-                        </span>
-                        <span className="inline-flex items-center gap-1 bg-black/60 border border-amber-400/60 backdrop-blur-md text-amber-300 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">
-                          <span>📅 20 — 30 NOIEMBRIE</span>
+                          <span>BLACK FRIDAY</span>
                         </span>
                       </div>
 
@@ -187,9 +182,9 @@ export default function HeroSection() {
                         </span>
                       </h2>
 
-                      {/* Text Curat */}
-                      <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-6 font-medium max-w-[460px]">
-                        Campania oficială începe pe <strong className="text-amber-300 font-bold">20 Noiembrie</strong> și ține până pe <strong className="text-amber-300 font-bold">30 Noiembrie</strong>. Mii de produse originale cu reduceri masive și livrare rapidă din depozit!
+                      {/* Text Curat & Minimalist */}
+                      <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-6 font-medium max-w-[440px]">
+                        Mii de produse originale cu reduceri masive și livrare rapidă din depozit.
                       </p>
 
                       {/* CTA Curat */}
@@ -205,17 +200,14 @@ export default function HeroSection() {
                     </div>
                   </div>
                 ) : slide.isBlackFridayBrazi ? (
-                  /* ── Banner Black Friday Brazi de Crăciun ── */
-                  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/80 sm:via-slate-950/50 to-transparent flex items-center">
-                    <div className="max-w-[580px] px-6 sm:px-12 text-white">
-                      {/* Badges */}
-                      <div className="mb-3 flex items-center gap-2 flex-wrap">
-                        <span className="inline-flex items-center gap-1.5 bg-gradient-to-r from-emerald-600 via-emerald-500 to-teal-400 text-white text-xs font-black px-3.5 py-1 rounded-full uppercase tracking-wider shadow-md">
+                  /* ── Banner Brazi de Crăciun: Design Minimalist ── */
+                  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/75 sm:via-slate-950/50 to-transparent flex items-center">
+                    <div className="max-w-[560px] px-6 sm:px-12 text-white">
+                      {/* Badge Simplu */}
+                      <div className="mb-3">
+                        <span className="inline-flex items-center gap-1.5 bg-gradient-to-r from-emerald-600 to-teal-500 text-white text-xs font-black px-3.5 py-1 rounded-full uppercase tracking-wider shadow-md">
                           <Sparkles size={13} className="text-amber-200" />
-                          <span>🎄 REDUCERE BLACK FRIDAY</span>
-                        </span>
-                        <span className="inline-flex items-center gap-1 bg-black/60 border border-emerald-400/60 backdrop-blur-md text-emerald-300 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">
-                          <span>📅 20 — 30 NOIEMBRIE</span>
+                          <span>🎄 REDUCERI DE SEZON</span>
                         </span>
                       </div>
 
@@ -223,13 +215,13 @@ export default function HeroSection() {
                       <h2 className="text-3xl sm:text-5xl md:text-6xl font-black uppercase tracking-tight leading-[0.95] mb-2 drop-shadow-md">
                         <span className="text-white block">BRAZI DE CRĂCIUN</span>
                         <span className="bg-gradient-to-r from-emerald-300 via-yellow-200 to-amber-400 bg-clip-text text-transparent block mt-1">
-                          REDUCERI LA TOȚI BRAZII
+                          REDUCERI SPECIALE
                         </span>
                       </h2>
 
-                      {/* Text Curat */}
-                      <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-6 font-medium max-w-[460px]">
-                        Reduceri exclusive de Black Friday la toată gama de brazi artificiali în perioada <strong className="text-emerald-300 font-bold">20 – 30 Noiembrie</strong>! Peste 500 de modele cu aspect natural, pin dens și suport metalic inclus.
+                      {/* Text Curat & Minimalist cu date reale */}
+                      <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-6 font-medium max-w-[440px]">
+                        Brazi artificiali cu aspect natural, pin dens și suport inclus, gata de livrare.
                       </p>
 
                       {/* CTA Curat */}

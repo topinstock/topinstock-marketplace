@@ -78,8 +78,12 @@ export default async function CategoryAttributePage({
   const resolvedQuery = await searchParams;
   const { slug, attributeSlug } = resolvedParams;
 
-  // Protect against reserved segment 'brand' falling through
-  if (attributeSlug === 'brand') {
+  // Protect against reserved segment 'brand' or deprecated fake attributes falling through
+  if (
+    attributeSlug === 'brand' ||
+    attributeSlug === 'calitate-premium' ||
+    attributeSlug === 'livrare-rapida'
+  ) {
     permanentRedirect(SEOManager.buildCategoryUrl(slug));
   }
 
