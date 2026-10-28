@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { SEOManager, SEO_CONFIG } from '@/lib/seo';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 86400;
 
 export async function GET() {
   const baseUrl = SEO_CONFIG.baseUrl;

@@ -64,7 +64,7 @@ export async function generateMetadata({
   };
 }
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 60; // 1 minute Edge ISR Cache
 
 interface ProdusePageProps {
   searchParams: Promise<{

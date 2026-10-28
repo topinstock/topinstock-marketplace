@@ -4,7 +4,7 @@ import { SEOManager, SEO_CONFIG } from '@/lib/seo';
 import categoriesFallback from '@/lib/data/categories_catalog_fallback.json';
 import productsFallback from '@/lib/data/products_catalog_fallback.json';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 86400;
 
 export async function GET() {
   const baseUrl = SEO_CONFIG.baseUrl;

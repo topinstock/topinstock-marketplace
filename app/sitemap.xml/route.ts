@@ -10,7 +10,7 @@ import sitemapProducts from '@/lib/data/all_products_sitemap.json';
 //   - Fully compliant with Google & Bing Sitemap 0.9 protocol
 // ============================================
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 86400;
 
 export const PRODUCTS_PER_SITEMAP = 5000;
 

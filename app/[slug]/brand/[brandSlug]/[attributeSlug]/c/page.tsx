@@ -3,7 +3,7 @@ import { getCategoryDetails, getCatalogProducts } from '@/lib/products';
 import { SEOManager } from '@/lib/seo';
 import FacetedCategoryView from '@/components/catalog/FacetedCategoryView';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 120; // 2 minutes Edge ISR Cache
 
 interface CategoryBrandAttributePageProps {
   params: Promise<{ slug: string; brandSlug: string; attributeSlug: string }>;

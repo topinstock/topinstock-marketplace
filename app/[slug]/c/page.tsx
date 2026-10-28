@@ -20,7 +20,7 @@ import CatalogGridWrapper from '@/components/catalog/CatalogGridWrapper';
 import PopularSearches from '@/components/seo/PopularSearches';
 import CategorySeoGuide from '@/components/seo/CategorySeoGuide';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 120; // 2 minutes Edge ISR Cache
 
 interface CategoryPageProps {
   params: Promise<{ slug: string }>;

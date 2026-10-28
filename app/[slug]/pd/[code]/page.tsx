@@ -13,7 +13,7 @@ import ProductTabs from '@/components/products/ProductTabs';
 import RelatedProducts from '@/components/products/RelatedProducts';
 import PopularSearches from '@/components/seo/PopularSearches';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 300; // 5 minutes Edge ISR Cache
 
 interface EmagProductDetailPageProps {
   params: Promise<{ slug: string; code: string }>;

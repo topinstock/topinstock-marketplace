@@ -24,6 +24,24 @@ const nextConfig = {
           { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
         ],
       },
+      {
+        source: '/:slug/c',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=60, s-maxage=300, stale-while-revalidate=86400' },
+        ],
+      },
+      {
+        source: '/:slug/pd/:code',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=60, s-maxage=600, stale-while-revalidate=86400' },
+        ],
+      },
+      {
+        source: '/produse',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=60, s-maxage=300, stale-while-revalidate=86400' },
+        ],
+      },
     ];
   },
   async rewrites() {
