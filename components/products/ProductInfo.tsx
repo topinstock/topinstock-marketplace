@@ -339,14 +339,13 @@ export default function ProductInfo({
 
         {/* ── Delivery Promise ── */}
         {inStock && (
-          <div className="mt-3 flex items-center gap-2.5 p-3 bg-emerald-50/80 border border-emerald-200/80 rounded-xl">
-            <Truck size={20} className="text-emerald-700 flex-shrink-0" />
+          <div className="mt-3 flex items-center gap-2.5 p-2.5 bg-emerald-50/70 border border-emerald-200/80 rounded-xl">
+            <Truck size={18} className="text-emerald-700 flex-shrink-0" />
             <div>
               <p className="text-[12px] font-black text-emerald-800">
-                Livrat Mâine dacă comanzi în următoarele{' '}
-                <span className="text-emerald-700">câteva ore</span>
+                Livrare în 2-3 zile lucrătoare
               </p>
-              <p className="text-[11px] text-emerald-600">Comandă acum, livrare rapidă garantată</p>
+              <p className="text-[11px] text-emerald-600">Prin curier rapid direct din depozit</p>
             </div>
           </div>
         )}
