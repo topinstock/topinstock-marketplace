@@ -73,7 +73,7 @@ export default function CategoryBar() {
             }`}
           >
             <Menu size={15} strokeWidth={2.5} />
-            <span>Toate Produsele (28.000+)</span>
+            <span>Toate Produsele (16.000+)</span>
             <ChevronDown
               size={13}
               className={`transition-transform duration-200 ${isEmagMenuOpen ? 'rotate-180' : ''}`}
