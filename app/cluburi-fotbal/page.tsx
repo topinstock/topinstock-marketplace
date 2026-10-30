@@ -39,3 +39,4 @@ export const metadata: Metadata = {
 export default function CluburiFotbalPage() {
   return <JomaClubPageClient />;
 }
+
