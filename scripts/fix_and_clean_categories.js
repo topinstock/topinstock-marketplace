@@ -81,3 +81,4 @@ async function fixAndCleanCategories() {
 fixAndCleanCategories()
   .catch(console.error)
   .finally(() => prisma.$disconnect());
+
