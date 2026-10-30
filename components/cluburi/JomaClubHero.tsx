@@ -30,10 +30,10 @@ export default function JomaClubHero() {
 
         {/* Hero Main Banner Showcase */}
         <div className="relative rounded-2xl overflow-hidden border border-sky-500/30 shadow-2xl bg-slate-950">
-          <div className="relative w-full aspect-[2.3/1] min-h-[340px] max-h-[540px]">
+          <div className="relative w-full aspect-[16/6.2] min-h-[280px] sm:min-h-[360px] max-h-[620px]">
             <Image
               src="/images/banners/banner-joma-cluburi.webp"
-              alt="Treninguri Joma pentru Cluburi de Fotbal - Comenzi pe proiect minim 8 bucăți"
+              alt="Trening Joma - Personalizare pentru Echipe"
               fill
               priority
               className="object-cover object-center"
@@ -122,3 +122,4 @@ export default function JomaClubHero() {
     </section>
   );
 }
+

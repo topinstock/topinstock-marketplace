@@ -63,3 +63,4 @@ async function checkJoma() {
 checkJoma()
   .catch(console.error)
   .finally(() => prisma.$disconnect());
+

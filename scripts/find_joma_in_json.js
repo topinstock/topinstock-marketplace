@@ -17,3 +17,4 @@ for (const file of files) {
     console.error(`Error reading ${file}:`, err.message);
   }
 }
+

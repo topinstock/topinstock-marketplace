@@ -30,3 +30,4 @@ async function checkTrendyol() {
 }
 
 checkTrendyol().catch(console.error);
+

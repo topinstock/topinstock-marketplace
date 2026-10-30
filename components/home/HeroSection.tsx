@@ -211,26 +211,12 @@ export default function HeroSection() {
                     </div>
                   </div>
                 ) : slide.isJomaClub ? (
-                  /* ── Banner Joma Cluburi Fotbal ── */
+                  /* ── Banner Joma Cluburi Fotbal: Clean Designer Artwork ── */
                   <Link
                     href={slide.ctaHref}
-                    className="absolute inset-0 flex flex-col justify-end p-4 sm:p-7 group/link cursor-pointer"
-                  >
-                    <div className="relative z-10 flex items-center justify-between">
-                      <div className="hidden sm:flex items-center gap-2">
-                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-amber-400 text-slate-950 text-xs font-black uppercase tracking-wider shadow-md">
-                          ★ Minim 8 bucăți per model
-                        </span>
-                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-sky-500 text-white text-xs font-black uppercase tracking-wider shadow-md">
-                          Personalizare Inclusă
-                        </span>
-                      </div>
-                      <span className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black text-xs sm:text-sm px-6 py-2.5 rounded-full shadow-xl transition-all group-hover/link:scale-105 uppercase tracking-wider ml-auto">
-                        <span>{slide.ctaText}</span>
-                        <ArrowRight size={15} />
-                      </span>
-                    </div>
-                  </Link>
+                    className="absolute inset-0 z-10 cursor-pointer"
+                    aria-label="Trening Joma - Personalizare pentru Echipe"
+                  />
                 ) : slide.isBlackFridayBrazi ? (
                   /* ── Banner Brazi de Crăciun: Design Minimalist ── */
                   <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/75 sm:via-slate-950/50 to-transparent flex items-center">

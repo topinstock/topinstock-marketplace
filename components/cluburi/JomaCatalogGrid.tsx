@@ -197,3 +197,4 @@ export default function JomaCatalogGrid({ onSelectModel }: JomaCatalogGridProps)
     </section>
   );
 }
+
