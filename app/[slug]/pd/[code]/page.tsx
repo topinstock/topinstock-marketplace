@@ -11,7 +11,6 @@ import ProductGallery from '@/components/products/ProductGallery';
 import ProductInfo from '@/components/products/ProductInfo';
 import ProductTabs from '@/components/products/ProductTabs';
 import RelatedProducts from '@/components/products/RelatedProducts';
-import PopularSearches from '@/components/seo/PopularSearches';
 
 export const revalidate = 300; // 5 minutes Edge ISR Cache
 
@@ -108,14 +107,7 @@ export default async function EmagProductDetailPage({ params }: EmagProductDetai
           {/* ── Recommended / Similar Products Carousel ── */}
           {related.length > 0 && <RelatedProducts products={related} />}
 
-          {/* ── Popular Searches & Facets (Internal Linking like eMAG & Trendyol) ── */}
-          {product.category?.slug && (
-            <PopularSearches
-              categorySlug={product.category.slug}
-              categoryName={product.category.name}
-              title={`Căutări populare și recomandări din categoria ${product.category.name || 'similare'}`}
-            />
-          )}
+
         </div>
       </div>
     </>
