@@ -15,3 +15,4 @@ for (const item of standingTrees) {
   const exists = files.includes(targetFile);
   console.log(`- ${item.sku}: ${item.title.slice(0, 45)} -> exists in brazi/: ${exists}`);
 }
+

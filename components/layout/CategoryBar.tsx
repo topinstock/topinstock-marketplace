@@ -56,6 +56,12 @@ export default function CategoryBar() {
             <Menu size={16} />
             <span>Categorii</span>
           </button>
+          <Link
+            href="/cluburi-fotbal"
+            className="flex items-center gap-1 text-[11px] font-black text-sky-900 bg-sky-50 border border-sky-300 px-2.5 py-1.5 rounded-xl whitespace-nowrap"
+          >
+            <span>⚽ Joma Cluburi</span>
+          </Link>
         </div>
 
         {/* All Products Department Button with eMAG Mega Menu (Desktop only) */}
@@ -115,6 +121,15 @@ export default function CategoryBar() {
                 <Users size={12} className="text-slate-500 shrink-0" />
                 <span>Mii de clienți activi</span>
               </span>
+
+              {/* Joma Cluburi Fotbal Direct Link */}
+              <Link
+                href="/cluburi-fotbal"
+                className="hidden lg:inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-900 border border-sky-300 shadow-xs transition-colors whitespace-nowrap cursor-pointer text-[11px] font-black uppercase tracking-wider"
+              >
+                <span>⚽ Cluburi Fotbal Joma</span>
+                <span className="px-1.5 py-0.5 rounded bg-amber-400 text-slate-950 text-[10px] font-black leading-none">MIN 8</span>
+              </Link>
             </div>
           </div>
 
