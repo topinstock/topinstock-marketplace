@@ -16,7 +16,6 @@ import PaginationControls from '@/components/catalog/PaginationControls';
 import ActiveFilters from '@/components/catalog/ActiveFilters';
 import { CatalogLoadingProvider } from '@/components/catalog/CatalogLoadingContext';
 import CatalogGridWrapper from '@/components/catalog/CatalogGridWrapper';
-import PopularSearches from '@/components/seo/PopularSearches';
 import CategorySeoGuide from '@/components/seo/CategorySeoGuide';
 
 export const dynamic = 'force-dynamic';
@@ -284,9 +283,6 @@ export default async function FacetedCategoryView({
               </div>
             </div>
           </CatalogLoadingProvider>
-
-          {/* ── Popular Searches / Faceted Links (Internal Linking) ── */}
-          <PopularSearches categorySlug={categorySlug} categoryName={categoryName} />
 
           {/* ── Category SEO Buying Guide Block (eMAG & Trendyol Standard) ── */}
           <CategorySeoGuide
