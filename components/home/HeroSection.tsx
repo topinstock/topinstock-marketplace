@@ -12,6 +12,7 @@ import {
   ShieldCheck,
   Flame,
   Bike,
+  Users,
 } from 'lucide-react';
 
 interface Slide {
@@ -211,12 +212,54 @@ export default function HeroSection() {
                     </div>
                   </div>
                 ) : slide.isJomaClub ? (
-                  /* ── Banner Joma Cluburi Fotbal: Clean Designer Artwork ── */
-                  <Link
-                    href={slide.ctaHref}
-                    className="absolute inset-0 z-10 cursor-pointer"
-                    aria-label="Trening Joma - Personalizare pentru Echipe"
-                  />
+                  /* ── Banner Joma: Distribuitor Oficial & Preț la Cerere pentru Echipe ── */
+                  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/80 sm:via-slate-950/50 to-transparent flex items-center z-10">
+                    <div className="max-w-[580px] px-6 sm:px-12 text-white">
+                      {/* Badge Oficial */}
+                      <div className="mb-3">
+                        <span className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-slate-950 text-xs font-black px-3.5 py-1 rounded-full uppercase tracking-wider shadow-md">
+                          <ShieldCheck size={14} className="text-slate-950" />
+                          <span>DISTRIBUITOR OFICIAL JOMA</span>
+                        </span>
+                      </div>
+
+                      {/* Headline BOLD & MARE exact ca la celelalte bannere */}
+                      <h2 className="text-3xl sm:text-5xl md:text-6xl font-black uppercase tracking-tight leading-[0.95] mb-2 drop-shadow-md">
+                        <span className="text-white block">PREȚ LA CERERE</span>
+                        <span className="bg-gradient-to-r from-amber-300 via-yellow-200 to-amber-400 bg-clip-text text-transparent block mt-1">
+                          PENTRU ECHIPE
+                        </span>
+                      </h2>
+
+                      {/* Text Curat & Mare */}
+                      <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-4 font-medium max-w-[460px]">
+                        Comenzi pe proiect de <strong className="text-amber-300 font-black">MINIM 10 BUCĂȚI</strong>. Personalizare la cerere cu stemă club, numere și sponsori oficiali.
+                      </p>
+
+                      {/* Badges rapide comandă */}
+                      <div className="flex items-center gap-2 mb-6 flex-wrap">
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-amber-400/20 text-amber-300 border border-amber-400/40 text-xs font-black uppercase tracking-wider">
+                          <Users size={12} />
+                          Minim 10 comenzi
+                        </span>
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-sky-500/20 text-sky-300 border border-sky-500/40 text-xs font-black uppercase tracking-wider">
+                          <Sparkles size={12} />
+                          Personalizare la cerere
+                        </span>
+                      </div>
+
+                      {/* CTA Curat */}
+                      <div>
+                        <Link
+                          href={slide.ctaHref}
+                          className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 hover:from-amber-300 hover:to-amber-500 text-slate-950 font-black text-sm px-8 py-3.5 rounded-full shadow-lg transition-all duration-200 hover:-translate-y-0.5 active:scale-95 cursor-pointer uppercase tracking-wider"
+                        >
+                          <span>{slide.ctaText}</span>
+                          <ArrowRight size={17} />
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 ) : slide.isBlackFridayBrazi ? (
                   /* ── Banner Brazi de Crăciun: Design Minimalist ── */
                   <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/75 sm:via-slate-950/50 to-transparent flex items-center">

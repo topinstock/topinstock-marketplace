@@ -155,3 +155,4 @@ buildBanner().catch(err => {
   console.error('Error generating banner:', err);
   process.exit(1);
 });
+

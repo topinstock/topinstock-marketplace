@@ -31,8 +31,8 @@ export default function JomaClubHero() {
         </nav>
 
         {/* Hero Main Banner Showcase */}
-        <div className="relative rounded-2xl overflow-hidden border border-sky-500/30 shadow-2xl bg-slate-950">
-          <div className="relative w-full aspect-[1920/594] min-h-[200px] sm:min-h-[280px] md:min-h-[360px] max-h-[594px]">
+        <div className="relative rounded-3xl overflow-hidden border border-sky-500/30 shadow-2xl bg-slate-950">
+          <div className="relative w-full h-[360px] sm:h-[420px] md:h-[460px]">
             <Image
               src="/images/banners/banner-joma-cluburi.webp"
               alt="Distribuitor Oficial Joma - Preț la Cerere pentru Echipe - Minim 10 Comenzi - Personalizare la Cerere"
@@ -41,6 +41,45 @@ export default function JomaClubHero() {
               className="object-cover object-center"
               sizes="(max-width: 1280px) 100vw, 1280px"
             />
+
+            {/* Premium Big Typography Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/80 sm:via-slate-950/50 to-transparent flex items-center z-10">
+              <div className="max-w-[620px] px-6 sm:px-12 text-white">
+                <div className="mb-3">
+                  <span className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-slate-950 text-xs font-black px-3.5 py-1 rounded-full uppercase tracking-wider shadow-md">
+                    <ShieldCheck size={14} className="text-slate-950" />
+                    <span>DISTRIBUITOR OFICIAL JOMA</span>
+                  </span>
+                </div>
+
+                <h1 className="text-3xl sm:text-5xl md:text-6xl font-black uppercase tracking-tight leading-[0.95] mb-3 drop-shadow-lg">
+                  <span className="text-white block">PREȚ LA CERERE</span>
+                  <span className="bg-gradient-to-r from-amber-300 via-yellow-200 to-amber-400 bg-clip-text text-transparent block mt-1">
+                    PENTRU ECHIPE
+                  </span>
+                </h1>
+
+                <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-6 font-medium max-w-[480px]">
+                  Echipamente și treninguri complete pentru cluburi și academii. Comenzi pe proiect de <strong className="text-amber-300 font-black">MINIM 10 BUCĂȚI</strong> cu personalizare inclusă la cerere.
+                </p>
+
+                <div className="flex items-center gap-3 flex-wrap">
+                  <button
+                    onClick={scrollToForm}
+                    className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 hover:from-amber-300 hover:to-amber-500 text-slate-950 font-black text-xs sm:text-sm px-7 py-3.5 rounded-full shadow-xl transition-all duration-200 hover:-translate-y-0.5 active:scale-95 cursor-pointer uppercase tracking-wider"
+                  >
+                    <FileText size={16} />
+                    <span>Solicită Ofertă Personalizată</span>
+                  </button>
+                  <a
+                    href="#catalog-joma"
+                    className="inline-flex items-center gap-2 bg-slate-900/80 hover:bg-slate-800 text-white font-extrabold text-xs sm:text-sm px-6 py-3.5 rounded-full border border-slate-700 transition-colors cursor-pointer"
+                  >
+                    <span>Vezi Modelele ↓</span>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Quick Action Overlay Strip at the bottom of the banner */}
