@@ -7,9 +7,9 @@ export default function JomaCustomizationGuide() {
     {
       num: '01',
       title: 'Alegerea Modelului & Culorilor',
-      desc: 'Selectezi din catalogul Joma modelul dorit (Academy, Championship, Danubio, Phoenix etc.) în culorile reprezentative ale clubului tău. Comanda minimă este de 8 bucăți per model.',
+      desc: 'Selectezi din catalogul Joma modelul dorit (Academy, Championship, Danubio, Phoenix etc.) în culorile reprezentative ale clubului tău. Ca distribuitor oficial Joma, asigurăm comenzi de la minimum 10 bucăți per model.',
       icon: Palette,
-      badge: 'Minim 8 seturi',
+      badge: 'Minim 10 seturi',
     },
     {
       num: '02',
@@ -89,10 +89,10 @@ export default function JomaCustomizationGuide() {
             </div>
             <div>
               <h4 className="text-sm font-black text-amber-950">
-                Condiție esențială: Comandă minimă 8 bucăți per model
+                Condiție esențială: Distribuitor Oficial Joma • Comandă minimă 10 comenzi / bucăți
               </h4>
               <p className="text-xs text-amber-800 mt-0.5">
-                Această pagină este dedicată exclusiv cluburilor sportive, academiilor de fotbal, școlilor și asociațiilor. Pentru comenzi individuale (1 bucată), vizitează catalogul general de produse.
+                Această secțiune este dedicată exclusiv cluburilor sportive, academiilor de fotbal, școlilor și asociațiilor (minim 10 bucăți). Preț la cerere și personalizare la cerere incluse. Pentru comenzi individuale (1 bucată), vizitează catalogul general de produse.
               </p>
             </div>
           </div>

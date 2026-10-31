@@ -60,7 +60,7 @@ export default function CategoryBar() {
             href="/cluburi-fotbal"
             className="flex items-center gap-1 text-[11px] font-black text-sky-900 bg-sky-50 border border-sky-300 px-2.5 py-1.5 rounded-xl whitespace-nowrap"
           >
-            <span>⚽ Joma Cluburi</span>
+            <span>⚽ Joma Echipe (MIN 10)</span>
           </Link>
         </div>
 
@@ -127,8 +127,8 @@ export default function CategoryBar() {
                 href="/cluburi-fotbal"
                 className="hidden lg:inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-sky-50 hover:bg-sky-100 text-sky-900 border border-sky-300 shadow-xs transition-colors whitespace-nowrap cursor-pointer text-[11px] font-black uppercase tracking-wider"
               >
-                <span>⚽ Cluburi Fotbal Joma</span>
-                <span className="px-1.5 py-0.5 rounded bg-amber-400 text-slate-950 text-[10px] font-black leading-none">MIN 8</span>
+                <span>⚽ Distribuitor Oficial Joma</span>
+                <span className="px-1.5 py-0.5 rounded bg-amber-400 text-slate-950 text-[10px] font-black leading-none">MIN 10</span>
               </Link>
             </div>
           </div>

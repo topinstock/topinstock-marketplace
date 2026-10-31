@@ -2,33 +2,34 @@ import type { Metadata } from 'next';
 import JomaClubPageClient from '@/components/cluburi/JomaClubPageClient';
 
 export const metadata: Metadata = {
-  title: 'Echipamente & Treninguri Joma pentru Cluburi de Fotbal | Comandă Minim 8 Bucăți | TOPinStock',
+  title: 'Distribuitor Oficial Joma | Echipamente & Treninguri pentru Echipe | Minim 10 Comenzi | TOPinStock',
   description:
-    'Echipamente complete și treninguri oficiale Joma pentru cluburi și academii de fotbal. Comandă pe proiect de minimum 8 bucăți per model, preț la cerere, personalizare cu stemă și numere inclusă.',
+    'Distribuitor oficial Joma în România. Echipamente complete și treninguri oficiale Joma pentru cluburi de fotbal și academii sportive. Preț la cerere pentru echipe, minim 10 comenzi, personalizare la cerere cu stemă, numere și sponsori.',
   keywords: [
+    'distribuitor oficial joma',
     'treninguri joma cluburi',
-    'echipamente joma fotbal',
-    'trening joma comanda echipe',
-    'joma academy iv fotbal',
+    'echipamente joma echipe',
+    'pret la cerere echipe joma',
+    'joma minim 10 comenzi',
+    'personalizare echipamente fotbal',
+    'joma academy iv',
     'joma championship vii',
-    'treninguri fotbal personalizate',
-    'echipamente sportive cluburi romania',
-    'topinstock joma cluburi',
+    'topinstock joma',
   ],
   alternates: {
     canonical: 'https://topinstock.ro/cluburi-fotbal',
   },
   openGraph: {
-    title: 'Treninguri Oficiale Joma pentru Cluburi de Fotbal — TOPinStock',
-    description: 'Comandă minim 8 bucăți per model. Personalizare stemă club & numere. Preț direct de producător la cerere.',
+    title: 'Distribuitor Oficial Joma — Echipamente & Treninguri Echipe',
+    description: 'Preț la cerere pentru echipe • Minim 10 comenzi • Personalizare la cerere cu stemă și numere.',
     url: 'https://topinstock.ro/cluburi-fotbal',
     siteName: 'TOPinStock',
     images: [
       {
         url: 'https://topinstock.ro/images/banners/banner-joma-cluburi.jpg',
-        width: 1280,
-        height: 540,
-        alt: 'Treninguri Joma pentru Cluburi de Fotbal',
+        width: 1920,
+        height: 594,
+        alt: 'Distribuitor Oficial Joma - Echipamente & Treninguri Echipe',
       },
     ],
     locale: 'ro_RO',

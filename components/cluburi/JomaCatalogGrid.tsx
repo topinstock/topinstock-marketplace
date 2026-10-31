@@ -39,10 +39,13 @@ export default function JomaCatalogGrid({ onSelectModel }: JomaCatalogGridProps)
           <div>
             <div className="flex items-center gap-2 mb-2">
               <span className="px-2.5 py-1 rounded-md bg-amber-100 text-amber-800 text-[11px] font-black uppercase tracking-wider">
-                Minim 8 bucăți per model
+                Minim 10 comenzi / seturi
               </span>
               <span className="px-2.5 py-1 rounded-md bg-sky-100 text-sky-800 text-[11px] font-black uppercase tracking-wider">
                 Preț la cerere
+              </span>
+              <span className="px-2.5 py-1 rounded-md bg-emerald-100 text-emerald-800 text-[11px] font-black uppercase tracking-wider">
+                Personalizare la cerere
               </span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
@@ -108,7 +111,7 @@ export default function JomaCatalogGrid({ onSelectModel }: JomaCatalogGridProps)
                       {model.categoryLabel}
                     </span>
                     <span className="px-2 py-0.5 rounded-md bg-amber-500 text-slate-950 text-[10px] font-black uppercase tracking-wider shadow-xs">
-                      Min. 8 buc
+                      Min. 10 buc
                     </span>
                   </div>
 

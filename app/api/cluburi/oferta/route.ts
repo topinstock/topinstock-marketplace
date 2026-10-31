@@ -31,9 +31,9 @@ export async function POST(req: Request) {
       );
     }
 
-    if (!data.quantity || data.quantity < 8) {
+    if (!data.quantity || data.quantity < 10) {
       return NextResponse.json(
-        { error: 'Comanda minimă pentru echipamente de club este de 8 seturi.' },
+        { error: 'Comanda minimă pentru echipamente de club este de 10 seturi / comenzi.' },
         { status: 400 }
       );
     }

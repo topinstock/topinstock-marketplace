@@ -32,11 +32,11 @@ interface Slide {
 const SLIDES: Slide[] = [
   {
     image: '/images/banners/banner-joma-cluburi.webp',
-    badge: '⚽ JOMA TEAMWEAR',
-    title: 'TRENINGURI CLUBURI',
-    highlight: 'MINIM 8 BUCĂȚI',
-    desc: 'Echipamente complete pentru cluburi de fotbal. Preț la cerere, personalizare stemă și numere.',
-    ctaText: 'Vezi Modelele Joma',
+    badge: '⚽ DISTRIBUITOR OFICIAL JOMA',
+    title: 'ECHIPAMENTE & TRENINGURI ECHIPE',
+    highlight: 'MINIM 10 COMENZI',
+    desc: 'Distribuitor oficial Joma. Preț la cerere pentru echipe, minim 10 comenzi, personalizare la cerere cu stemă și numere.',
+    ctaText: 'Solicită Ofertă Joma',
     ctaHref: '/cluburi-fotbal',
     isJomaClub: true,
   },

@@ -25,15 +25,17 @@ export default function JomaClubHero() {
           <ChevronRight size={12} />
           <Link href="/produse" className="hover:text-white transition-colors">Sport &amp; Echipamente</Link>
           <ChevronRight size={12} />
-          <span className="text-sky-300 font-bold">Cluburi Fotbal • Joma Teamwear</span>
+          <span className="text-amber-300 font-bold">Distribuitor Oficial Joma</span>
+          <ChevronRight size={12} />
+          <span className="text-sky-300 font-bold">Echipamente &amp; Treninguri Echipe</span>
         </nav>
 
         {/* Hero Main Banner Showcase */}
         <div className="relative rounded-2xl overflow-hidden border border-sky-500/30 shadow-2xl bg-slate-950">
-          <div className="relative w-full aspect-[16/6.2] min-h-[280px] sm:min-h-[360px] max-h-[620px]">
+          <div className="relative w-full aspect-[1920/594] min-h-[200px] sm:min-h-[280px] md:min-h-[360px] max-h-[594px]">
             <Image
               src="/images/banners/banner-joma-cluburi.webp"
-              alt="Trening Joma - Personalizare pentru Echipe"
+              alt="Distribuitor Oficial Joma - Preț la Cerere pentru Echipe - Minim 10 Comenzi - Personalizare la Cerere"
               fill
               priority
               className="object-cover object-center"
@@ -43,18 +45,22 @@ export default function JomaClubHero() {
 
           {/* Quick Action Overlay Strip at the bottom of the banner */}
           <div className="bg-[#02182B]/95 backdrop-blur-md border-t border-sky-500/20 px-4 sm:px-6 py-3.5 flex flex-wrap items-center justify-between gap-3">
-            <div className="flex items-center gap-2.5 sm:gap-4 flex-wrap">
+            <div className="flex items-center gap-2.5 sm:gap-3 flex-wrap">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-amber-400/20 text-amber-300 border border-amber-400/40 text-xs font-black uppercase tracking-wider">
+                <ShieldCheck size={13} />
+                Distribuitor Oficial Joma
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-sky-500/20 text-sky-300 border border-sky-500/40 text-xs font-black uppercase tracking-wider">
+                <FileText size={13} />
+                Preț la Cerere pentru Echipe
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-amber-500/20 text-amber-200 border border-amber-500/40 text-xs font-black uppercase tracking-wider">
                 <Users size={13} />
-                Minim 8 bucăți
+                Minim 10 Comenzi
               </span>
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-xs font-black uppercase tracking-wider">
                 <Sparkles size={13} />
-                Personalizare Club Inclusă
-              </span>
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-sky-500/20 text-sky-300 border border-sky-500/40 text-xs font-black uppercase tracking-wider">
-                <Clock size={13} />
-                Livrare Rapidă Echipe
+                Personalizare la Cerere
               </span>
             </div>
 
@@ -72,24 +78,36 @@ export default function JomaClubHero() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 mt-6">
           <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-700/60 rounded-xl p-4 flex items-start gap-3">
             <div className="p-2.5 rounded-lg bg-amber-500/15 text-amber-400 border border-amber-500/30 shrink-0">
-              <Users size={20} />
+              <ShieldCheck size={20} />
             </div>
             <div>
-              <h4 className="text-sm font-black text-white">Comenzi pe Proiect (Minim 8)</h4>
+              <h4 className="text-sm font-black text-white">Distribuitor Oficial Joma</h4>
               <p className="text-xs text-slate-300 mt-1">
-                Echipăm grupe complete de juniori, echipe de seniori sau academii, de la minimum 8 treninguri per model.
+                Echipamente 100% originale direct din fabrică, certificate de conformitate și continuitate de stoc pe sezoane multiple.
               </p>
             </div>
           </div>
 
           <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-700/60 rounded-xl p-4 flex items-start gap-3">
             <div className="p-2.5 rounded-lg bg-sky-500/15 text-sky-400 border border-sky-500/30 shrink-0">
-              <ShieldCheck size={20} />
+              <FileText size={20} />
             </div>
             <div>
-              <h4 className="text-sm font-black text-white">Preț Special la Cerere</h4>
+              <h4 className="text-sm font-black text-white">Preț la Cerere pentru Echipe</h4>
               <p className="text-xs text-slate-300 mt-1">
-                Discount-uri de volum garantate și facturare directă pe club / asociație sportivă / PJ.
+                Grile speciale de discount de volum pentru cluburi sportive, școli de fotbal, asociații și persoane juridice.
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-700/60 rounded-xl p-4 flex items-start gap-3">
+            <div className="p-2.5 rounded-lg bg-amber-500/15 text-amber-300 border border-amber-500/30 shrink-0">
+              <Users size={20} />
+            </div>
+            <div>
+              <h4 className="text-sm font-black text-white">Comandă Minim 10 Comenzi</h4>
+              <p className="text-xs text-slate-300 mt-1">
+                Echipăm loturi complete de juniori, echipe de seniori sau academii, de la un prag minim de 10 bucăți per model.
               </p>
             </div>
           </div>
@@ -99,21 +117,9 @@ export default function JomaClubHero() {
               <Sparkles size={20} />
             </div>
             <div>
-              <h4 className="text-sm font-black text-white">Personalizare &amp; Mockup Gratuit</h4>
+              <h4 className="text-sm font-black text-white">Personalizare la Cerere</h4>
               <p className="text-xs text-slate-300 mt-1">
-                Stema clubului brodată sau DTF, numere mari pe spate, inițiale și sponsori oficiali.
-              </p>
-            </div>
-          </div>
-
-          <div className="bg-slate-900/60 backdrop-blur-sm border border-slate-700/60 rounded-xl p-4 flex items-start gap-3">
-            <div className="p-2.5 rounded-lg bg-indigo-500/15 text-indigo-400 border border-indigo-500/30 shrink-0">
-              <CheckCircle2 size={20} />
-            </div>
-            <div>
-              <h4 className="text-sm font-black text-white">Gama Completă de Mărimi</h4>
-              <p className="text-xs text-slate-300 mt-1">
-                Mărimi pentru cei mai mici copii (4XS - XS) până la mărimi mari de seniori (S - 3XL).
+                Stema clubului brodată sau DTF de înaltă rezistență, numere mari pe spate, nume jucători și sponsori oficiali.
               </p>
             </div>
           </div>

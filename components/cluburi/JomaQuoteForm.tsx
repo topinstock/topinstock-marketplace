@@ -40,8 +40,8 @@ export default function JomaQuoteForm({ initialModel, initialColor }: JomaQuoteF
       return;
     }
 
-    if (quantity < 8) {
-      setError('Comanda minimă pentru personalizare club este de 8 seturi.');
+    if (quantity < 10) {
+      setError('Comanda minimă pentru personalizare echipamente este de 10 comenzi / seturi.');
       return;
     }
 
@@ -226,19 +226,19 @@ export default function JomaQuoteForm({ initialModel, initialColor }: JomaQuoteF
                 <div>
                   <label className="block text-xs font-bold text-slate-300 mb-1.5 flex items-center gap-1.5">
                     <Users size={14} className="text-amber-400" />
-                    <span>Cantitate Seturi (Min. 8) *</span>
+                    <span>Cantitate Seturi (Min. 10) *</span>
                   </label>
                   <input
                     type="number"
-                    min={8}
+                    min={10}
                     required
                     value={quantity}
-                    onChange={(e) => setQuantity(parseInt(e.target.value) || 8)}
+                    onChange={(e) => setQuantity(parseInt(e.target.value) || 10)}
                     className="w-full px-4 py-3 rounded-xl bg-slate-800 border border-slate-700 text-white text-sm font-black focus:border-sky-500 focus:outline-none transition-colors"
                   />
-                  {quantity < 8 && (
+                  {quantity < 10 && (
                     <span className="text-[11px] text-amber-400 font-bold block mt-1">
-                      Minim 8 seturi per model.
+                      Minim 10 comenzi / seturi per model.
                     </span>
                   )}
                 </div>
